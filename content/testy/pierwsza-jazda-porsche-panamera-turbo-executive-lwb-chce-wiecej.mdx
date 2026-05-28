@@ -1,0 +1,28 @@
+---
+slug: "pierwsza-jazda-porsche-panamera-turbo-executive-lwb-chce-wiecej"
+title: "Pierwsza Jazda Porsche Panamera Turbo Executive LWB  - Chcę więcej"
+brand: "Pierwsza"
+model: "Jazda Porsche Panamera Turbo Executive LWB  - Chcę więcej"
+publishedAt: "2015-06-01"
+lead: "**Pierwsza Jazda: Porsche Panamera Turbo Executive  - Chcę więcej**  **Ciężko jest stworzyć samochód dla bogatego i wymagającego klienta. Porsche podjęło wyzwanie w 2009 roku - tworząc samochód przestronny, wygodny, szybki i stylowy. W drugiej generacji modelu kwintesencją takieg"
+originalUrl: ""
+tags: ["pierwsza-jazda"]
+---
+
+**Pierwsza Jazda: Porsche Panamera Turbo Executive  - Chcę więcej**
+
+**Ciężko jest stworzyć samochód dla bogatego i wymagającego klienta. Porsche podjęło wyzwanie w 2009 roku - tworząc samochód przestronny, wygodny, szybki i stylowy. W drugiej generacji modelu kwintesencją takiego rozumowania jest Panamera Turbo Executive z dłuższym rozstawem osi.**
+
+Błędem w przypadku Panamery będzie myślenie, że luksusowy samochód nie może być sportowy, oraz, że luksus, długość i przestronność będą powodem braku sportowych wrażeń. Tutaj wszystkiego jest pod dostatkiem - do tego stopnia, że na początku obcowania z wersją Turbo Executive byłem nieco onieśmielony i właśnie dlatego testy postanowiłem rozpocząć od przejażdżki na tylnym fotelu. Oczywiście wielokierunkowo regulowanym, podgrzewanym, wentylowanym i pokrytym najwyższej jakości naturalną skórą, której zapach i miękkość zadowoli nawet najbardziej wybrednych.
+
+Nad przyciskami sterującymi wyżej wymienionymi funkcjami znajduje się grupa przycisków odpowiedzialnych za ustawienia fotela przed nami, tak aby idealnie dopasować ilość miejsca na nogi - którego w wersji z rozstawem osi przedłużonym o 15 cm jest tak dużo, że możnaby spróbować posadzić tam rekordowo wysokiego Sultana Kosena - oraz wysokość stolika zamontowanego w oparciu. Oprócz wyjątkowego komfortu, dość głęboki fotel oferuje znakomite podparcie boczne - bardzo przydatne, gdy Twój kierowca lubi pokonywać zakręty bokiem...
+
+Na autostradzie jednak nie powinien tego robić, wypada więc napisać o wrażeniach z jazdy na fotelu prezesa podczas spokojnej podróży. Siedzę więc sobie wygodnie, oglądam szybko przemieszczające się względem mnie cudowne krajobrazy jednego z najpiękniejszych krajów, jakie przyszło mi odwiedzić i jadę bardzo dobrą, portugalską autostradą w poczuciu wielkiego spokoju. I już chcę powiedzieć siedzącemu za kierownicą Redaktorowi Naczelnemu jednego z konkurencyjnych portali motoryzacyjnych, aby spróbował nieco nagiąć obowiązujące przepisy i rozpędzić się do nieco wyższej prędkości, gdy zwracam uwagę na cyfrę 245 na prędkościomierzu. OK, nie mam więcej pytań o komfort jazdy z wysoką prędkością - nawet przy 300 km/h jest względnie cicho, bezwstrząsowo i spokojnie, a po wciśnięciu gazu przy ok. 200 km/h przyspieszenie jest tak błyskawiczne i wciskające w fotel, jakby auto startowało właśnie z miejsca. Oto potęga umieszczonego pomiędzy kierowcą a przednią osią V8 twin-turbo i jego 520 KM...
+
+Pora na przesiadkę na fotel kierowcy wyjątkowo szybkiej i wyjątkowo długiej Panamery. Rozstaw osi już przerabialiśmy, warto więc też zaznaczyć, że moc wzrosła o 20 KM względem poprzedniczki. Oznacza to, że samochód, który widzicie na zdjęciach, wyposażony w pakiet &lt;i&gt;Sport Chrono&lt;/i&gt;, przyspiesza do 100 km/h w 3,8 sekundy. Chyba nie uważałem na zajęciach z Fizyki, ponieważ bardzo ciężko mi było w to uwierzyć - do czasu, aż tego doświadczyłem. Piorunujące przyspieszenia są tutaj dostępne od ręki przy dowolnej prędkości, a 7-biegowa skrzynia PDK nie ma sobie równych pod względem szybkości zmiany przełożeń oraz - co jest piętą achillesową wielu szybkich skrzyń biegów - czasu od wciśnięcia manetki na kierownicy do faktycznej zmiany biegu. Tutaj wszystko następuje w trybie natychmiastowym!
+
+Największą obawą, jaka powstała w mojej głowie przed przejażdżką najmocniejszą i najdłuższą z obecnie oferowanych wersji Panamery było pokonywanie zakrętów. Co na to rzeczywistość? Cóż... Skłamałbym, gdybym napisał, że Panamera Turbo Executive wpada w zakręty z lekkością kolibra manewrującego między drzewami, ale mając w głowie wagę auta równą 1970 kg - robi to w sposób imponujący. Dzięki możliwości obniżenia pneumatycznego zawieszenia oraz utwardzenia i wyostrzenia wszystkiego, co się da przyciskiem „sport plus” przechyły są minimalne, prędkość wysoka, a ryzyko uślizgów minimalne. Aktywny napęd na cztery koła na bieżąco rozdziela moment obrotowy z puli 770 Nm (!!!)  pomiędzy koła z oponami w rozmiarze 255/45 ZR20 z przodu oraz 295/35 ZR20 na tylnej osi. To Porsche potrafi szybko jeździć, poważnie!
+
+Całość wrażeń z jazdy wzmacnia dodatkowo rewelacyjna, wielofunkcyjna kierownica z łopatkami do zmiany biegów, wnętrze zaprojektowane ze smakiem oraz zmontowane z najwyższą starannością czy też czysty i mocny dźwięk płynący z systemu audio Burmester. Denerwować może jedynie lekko roztrzepana pani z nawigacji, wydająca komunikaty zbyt późno i mająca problemy z korektami trasy po ominięciu manewru. Nadrabia za to płynnością działania systemu, świetnym wyświetlaczem i całością upakowanych w nim funkcjonalności.
+
+Auto w podstawowej wersji zostało w Polsce wycenione na 193 745 €, co przy obecnym kursie wynoszącym 4,1940 zł daje sumę 812 566 złotych i 53 grosze. Tyle kosztuje bezkompromisowy luksus połączony ze sportem. A w drodze jest jeszcze wersja Turbo S...

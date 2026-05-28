@@ -1,0 +1,36 @@
+---
+slug: "pierwsza-jazda-volvo-w-gdyni"
+title: "Pierwsza jazda - Volvo w Gdyni"
+brand: "Pierwsza"
+model: "jazda - Volvo w Gdyni"
+publishedAt: "2015-06-01"
+lead: "**Pierwsza jazda: Volvo S60, S80, V60, XC60 i XC70 - W Volvo się dzieje**  **Prawdą jest, że kto się nie rozwija, ten właściwie się cofa. Volvo nie chce zostać w tyle za konkurencją - przyszedł więc czas na lifting. Nie jednego modelu, nie dwóch, lecz sześciu. Udało się nam pojeź"
+originalUrl: ""
+tags: ["pierwsza-jazda"]
+---
+
+**Pierwsza jazda: Volvo S60, S80, V60, XC60 i XC70 - W Volvo się dzieje**
+
+**Prawdą jest, że kto się nie rozwija, ten właściwie się cofa. Volvo nie chce zostać w tyle za konkurencją - przyszedł więc czas na lifting. Nie jednego modelu, nie dwóch, lecz sześciu. Udało się nam pojeździć pięcioma z nich - ma być bezpieczniej, wygodniej i bardziej nowocześnie. A jak jest?**
+
+Jadąc na prezentację tychże modeli, już w Sopocie natknąłem się na Samochód Volvo oklejony napisami reklamującymi VOLVO Gdynia Sailing Days 2013. Im bliżej Gdyni, tym więcej aut szwedzkiej marki o chińskim właścicielu rzucało się w oczy. To całe Sailing Says to chyba jakaś poważna impreza! Szkoda, że o żelgarstwie nie mam zielonego pojęcia, przez co mój udział w tym wydarzeniu ograniczył się do powtarzanej setki razy prośby o umożliwienie mi zajęcia miejsca w samochodzie testowym, ponieważ często były otoczone Januszami w skarpetach podciągniętych aż pod kolana sparowanych ze stylowymi sandałami, jedzącymi serwowane nieopodal kebaby. Wolę więc ograniczyć swoją relację do jazd samochodami Volvo, które wywarły na mnie niemałe wrażenie.
+
+Problem z liftingami niektórych samochodów jest taki, że ciężko odróżnić nowy model od poprzedniego - tu może być podobnie, ponieważ osobom niezbyt zorientowanym w temacie wskazanie poszczególnych części może sprawić problem, jednak z drugiej strony każdy zauważy, że w każdym z modeli „coś” się zmieniło. A co dokładnie? Spieszę z wyjaśnieniami. Modele **V60, S60 oraz XC60** zyskały nowe, poszerzone reflektory przednie, a światła do jazdy dziennej zamontowano poziomo, w dolnej części zderzaka. Atrapa chłodnicy jest teraz szersza w każdym z nich, a kształt zderzaków oraz listw bocznych nieco odświeżono. Na masce pojawiły się mocniej zarysowane przetloczenia, zniknęły zaś dysze spryskiwaczy, które schowano pomiędzy maską a podszybiem. Czyli jednak sporo się zmieniło... A doszło jeszcze kilka opcji - 19-calowe felgi dla S60 i V60 oraz szpanerskie 20 cali dla XC60. Na koniec opcjonalne, zintegrowane ze zderzakiem rury wydechowe oraz chromowane obramowania wokół okien.
+
+W **S80, V70 i XC70** pod względem wizualnym zmieniło się znacznie mniej - w tym pierwszym dostaniemy nowy grill, światła przednie i tylne oraz zderzak ze światłami do jazdy dziennej. W dwóch pozostałych poprawiono tylko tylny zderzak, światła, rury wydechowe oraz dodano nieco chromu. Niewątpliwym plusem jest to, że każdy model wygląda teraz nieco lepiej, co nie zawsze jest oczywiste. Nie zmienia to jednak faktu, że najbardziej interesujące rzeczy znajdziemy wewnątrz odświeżonych aut.
+
+**Sensus Connected Touch** to nowy system multimedialny wyposażony w 7-calowy ekran dotykowy typu multi-touch, który można obsługiwać w rękawiczkach.  Na dotyk reaguje świetnie, a obsługa jest bardzo naturalna, a jeśli ktoś korzysta na co dzień ze smartfona, po kilku sekundach będzie znał wszystkie zakamarki systemu, ponieważ jest on oparty na Androidzie. Podstawą jego innowacyjności jest naturalnie połączenie z internetem, które można uzyskać podłączając do portu USB w schowku modem operatora sieci komórkowej, lub po prostu sparować dysponujący takim połączeniem telefon poprzez bluetooth. Otwiera się wtedy przed nami całe morze możliwości.
+
+Nie podoba Ci się żadna z polskich stacji radiowych? Nudzi Cię ciągła gadanina o wygraniu miliarda złotych i wysyłaniu sms-ów? Częstą ucieczką jest płyta CD lub własna muzyka na USB, ale po pierwsze - w świecie wszechobecnego lenistwa o noszeniu płyt większość kierowców już zapomniała, a i zmiana repertuaru nagranego na pendrive’a może niektórym sprawiać kłopot. Należy wtedy skorzystać z tysięcy stacji radia internetowego, gdzie można słuchać gatunków muzyki tak egzotycznych, że połowy ich nazw nigdy nie słyszałem. Do wyboru, do koloru - fajnie.
+
+Kolejną atrakcją jest nawigacja iGO, której od roku używam w telefonie i która jest znacznie lepsza niż większość nawigacji w samochodach. Oprócz tego mamy niezależne mapy Google ze wszystkimi korzyściami i informacjami, jakie ta firma jest w stanie nam zapewnić, a jest ich naprawdę sporo. A jak komuś mało, to wejdzie do AppStore i pobierze cały internet.
+
+Kolejnym bardzo istotnym elementem w modelach z cyferką „60” są nowe, opcjonalne fotele - najlepsze, w jakich gościły moje pośladki. Świetnie trzymające na boki przy każdej prędkości, a jednocześnie fantastycznie miękkie i idealnie wyprofilowane. Poważnie, takie fotele to coś wyjątkowego. Z niecierpliwością czekam na test modeli w nie wyposażonych, ponieważ moje plecy już za nimi tęsknią.
+
+Nowe są również opcjonalne zegary z ekranami TFT, które możemy dopasowywać do swoich upodobań wybierając motyw eco, sport lub performance. Wyglądają świetnie oraz, co ważne, są bardzo czytelne i znacznie płynniejsze od tradycyjnych wskazówek. Mniej istotne nowości to srebrne obramowania nawiewów oraz nowe lakiery, listwy ozdobne i wzory felg.
+
+Przy okazji liftingów zostały wprowadzone dwa ważne systemy bezpieczeństwa.  Pierwszy z nich to **Active High Beam Control** - system korzystający z przysłon, które na podstawie sygnałów z czujników umieszczonych w górnej części przedniej szyby steruje wiązką świateł długich w taki sposób, aby nie oślepiać kierowców jadących z naprzeciwka bez konieczności zmniejszania poziomu oświetlenia drogi oraz pobocza. Nie jest to nic rewolucyjnego, ponieważ inni producenci oferują takie rozwiązania już od jakiegoś czasu. Niemniej jednak to świetnie, że dołącza do nich również Volvo. System jest już dostępny w modelach XC60, V60 oraz S60.
+
+Drugi system nazywa się **Cyclist Detection** - i jak nietrudno się domyślić - wykrywa rowerzystów. Korzystając z tej samej kamery, co pierwszy system, oraz radaru z przodu auta, potrafi wykryć rowerzystów poruszających się w tym samym kierunku, co samochód - i jeśli poruszamy się z prędkością nieprzekraczającą 80 km/h, awaryjnie zahamuje. Jeśli system wykryje reakcję kierowcy na sytuację w postaci np. gwałtownego skrętu kierownicą, złagodzi hamowanie, ułatwiając wykonanie manewru. Wraz z wprowadzonym wcześniej systemem wykrywania pieszych sprawia, że ryzyko spowodowania groźnego wypadku przez nieuwagę znacznie spada. Szkoda tylko, że będzie na liście wyposażenia opcjonalnego.
+
+W niedalekiej przyszlości z samochodów Volvo znikną silniki z liczbą cylindrów większą niż cztery. Wraz z nową rodziną jednostek napędowych pojawią się 8-biegowe przekładnie produkowane przez cenioną firmę ZF. Wszystko po to, aby zmniejszyć spalanie i emisję szkodliwych substancji. Jeszcze będzie okazja, by o tym napisać.

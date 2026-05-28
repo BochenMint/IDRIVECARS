@@ -1,0 +1,26 @@
+---
+slug: "pierwsza-jazda-jeep-grand-cherokee-bardziej-grand"
+title: "Pierwsza jazda Jeep Grand Cherokee - Bardziej grand"
+brand: "Pierwsza"
+model: "jazda Jeep Grand Cherokee - Bardziej grand"
+publishedAt: "2015-06-01"
+lead: "**Pierwsza jazda: Jeep Grand Cherokee - Bardziej ‘Grand’**  **Pod banderą koncernu Fiat-Chrysler prawdziwą metamorfozę jakościową przechodzi marka Jeep. Zachowując śmiesznie niską w porównaniu do konkurencji cenę, nowy Cherokee oferuje znacznie lepsze materiały oraz najwyższy poz"
+originalUrl: ""
+tags: ["pierwsza-jazda"]
+---
+
+**Pierwsza jazda: Jeep Grand Cherokee - Bardziej ‘Grand’**
+
+**Pod banderą koncernu Fiat-Chrysler prawdziwą metamorfozę jakościową przechodzi marka Jeep. Zachowując śmiesznie niską w porównaniu do konkurencji cenę, nowy Cherokee oferuje znacznie lepsze materiały oraz najwyższy poziom wyposażenia. Właśnie dlatego jest najbardziej ‘Grand’ w historii.**
+
+To wszystko czuć już od pierwszego kontaktu z najbogatszą wersją wyposażeniową &lt;i&gt;Summit&lt;/i&gt;, kosztującą zaledwie 284 tys zł. Dlaczego „zaledwie”? Ponieważ bogactwo panujące w jego wnętrzu oraz wrażenie, jakie robi na drodze jest porównywalne do modeli konkurencji kosztujących najczęściej ponad pół miliona. Skóra i drewno we wnętrzu pachnie zachęcająco, a wrażenia macane są równie przyjemne - szczególnie, jeśli na słupkach i podsufitce dostrzeżemy miękki zamsz. Jeśli postukamy i pomacamy miejsca mniej wyeksponowane to możemy napotkać mniej reprezentatywne materiały i gorsze ich spasowanie, ale gdy przypomnimy sobie o cenie, szybko o nich zapomnimy. Zapraszamy na przejażdżkę luksusowym, amerykańskim SUV-em, urządzonym z włoskim smakiem i sprzedawanym za prawdziwie polskie pieniądze.
+
+Sam kontakt ze skórzano-drewnianą kierownicą buduje bardzo dobrą relację pomiędzy kierowcą a samochodem. Trzyma się ją wprost rewelacyjnie, a przyciski do sterowania potężnym systemem multimedialnym nie sprawiają najmniejszych kłopotów. Tego samego nie mogę na razie powiedzieć o samym systemie i ogromnym, 8,4-calowym dotykowym wyświetlaczu, ponieważ mnogość funkcji którą obsługuje była odwrotnie proporcjonalna do czasu, jaki miałem na rozpracowanie go. Udało mi się ustawić wentylację fotela, puścić muzykę z iPoda oraz otworzyć okno dachowe. Priorytetem była jednak jazda.
+
+Pod maską testowanego Grand Cherokee &lt;i&gt;Summit&lt;/i&gt; znalazł się najbardziej w naszym kraju popularny diesel 3.0 V6 CRD o mocy 250 KM, z którego moment obrotowy jest przekazywany na cztery kola za pośrednictwem fantastycznej, 8-biegowej skrzyni automatycznej firmy ZF. Wraz ze skrzynia biegów do Jeepa zawitał elektroniczny selektor w miejsce tradycyjnego lewarka, a całość (pomimo dyskretnych różnic wynikających z własnego oprogramowania) działa równie płynnie i szybko, co w BMW. Już za to należą się brawa! Zużycie paliwa podczas pierwszej jazdy nie przekraczało 12 l/100 km, w co niewielki wkład mógł mieć domyślnie włączony tryb &lt;i&gt;eco&lt;/i&gt;, delikatnie redukujący obroty jałowe oraz zmieniający reakcję na gaz.
+
+Pójdźmy jednak dalej - oceńmy wygodę podróżowania po polskich drogach, które na użytek relacji nazwiemy „asfaltowym off-roadem”. Będące standardem w wersjach Overland i Summit zawieszenie pneumatyczne ustawiam w położenie najniższe, podobnie jak pedał gazu. Wyświetlany na wysokiej jakości ekranie LCD prędkościomierz bardzo szybko zwiększa wskazania, lecz nie ma to najmniejszego wpływu na uczucie prędkości w kabinie - przy 140 km/h pasażerom można spokojnie sprzedać informację, że podróżują przepisową 90-tką. Napotkane na drodze dziury są ledwie wyczuwalne, czyniąc z nowego Jeepa jednego z najwygodniejszych SUV-ów, jakie miałem przyjemność opisywać. Przy najniższym ustawieniu pneumatyki prześwit wynosi 16,5 cm, a zakręty pokonuje się z akceptowalnie małymi przechyłami. Jedynym problemem jest „myszkowanie” auta na boki przy mocnych dohamowaniach.
+
+Gdy przyjdzie nam ochota na podróż w dzikie ostępy, możemy podnieść Jeepa o jeden lub nawet trzy poziomy, osiągając maksymalnie 28 cm prześwitu, a celem zmaksymalizowania kąta najazdu producent umożliwił łatwy demontaż najniżej umiejscowionej części zderzaka. Dzięki temu Jeep od konkurencji potrafi wyróżnić się również tym, że potrafi sobie radzić nie tylko na piaseczku z kamyczkami… 
+
+Na wyposażeniu Grand Cherokee znajduje się 60 systemów bezpieczeństwa, a wśród nich wszystkie, jakimi dysponuje konkurencja (za wyjątkiem noktowizora z Merca klasy S…). Jest też aktywny tempomat, cztery podgrzewane siedzenia, porty USB do ładowania telefonów na tylnej kanapie, elektryczna klapa bagażnika i dużo, dużo chromu. Bo nawet jeśli wewnątrz amerykańska toporność ustąpiła nieco włoskiej finezji, tak na zewnątrz to 100-procentowy, amerykański przepych. A jeśli pełna konfiguracja nie jest Wam potrzebna, biedniejsze wersje mogą spaść nawet poniżej 200 tys zł. Chyba, że wolicie zrezygnować z możliwości terenowych, decydując się na potężnego SRT8 na czarnych felgach, który z systemem launch control przyspiesza do 100 km/h w równe 5 sekund… Ale jeszcze będzie okazja, by więcej o niej porozmawiać.

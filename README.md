@@ -43,9 +43,12 @@ Mapowanie artykuł → folder źródłowy: `scripts/gallery-links.json`
 Konwersja powiązanych galerii (JPG/PNG → WEBP, bez usuwania oryginałów):
 
 ```bash
-npm run convert:linked
-npm run generate:galleries-manifest
+npm run convert:linked   # konwersja + kuracja (25 najlepszych) + manifest
+npm run curate:galleries                  # ręczna kuracja istniejących galerii
+npm run curate:galleries -- --dry-run     # podgląd bez usuwania
 ```
+
+Kuracja ocenia ostrość, ekspozycję, rozdzielczość i odrzuca prawie identyczne ujęcia (dHash). Usuwa **tylko kopie WEBP** z `public/galleries` — oryginały na `D:\MARCIN` nietknięte.
 
 Pełna konwersja wszystkich folderów z `D:\MARCIN\Galerie z testów`:
 

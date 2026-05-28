@@ -9,6 +9,10 @@ out
 build
 dist
 
+# Galerie – tylko lokalnie (WEBP generowane przez npm run convert:linked)
+public/galleries/**
+!public/galleries/.gitkeep
+
 # Credentials – nie commituj loginów/haseł do serwisów prasowych
 content/press-credentials.json
 

@@ -2,10 +2,14 @@
 
 Inwentaryzacja materiałów źródłowych (maj 2026). **Oryginały na dysku nie są modyfikowane** — pipeline tylko kopiuje i konwertuje JPG/PNG do WEBP.
 
-## Statystyki
+## Statystyki (aktualizacja)
 
-| Lokalizacja | Pliki | Zawartość |
-|-------------|------:|-----------|
+| Metryka | Wartość |
+|---------|--------:|
+| Artykuły MDX | **121** |
+| Artykuły z `galleryDir` | **38** |
+| Galerie WEBP | **42** folderów |
+| Zdjęcia WEBP | **2747** |
 | `Galerie z testów` | ~6639 | główny bank zdjęć testowych (JPG + RAW) |
 | `Z PULPITU\DYSK GOOGLE\MARCIN\aG\Testy` | ~66 docx | teksty testów autoGaleria |
 | `Artykuły\TESTY` | 51 docx | starsze testy i pierwsze jazdy |

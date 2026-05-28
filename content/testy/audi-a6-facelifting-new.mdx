@@ -1,0 +1,56 @@
+---
+slug: "audi-a6-facelifting-new"
+title: "Audi A6 Facelifting new"
+brand: "Audi"
+model: "A6 Facelifting new"
+publishedAt: "2015-06-01"
+lead: "**Audi A6 Facelifting - Wersja doskonała?**  **Typowi klienci kupujący limuzyny klasy wyższej to dość przewidywalni, lecz wymagający ludzie. Nie zależy im na wizualnych fajerwerkach, bo na efekciarski wygląd i tak się nie nabiorą. Liczy się jakość, wyposażenie i elegancja. Przed"
+originalUrl: ""
+tags: ["test"]
+galleryDir: "galleries/pierwsza-jazda-audi-a6-fl"
+---
+
+**Audi A6 Facelifting - Wersja doskonała?**
+
+**Typowi klienci kupujący limuzyny klasy wyższej to dość przewidywalni, lecz wymagający ludzie. Nie zależy im na wizualnych fajerwerkach, bo na efekciarski wygląd i tak się nie nabiorą. Liczy się jakość, wyposażenie i elegancja. Przed Wami test Audi A6 - w najnowszej, być może doskonałej wersji.**
+
+Wśród konkurentów A6-tki najbardziej w kwestii wyglądu „zaszalał” Mercedes z nową klasą E. Niestety, niektórzy zarzucają mu przez to podobieństwo do efektownych wynalazków z Korei. Ale tutaj również drastyczne odróżnienie klasy E od A, C i S potwierdza specyfikę tego segmentu. Seria 5 również jest najbardziej statecznym członkiem rodziny modeli BMW. Zapraszam więc do lektury pierwszego testu najnowszego gracza na rynku - Audi A6 po głębokim, lecz mało widocznym z zewnątrz faceliftingu.
+
+**Nowy garnitur
+**Mężczyźni noszą garnitury od przełomu XIX i XX wieku, ale bez problemu odróżnimy dzisiejszy od tego noszonego np. w przedwojennej Anglii. Kluczowe są szczegóły. W nich tkwi siła odświeżonego A6, które zachowało wszystkie najważniejsze cechy poprzednika, ale jednak widać, że się zmieniło. Według Audi to „product improvement”.
+
+Na pierwszy ogień weźmy przód. Grill &lt;i&gt;singleframe&lt;/i&gt;, podobnie jak w odświeżonym &lt;a href="http://www.autogaleria.pl/news/index.php?id=6951"&gt;Audi TT&lt;/a&gt;, jest teraz szerszy, niższy i bardziej „ostry”. Standardowo chromowany, w S6 i RS 6 czarny, a w A6 Allroad - chromowany z pionowymi, chromowanymi listwami. Nieco zmieniony został też zderzak, ale najbardziej widoczną zmianą są światła. Audi wypracowało sobie pozycję lidera branży w zakresie oświetlenia, więc ten punkt liftingu wcale nie dziwi. Kształt jednolitych LED-owych pasków do jazdy dziennej przypomina teraz literę Y, a nawet jeśli moje skojarzenie jest inne od Waszego, to i tak nie ma wątpliwości, że jest to kształt, jakiego żadna inna marka nie zaproponowała. To bardzo ciekawe, jak światła do jazdy dziennej ewoluowały wśród wielu producentów do wizytówki całej gamy modelowej. Ciekawym rozwiązaniem jest też stopniowe rozświetlanie się kierunkowskazów od wewnątrz do zewnątrz samochodu. Pozwala to dodatkowo zaznaczyć kierunek, w którym mamy zamiar skręcić.
+
+Ach, no i można teraz zamówić do Audi A6 światła Matrix LED - o tym, jak rewelacyjne są, &lt;a href="http://www.autogaleria.pl/news/index.php?id=6214"&gt;pisaliśmy przy naszym pierwszym spotkaniu z nimi podczas premiery Audi A8&lt;/a&gt;. Napiszę tylko, że podczas korzystania ze świateł drogowych, potrafi „wyciąć” z oświetlanego obszaru ośmiu użytkowników drogi, śledząc ruch każdego z nich osobno, aby ich nie oślepiać. Opad szczęki.
+
+Oceny boku samochodu się nie podejmę, choć nie wątpię, że kilka linii zostało poprowadzonych inaczej. Są też nowe wzory felg, co możecie zobaczyć w galerii zdjęć. A z tyłu - również nowe światła do jazdy dziennej w kształcie igreków, również z funkcją rozświetlania się w kierunku sygnalizowanego manewru. Są też inne rury wydechowe - w A6 Allroad w kształcie „świńskich ryjków” oraz zintegrowanych ze zderzakiem trapezów w A6 z pakietem S-line.
+
+**Doskonałe wnętrze
+**Tu niewiele się zmieniło, ale nadal jest to miejsce, w którym panuje przyjemna atmosfera, a kierowca ma styczność z wysokiej jakości materiałami. Fotele są bardzo dobrze wyprofilowane, zarówno w standardowym A6, jak i w bardziej komfortowym A6 Allroad, jakość skóry też nie pozostawia żadnego pola do narzekań. Nowością w A6, choć występują już np. w A7, są wstawki z czarnego drewna sprasowanego z aluminium (w Audi A6), czy też z włókna węglowego z wplecioną czerwoną nicią (w Audi S6 i S6 Avant). Nowa jest też dźwignia zmiany trybów automatycznej skrzyni biegów. Czy ładniejsza? Oceńcie sami... Projekt cały czas wygląda świeżo i estetycznie, ale co najważniejsze - wnętrze A6 jest niezwykle przyjemne w obsłudze i świetnie wykonane. Płynne i szybkie wysuwanie 8-calowego wyświetlacza systemu multimedialnego to nic innego jak perfekcja. A sam system kryje kilka kolejnych nowości. 
+
+Partner technologiczny Audi, znana graczom i grafikom firma NVIDIA zapewniła nowy procesor graficzny - Tegra 30, dzięki któremu praca systemu jest płynniejsza niż kiedykolwiek. Próbowałem go jakoś zagiąć bawiąc się mapami Google, ale szybko się poddałem. Płynność absolutna, łatwa obsługa, no i możliwość dostępu do internetu poprzez technologię LTE - kartę SIM musimy sobie jednak zapewnić sami. Takie szybkie łącze daje fantastyczne możliwości streamingu danych, dzięki czemu już nawet pendrive’ami nie musimy się kłopotać. Radio AUPEO zapewnia dostęp do całej muzyki świata, pozwala też personalizować playlistę poprzez zaznaczanie lubianych przez nas utworów, a program szybko „nauczy się” naszego gustu muzycznego. Pozostaje jednak jedno pytanie - limit transferu danych. Większość Polskich operatorów nadal męczy abonentów takimi staroświeckimi praktykami, a bezlimitowe umowy sporo kosztują. Może jednak lepiej wziąć z domu kilka płyt albo podłączyć telefon z już załadowaną muzyką?
+
+**Bardziej nowe niż stare silniki
+**W Audi A6 mamy do wyboru osiem wariantów silników  - trzy benzynowe TFSI o mocy od 140 do 333 KM oraz pięć TDI - od 150 do 326 KM (dla wersji 3.0 TDI &lt;i&gt;Competition&lt;/i&gt; z okazji 25-lecia TDI). Benzynowce znacznie zmodyfikowano, a diesle w dużej mierze zbudowano od nowa, dzięki czemu wszystkie spełniają teraz zabijającą wiele fajnych silników normę emisji spalin Euro VI. Do wyboru nowy 6-biegowy manual, nowy 7-biegowy, dwusprzęgłowy S-Tronic i hydrokinetyczny, 8-biegowy Tiptronic produkcji ZF.
+
+Cztery z dostępnych silników to „biedne” czterocylindrowce - 1.8 TFSI o mocy 190 KM i 2.0 TFSI dysponujące 252 KM mocy, oraz diesle - 2.0 TDI w wariantach 150- i 190-konnych. W Audi jednak nazywają się „ultra” i zapewniają najlepszą oszczędność paliwa w gamie. Benzynowy silnik w połączeniu z nową dwusprzęgłową skrzynią S-Tronic potrafi spalić średnio 5,7 l/100 km, a 2.0 TDI ultra - 4,2 l/100 km. Ale to nie wszystko - A6 Avant 2.0 TDI ultra o mocy 190 KM zostało dodatkowo wyposażone w rozwiązanie przejęte bezpośrednio ze R18 e-tron quattro - prototypu, dzięki któremu Audi po raz kolejny zwyciężyło w 24-godzinnym wyścigu Le Mans. Chodzi o sprężyny amortyzatorów z tworywa sztucznego GFK, które są lżejsze w sumie o 4,4 kg, zapewniając jednocześnie identyczną wytrzymałość. Tylko dlaczego zastosowano je wyłącznie w tym konkretnym wariancie?
+
+Reszta silników to już porządne, kulturalne jednostki V6. Ja jeździłem 320-konnym dieslem - 3.0 V6 TFSI - w nadwoziu Avant oraz 333-konnym w fantastycznym, wielozadaniowym A6 Allroad. Oba samochody możecie oglądać na zdjęciach po prawej. Wyglądają dobrze. A jak jeżdżą?
+
+**Audi A6 Avant 3.0 TDI
+**Wykończone czarnym drewnem połączonym z aluminium wewnątrz oraz pakietem S-Line zarówno w środku, jak i na zewnątrz, szare A6 na ciekawych felgach prezentowało się świetnie i raczej agresywnie. Ale zupełnie tak nie jeździło.
+
+Zachęcony wyglądem, zacząłem od trybu &lt;i&gt;Dynamic&lt;/i&gt;. Kierownica w A6 pracowała poprawnie, ale w żadnym wypadku nie była to charakterystyka nastawiona na szybką jazdę. Skrzynia z charakterystyczną dla nowych skrzyń ZF płynnością i szybkością wybierała właściwe dla sytuacji biegi spośród 8 dostępnych, a reakcja na gaz była wystarczająco szybka. Ale było to nadal bardzo komfortowe auto, pomimo utwardzonej pracy zawieszenia. Od razu widać, że żaden ze mnie bogaty kapelusznik, bo ten tryb pracy A6 najchętniej ustawiłbym jako &lt;i&gt;normal&lt;/i&gt;. Czasu na test za wiele nie było, więc postanowiłem przejść od razu do drugiego skraju skali  - wybierając opcję &lt;i&gt;Comfort&lt;/i&gt;. Jeszcze nie wiedziałem, że za chwilę będę bliski zawału...
+
+To, co w najostrzejszym trybie jazdy było akceptowalne, w najbardziej leniwym okazało się niemal zabójcze. Jadę sobie dobrej jakości drogą krajową i zabieram się za wyprzedzanie. Gdzieś daleko z przodu, z napreciwka nadjeżdżała ciężarówka. Była bardzo daleko, więc za pomocą łopatek za kierownicą zredukowałem do czwórki i użyłem 320 KM - sygnalizując to zdynamizowanym kierunkowskazem - no i wjechałem na lewy pas. Zdałem sobie wtedy sprawę, że nie mam prawie żadnej kontroli nad samochodem, a przednie koła poruszają się niezależnie od ruchów kierownicą. Bałem się, że wpadnę do rowu albo uderzę w wyprzedzany samochód. Jechałem jak w głębokich koleinach, choć droga była równa. To nie było nic przyjemnego... Dlatego szybko wróciłem do trybu dynamic i przy nim już zostałem - samochód prowadził się dobrze.
+
+Poza tą wpadką z układem kierowniczym - na którą już zwracałem uwagę podczas testu &lt;a href="http://www.autogaleria.pl/news/index.php?id=6951"&gt;Audi TT&lt;/a&gt; - to samochód niemal bez wad. Pojemny, komfortowy, dopracowany i zaawansowany technologicznie. Kolorowy ekran HUD (wyświetlany na przedniej szybie), internet LTE, świetna nawigacja korzystająca z obrazów satelitarnych, kamera 360 stopni ułatwiająca parkowanie, zamiast której można wykorzystać asystenta parkowania, który zrobi to za nas. Kawał auta. Ale są dwa lepsze warianty...
+
+**Audi A6 Allroad quattro 3.0 TDI
+**W skład wyposażenia seryjnego A6 Allroad wchodzi regulowane zawieszenie &lt;i&gt;Adaptive Air suspension&lt;/i&gt;, które potrafi uczynić z tego samochodu poważną konkurencję dla wielu SUV-ów, nie pozbawiając go zdolności do komfortowej i bezpiecznej jazdy po normalnych drogach, gdzie wysoko położony środek cięzkości samochodów typu SUV albo sprawia, że albo bujają się jak jachty pełnomorskie, albo są stanowczo za twarde, aby temu zapobiec. Tu nie ma tego problemu. Do tego porządne quattro, ogromny bagażnik i mamy wszystko, co potrzebne w samochodzie wielozadaniowym. A po pustej plaży śmiga jak złoto, zapewniam. A nierowności ma głęboko w nosie... albo, jak kto woli, w pionowo użebrowanej, chromowanej osłonie chłodnicy.
+
+**Audi S6, S6 Avant i RS 6 Avant
+**O &lt;a href="http://www.autogaleria.pl/news/index.php?id=6458"&gt;Audi RS 6 już pisaliśmy&lt;/a&gt;. Potężne, przyspieszające do 100 km/h w 3,9 sekundy kombi to marzenie każdego zapalonego na punkcie motoryzacji tatusia dwójki dzieci. Wraz z modelami S6 i S6 Avant, ono również zostało objęte pełnym pakietem zmian. Na ich testy czekamy chyba najbardziej, a Wy?
+
+**Cena ułożonego Audi
+**Najbardziej konserwatywny i jeden z najlepiej sprzedających się modeli Audi został wyceniony na minimum 178 199 zł za wariant 2.0 TDI ultra 150 KM z manualem dla wersji Limousine, oraz 189 600 zł dla Avanta z tym samym silnikiem. Testowanym odmianom bliżej było jednak do pułapu 400 tysięcy złotych, ale w klasie premium to chyba żadna niespodzianka...
