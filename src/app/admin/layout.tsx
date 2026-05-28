@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 /**
- * Panel administracyjny – docelowo chroniony middleware / NextAuth.
+ * Panel administracyjny – chroniony middleware gdy ustawione ADMIN_SECRET (Basic Auth).
  * Moduły: Reklamy (sloty), News (źródła RSS + kolejka + auto-publikacja).
  */
 export default function AdminLayout({

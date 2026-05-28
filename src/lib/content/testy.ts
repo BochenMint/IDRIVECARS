@@ -115,7 +115,9 @@ export async function getAllTestSlugs(): Promise<string[]> {
   return entries
     .filter(
       (name) =>
-        (name.endsWith(".md") || name.endsWith(".mdx")) && !/^README\.mdx?$/i.test(name)
+        (name.endsWith(".md") || name.endsWith(".mdx")) &&
+        !/^README\.mdx?$/i.test(name) &&
+        !/^przykladowy-test\.mdx?$/i.test(name)
     )
     .map((name) => normalizeSlug(name));
 }

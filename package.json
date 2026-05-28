@@ -12,6 +12,8 @@
     "import:ag": "tsx scripts/import-ag-testy.ts",
     "link:galleries": "tsx scripts/link-galleries-to-articles.ts",
     "link:galleries:auto": "tsx scripts/auto-link-galleries.ts",
+    "match:galleries": "tsx scripts/bulk-match-galleries.ts",
+    "assign:galleries": "tsx scripts/assign-missing-galleries.ts",
     "curate:galleries": "tsx scripts/curate-galleries.ts",
     "generate:galleries-manifest": "tsx scripts/generate-gallery-manifest.ts",
     "prebuild": "npm run generate:galleries-manifest",

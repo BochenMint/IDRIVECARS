@@ -8,65 +8,56 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        surface: "#FAFAF8",
-        ink: "#171717",
-        muted: "#737373",
-        accent: "#B91C1C",
-        "accent-soft": "#FEF2F2"
+        canvas: "#FFFFFF",
+        ink: "#0A0A0A",
+        subtle: "#6B6B6B",
+        line: "#E5E5E5",
+        accent: "#CC0000"
       },
       fontFamily: {
-        display: ["var(--font-display)", "ui-serif", "Georgia", "serif"],
-        sans: ["var(--font-sans)", "system-ui", "ui-sans-serif", "sans-serif"]
+        display: ["var(--font-display)", "Helvetica Neue", "Arial", "sans-serif"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "monospace"]
+      },
+      fontSize: {
+        "display-xl": ["clamp(3rem,8vw,7rem)", { lineHeight: "0.95", letterSpacing: "-0.03em" }],
+        "display-lg": ["clamp(2rem,5vw,4rem)", { lineHeight: "1", letterSpacing: "-0.02em" }]
+      },
+      spacing: {
+        gutter: "clamp(1rem,4vw,3rem)"
       },
       typography: {
-        DEFAULT: {
-          css: {
-            maxWidth: "72ch",
-            lineHeight: 1.75,
-            "--tw-prose-body": "rgb(38 38 38)",
-            "--tw-prose-headings": "rgb(23 23 23)",
-            "p + p": { marginTop: "1.25em" },
-            h2: { marginTop: "1.75em", marginBottom: "0.75em", fontWeight: "600" },
-            h3: { marginTop: "1.5em", marginBottom: "0.5em", fontWeight: "600" }
-          }
-        },
         article: {
           css: {
-            maxWidth: "65ch",
-            fontSize: "1.0625rem",
-            lineHeight: 1.85,
-            "--tw-prose-body": "rgb(38 38 38)",
-            "--tw-prose-headings": "rgb(23 23 23)",
-            p: { marginTop: "0", marginBottom: "1.25em" },
+            maxWidth: "42rem",
+            fontSize: "1.125rem",
+            lineHeight: 1.8,
+            color: "#1a1a1a",
+            "--tw-prose-headings": "#0A0A0A",
+            "--tw-prose-body": "#1a1a1a",
+            "--tw-prose-links": "#0A0A0A",
+            p: { marginTop: "0", marginBottom: "1.5em" },
             "p:first-of-type": {
-              fontSize: "1.2em",
+              fontSize: "1.25rem",
               lineHeight: 1.65,
-              color: "rgb(64 64 64)",
-              fontWeight: "400"
+              color: "#333"
             },
-            "p + p": { marginTop: "1.25em" },
             h2: {
-              marginTop: "2.25em",
-              marginBottom: "0.6em",
-              fontSize: "1.4em",
-              fontWeight: "400",
+              marginTop: "2.5em",
+              marginBottom: "0.5em",
+              fontSize: "1.75rem",
+              fontWeight: "700",
               letterSpacing: "-0.02em",
-              lineHeight: 1.25,
-              fontFamily: "var(--font-display), ui-serif, Georgia, serif"
+              fontFamily: "var(--font-display), sans-serif",
+              textTransform: "uppercase"
             },
             h3: {
-              marginTop: "1.75em",
-              marginBottom: "0.4em",
-              fontSize: "1.15em",
-              fontWeight: "600",
-              lineHeight: 1.4
+              marginTop: "2em",
+              fontSize: "1.2rem",
+              fontWeight: "600"
             },
-            "ul, ol": { marginTop: "0.75em", marginBottom: "1.25em", paddingLeft: "1.5em" },
-            li: { marginTop: "0.35em", marginBottom: "0.35em" },
-            a: { fontWeight: "500", color: "rgb(23 23 23)" },
-            strong: { fontWeight: "600" },
-            figure: { marginTop: "2.5em", marginBottom: "2.5em" },
-            img: { borderRadius: "0.5rem", marginTop: "1.5em", marginBottom: "1.5em" }
+            img: { borderRadius: "0", marginTop: "2em", marginBottom: "2em" },
+            a: { textDecoration: "underline", textUnderlineOffset: "3px" }
           }
         }
       }

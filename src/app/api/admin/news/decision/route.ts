@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { isAdminAuthorized } from "@/lib/admin-auth";
 import { setNewsDecision } from "@/lib/content/news";
 import type { UserDecision } from "@/lib/content/types-news";
 
@@ -6,6 +7,9 @@ import type { UserDecision } from "@/lib/content/types-news";
  * POST: zapisuje decyzję redaktora (worth | skip) dla newsa – do uczenia modelu AI.
  */
 export async function POST(request: NextRequest) {
+  if (!isAdminAuthorized(request)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
   try {
     const body = await request.json();
     const slug = body?.slug as string | undefined;

@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Gallery } from "@/components/Gallery";
-import { getGalleryImages } from "@/lib/content/gallery";
+import { getGalleryImages, getFirstGalleryImageSrc } from "@/lib/content/gallery";
 import { getAllTestSlugs, getTestBySlug, injectInlineGalleryImages } from "@/lib/content/testy";
-
-export const dynamic = "force-dynamic";
+import { SITE_URL } from "@/lib/site";
 
 type TestPageProps = {
   params: Promise<{ slug: string }>;
@@ -17,17 +16,29 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: TestPageProps): Promise<Metadata> {
   const { slug } = await params;
   const { meta } = await getTestBySlug(slug);
-
-  const title = `${meta.brand} ${meta.model} – ${meta.title}`;
   const description = meta.lead ?? meta.title;
+  const heroImage =
+    (await getFirstGalleryImageSrc(meta.galleryDir)) ?? undefined;
+  const pageUrl = `${SITE_URL}/testy/${slug}`;
 
   return {
-    title,
+    title: meta.title,
     description,
+    alternates: { canonical: pageUrl },
     openGraph: {
-      title,
+      title: meta.title,
       description,
-      type: "article"
+      url: pageUrl,
+      type: "article",
+      locale: "pl_PL",
+      ...(heroImage && {
+        images: [{ url: heroImage, alt: `${meta.brand} ${meta.model}`.trim() || meta.title }]
+      })
+    },
+    twitter: {
+      card: heroImage ? "summary_large_image" : "summary",
+      title: meta.title,
+      description
     }
   };
 }
@@ -36,66 +47,72 @@ export default async function TestPage({ params }: TestPageProps) {
   const { slug } = await params;
   const { meta, contentHtml } = await getTestBySlug(slug);
   const images = await getGalleryImages(meta.galleryDir);
+  const heroImage = images[0]?.src ?? (await getFirstGalleryImageSrc(meta.galleryDir));
   const contentWithInlineImages = injectInlineGalleryImages(contentHtml, images);
 
+  const specs = [
+    meta.engine && { label: "Silnik", value: meta.engine },
+    meta.power && { label: "Moc", value: meta.power },
+    meta.torque && { label: "Moment", value: meta.torque },
+    meta.gearbox && { label: "Skrzynia", value: meta.gearbox },
+    meta.drivetrain && { label: "Napęd", value: meta.drivetrain },
+    meta.bodyType && { label: "Nadwozie", value: meta.bodyType }
+  ].filter(Boolean) as Array<{ label: string; value: string }>;
+
   return (
-    <article className="space-y-12">
-      <header className="space-y-4">
-        <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">
-          Test • {meta.brand} {meta.model} {meta.year ?? ""}
-        </p>
-        <h1 className="font-display text-3xl tracking-tight sm:text-4xl">{meta.title}</h1>
-        <div className="flex flex-wrap gap-4 text-xs text-neutral-600">
-          {meta.engine && <span>Silnik: {meta.engine}</span>}
-          {meta.power && <span>Moc: {meta.power}</span>}
-          {meta.gearbox && <span>Skrzynia: {meta.gearbox}</span>}
-          {meta.drivetrain && <span>Napęd: {meta.drivetrain}</span>}
-          {meta.bodyType && <span>Nadwozie: {meta.bodyType}</span>}
-          {meta.publishedAt && (
-            <span>
-              Data publikacji:{" "}
-              {new Date(meta.publishedAt).toLocaleDateString("pl-PL", {
-                year: "numeric",
-                month: "long",
-                day: "numeric"
-              })}
-            </span>
-          )}
+    <article>
+      {heroImage && (
+        <div className="full-bleed relative aspect-[16/9] max-h-[85vh] w-full bg-ink">
+          <img
+            src={heroImage}
+            alt={`${meta.brand} ${meta.model} — ${meta.title}`}
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         </div>
+      )}
+
+      <header className="px-gutter pb-12 pt-12">
+        <p className="label-mono mb-4 text-subtle">
+          {meta.brand} {meta.model} {meta.year ?? ""}
+        </p>
+        <h1 className="font-display text-display-lg uppercase">{meta.title}</h1>
+
+        {specs.length > 0 && (
+          <dl className="mt-10 grid grid-cols-2 gap-x-8 gap-y-4 border-t border-line pt-8 sm:grid-cols-3 lg:grid-cols-6">
+            {specs.map((s) => (
+              <div key={s.label}>
+                <dt className="label-mono text-subtle">{s.label}</dt>
+                <dd className="mt-1 text-sm font-medium">{s.value}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
       </header>
 
-      <div className="mx-auto max-w-[65ch]">
+      <div className="mx-auto max-w-3xl px-gutter pb-20">
         <section
-          className="prose prose-article prose-neutral max-w-none prose-headings:font-display prose-headings:tracking-tight prose-a:text-neutral-900 prose-a:underline-offset-4 hover:prose-a:underline"
+          className="prose prose-article max-w-none"
           aria-label="Treść artykułu"
           dangerouslySetInnerHTML={{ __html: contentWithInlineImages }}
         />
+
+        {meta.originalUrl && (
+          <p className="mt-16 border-t border-line pt-8 text-sm text-subtle">
+            Pierwotna publikacja:{" "}
+            <a href={meta.originalUrl} target="_blank" rel="noreferrer" className="underline">
+              autoGaleria.pl
+            </a>
+          </p>
+        )}
       </div>
 
-      {meta.originalUrl && (
-        <p className="border-t border-neutral-200 pt-8 text-xs text-neutral-500">
-          Tekst w pierwotnej formie ukazał się na portalu{" "}
-          <a href={meta.originalUrl} target="_blank" rel="noreferrer">
-            autoGALERIA.pl
-          </a>{" "}
-          jako materiał autorstwa Marcina Bochenka.
-        </p>
-      )}
-
       {images.length > 0 && (
-        <section className="border-t border-neutral-200 pt-12">
-          <h2 className="font-display text-2xl tracking-tight text-neutral-900">
-            Pełna galeria zdjęć
-          </h2>
-          <p className="mt-2 text-sm text-neutral-600">
-            Wszystkie zdjęcia z testu w jednym miejscu – powiększ klikając w miniaturę.
-          </p>
-          <div className="mt-6">
-            <Gallery images={images} />
-          </div>
+        <section className="border-t border-line bg-ink px-gutter py-16">
+          <h2 className="label-mono mb-8 text-white/50">Galeria · {images.length} zdjęć</h2>
+          <Gallery images={images} dark />
         </section>
       )}
     </article>
   );
 }
-

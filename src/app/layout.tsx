@@ -1,48 +1,52 @@
 import type { Metadata } from "next";
-import { DM_Sans, Instrument_Serif } from "next/font/google";
-import { AdSlot } from "../components/AdSlot";
+import { Bebas_Neue, Inter, IBM_Plex_Mono } from "next/font/google";
+import { SITE_URL } from "@/lib/site";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 import "./globals.css";
 
-const dmSans = DM_Sans({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-sans",
-  display: "swap"
-});
-
-const instrumentSerif = Instrument_Serif({
+const bebas = Bebas_Neue({
   subsets: ["latin", "latin-ext"],
   weight: "400",
   variable: "--font-display",
   display: "swap"
 });
 
-function AdBanner() {
-  return (
-    <div className="border-b border-neutral-100 bg-neutral-50/50 px-4 py-2 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-6xl">
-        <AdSlot slotId="header-billboard" format="leaderboard" />
-      </div>
-    </div>
-  );
-}
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-sans",
+  display: "swap"
+});
+
+const plexMono = IBM_Plex_Mono({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500"],
+  variable: "--font-mono",
+  display: "swap"
+});
 
 export const metadata: Metadata = {
   title: {
-    default: "IDRIVECARS – testy samochodów i galerie",
-    template: "%s | IDRIVECARS"
+    default: "IDRIVECARS",
+    template: "%s · IDRIVECARS"
   },
   description:
-    "IDRIVECARS to autorskie testy samochodów, galerie zdjęć i blog motoryzacyjny Marcina Bochenka.",
-  metadataBase: new URL("https://idrivecars.example"), // TODO: podmień na docelową domenę
+    "Autorskie testy samochodów, pierwsze jazdy i galerie zdjęć Marcina Bochenka.",
+  metadataBase: new URL(SITE_URL),
   openGraph: {
-    title: "IDRIVECARS – testy samochodów i galerie",
-    description:
-      "Autorskie testy samochodów, galerie zdjęć i blog motoryzacyjny Marcina Bochenka.",
+    title: "IDRIVECARS",
+    description: "Testy samochodów. Własne zdjęcia. Bez hałasu.",
     type: "website",
-    url: "https://idrivecars.example"
-  }
+    url: SITE_URL,
+    locale: "pl_PL",
+    siteName: "IDRIVECARS"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IDRIVECARS",
+    description: "Testy samochodów. Własne zdjęcia. Bez hałasu."
+  },
+  robots: { index: true, follow: true }
 };
 
 type RootLayoutProps = {
@@ -51,14 +55,11 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="pl" className={`h-full scroll-smooth ${dmSans.variable} ${instrumentSerif.variable}`}>
-      <body className="min-h-full bg-surface text-ink antialiased font-sans">
+    <html lang="pl" className={`${bebas.variable} ${inter.variable} ${plexMono.variable}`}>
+      <body>
         <div className="page-shell">
           <SiteHeader />
-          <AdBanner />
-          <main className="page-main" role="main">
-            {children}
-          </main>
+          <main role="main">{children}</main>
           <SiteFooter />
         </div>
       </body>

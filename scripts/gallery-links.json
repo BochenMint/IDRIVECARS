@@ -7,7 +7,8 @@
     "D:\\MARCIN\\I DRIVE CARS\\Galerie\\Mercedes-AMG C63s Coupe": "idrive-mercedes-amg-c63s-coupe",
     "D:\\MARCIN\\I DRIVE CARS\\Galerie\\Skoda Superb Combi L&K 2.0 TDI": "idrive-skoda-superb-combi",
     "D:\\MARCIN\\I DRIVE CARS\\Galerie\\Volkswagen Golf GTD Variant": "idrive-vw-golf-gtd-variant",
-    "D:\\MARCIN\\Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy": "porsche-on-track-estonia"
+    "D:\\MARCIN\\Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy": "porsche-on-track-estonia",
+    "D:\\MARCIN\\TESTY\\MERCEDES-MAYBACH S600": "mercedes-maybach-s-600-testy"
   },
   "skipFolders": [
     "SUROWE",
@@ -17,48 +18,163 @@
     "mazda_prezentacja",
     "samochod marzen - cz.1",
     "PASSAT DŁUGI DYSTANS TAPETY",
-    "Porsche 911 Targa - Tapety",
     "Tapety - Mercedes CLA 250",
     "foto TEST Skoda Fabia 1.0 LPG",
     "DK - Lexus NX 300h"
   ],
   "galleries": [
-    { "sourceFolder": "Audi A7 3.0 TDI", "outputSlug": "audi-a7-30-tdi" },
-    { "sourceFolder": "Bentley Continental GT V8 S Convertible", "outputSlug": "bentley-continental-gt-v8-s-convertible" },
-    { "sourceFolder": "BMW 435i Cabriolet", "outputSlug": "bmw-435i-cabriolet" },
-    { "sourceFolder": "BMW X5 30d - M.B", "outputSlug": "bmw-x5-30d" },
-    { "sourceFolder": "Ford Focus RS Pierwsza Jazda", "outputSlug": "ford-focus-rs-pierwsza-jazda" },
-    { "sourceFolder": "Land Rover Discovery Pierwsza Jazda", "outputSlug": "land-rover-discovery-pierwsza-jazda" },
-    { "sourceFolder": "Lexus NX 300h F-Sport", "outputSlug": "lexus-nx-300h-f-sport" },
-    { "sourceFolder": "Lexus RC F - Pierwsza Jazda", "outputSlug": "lexus-rc-f-pierwsza-jazda" },
-    { "sourceFolder": "Mazda MX-5 Barcelona", "outputSlug": "mazda-mx-5-nd-do-korzeni" },
-    { "sourceFolder": "Mercedes-Maybach S600", "outputSlug": "mercedes-maybach-s-600" },
-    { "sourceFolder": "Mercedes C Coupe Pierwsza Jazda", "outputSlug": "mercedes-c-coupe-pierwsza-jazda" },
-    { "sourceFolder": "Mercedes CLS 350 bluetec", "outputSlug": "mercedes-cls-350-bluetec" },
-    { "sourceFolder": "Mercedes S500e", "outputSlug": "mercedes-s500e" },
-    { "sourceFolder": "Mercedes-AMG GT S", "outputSlug": "mercedes-amg-gt-s" },
-    { "sourceFolder": "Mercedes-AMG GT - Pierwsza Jazda", "outputSlug": "mercedes-amg-gt-pierwsza-jazda" },
-    { "sourceFolder": "Mercedes-AMG GLE 63 S Coupe i GLE Coupe", "outputSlug": "mercedes-amg-gle-63-s-coupe" },
-    { "sourceFolder": "Volksawgen Passat Alltrack", "outputSlug": "volkswagen-passat-alltrack-all-inclusive" },
-    { "sourceFolder": "Pierwsza Jazda - Volkswagen Passat", "outputSlug": "pierwsza-jazda-volkswagen-passat" },
-    { "sourceFolder": "Volkswagen XL1", "outputSlug": "volkswagen-xl1" },
-    { "sourceFolder": "Volvo XC90 - Gdańsk", "outputSlug": "volvo-xc90-gdansk" },
-    { "sourceFolder": "Skoda Fabia - Pierwsza Jazda", "outputSlug": "skoda-fabia-pierwsza-jazda" },
-    { "sourceFolder": "Nissan Pulsar - Pierwsza Jazda", "outputSlug": "nissan-pulsar-pierwsza-jazda" },
-    { "sourceFolder": "Volkswagen Caddy pierwsza jazda", "outputSlug": "volkswagen-caddy-pierwsza-jazda" },
-    { "sourceFolder": "Pierwsza Jazda - Audi A6 FL", "outputSlug": "pierwsza-jazda-audi-a6-fl" },
-    { "sourceFolder": "Peugeot 2008 - M.B", "outputSlug": "peugeot-2008" },
-    { "sourceFolder": "Peugeot 508 RXH", "outputSlug": "peugeot-508-rxh" },
-    { "sourceFolder": "Peugeot 508 FL", "outputSlug": "peugeot-508-fl" },
-    { "sourceFolder": "PASSAT Długi dystans", "outputSlug": "passat-dlugi-dystans" },
-    { "sourceFolder": "DLUGI DYSTANS - SKODA OCTAVIA RS", "outputSlug": "dlugi-dystans-skoda-octavia-rs" },
-    { "sourceFolder": "Test Mercedes V250", "outputSlug": "mercedes-v250" },
-    { "sourceFolder": "Hyundai i10 - M.B", "outputSlug": "hyundai-i10" },
-    { "sourceFolder": "Toyota GT 86", "outputSlug": "toyota-gt-86" },
-    { "sourceFolder": "Nissan X-Trail - M.B", "outputSlug": "nissan-x-trail" },
-    { "sourceFolder": "Volkswagen Passat 1.8 TSI R-Line", "outputSlug": "volkswagen-passat-r-line" },
-    { "sourceFolder": "backstage", "outputSlug": "backstage" },
-    { "sourceFolder": "BACKUP KARTY 20.10.2015", "outputSlug": "backup-karty-20102015" }
+    {
+      "sourceFolder": "Audi A7 3.0 TDI",
+      "outputSlug": "audi-a7-30-tdi"
+    },
+    {
+      "sourceFolder": "Bentley Continental GT V8 S Convertible",
+      "outputSlug": "bentley-continental-gt-v8-s-convertible"
+    },
+    {
+      "sourceFolder": "BMW 435i Cabriolet",
+      "outputSlug": "bmw-435i-cabriolet"
+    },
+    {
+      "sourceFolder": "BMW X5 30d - M.B",
+      "outputSlug": "bmw-x5-30d"
+    },
+    {
+      "sourceFolder": "Ford Focus RS Pierwsza Jazda",
+      "outputSlug": "ford-focus-rs-pierwsza-jazda"
+    },
+    {
+      "sourceFolder": "Land Rover Discovery Pierwsza Jazda",
+      "outputSlug": "land-rover-discovery-pierwsza-jazda"
+    },
+    {
+      "sourceFolder": "Lexus NX 300h F-Sport",
+      "outputSlug": "lexus-nx-300h-f-sport"
+    },
+    {
+      "sourceFolder": "Lexus RC F - Pierwsza Jazda",
+      "outputSlug": "lexus-rc-f-pierwsza-jazda"
+    },
+    {
+      "sourceFolder": "Mazda MX-5 Barcelona",
+      "outputSlug": "mazda-mx-5-nd-do-korzeni"
+    },
+    {
+      "sourceFolder": "Mercedes-Maybach S600",
+      "outputSlug": "mercedes-maybach-s-600"
+    },
+    {
+      "sourceFolder": "Mercedes C Coupe Pierwsza Jazda",
+      "outputSlug": "mercedes-c-coupe-pierwsza-jazda"
+    },
+    {
+      "sourceFolder": "Mercedes CLS 350 bluetec",
+      "outputSlug": "mercedes-cls-350-bluetec"
+    },
+    {
+      "sourceFolder": "Mercedes S500e",
+      "outputSlug": "mercedes-s500e"
+    },
+    {
+      "sourceFolder": "Mercedes-AMG GT S",
+      "outputSlug": "mercedes-amg-gt-s"
+    },
+    {
+      "sourceFolder": "Mercedes-AMG GT - Pierwsza Jazda",
+      "outputSlug": "mercedes-amg-gt-pierwsza-jazda"
+    },
+    {
+      "sourceFolder": "Mercedes-AMG GLE 63 S Coupe i GLE Coupe",
+      "outputSlug": "mercedes-amg-gle-63-s-coupe"
+    },
+    {
+      "sourceFolder": "Volksawgen Passat Alltrack",
+      "outputSlug": "volkswagen-passat-alltrack-all-inclusive"
+    },
+    {
+      "sourceFolder": "Pierwsza Jazda - Volkswagen Passat",
+      "outputSlug": "pierwsza-jazda-volkswagen-passat"
+    },
+    {
+      "sourceFolder": "Volkswagen XL1",
+      "outputSlug": "volkswagen-xl1"
+    },
+    {
+      "sourceFolder": "Volvo XC90 - Gdańsk",
+      "outputSlug": "volvo-xc90-gdansk"
+    },
+    {
+      "sourceFolder": "Skoda Fabia - Pierwsza Jazda",
+      "outputSlug": "skoda-fabia-pierwsza-jazda"
+    },
+    {
+      "sourceFolder": "Nissan Pulsar - Pierwsza Jazda",
+      "outputSlug": "nissan-pulsar-pierwsza-jazda"
+    },
+    {
+      "sourceFolder": "Volkswagen Caddy pierwsza jazda",
+      "outputSlug": "volkswagen-caddy-pierwsza-jazda"
+    },
+    {
+      "sourceFolder": "Pierwsza Jazda - Audi A6 FL",
+      "outputSlug": "pierwsza-jazda-audi-a6-fl"
+    },
+    {
+      "sourceFolder": "Peugeot 2008 - M.B",
+      "outputSlug": "peugeot-2008"
+    },
+    {
+      "sourceFolder": "Peugeot 508 RXH",
+      "outputSlug": "peugeot-508-rxh"
+    },
+    {
+      "sourceFolder": "Peugeot 508 FL",
+      "outputSlug": "peugeot-508-fl"
+    },
+    {
+      "sourceFolder": "PASSAT Długi dystans",
+      "outputSlug": "passat-dlugi-dystans"
+    },
+    {
+      "sourceFolder": "DLUGI DYSTANS - SKODA OCTAVIA RS",
+      "outputSlug": "dlugi-dystans-skoda-octavia-rs"
+    },
+    {
+      "sourceFolder": "Test Mercedes V250",
+      "outputSlug": "mercedes-v250"
+    },
+    {
+      "sourceFolder": "Hyundai i10 - M.B",
+      "outputSlug": "hyundai-i10"
+    },
+    {
+      "sourceFolder": "Toyota GT 86",
+      "outputSlug": "toyota-gt-86"
+    },
+    {
+      "sourceFolder": "Nissan X-Trail - M.B",
+      "outputSlug": "nissan-x-trail"
+    },
+    {
+      "sourceFolder": "Volkswagen Passat 1.8 TSI R-Line",
+      "outputSlug": "volkswagen-passat-r-line"
+    },
+    {
+      "sourceFolder": "backstage",
+      "outputSlug": "backstage"
+    },
+    {
+      "sourceFolder": "Porsche 911 Targa - Tapety",
+      "outputSlug": "porsche-911-targa-tapety"
+    },
+    {
+      "sourceFolder": "Infiniti Q70, Mercedes Vito",
+      "outputSlug": "infiniti-q70-mercedes-vito"
+    },
+    {
+      "sourceFolder": "Mercedes C class Coupe i AMG Pierwsza Jazda",
+      "outputSlug": "mercedes-c-class-coupe-surowe"
+    }
   ],
   "articleToGallery": {
     "audi-a7-30-tdi": "audi-a7-30-tdi",
@@ -68,7 +184,7 @@
     "mercedes-maybach-s-600": "mercedes-maybach-s-600",
     "volkswagen-passat-alltrack-all-inclusive": "volkswagen-passat-alltrack-all-inclusive",
     "bmw-435i-cabriolet": "bmw-435i-cabriolet",
-    "bmw-x5-30d": "bmw-x5-30d",
+    "bmw-x5": "bmw-x5-30d",
     "land-rover-discovery-sport": "land-rover-discovery-pierwsza-jazda",
     "lexus-nx-300h-f-sport": "lexus-nx-300h-f-sport",
     "lexus-rc-f": "lexus-rc-f-pierwsza-jazda",
@@ -81,12 +197,12 @@
     "pierwsza-jazda-skoda-fabia": "skoda-fabia-pierwsza-jazda",
     "pierwsza-jazda-nissan-pulsar": "nissan-pulsar-pierwsza-jazda",
     "audi-a6-facelifting-new": "pierwsza-jazda-audi-a6-fl",
-    "fiat-500-by-gucci-gotowy": "fiat-500-pierwsza-jazda",
+    "fiat-500-by-gucci": "fiat-500-pierwsza-jazda",
     "volkswagen-golf-gtd-variant": "idrive-vw-golf-gtd-variant",
-    "seat-leon-fr-20-tdi": "idrive-skoda-superb-combi",
+    "seat-leon-fr-20-tdi": "idrive-vw-golf-gtd-variant",
     "volkswagen-california": "volkswagen-caddy-pierwsza-jazda",
     "peugeot-308-sw": "peugeot-508-rxh",
-    "pierwsza-jazda-porsche-on-track": "porsche-on-track-estonia",
+    "pierwsza-jazda-porsche-on-track": "porsche-911-targa-tapety",
     "dlugi-dystans-octavia-rs": "dlugi-dystans-skoda-octavia-rs",
     "passat-dlugi-dystans": "passat-dlugi-dystans",
     "bentley-continental-gtc-v8-s": "bentley-continental-gt-v8-s-convertible",
@@ -97,7 +213,85 @@
     "nissan-qashqai": "nissan-x-trail",
     "mercedes-c200": "mercedes-c-coupe-pierwsza-jazda",
     "porsche-911-targa-4s": "porsche-911-targa-tapety",
-    "dlugi-dystans-octavia-rs": "dlugi-dystans-skoda-octavia-rs"
+    "alfa-romeo-giulietta-nie-tylko-dla-wtajemniczonych": "alfa-romeo-giulia-na-zywo",
+    "alfa-romeo-giulietta-quadrifoglio-verde-1750-tbi": "alfa-romeo-giulia-na-zywo",
+    "alfa-romeo-giulietta-test": "alfa-romeo-giulia-na-zywo",
+    "bmw-328i-xdrive-niech-zyje-dynamika": "bmw-x5-30d",
+    "bmw-x6-m50d-fl": "bmw-x5-30d",
+    "bmw-x6-m50d": "bmw-x5-30d",
+    "byd-e6": "backstage",
+    "dacia-sandero-09-tce-laureate": "skoda-fabia-pierwsza-jazda",
+    "evoque-convertible-concept": "land-rover-discovery-pierwsza-jazda",
+    "fiat-500l-16-16v-pop-star": "fiat-500-pierwsza-jazda",
+    "ford-fiesta": "ford-focus-rs-pierwsza-jazda",
+    "ford-kuga": "ford-focus-rs-pierwsza-jazda",
+    "ford-transit-custom": "ford-focus-rs-pierwsza-jazda",
+    "mercedes-citan-109-cdi": "mercedes-c-coupe-pierwsza-jazda",
+    "mercedes-cla-250-4matic-7g-dct": "mercedes-c-coupe-pierwsza-jazda",
+    "mercedes-glk-350cdi": "bmw-x5-30d",
+    "mitsubishi-i-miev-evolution": "nissan-x-trail",
+    "mitsubishi-outlander-sport": "nissan-x-trail",
+    "nissan-lv200-evalia-1": "nissan-x-trail",
+    "nissan-micra-12-dig-s": "nissan-x-trail",
+    "nowa-skoda-octavia": "dlugi-dystans-skoda-octavia-rs",
+    "nowy-jeep-cherokee": "land-rover-discovery-pierwsza-jazda",
+    "peugeot-308-vs-vw-golf-vii": "pierwsza-jazda-volkswagen-passat",
+    "pierwsza-jazda-abarth-595-turismo": "fiat-500-pierwsza-jazda",
+    "pierwsza-jazda-corvette-c7": "backstage",
+    "pierwsza-jazda-jeep-grand-cherokee-bardziej-grand": "land-rover-discovery-pierwsza-jazda",
+    "pierwsza-jazda-micra": "nissan-x-trail",
+    "pierwsza-jazda-miusubishi-outlander-phev": "nissan-x-trail",
+    "pierwsza-jazda-note": "nissan-x-trail",
+    "pierwsza-jazda-octavia-rs": "dlugi-dystans-skoda-octavia-rs",
+    "pierwsza-jazda-panamera-diesel-i-s-e-hybrid": "porsche-911-targa-tapety",
+    "pierwsza-jazda-polo": "pierwsza-jazda-volkswagen-passat",
+    "pierwsza-jazda-porsche-panamera-turbo-executive-lwb-chce-wiecej": "porsche-911-targa-tapety",
+    "pierwsza-jazda-rcz-r": "peugeot-508-fl",
+    "pierwsza-jazda-vw-golf-gti": "pierwsza-jazda-volkswagen-passat",
+    "porownanie-rav4": "toyota-gt-86",
+    "porsche-911-targa-4s-dane-techniczne": "porsche-911-targa-tapety",
+    "porsche-boxster-s": "porsche-911-targa-tapety",
+    "prezentacja-scirocco": "pierwsza-jazda-volkswagen-passat",
+    "redbull": "backstage",
+    "renault-fluence-ze": "nissan-pulsar-pierwsza-jazda",
+    "renault-twingo": "nissan-pulsar-pierwsza-jazda",
+    "renault-twizy": "nissan-pulsar-pierwsza-jazda",
+    "rolls-royce-wraith": "bentley-continental-gt-v8-s-convertible",
+    "seat-leon-cupra-280-vs-volkswagen-golf-r-dk-etap-1": "pierwsza-jazda-volkswagen-passat",
+    "seat-leon-cupra-280-vs-volkswagen-golf-r": "pierwsza-jazda-volkswagen-passat",
+    "skoda-citigo-10-mpi-elegance-abc": "skoda-fabia-pierwsza-jazda",
+    "skoda-fabia-kombi-12-tsi": "skoda-fabia-pierwsza-jazda",
+    "skoda-octavia-combi-18-tsi-4x4": "dlugi-dystans-skoda-octavia-rs",
+    "toyota-auris-prestige-hybrid": "toyota-gt-86",
+    "volkswagen-golf-sportsvan": "pierwsza-jazda-volkswagen-passat",
+    "volkswagen-golf-variant-20-tdi-highline": "pierwsza-jazda-volkswagen-passat",
+    "volkswagen-jetta-hybrid": "pierwsza-jazda-volkswagen-passat",
+    "volkswagen-scirocco-r": "pierwsza-jazda-volkswagen-passat",
+    "vw-cc-36-v6": "pierwsza-jazda-volkswagen-passat",
+    "aston-martin-motorsport": "backstage",
+    "audi-a6-allroad-30-tdi": "pierwsza-jazda-audi-a6-fl",
+    "audi-a8-fl": "audi-a7-30-tdi",
+    "audi-s3-sportback-quattro": "audi-a7-30-tdi",
+    "audi-tt": "audi-a7-30-tdi",
+    "fiat-panda": "fiat-500-pierwsza-jazda",
+    "ford-focus-10-ecoboost": "ford-focus-rs-pierwsza-jazda",
+    "ford-focus-st-kombi-20-ecoboost": "ford-focus-rs-pierwsza-jazda",
+    "kia-rio": "hyundai-i10",
+    "lexus-rx-350-f-sport": "lexus-nx-300h-f-sport",
+    "lexus-rx": "lexus-nx-300h-f-sport",
+    "mini-cooper-roadster-s": "bmw-435i-cabriolet",
+    "mini-cooper-s-rauno-aaltonen": "bmw-435i-cabriolet",
+    "nowe-audi-a3": "audi-a7-30-tdi",
+    "pierwsza-jazda-rapid-spaceback": "dlugi-dystans-skoda-octavia-rs",
+    "pierwsza-jazda-rs6": "pierwsza-jazda-audi-a6-fl",
+    "pierwsza-jazda-rs7": "pierwsza-jazda-audi-a6-fl",
+    "pierwsza-jazda-tourneo-jastarnia": "pierwsza-jazda-volkswagen-passat",
+    "pierwsza-jazda-volvo-w-gdyni": "volvo-xc90-gdansk",
+    "seat-ibiza-12-tsi-ecomotive": "idrive-vw-golf-gtd-variant",
+    "seat-leon-cupra-280": "idrive-vw-golf-gtd-variant",
+    "volkswagen-cc-20-tdi-r-line": "pierwsza-jazda-volkswagen-passat",
+    "volvo-v40-r-design": "volvo-xc90-gdansk",
+    "pierwsza-jazda-a3-limo": "audi-a7-30-tdi"
   },
   "docxSources": [
     "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy",
