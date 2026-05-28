@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-surface text-ink antialiased font-sans;
+}
+
+a {
+  @apply text-ink underline-offset-4 hover:underline;
+}
+
+.page-shell {
+  @apply flex min-h-screen flex-col;
+}
+
+.page-main {
+  @apply mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pb-20 pt-10 sm:px-6 lg:px-8;
+}
+
+:focus-visible {
+  outline: 2px solid rgb(23 23 23);
+  outline-offset: 3px;
+}
+
+/* Zdjęcia w tekście artykułu – wstawiane automatycznie z galerii */
+.article-inline-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

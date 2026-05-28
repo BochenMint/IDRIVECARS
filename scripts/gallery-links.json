@@ -1,0 +1,81 @@
+{
+  "$schema": "Mapowanie: folder źródłowy (D:\\MARCIN) → slug w public/galleries/ zgodny z galleryDir w MDX",
+  "sourcesRoot": "D:\\MARCIN\\Galerie z testów",
+  "extraSources": {
+    "D:\\MARCIN\\Fiat 500 Pierwsza Jazda": "fiat-500-pierwsza-jazda",
+    "D:\\MARCIN\\ALFA ROMEO GIULIA NA ŻYWO": "alfa-romeo-giulia-na-zywo"
+  },
+  "skipFolders": [
+    "SUROWE",
+    "LIGHTROOM KATALOG",
+    "Maybachy",
+    "Zegary i dane",
+    "mazda_prezentacja",
+    "samochod marzen - cz.1"
+  ],
+  "links": [
+    {
+      "articleSlug": "audi-a7-30-tdi",
+      "sourceFolder": "Audi A7 3.0 TDI",
+      "outputSlug": "audi-a7-30-tdi"
+    },
+    {
+      "articleSlug": "bentley-continental-gt-v8-s-convertible",
+      "sourceFolder": "Bentley Continental GT V8 S Convertible",
+      "outputSlug": "bentley-continental-gt-v8-s-convertible"
+    },
+    {
+      "articleSlug": "ford-focus-rs-najlepszy-z-chuliganow",
+      "sourceFolder": "Ford Focus RS Pierwsza Jazda",
+      "outputSlug": "ford-focus-rs-pierwsza-jazda"
+    },
+    {
+      "articleSlug": "mazda-mx-5-nd-do-korzeni",
+      "sourceFolder": "Mazda MX-5 Barcelona",
+      "outputSlug": "mazda-mx-5-nd-do-korzeni"
+    },
+    {
+      "articleSlug": "mercedes-maybach-s-600",
+      "sourceFolder": "Mercedes-Maybach S600",
+      "outputSlug": "mercedes-maybach-s-600"
+    },
+    {
+      "articleSlug": "volkswagen-passat-alltrack-all-inclusive",
+      "sourceFolder": "Volksawgen Passat Alltrack",
+      "outputSlug": "volkswagen-passat-alltrack-all-inclusive"
+    },
+    {
+      "articleSlug": "bmw-x6-m50d-fl",
+      "sourceFolder": null,
+      "outputSlug": "bmw-x6-m50d-fl",
+      "note": "Tylko RAW (CR2) w D:\\MARCIN\\X6 M50d – wymaga eksportu JPG przed konwersją"
+    }
+  ],
+  "pendingImport": [
+    {
+      "sourceDocx": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\BMW 435i Cabriolet.docx",
+      "sourceFolder": "BMW 435i Cabriolet",
+      "outputSlug": "bmw-435i-cabriolet"
+    },
+    {
+      "sourceDocx": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Land Rover Discovery Sport.docx",
+      "sourceFolder": "Land Rover Discovery Pierwsza Jazda",
+      "outputSlug": "land-rover-discovery-pierwsza-jazda"
+    },
+    {
+      "sourceDocx": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Lexus RC F.docx",
+      "sourceFolder": "Lexus RC F - Pierwsza Jazda",
+      "outputSlug": "lexus-rc-f-pierwsza-jazda"
+    },
+    {
+      "sourceDocx": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Lexus NX 300h F-Sport.docx",
+      "sourceFolder": "Lexus NX 300h F-Sport",
+      "outputSlug": "lexus-nx-300h-f-sport"
+    },
+    {
+      "sourceDocx": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volvo XC90.docx",
+      "sourceFolder": "Volvo XC90 - Gdańsk",
+      "outputSlug": "volvo-xc90-gdansk"
+    }
+  ]
+}

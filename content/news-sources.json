@@ -1,0 +1,14 @@
+[
+  {
+    "name": "AutoCentrum – Newsy",
+    "url": "https://www.autocentrum.pl/rss/",
+    "enabled": true,
+    "maxItemsPerRun": 10
+  },
+  {
+    "name": "Motorsport.com PL",
+    "url": "https://pl.motorsport.com/rss/",
+    "enabled": false,
+    "maxItemsPerRun": 5
+  }
+]

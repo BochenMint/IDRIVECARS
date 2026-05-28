@@ -1,0 +1,43 @@
+{
+  "name": "idrivecars",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "convert:galleries": "tsx scripts/convert-galleries.ts",
+    "convert:linked": "tsx scripts/convert-linked-galleries.ts",
+    "generate:galleries-manifest": "tsx scripts/generate-gallery-manifest.ts",
+    "prebuild": "npm run generate:galleries-manifest",
+    "fetch:autogaleria": "tsx scripts/fetch-autogaleria.ts",
+    "import:local": "tsx scripts/import-local-articles.ts",
+    "fetch:news": "tsx scripts/fetch-news-rss.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "next": "15.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "cheerio": "^1.2.0",
+    "eslint": "^9.12.0",
+    "gray-matter": "^4.0.3",
+    "mammoth": "^1.11.0",
+    "postcss": "^8.4.47",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.1",
+    "turndown": "^7.2.2",
+    "typescript": "^5.6.3"
+  }
+}
