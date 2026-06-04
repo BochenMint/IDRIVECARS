@@ -5,6 +5,7 @@ import { remark } from "remark";
 import html from "remark-html";
 import type { GalleryImage } from "./gallery";
 import type { Test, TestMeta } from "./types";
+import { cleanArticleMarkdown } from "./html";
 
 /** Wstawia pojedyncze zdjęcia z galerii co kilka akapitów w HTML treści (max 4 zdjęcia). */
 export function injectInlineGalleryImages(
@@ -30,7 +31,7 @@ export function injectInlineGalleryImages(
       images[imagesUsed]
     ) {
       const img = images[imagesUsed];
-      const figureHtml = `<figure class="article-inline-image my-10"><img src="${img.src}" alt="${escapeHtml(img.alt)}" loading="lazy" class="w-full rounded-xl border border-neutral-200 shadow-sm" /></figure>`;
+      const figureHtml = `<figure class="article-inline-image my-10"><img src="${img.src}" alt="${escapeHtml(img.alt)}" loading="lazy" class="w-full" /></figure>`;
       result =
         result.slice(0, match.index + offset + 4) +
         figureHtml +
@@ -122,6 +123,25 @@ export async function getAllTestSlugs(): Promise<string[]> {
     .map((name) => normalizeSlug(name));
 }
 
+/** Szacowany czas czytania (słowa / 200 sł/min), min. 1 min. */
+export function estimateReadingMinutes(contentHtml: string): number {
+  const text = contentHtml.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  const words = text ? text.split(" ").length : 0;
+  return Math.max(1, Math.round(words / 200));
+}
+
+export async function getRelatedTestsByBrand(
+  slug: string,
+  brand: string,
+  limit = 3
+): Promise<TestMeta[]> {
+  const brandNorm = brand.trim().toLowerCase();
+  const all = await getAllTests();
+  return all
+    .filter((t) => t.slug !== slug && t.brand.trim().toLowerCase() === brandNorm)
+    .slice(0, limit);
+}
+
 export async function getAllTests(): Promise<TestMeta[]> {
   const slugs = await getAllTestSlugs();
 
@@ -156,8 +176,16 @@ export async function getTestBySlug(slug: string): Promise<Test> {
   const { data, content } = matter(fileContents);
   const meta = mapMeta(slug, data);
 
-  const processed = await remark().use(html).process(content);
+  const { markdown: cleanedMarkdown, headline } = cleanArticleMarkdown(content, {
+    brand: meta.brand,
+    model: meta.model
+  });
+  const processed = await remark().use(html, { sanitize: false }).process(cleanedMarkdown);
   const contentHtml = processed.toString();
+
+  if (headline) {
+    meta.headline = headline;
+  }
 
   return {
     meta,

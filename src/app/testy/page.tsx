@@ -14,14 +14,19 @@ export default async function TestsPage() {
   );
 
   return (
-    <div className="px-gutter pb-20 pt-28">
-      <header className="mb-16 border-b border-line pb-10">
-        <p className="label-mono mb-4">{tests.length} artykułów</p>
-        <h1 className="font-display text-display-lg uppercase">Testy</h1>
+    <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
+      <header className="reveal-section mb-20 border-b border-soft pb-16 md:mb-28 md:pb-20">
+        <p className="label-mono mb-8 text-stone-muted">{tests.length} artykułów</p>
+        <h1 className="font-display display-track text-display-lg uppercase text-ink">
+          Testy
+        </h1>
+        <p className="mt-8 max-w-md text-lead font-light text-subtle">
+          Indeks autorskich testów — od pierwszej jazdy po dłuższą relację z auta.
+        </p>
       </header>
 
       {tests.length === 0 ? (
-        <p className="text-subtle">Brak artykułów.</p>
+        <p className="font-light text-subtle">Brak artykułów.</p>
       ) : (
         <div>
           {tests.map((test, i) => (

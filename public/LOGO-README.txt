@@ -1,12 +1,12 @@
 Logo IDRIVECARS
 ===============
 
-Aby w nagłówku strony wyświetlało się Twoje logo:
+Źródło: idrivecars-logo.png (wordmark na białym tle).
 
-1. Skopiuj plik logo (PNG lub WebP) do tego folderu (public/).
-2. Nazwij go: idrivecars-logo.png
-   (albo idrivecars-logo.webp – wtedy w src/components/SiteHeader.tsx
-   zamień rozszerzenie w ścieżce na .webp)
+Warianty na stronie (przezroczyste PNG):
+- idrivecars-logo-dark.png — ciemny wordmark (nagłówek na jasnym tle / podstrony)
+- idrivecars-logo-light.png — jasny wordmark (hero, nagłówek po scrollu, stopka)
 
-Logo powinno być w poziomie (np. szerokość ok. 180–240 px), z przezroczystym
-tłem (wersja noBG) lub białym – nagłówek strony ma jasne tło.
+Regeneracja z oryginału:
+  npx tsx scripts/process-logo.ts
+  (potem zaktualizuj wymiary w src/lib/logo.ts jeśli się zmienią)

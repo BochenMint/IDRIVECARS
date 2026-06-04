@@ -1,26 +1,43 @@
 export const metadata = {
   title: "Kontakt",
-  description: "Kontakt z IDRIVECARS — współpraca, zdjęcia, testy."
+  description: "Kontakt z IDRIVECARS — współpraca redakcyjna, licencja na zdjęcia, pytania o testy."
 };
 
 export default function ContactPage() {
   return (
-    <div className="mx-auto max-w-2xl px-gutter pb-20 pt-28">
-      <header className="mb-12 border-b border-line pb-10">
-        <p className="label-mono mb-4">Napisz</p>
-        <h1 className="font-display text-display-lg uppercase">Kontakt</h1>
-      </header>
+    <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
+      <div className="mx-auto max-w-2xl">
+        <header className="reveal-section mb-20 border-b border-soft pb-16 md:mb-28 md:pb-20">
+          <p className="label-mono mb-8 text-stone-muted">Napisz</p>
+          <h1 className="font-display display-track text-display-lg uppercase text-ink">
+            Kontakt
+          </h1>
+          <p className="mt-8 max-w-md text-lead font-light text-subtle">
+            Współpraca redakcyjna, pytania o konkretny test, licencja na zdjęcia.
+          </p>
+        </header>
 
-      <div className="space-y-8">
-        <p className="text-base leading-relaxed text-ink/80">
-          Współpraca redakcyjna, licencja na zdjęcia, pytania o konkretny test.
-        </p>
-        <a
-          href="mailto:kontakt@idrivecars.pl"
-          className="inline-block font-display text-4xl uppercase tracking-wide transition hover:opacity-60"
-        >
-          kontakt@idrivecars.pl
-        </a>
+        <div className="reveal-section-delayed space-y-12">
+          <div>
+            <a
+              href="mailto:kontakt@idrivecars.pl"
+              className="group inline-block font-display display-track text-display-md uppercase text-ink transition-opacity duration-editorial hover:opacity-55"
+            >
+              kontakt@idrivecars.pl
+            </a>
+          </div>
+
+          <div className="space-y-6 border-t border-soft pt-12 font-light leading-[1.85] text-ink/75">
+            <p>
+              Jeśli interesuje Cię współpraca przy materiale motoryzacyjnym,
+              skontaktuj się mailowo z krótkim opisem projektu.
+            </p>
+            <p>
+              Zdjęcia z testów są objęte prawem autorskim. Licencja na użycie
+              konkretnych fotografii — wyłącznie na podstawie pisemnej zgody.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

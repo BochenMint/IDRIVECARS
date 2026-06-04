@@ -18,6 +18,7 @@ export type TestMeta = {
   power?: string;
   torque?: string;
   gearbox?: string;
+  headline?: string;
 };
 
 export type Test = {

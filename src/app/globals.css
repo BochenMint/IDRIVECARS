@@ -8,12 +8,17 @@
   }
 
   body {
-    @apply bg-canvas text-ink antialiased font-sans;
+    @apply bg-canvas font-sans font-light text-ink antialiased;
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   ::selection {
-    background: #0a0a0a;
-    color: #fff;
+    background: #000000;
+    color: #faf8f5;
   }
 }
 
@@ -23,11 +28,52 @@
   }
 
   .editorial-link {
-    @apply text-ink no-underline transition-opacity hover:opacity-60;
+    @apply text-stone no-underline opacity-70 transition-opacity duration-editorial hover:opacity-100;
+  }
+
+  .nav-link {
+    @apply tracking-nav-mono transition-opacity duration-editorial opacity-55 hover:opacity-100;
   }
 
   .label-mono {
-    @apply font-mono text-[11px] uppercase tracking-[0.12em] text-subtle;
+    @apply font-mono text-[10px] font-normal uppercase tracking-nav-mono text-stone-muted;
+  }
+
+  .border-soft {
+    @apply border-[#E5E0DA]/90;
+  }
+
+  .border-hairline {
+    @apply border-stone/25;
+  }
+
+  .display-track {
+    @apply tracking-display-wide subpixel-antialiased;
+  }
+
+  .text-lead {
+    @apply text-intro font-light text-subtle;
+  }
+
+  .focus-ring {
+    @apply outline-none focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-ink/80;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal-section {
+      animation: reveal-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+
+    .reveal-section-delayed {
+      animation: reveal-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.14s both;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal-section,
+    .reveal-section-delayed {
+      animation: none;
+    }
   }
 }
 
@@ -45,6 +91,24 @@
   .hide-scrollbar::-webkit-scrollbar {
     display: none;
   }
+
+  @keyframes reveal-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .editorial-link,
+  .nav-link {
+    transition: none;
+  }
 }
 
 .article-inline-image img {
@@ -53,7 +117,19 @@
   display: block;
 }
 
+/* Lead paragraph: strip bold weight so the large intro reads as
+   an elegant light opener rather than a heavy bold block. */
+.prose-article > p:first-of-type strong {
+  font-weight: 400;
+}
+
 :focus-visible {
-  outline: 2px solid #0a0a0a;
+  outline: 1px solid rgba(0, 0, 0, 0.75);
+  outline-offset: 2px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 1px solid rgba(0, 0, 0, 0.75);
   outline-offset: 3px;
 }

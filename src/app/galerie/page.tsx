@@ -1,11 +1,10 @@
-import Link from "next/link";
 import { TestCard } from "@/components/TestCard";
 import { getFirstGalleryImageSrc } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
 
 export const metadata = {
   title: "Galerie",
-  description: "Galerie zdjęć z testów IDRIVECARS."
+  description: "Galerie zdjęć z testów IDRIVECARS — własna fotografia Marcina Bochenka."
 };
 
 export default async function GalleriesPage() {
@@ -16,23 +15,33 @@ export default async function GalleriesPage() {
   );
 
   return (
-    <div className="px-gutter pb-20 pt-28">
-      <header className="mb-16 border-b border-line pb-10">
-        <p className="label-mono mb-4">{withGalleries.length} galerii</p>
-        <h1 className="font-display text-display-lg uppercase">Galerie</h1>
+    <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
+      <header className="reveal-section mb-24 border-b border-soft pb-16 md:mb-28 md:pb-20">
+        <p className="label-mono mb-8 text-stone-muted">{withGalleries.length} galerii</p>
+        <h1 className="font-display display-track text-display-lg uppercase text-ink">
+          Galerie
+        </h1>
+        <p className="mt-8 max-w-md text-lead font-light text-subtle">
+          Własna fotografia z każdego testu — bez obróbki agencji, bez stocków.
+        </p>
       </header>
 
-      <div className="grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3">
-        {withGalleries.map((test, i) => (
-          <TestCard key={test.slug} test={test} heroImageFallback={images[i] ?? null} variant="grid" />
-        ))}
-      </div>
-
-      {withGalleries.length === 0 && (
-        <p className="text-subtle">
+      {withGalleries.length === 0 ? (
+        <p className="font-light text-subtle">
           Uruchom <code className="font-mono text-sm">npm run convert:linked</code> aby wygenerować
           galerie.
         </p>
+      ) : (
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-14 lg:grid-cols-3 lg:gap-10">
+          {withGalleries.map((test, i) => (
+            <TestCard
+              key={test.slug}
+              test={test}
+              heroImageFallback={images[i] ?? null}
+              variant="grid"
+            />
+          ))}
+        </div>
       )}
     </div>
   );

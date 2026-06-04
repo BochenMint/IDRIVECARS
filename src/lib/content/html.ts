@@ -1,0 +1,79 @@
+/**
+ * Cleans up common MDX import artifacts in car-review articles.
+ *
+ * Problems addressed:
+ *  1. Broken bold-subheadings: `**Heading\n**rest` → `### Heading\n\nrest`
+ *  2. Body H1s: the real article title is extracted as `headline` (brand-aware),
+ *     remaining H1s are demoted to H2 so the page keeps a single <h1>.
+ *  3. Double-escaped HTML entities: &lt; → <, &gt; → >, etc.
+ */
+
+/** Lowercase + strip diacritics & non-alphanumerics for tolerant matching. */
+function normalizeForMatch(value?: string): string {
+  return (value ?? "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[^a-z0-9]+/g, "");
+}
+
+export function cleanArticleMarkdown(
+  raw: string,
+  opts: { brand?: string; model?: string } = {}
+): { markdown: string; headline?: string } {
+  // Normalize line endings to \n
+  let markdown = raw.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+
+  // 1. Fix broken bold-subheadings FIRST.
+  // Pattern: a line opening with ** with no closing ** on the same line, then a
+  // newline followed by ** (which was meant to close but opens the next block).
+  //   **Ostre krągłości\n**Z przodu...  →  ### Ostre krągłości\n\nZ przodu...
+  markdown = markdown.replace(/^\*\*([^\n*][^\n]*?)[ \t]*\n\*\*/gm, "### $1\n\n");
+
+  // 2. Choose the article title among body H1s (single `# `).
+  // The first H1 is NOT always the title — some files lead with an editorial note
+  // (e.g. "# Termin testu: 12-15.05") or a stylistic slogan ("# Radość z jazdy...")
+  // that lacks the car name. So we only adopt a body H1 as the title when it
+  // mentions the brand or the model; otherwise the (reliable) frontmatter title
+  // wins (headline = undefined). No "sole H1" fallback — it picked up slogans.
+  const brandNorm = normalizeForMatch(opts.brand);
+  const modelNorm = normalizeForMatch(opts.model);
+  const mentionsCar = (text: string): boolean => {
+    const n = normalizeForMatch(text);
+    return (
+      (brandNorm.length >= 2 && n.includes(brandNorm)) ||
+      (modelNorm.length >= 3 && n.includes(modelNorm))
+    );
+  };
+  const h1Regex = /^#(?!#)[ \t]+(.+?)[ \t]*$/gm;
+  const h1Matches = [...markdown.matchAll(h1Regex)];
+
+  let headline: string | undefined;
+  let chosenLine: string | undefined;
+  const chosen = h1Matches.find((m) => mentionsCar(m[1]));
+  if (chosen) {
+    headline = chosen[1].trim();
+    chosenLine = chosen[0];
+  }
+
+  // Remove only the chosen title line (first literal occurrence).
+  if (chosenLine) {
+    markdown = markdown.replace(chosenLine, "");
+  }
+
+  // 3. Demote any REMAINING body H1 (`# `) to H2 (`## `) — never compete with the
+  // single page <h1>. Multi-hash headings (##, ###) are untouched.
+  markdown = markdown.replace(/^#(?!#)[ \t]+/gm, "## ");
+
+  // 4. Decode double-escaped HTML entities so inline tags survive remark.
+  // Order matters: &amp; must be decoded LAST to avoid double-decoding.
+  markdown = markdown
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&");
+
+  return { markdown, headline };
+}

@@ -35,3 +35,14 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# TS build cache
+tsconfig.tsbuildinfo
+
+# Lokalne narzędzia / artefakty tymczasowe
+.claude/
+.tmp-*
+.tmp-import/

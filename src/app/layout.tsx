@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Inter, IBM_Plex_Mono } from "next/font/google";
-import { SITE_URL } from "@/lib/site";
+import {
+  SITE_AUTHOR,
+  SITE_DESCRIPTION,
+  SITE_KEYWORDS,
+  SITE_NAME,
+  SITE_URL
+} from "@/lib/site";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 import "./globals.css";
@@ -14,6 +20,7 @@ const bebas = Bebas_Neue({
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500"],
   variable: "--font-sans",
   display: "swap"
 });
@@ -27,26 +34,38 @@ const plexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "IDRIVECARS",
-    template: "%s · IDRIVECARS"
+    default: SITE_NAME,
+    template: `%s · ${SITE_NAME}`
   },
-  description:
-    "Autorskie testy samochodów, pierwsze jazdy i galerie zdjęć Marcina Bochenka.",
+  description: SITE_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
+  keywords: SITE_KEYWORDS,
+  authors: [{ name: SITE_AUTHOR.name, url: SITE_AUTHOR.url }],
+  creator: SITE_AUTHOR.name,
+  publisher: SITE_AUTHOR.name,
+  applicationName: SITE_NAME,
+  category: "automotive",
+  alternates: {
+    canonical: "/",
+    types: {
+      "application/rss+xml": `${SITE_URL}/feed.xml`
+    }
+  },
   openGraph: {
-    title: "IDRIVECARS",
-    description: "Testy samochodów. Własne zdjęcia. Bez hałasu.",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
     type: "website",
     url: SITE_URL,
     locale: "pl_PL",
-    siteName: "IDRIVECARS"
+    siteName: SITE_NAME
   },
   twitter: {
     card: "summary_large_image",
-    title: "IDRIVECARS",
-    description: "Testy samochodów. Własne zdjęcia. Bez hałasu."
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION
   },
-  robots: { index: true, follow: true }
+  robots: { index: true, follow: true },
+  formatDetection: { telephone: false }
 };
 
 type RootLayoutProps = {
@@ -56,7 +75,7 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pl" className={`${bebas.variable} ${inter.variable} ${plexMono.variable}`}>
-      <body>
+      <body className="text-body leading-body">
         <div className="page-shell">
           <SiteHeader />
           <main role="main">{children}</main>
