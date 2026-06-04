@@ -7,6 +7,8 @@ const IMAGE_QUALITY = 75;
 type TestCardProps = {
   test: TestMeta;
   heroImageFallback?: string | null;
+  /** Krótki klip wideo (drift/hero) — nadpisuje obraz gdy dostępny. */
+  heroVideoUrl?: string | null;
   variant?: "grid" | "row" | "hero";
   index?: number;
   /** Few gallery assets → smaller image accent (home grid). */
@@ -16,6 +18,7 @@ type TestCardProps = {
 export function TestCard({
   test,
   heroImageFallback,
+  heroVideoUrl,
   variant = "grid",
   index,
   galleryImageCount
@@ -24,11 +27,25 @@ export function TestCard({
   const heroAlt = [test.brand, test.model].filter(Boolean).join(" ") || test.title;
   const sparseGallery = galleryImageCount !== undefined && galleryImageCount < 3;
 
+  /** Poster (fallback dla wideo): heroVideoPoster z meta, potem heroSrc. */
+  const videoPoster = test.heroVideoPoster ?? heroSrc ?? undefined;
+
   if (variant === "hero") {
     return (
       <Link href={`/testy/${test.slug}`} className="group relative block full-bleed w-full">
         <div className="relative h-[min(72vh,52rem)] w-full max-h-[72vh] min-h-[42vh] overflow-hidden">
-          {heroSrc ? (
+          {/* Wideo hero — drift clip: autoplay, loop, muted */}
+          {heroVideoUrl ? (
+            <video
+              src={heroVideoUrl}
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster={videoPoster ?? undefined}
+              className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.97] transition-opacity duration-editorial group-hover:opacity-90"
+            />
+          ) : heroSrc ? (
             <Image
               src={heroSrc}
               alt={heroAlt}
@@ -102,10 +119,19 @@ export function TestCard({
   return (
     <article className="group">
       <Link href={`/testy/${test.slug}`} className="block">
-        <div
-          className={`relative w-full overflow-hidden ${gridAspect} ${gridMaxH}`}
-        >
-          {heroSrc ? (
+        <div className={`relative w-full overflow-hidden ${gridAspect} ${gridMaxH}`}>
+          {/* Grid: wideo (loop/muted) jeśli dostępne, inaczej obraz */}
+          {heroVideoUrl ? (
+            <video
+              src={heroVideoUrl}
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster={videoPoster ?? undefined}
+              className="absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-editorial group-hover:opacity-85"
+            />
+          ) : heroSrc ? (
             <Image
               src={heroSrc}
               alt={heroAlt}

@@ -46,3 +46,8 @@ tsconfig.tsbuildinfo
 .claude/
 .tmp-*
 .tmp-import/
+
+# Wideo — duże pliki binarne, serwowane lokalnie / przez CDN
+public/videos/*.mp4
+public/videos/*.webm
+# (poster JPG mogą trafić do repo jeśli są małe)

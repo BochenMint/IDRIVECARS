@@ -77,7 +77,10 @@ function mapMeta(slug: string, data: Record<string, unknown>): TestMeta {
     engine,
     power,
     torque,
-    gearbox
+    gearbox,
+    heroVideoUrl,
+    heroVideoPoster,
+    videoUrl
   } = data;
 
   if (typeof title !== "string" || typeof brand !== "string" || typeof model !== "string") {
@@ -107,7 +110,10 @@ function mapMeta(slug: string, data: Record<string, unknown>): TestMeta {
     engine: typeof engine === "string" ? engine : undefined,
     power: typeof power === "string" ? power : undefined,
     torque: typeof torque === "string" ? torque : undefined,
-    gearbox: typeof gearbox === "string" ? gearbox : undefined
+    gearbox: typeof gearbox === "string" ? gearbox : undefined,
+    heroVideoUrl: typeof heroVideoUrl === "string" ? heroVideoUrl : undefined,
+    heroVideoPoster: typeof heroVideoPoster === "string" ? heroVideoPoster : undefined,
+    videoUrl: typeof videoUrl === "string" ? videoUrl : undefined
   };
 }
 

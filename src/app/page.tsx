@@ -4,7 +4,7 @@ import { TestCard } from "@/components/TestCard";
 import { getGalleryImages } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
 import { jsonLdGraph, jsonLdScript, organizationNode, personNode, websiteNode } from "@/lib/seo";
-import { FEATURED_HERO_IMAGE_OVERRIDES, FEATURED_TEST_SLUGS, SITE_DESCRIPTION } from "@/lib/site";
+import { FEATURED_HERO_IMAGE_OVERRIDES, FEATURED_HERO_VIDEO_OVERRIDES, FEATURED_TEST_SLUGS, SITE_DESCRIPTION } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "IDRIVECARS — autorskie testy samochodów i pierwsze jazdy" },
@@ -30,11 +30,14 @@ export default async function HomePage() {
     if (!test) return null;
     const row = withImages.find((t) => t.test.slug === slug);
     const image = FEATURED_HERO_IMAGE_OVERRIDES[slug] ?? row?.image;
-    if (!image) return null;
-    return { test, image, galleryImageCount: row?.galleryImageCount ?? 0 };
+    const video = FEATURED_HERO_VIDEO_OVERRIDES[slug] ?? null;
+    // Artykuły z wideo nie potrzebują zdjęcia w hero (poster wystarczy jako fallback)
+    if (!image && !video) return null;
+    return { test, image: image ?? null, video, galleryImageCount: row?.galleryImageCount ?? 0 };
   }).filter(Boolean) as Array<{
     test: (typeof tests)[0];
-    image: string;
+    image: string | null;
+    video: string | null;
     galleryImageCount: number;
   }>;
 
@@ -53,6 +56,7 @@ export default async function HomePage() {
         <TestCard
           test={featured.test}
           heroImageFallback={featured.image}
+          heroVideoUrl={featured.video}
           variant="hero"
           galleryImageCount={featured.galleryImageCount}
         />
@@ -73,11 +77,12 @@ export default async function HomePage() {
         </div>
 
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-16 lg:grid-cols-3 lg:gap-x-12 lg:gap-y-20">
-          {gridItems.map(({ test, image, galleryImageCount }) => (
+          {gridItems.map(({ test, image, video, galleryImageCount }) => (
             <div key={test.slug} className="max-w-md sm:max-w-none">
               <TestCard
                 test={test}
                 heroImageFallback={image}
+                heroVideoUrl={video}
                 variant="grid"
                 galleryImageCount={galleryImageCount}
               />

@@ -19,6 +19,12 @@ export type TestMeta = {
   torque?: string;
   gearbox?: string;
   headline?: string;
+  /** Krótki klip wideo (hero, 720p, muted) — ścieżka względna od /public, np. /videos/amg-gt-s-drift.mp4 */
+  heroVideoUrl?: string;
+  /** Poster frame dla heroVideoUrl (fallback gdy wideo nie ładuje się). */
+  heroVideoPoster?: string;
+  /** Pełny film do odtwarzacza w artykule. */
+  videoUrl?: string;
 };
 
 export type Test = {

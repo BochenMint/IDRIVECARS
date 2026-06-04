@@ -209,7 +209,21 @@ export default async function TestPage({ params }: TestPageProps) {
         dangerouslySetInnerHTML={{ __html: jsonLdScript(ld) }}
       />
 
-      {heroImage && (
+      {/* Hero: wideo (drift clip) lub zdjęcie */}
+      {meta.heroVideoUrl ? (
+        <div className="full-bleed relative aspect-[16/9] max-h-[90vh] w-full overflow-hidden">
+          <video
+            src={meta.heroVideoUrl}
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster={meta.heroVideoPoster ?? heroImage ?? undefined}
+            className="absolute inset-0 h-full w-full object-cover object-center"
+          />
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-black/35 to-transparent" />
+        </div>
+      ) : heroImage ? (
         <div className="full-bleed relative aspect-[16/9] max-h-[90vh] w-full overflow-hidden">
           <Image
             src={heroImage}
@@ -221,7 +235,7 @@ export default async function TestPage({ params }: TestPageProps) {
           />
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-black/35 to-transparent" />
         </div>
-      )}
+      ) : null}
 
       {/* Mobile: single column — meta, breadcrumbs, title, specs, then prose */}
 
@@ -281,6 +295,23 @@ export default async function TestPage({ params }: TestPageProps) {
               aria-label="Treść artykułu"
               dangerouslySetInnerHTML={{ __html: contentWithInlineImages }}
             />
+
+            {/* Odtwarzacz pełnego filmu */}
+            {meta.videoUrl && (
+              <div className="mt-16 border-t border-soft pt-10">
+                <p className="label-mono mb-5 text-stone-muted">Film z testu</p>
+                <video
+                  src={meta.videoUrl}
+                  controls
+                  poster={meta.heroVideoPoster ?? heroImage ?? undefined}
+                  preload="metadata"
+                  className="w-full rounded-none bg-ink lg:max-w-[65ch]"
+                  style={{ aspectRatio: "16/9" }}
+                >
+                  Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+                </video>
+              </div>
+            )}
 
             {/* Author / E-E-A-T block */}
 

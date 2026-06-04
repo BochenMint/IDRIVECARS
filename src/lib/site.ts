@@ -32,6 +32,7 @@ export const SOCIAL_LINKS: string[] = [];
 
 /** Testy z galerią na stronie głównej (kolejność = priorytet; tylko slugi z manifestem). */
 export const FEATURED_TEST_SLUGS = [
+  "test-mercedes-amg-gt-s-testujemy-rywala-911",
   "mercedes-maybach-s-600",
   "volkswagen-passat-alltrack-all-inclusive",
   "ford-focus-rs-najlepszy-z-chuliganow",
@@ -54,7 +55,18 @@ export const FEATURED_TEST_SLUGS = [
 export const FEATURED_HERO_IMAGE_OVERRIDES: Partial<
   Record<(typeof FEATURED_TEST_SLUGS)[number], string>
 > = {
-  "mercedes-maybach-s-600": "/galleries/mercedes-maybach-s-600/13.webp"
+  "mercedes-maybach-s-600": "/galleries/mercedes-maybach-s-600/13.webp",
+  "test-mercedes-amg-gt-s-testujemy-rywala-911": "/videos/amg-gt-s-poster.jpg"
+};
+
+/**
+ * Krótki klip wideo (hero) dla wybranych testów na stronie głównej.
+ * Klip powinien być ≤15s, 720p, H.264, bez audio — autoplay/loop/muted.
+ */
+export const FEATURED_HERO_VIDEO_OVERRIDES: Partial<
+  Record<(typeof FEATURED_TEST_SLUGS)[number], string>
+> = {
+  "test-mercedes-amg-gt-s-testujemy-rywala-911": "/videos/amg-gt-s-drift.mp4"
 };
 
 export const SITE_AUTHOR = {
