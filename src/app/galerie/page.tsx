@@ -1,10 +1,21 @@
+import type { Metadata } from "next";
 import { TestCard } from "@/components/TestCard";
+import { JsonLd } from "@/components/JsonLd";
 import { getAllTests } from "@/lib/content/testy";
+import { breadcrumbSchema } from "@/lib/seo";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Galerie zdjęć",
   description:
-    "Galerie zdjęć z autorskich testów IDRIVECARS – duże kadry, detale i klimat każdego samochodu."
+    "Galerie zdjęć z autorskich testów IDRIVECARS – duże kadry, detale i klimat każdego samochodu.",
+  alternates: { canonical: "/galerie" },
+  openGraph: {
+    title: "Galerie zdjęć | IDRIVECARS",
+    description:
+      "Galerie zdjęć z autorskich testów IDRIVECARS – duże kadry, detale i klimat każdego samochodu.",
+    type: "website",
+    url: "/galerie"
+  }
 };
 
 export default async function GalleriesPage() {
@@ -13,6 +24,12 @@ export default async function GalleriesPage() {
 
   return (
     <section className="space-y-8">
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Strona główna", path: "/" },
+          { name: "Galerie", path: "/galerie" }
+        ])}
+      />
       <header className="space-y-3">
         <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">Galerie</p>
         <h1 className="font-display text-3xl tracking-tight sm:text-4xl">

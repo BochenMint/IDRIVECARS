@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+/** Panel admina nie powinien być nigdy indeksowany. */
+export const metadata: Metadata = {
+  robots: { index: false, follow: false }
+};
 
 /**
  * Panel administracyjny – docelowo chroniony middleware / NextAuth.

@@ -1,12 +1,33 @@
-export const metadata = {
+import type { Metadata } from "next";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema, personSchema } from "@/lib/seo";
+
+export const metadata: Metadata = {
   title: "O mnie",
   description:
-    "Kilka słów o projekcie IDRIVECARS i autorze – Marcinie Bochenku, dziennikarzu motoryzacyjnym."
+    "Kilka słów o projekcie IDRIVECARS i autorze – Marcinie Bochenku, dziennikarzu motoryzacyjnym.",
+  alternates: { canonical: "/o-mnie" },
+  openGraph: {
+    title: "O mnie | IDRIVECARS",
+    description:
+      "Kilka słów o projekcie IDRIVECARS i autorze – Marcinie Bochenku, dziennikarzu motoryzacyjnym.",
+    type: "profile",
+    url: "/o-mnie"
+  }
 };
 
 export default function AboutPage() {
   return (
     <section className="space-y-6">
+      <JsonLd
+        data={[
+          personSchema(),
+          breadcrumbSchema([
+            { name: "Strona główna", path: "/" },
+            { name: "O mnie", path: "/o-mnie" }
+          ])
+        ]}
+      />
       <header className="space-y-3">
         <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">O mnie</p>
         <h1 className="font-display text-3xl tracking-tight sm:text-4xl">IDRIVECARS i ja</h1>

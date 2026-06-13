@@ -1,10 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getNewsItems } from "@/lib/content/news";
 import { AdSlot } from "@/components/AdSlot";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "News motoryzacyjne",
-  description: "Najnowsze wiadomości ze świata motoryzacji – premiery, rynek, przepisy."
+  description: "Najnowsze wiadomości ze świata motoryzacji – premiery, rynek, przepisy.",
+  alternates: { canonical: "/news" },
+  openGraph: {
+    title: "News motoryzacyjne | IDRIVECARS",
+    description: "Najnowsze wiadomości ze świata motoryzacji – premiery, rynek, przepisy.",
+    type: "website",
+    url: "/news"
+  }
 };
 
 export default async function NewsPage() {

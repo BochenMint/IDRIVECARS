@@ -1,15 +1,24 @@
+import type { Metadata } from "next";
 import { Fragment } from "react";
 import { TestCard } from "@/components/TestCard";
 import { AdSlot } from "@/components/AdSlot";
+import { JsonLd } from "@/components/JsonLd";
 import { getFirstGalleryImageSrc } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
+import { breadcrumbSchema, itemListSchema } from "@/lib/seo";
 
-export const dynamic = "force-dynamic";
-
-export const metadata = {
+export const metadata: Metadata = {
   title: "Testy samochodów",
   description:
-    "Autorskie testy samochodów Marcina Bochenka – uczciwe wrażenia z jazdy, konkretne dane i duże zdjęcia."
+    "Autorskie testy samochodów Marcina Bochenka – uczciwe wrażenia z jazdy, konkretne dane i duże zdjęcia.",
+  alternates: { canonical: "/testy" },
+  openGraph: {
+    title: "Testy samochodów | IDRIVECARS",
+    description:
+      "Autorskie testy samochodów Marcina Bochenka – uczciwe wrażenia z jazdy, konkretne dane i duże zdjęcia.",
+    type: "website",
+    url: "/testy"
+  }
 };
 
 export default async function TestsPage() {
@@ -20,6 +29,20 @@ export default async function TestsPage() {
 
   return (
     <section className="space-y-8">
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Strona główna", path: "/" },
+            { name: "Testy", path: "/testy" }
+          ]),
+          itemListSchema(
+            tests.map((test) => ({
+              name: `${test.brand} ${test.model} – ${test.title}`,
+              path: `/testy/${test.slug}`
+            }))
+          )
+        ]}
+      />
       <header className="space-y-3">
         <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">Testy</p>
         <h1 className="font-display text-3xl tracking-tight sm:text-4xl">

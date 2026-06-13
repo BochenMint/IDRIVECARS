@@ -1,7 +1,17 @@
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Luźniejsze wpisy o motoryzacji – wrażenia z jazdy, obserwacje z rynku i komentarze Marcina Bochenka."
+    "Luźniejsze wpisy o motoryzacji – wrażenia z jazdy, obserwacje z rynku i komentarze Marcina Bochenka.",
+  alternates: { canonical: "/blog" },
+  openGraph: {
+    title: "Blog | IDRIVECARS",
+    description:
+      "Luźniejsze wpisy o motoryzacji – wrażenia z jazdy, obserwacje z rynku i komentarze Marcina Bochenka.",
+    type: "website",
+    url: "/blog"
+  }
 };
 
 export default function BlogPage() {

@@ -1,8 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { DM_Sans, Instrument_Serif } from "next/font/google";
 import { AdSlot } from "../components/AdSlot";
+import { JsonLd } from "../components/JsonLd";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
+import { organizationSchema, websiteSchema } from "../lib/seo";
+import { siteConfig } from "../lib/site";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -29,20 +32,56 @@ function AdBanner() {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
-    default: "IDRIVECARS – testy samochodów i galerie",
-    template: "%s | IDRIVECARS"
+    default: siteConfig.title,
+    template: `%s | ${siteConfig.name}`
   },
-  description:
-    "IDRIVECARS to autorskie testy samochodów, galerie zdjęć i blog motoryzacyjny Marcina Bochenka.",
-  metadataBase: new URL("https://idrivecars.example"), // TODO: podmień na docelową domenę
+  description: siteConfig.description,
+  applicationName: siteConfig.name,
+  keywords: [...siteConfig.keywords],
+  authors: [{ name: siteConfig.author.name, url: siteConfig.author.url }],
+  creator: siteConfig.author.name,
+  publisher: siteConfig.name,
+  alternates: {
+    canonical: "/"
+  },
+  category: "Motoryzacja",
+  formatDetection: {
+    email: false,
+    telephone: false,
+    address: false
+  },
   openGraph: {
-    title: "IDRIVECARS – testy samochodów i galerie",
-    description:
-      "Autorskie testy samochodów, galerie zdjęć i blog motoryzacyjny Marcina Bochenka.",
     type: "website",
-    url: "https://idrivecars.example"
+    locale: siteConfig.locale,
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    title: siteConfig.title,
+    description: siteConfig.description
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.title,
+    description: siteConfig.description,
+    creator: `@${siteConfig.name.toLowerCase()}`
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
   }
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0a0a",
+  colorScheme: "light"
 };
 
 type RootLayoutProps = {
@@ -53,10 +92,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pl" className={`h-full scroll-smooth ${dmSans.variable} ${instrumentSerif.variable}`}>
       <body className="min-h-full bg-surface text-ink antialiased font-sans">
+        <JsonLd data={[organizationSchema(), websiteSchema()]} />
+        <a href="#main-content" className="skip-link">
+          Przejdź do treści
+        </a>
         <div className="page-shell">
           <SiteHeader />
           <AdBanner />
-          <main className="page-main" role="main">
+          <main id="main-content" className="page-main" role="main">
             {children}
           </main>
           <SiteFooter />

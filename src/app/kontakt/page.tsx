@@ -1,7 +1,17 @@
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Skontaktuj się w sprawie testów, współpracy redakcyjnej lub wykorzystania zdjęć z projektu IDRIVECARS."
+    "Skontaktuj się w sprawie testów, współpracy redakcyjnej lub wykorzystania zdjęć z projektu IDRIVECARS.",
+  alternates: { canonical: "/kontakt" },
+  openGraph: {
+    title: "Kontakt | IDRIVECARS",
+    description:
+      "Skontaktuj się w sprawie testów, współpracy redakcyjnej lub wykorzystania zdjęć z projektu IDRIVECARS.",
+    type: "website",
+    url: "/kontakt"
+  }
 };
 
 export default function ContactPage() {

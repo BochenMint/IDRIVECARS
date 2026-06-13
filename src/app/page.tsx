@@ -3,15 +3,15 @@ import { TestCard } from "@/components/TestCard";
 import { getFirstGalleryImageSrc } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
 
-export const dynamic = "force-dynamic";
-
 export default async function HomePage() {
   const tests = await getAllTests();
   const latestTests = tests.slice(0, 6);
   const heroFallbacks = await Promise.all(
     latestTests.map((t) => getFirstGalleryImageSrc(t.galleryDir))
   );
-  const heroImage = heroFallbacks.find(Boolean) ?? null;
+  const heroIndex = heroFallbacks.findIndex(Boolean);
+  const heroImage = heroIndex >= 0 ? heroFallbacks[heroIndex] : null;
+  const heroTest = heroIndex >= 0 ? latestTests[heroIndex] : null;
 
   return (
     <>
@@ -49,8 +49,13 @@ export default async function HomePage() {
               <>
                 <img
                   src={heroImage}
-                  alt="Zdjęcie z testu samochodu"
+                  alt={
+                    heroTest
+                      ? `${heroTest.brand} ${heroTest.model} – zdjęcie z testu IDRIVECARS`
+                      : "Zdjęcie z testu samochodu IDRIVECARS"
+                  }
                   className="absolute inset-0 h-full w-full object-cover"
+                  fetchPriority="high"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent lg:bg-gradient-to-l lg:from-black/20" />
               </>
