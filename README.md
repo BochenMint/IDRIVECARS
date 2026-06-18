@@ -86,6 +86,29 @@ docs/                   # plany redakcyjne i techniczne
 - **Layout:** czysta siatka, duże fotografie, asymetryczny hero
 - **Performance:** WEBP, lazy loading, variable fonts, manifest galerii generowany przy buildzie
 
+## SEO
+
+Cała konfiguracja SEO jest scentralizowana w [`src/lib/site.ts`](src/lib/site.ts) — domena,
+tytuły, opisy, słowa kluczowe i dane autora. **Przed premierą ustaw produkcyjną domenę**
+w polu `siteConfig.url` (domyślnie `https://idrivecars.pl`); reszta (canonical, sitemap,
+robots, Open Graph, JSON-LD) wylicza się automatycznie.
+
+Co jest wbudowane:
+
+- **Metadane** — pełny zestaw (title/template, description, keywords, canonical, Open Graph,
+  Twitter Cards, robots) w [`layout.tsx`](src/app/layout.tsx) i per-stronie.
+- **Dane strukturalne (JSON-LD)** — `Organization`, `WebSite`, `Person`, `Article` (z opisem
+  pojazdu `Car`), `NewsArticle`, `BreadcrumbList`, `ItemList` — buildery w
+  [`src/lib/seo.ts`](src/lib/seo.ts).
+- **`sitemap.xml`** — strony statyczne + wszystkie testy i newsy, z priorytetami i
+  `changeFrequency` ([`sitemap.ts`](src/app/sitemap.ts)).
+- **`robots.txt`** — indeksacja dozwolona, `/admin` i `/api` wykluczone ([`robots.ts`](src/app/robots.ts)).
+- **Open Graph image** — generowany dynamicznie (1200×630) w
+  [`opengraph-image.tsx`](src/app/opengraph-image.tsx); testy nadpisują go zdjęciem z galerii.
+- **PWA / ikony** — [`manifest.ts`](src/app/manifest.ts) + `icon.svg`.
+- **Renderowanie statyczne (SSG)** — strony treści są prerenderowane do statycznego HTML
+  (lepszy Core Web Vitals i indeksacja).
+
 ## Dokumentacja
 
 - [`docs/CONTENT-MAP.md`](docs/CONTENT-MAP.md) — inwentaryzacja `D:\MARCIN` i mapowanie artykułów

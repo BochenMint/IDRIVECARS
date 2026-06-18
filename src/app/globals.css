@@ -28,6 +28,15 @@ a {
   outline-offset: 3px;
 }
 
+/* Link „przejdź do treści” dla nawigacji klawiaturą / czytników ekranu */
+.skip-link {
+  @apply sr-only;
+}
+
+.skip-link:focus {
+  @apply not-sr-only fixed left-4 top-4 z-50 rounded-md bg-ink px-4 py-2 text-sm font-medium text-white no-underline;
+}
+
 /* Zdjęcia w tekście artykułu – wstawiane automatycznie z galerii */
 .article-inline-image img {
   max-width: 100%;

@@ -1,14 +1,16 @@
 import type { MetadataRoute } from "next";
-
-const BASE_URL = "https://idrivecars.example"; // TODO: podmień na docelową domenę
+import { siteConfig } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
-      userAgent: "*",
-      allow: "/"
-    },
-    sitemap: `${BASE_URL}/sitemap.xml`
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin", "/admin/", "/api/"]
+      }
+    ],
+    sitemap: `${siteConfig.url}/sitemap.xml`,
+    host: siteConfig.url
   };
 }
-
