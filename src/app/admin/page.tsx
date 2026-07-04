@@ -8,6 +8,15 @@ export default function AdminHomePage() {
       <h1 className="font-display text-2xl tracking-tight">Panel administracyjny</h1>
       <div className="grid gap-4 sm:grid-cols-2">
         <Link
+          href="/admin/content"
+          className="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm transition hover:shadow-md"
+        >
+          <h2 className="font-semibold text-neutral-900">Treści (CMS)</h2>
+          <p className="mt-2 text-sm text-neutral-600">
+            Artykuły MDX, kategorie, walidacja i format importu dla workera.
+          </p>
+        </Link>
+        <Link
           href="/admin/news"
           className="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm transition hover:shadow-md"
         >

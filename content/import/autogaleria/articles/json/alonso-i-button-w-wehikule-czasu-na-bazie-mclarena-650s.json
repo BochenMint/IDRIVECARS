@@ -1,0 +1,87 @@
+{
+  "slug": "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+  "urlKey": "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+  "sourceUrl": "https://autogaleria.pl/alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:42:23.985Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Alonso i Button w wehikule czasu na bazie McLarena 650S",
+  "excerpt": "Oglądaliście \"Powrót do przyszłości\"? McLaren wypuścił film poprzedzający premierę ich nowego bolidu Formuły 1. W roli głównej - wehikuł czasu na bazie 650S...",
+  "lead": "Oglądaliście \"Powrót do przyszłości\"? McLaren wypuścił film poprzedzający premierę ich nowego bolidu Formuły 1. W roli głównej - wehikuł czasu na bazie 650S...",
+  "category": "Ciekawostki",
+  "categories": [
+    {
+      "id": 220,
+      "name": "Ciekawostki",
+      "slug": "ciekawostki",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "film",
+    "mclaren",
+    "alonso",
+    "button",
+    "f1"
+  ],
+  "publishedAt": "2015-01-28",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>W przeddzień prezentacji najnowszego bolidu F1 McLarena proponujemy Wam ciekawy film, w którym Fernando Alonso zaprasza Jensona Buttona na przejażdżkę stworzonym przez niego zdalnie sterowanym wehikułem czasu w nadwoziu McLarena 650S. Cel: GP Australii 2015!</p>\n<p>https://www.youtube.com/watch?v=obRgDko-IpI</p>\n<p>&nbsp;</p>\n",
+  "bodyMarkdown": "W przeddzień prezentacji najnowszego bolidu F1 McLarena proponujemy Wam ciekawy film, w którym Fernando Alonso zaprasza Jensona Buttona na przejażdżkę stworzonym przez niego zdalnie sterowanym wehikułem czasu w nadwoziu McLarena 650S. Cel: GP Australii 2015!\n\nhttps://www.youtube.com/watch?v=obRgDko-IpI",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "obRgDko-IpI",
+      "url": "https://www.youtube.com/watch?v=obRgDko-IpI",
+      "embedUrl": "https://www.youtube.com/embed/obRgDko-IpI"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-3.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-2.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-3.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-4.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-3.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-2.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-3.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/mclaren-alonso-button-wehikul-czasu-2015-4.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Alonso i Button w wehikule czasu na bazie McLarena 650S",
+    "description": "Oglądaliście \"Powrót do przyszłości\"? McLaren wypuścił film poprzedzający premierę ich nowego bolidu Formuły 1. W roli głównej - wehikuł czasu na bazie 650S..."
+  },
+  "cars": [
+    "McLaren"
+  ],
+  "imageCacheLocal": [
+    "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s/hero.jpg",
+    "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s/gallery-1.jpg",
+    "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s/gallery-2.jpg",
+    "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s/gallery-3.jpg"
+  ]
+}

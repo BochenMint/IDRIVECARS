@@ -1,0 +1,87 @@
+{
+  "slug": "tak-brzmi-aston-martin-vulcan",
+  "urlKey": "tak-brzmi-aston-martin-vulcan",
+  "sourceUrl": "https://autogaleria.pl/tak-brzmi-aston-martin-vulcan",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:41:56.563Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Tak brzmi Aston Martin Vulcan",
+  "excerpt": "Aston Martin zaprezentował ostatni teaser konkurenta Ferrari FXX K i McLarena P1 GTR - Vulcana.",
+  "lead": "Aston Martin zaprezentował ostatni teaser konkurenta Ferrari FXX K i McLarena P1 GTR - Vulcana.",
+  "category": "Nowości i premiery",
+  "categories": [
+    {
+      "id": 217,
+      "name": "Nowości i premiery",
+      "slug": "nowosci-i-premiery",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "film",
+    "2015",
+    "teaser",
+    "aston",
+    "martin",
+    "genewa",
+    "vulcan"
+  ],
+  "publishedAt": "2015-02-20",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Zawiera to, co lubimy najbardziej - grzmiący dźwięk silnika V12 i płomienie z umieszczonych po bokach rurach wydechowych. Życzymy miłego seansu, a my zaczynamy pakować się do Genewy - właśnie tam, już 3-go Marca będziemy świadkami premiery tego radykalnego, torowego modelu Astona.</p>\n<p>https://www.youtube.com/watch?v=ktD_ueZtReg</p>\n",
+  "bodyMarkdown": "Zawiera to, co lubimy najbardziej - grzmiący dźwięk silnika V12 i płomienie z umieszczonych po bokach rurach wydechowych. Życzymy miłego seansu, a my zaczynamy pakować się do Genewy - właśnie tam, już 3-go Marca będziemy świadkami premiery tego radykalnego, torowego modelu Astona.\n\nhttps://www.youtube.com/watch?v=ktD\\_ueZtReg",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "ktD_ueZtReg",
+      "url": "https://www.youtube.com/watch?v=ktD_ueZtReg",
+      "embedUrl": "https://www.youtube.com/embed/ktD_ueZtReg"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/02/aston-martin-vulcan-video-teaser-2015.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/02/aston-martin-vulcan-teaser-2015-11.jpg",
+      "https://autogaleria.pl/content/uploads/2015/02/aston-martin-vulcan-teaser-2015-21.jpg",
+      "https://autogaleria.pl/content/uploads/2015/02/aston-martin-vulcan-video-teaser-2015.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/02/aston-martin-vulcan-video-teaser-2015.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/02/aston-martin-vulcan-teaser-2015-11.jpg",
+        "https://autogaleria.pl/content/uploads/2015/02/aston-martin-vulcan-teaser-2015-21.jpg",
+        "https://autogaleria.pl/content/uploads/2015/02/aston-martin-vulcan-video-teaser-2015.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Tak brzmi Aston Martin Vulcan | FILM",
+    "description": "Aston Martin zaprezentował ostatni teaser konkurenta Ferrari FXX K i McLarena P1 GTR - Vulcana."
+  },
+  "cars": [
+    "Aston Martin"
+  ],
+  "imageCacheLocal": [
+    "tak-brzmi-aston-martin-vulcan/hero.jpg",
+    "tak-brzmi-aston-martin-vulcan/gallery-1.jpg",
+    "tak-brzmi-aston-martin-vulcan/gallery-2.jpg",
+    "tak-brzmi-aston-martin-vulcan/gallery-3.jpg"
+  ]
+}

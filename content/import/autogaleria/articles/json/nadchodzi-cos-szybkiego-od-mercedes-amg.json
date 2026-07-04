@@ -1,0 +1,88 @@
+{
+  "slug": "nadchodzi-cos-szybkiego-od-mercedes-amg",
+  "urlKey": "nadchodzi-cos-szybkiego-od-mercedes-amg",
+  "sourceUrl": "https://autogaleria.pl/nadchodzi-cos-szybkiego-od-mercedes-amg",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:24.184Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Nadchodzi \"coś szybkiego\" od Mercedes-AMG!",
+  "excerpt": "Mercedes umieścił w sieci film zapowiadający nowy model z Affalterbach. Wiadomość jest prosta: nadchodzi coś szybkiego...",
+  "lead": "Mercedes umieścił w sieci film zapowiadający nowy model z Affalterbach. Wiadomość jest prosta: nadchodzi coś szybkiego...",
+  "category": "Po godzinach...",
+  "categories": [
+    {
+      "id": 2485,
+      "name": "Po godzinach...",
+      "slug": "po-godzinach",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "video",
+    "mercedes",
+    "amg",
+    "nowy",
+    "teaser",
+    "mercedes-AMG",
+    "model",
+    "affalterbach",
+    "nowy amg",
+    "amg gt",
+    "mercedes amg gt"
+  ],
+  "publishedAt": "2015-07-03",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Dźwięk sugeruje groźniejszą wersję <span style=\"color: #ff6600;\"><a style=\"color: #ff6600;\" href=\"https://autogaleria.pl/testy/mercedes-amg-gt-s/\" target=\"_blank\">Mercedesa-AMG GT</a></span> (dźwięku posłuchaj <span style=\"color: #ff6600;\"><strong><a style=\"color: #ff6600;\" href=\"https://autogaleria.pl/filmy/mercedes-amg-gt-s-video/\" target=\"_blank\">tutaj</a></strong></span>)... Ale czy ten samochód naprawdę może być jeszcze lepszy? A może to zupełnie inny model? Oceńcie sami:</p>\n<p>https://www.youtube.com/watch?v=uC7YfvvrcL0</p>\n<p>Zapraszamy do podzielenia się swoimi podejrzeniami na naszym forum!</p>\n",
+  "bodyMarkdown": "Dźwięk sugeruje groźniejszą wersję [Mercedesa-AMG GT](https://autogaleria.pl/testy/mercedes-amg-gt-s/) (dźwięku posłuchaj **[tutaj](https://autogaleria.pl/filmy/mercedes-amg-gt-s-video/)**)... Ale czy ten samochód naprawdę może być jeszcze lepszy? A może to zupełnie inny model? Oceńcie sami:\n\nhttps://www.youtube.com/watch?v=uC7YfvvrcL0\n\nZapraszamy do podzielenia się swoimi podejrzeniami na naszym forum!",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "uC7YfvvrcL0",
+      "url": "https://www.youtube.com/watch?v=uC7YfvvrcL0",
+      "embedUrl": "https://www.youtube.com/embed/uC7YfvvrcL0"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/07/mercedes-amg-video-teaser-2015-2-2.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/07/mercedes-amg-video-teaser-2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/mercedes-amg-video-teaser-2015-2-2.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/07/mercedes-amg-video-teaser-2015-2-2.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/07/mercedes-amg-video-teaser-2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/mercedes-amg-video-teaser-2015-2-2.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Nadchodzi \"coś szybkiego\" od Mercedes-AMG! | VIDEO",
+    "description": "Mercedes umieścił w sieci film zapowiadający nowy model z Affalterbach. Wiadomość jest prosta: nadchodzi coś szybkiego..."
+  },
+  "cars": [
+    "Mercedes"
+  ],
+  "imageCacheLocal": [
+    "nadchodzi-cos-szybkiego-od-mercedes-amg/hero.jpg",
+    "nadchodzi-cos-szybkiego-od-mercedes-amg/gallery-1.jpg",
+    "nadchodzi-cos-szybkiego-od-mercedes-amg/gallery-2.jpg"
+  ]
+}

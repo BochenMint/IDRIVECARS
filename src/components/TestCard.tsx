@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { TestMeta } from "../lib/content/types";
+import { articlePublicPath } from "@/lib/content/categories";
+import type { ArticleMeta } from "../lib/content/types-article";
 
 const IMAGE_QUALITY = 75;
 
 type TestCardProps = {
-  test: TestMeta;
+  test: ArticleMeta;
   heroImageFallback?: string | null;
   /** Krótki klip wideo (drift/hero) — nadpisuje obraz gdy dostępny. */
   heroVideoUrl?: string | null;
@@ -30,9 +31,11 @@ export function TestCard({
   /** Poster (fallback dla wideo): heroVideoPoster z meta, potem heroSrc. */
   const videoPoster = test.heroVideoPoster ?? heroSrc ?? undefined;
 
+  const href = articlePublicPath(test.category, test.slug);
+
   if (variant === "hero") {
     return (
-      <Link href={`/testy/${test.slug}`} className="group relative block full-bleed w-full">
+      <Link href={href} className="group relative block full-bleed w-full">
         <div className="relative h-[min(72vh,52rem)] w-full max-h-[72vh] min-h-[42vh] overflow-hidden">
           {/* Wideo hero — drift clip: autoplay, loop, muted */}
           {heroVideoUrl ? (
@@ -80,7 +83,7 @@ export function TestCard({
     return (
       <article className="group border-b border-soft">
         <Link
-          href={`/testy/${test.slug}`}
+          href={href}
           className="grid grid-cols-[3.75rem_1fr] gap-6 py-14 sm:grid-cols-[5.5rem_1fr_12rem] sm:items-center sm:gap-12 sm:py-16"
         >
           <span className="font-display text-4xl leading-none tracking-wide text-stone-muted/60 transition-opacity duration-editorial group-hover:text-stone-muted sm:text-[2.75rem]">
@@ -118,7 +121,7 @@ export function TestCard({
 
   return (
     <article className="group">
-      <Link href={`/testy/${test.slug}`} className="block">
+      <Link href={href} className="block">
         <div className={`relative w-full overflow-hidden ${gridAspect} ${gridMaxH}`}>
           {/* Grid: wideo (loop/muted) jeśli dostępne, inaczej obraz */}
           {heroVideoUrl ? (

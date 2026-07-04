@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Stellantis Corporate Press (fixture)</title>
+    <description>Offline fixture for official RSS adapter tests</description>
+    <link>https://www.media.stellantis.com/</link>
+    <item>
+      <title>Fixture: Stellantis corporate press release</title>
+      <link>https://www.media.stellantis.com/em-en/corporate/press/fixture-press-release</link>
+      <guid>https://www.media.stellantis.com/em-en/corporate/press/fixture-press-release</guid>
+      <pubDate>Mon, 01 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Fixture description for RSS parser validation.</description>
+      <enclosure type="image/jpeg" length="1024" url="https://www.media.stellantis.com/fixture.jpg"/>
+    </item>
+    <item>
+      <title>Fixture: sanitize XML entities &amp; tags</title>
+      <link>https://www.media.stellantis.com/em-en/corporate/press/fixture-sanitize</link>
+      <guid>https://www.media.stellantis.com/em-en/corporate/press/fixture-sanitize</guid>
+      <pubDate>Sun, 31 May 2026 08:00:00 +0200</pubDate>
+      <description>Test &lt;description&gt; with unescaped ampersand &amp; angle brackets.</description>
+    </item>
+  </channel>
+</rss>

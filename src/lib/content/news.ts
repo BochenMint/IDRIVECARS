@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import type { NewsItem, UserDecision } from "./types-news";
+import type { NewsItem, UserDecision, NewsStatus } from "./types-news";
 
 const NEWS_DIR = path.join(process.cwd(), "content", "news");
 const NEWS_DECISIONS_PATH = path.join(process.cwd(), "content", "news-decisions.json");
@@ -51,12 +51,29 @@ export async function getAllNewsSlugs(): Promise<string[]> {
   }
 }
 
+const PUBLIC_STATUSES: NewsStatus[] = ["published"];
+
+function isPublicStatus(status: NewsStatus | undefined): boolean {
+  return !status || PUBLIC_STATUSES.includes(status);
+}
+
 export async function getNewsItems(limit = 50): Promise<NewsItem[]> {
   const slugs = await getAllNewsSlugs();
   const items: NewsItem[] = [];
   for (const slug of slugs.slice(0, limit)) {
     const item = await getNewsBySlug(slug);
-    if (item && item.status !== "rejected" && item.status !== "draft") items.push(item);
+    if (item && isPublicStatus(item.status)) items.push(item);
+  }
+  return items.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+}
+
+/** Wszystkie wpisy dla panelu admin (w tym draft/review). */
+export async function getAllNewsItems(limit = 50): Promise<NewsItem[]> {
+  const slugs = await getAllNewsSlugs();
+  const items: NewsItem[] = [];
+  for (const slug of slugs.slice(0, limit)) {
+    const item = await getNewsBySlug(slug);
+    if (item && item.status !== "rejected") items.push(item);
   }
   return items.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
@@ -90,6 +107,10 @@ export async function getNewsBySlug(slug: string): Promise<NewsItem | null> {
     manufacturerId: data.manufacturerId as string | undefined,
     userDecision: dec?.userDecision ?? (data.userDecision as UserDecision | undefined) ?? null,
     decidedAt: dec?.decidedAt ?? (data.decidedAt as string | undefined) ?? null,
-    styleReference: (data.styleReference as NewsItem["styleReference"]) ?? "testy"
+    styleReference: (data.styleReference as NewsItem["styleReference"]) ?? "testy",
+    seoTitle: data.seoTitle as string | undefined,
+    seoDescription: data.seoDescription as string | undefined,
+    tags: data.tags as string[] | undefined,
+    canonicalUrl: data.canonicalUrl as string | undefined
   };
 }

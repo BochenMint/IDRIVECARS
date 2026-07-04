@@ -1,0 +1,44 @@
+name: News scan
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Sanity check
+        run: npm run news:sanity
+
+      - name: RSS adapter test (fixture + live)
+        run: npm run news:test-rss
+
+      - name: Scan press sources
+        run: npm run news:scan
+        env:
+          NEWS_DOWNLOAD_IMAGES: "0"
+
+      - name: Prepare AI jobs
+        run: npm run news:ai-prepare
+
+      - name: Upload scan artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: news-scan-${{ github.run_id }}
+          path: |
+            data/news/index.json
+            data/news/raw/
+            data/news/ai-jobs/
+          retention-days: 14

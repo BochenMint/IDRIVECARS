@@ -27,8 +27,7 @@ export default async function NewsPage() {
         <div>
           {items.length === 0 ? (
             <p className="py-8 font-light text-subtle">
-              Brak opublikowanych newsów. W panelu administracyjnym możesz skonfigurować źródła RSS
-              i uruchomić pobieranie.
+              Brak opublikowanych newsów. Wróć wkrótce — sekcja jest aktualizowana na bieżąco.
             </p>
           ) : (
             <ul className="divide-y divide-line">

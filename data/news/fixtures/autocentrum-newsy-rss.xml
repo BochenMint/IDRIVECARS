@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>AutoCentrum</title>
+    <description>Niezależny portal motoryzacyjny</description>
+    <link>https://www.autocentrum.pl</link>
+    <item>
+      <title>Fixture: Masz samochód? Uważaj na kuny</title>
+      <description><![CDATA[Kuna potrafi przegryźć przewody i unieruchomić samochód — koszt naprawy > 2000 zł.]]></description>
+      <pubDate>Tue, 30 Jun 2026 19:29:54 +0200</pubDate>
+      <link>https://www.autocentrum.pl/newsy/masz-samochod-uwazaj-na-kuny-naprawa-moze-kosztowac-tysiace-zlotych/</link>
+      <guid>https://www.autocentrum.pl/newsy/masz-samochod-uwazaj-na-kuny-naprawa-moze-kosztowac-tysiace-zlotych/</guid>
+      <enclosure type="image/jpeg" length="1024" url="https://www.autocentrum.pl/ac-file/news/fixture.jpg"/>
+    </item>
+    <item>
+      <title>Fixture: opis z niezakodowanym &lt; znakiem 2 &lt; 3</title>
+      <description>Test sanitizacji: wartość 2 &lt; 3 w opisie bez CDATA.</description>
+      <pubDate>Mon, 01 Jun 2026 12:00:00 +0200</pubDate>
+      <link>https://www.autocentrum.pl/newsy/fixture-sanitize/</link>
+      <guid>https://www.autocentrum.pl/newsy/fixture-sanitize/</guid>
+    </item>
+  </channel>
+</rss>

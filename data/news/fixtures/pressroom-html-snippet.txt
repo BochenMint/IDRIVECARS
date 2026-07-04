@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Press room catalog page (not RSS)</title></head>
+<body>
+  <h1>Official press room listing</h1>
+  <p>This HTML snippet simulates a newsroom index page — not an RSS feed.</p>
+</body>
+</html>

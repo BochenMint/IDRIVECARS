@@ -1,0 +1,102 @@
+{
+  "slug": "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+  "urlKey": "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+  "sourceUrl": "https://autogaleria.pl/rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:39:52.448Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Rolls-Royce Dawn - Najlepszy kabriolet na świecie? [galeria]",
+  "excerpt": "Niesamowity Rolls-Royce Wraith chwycił nas za serce od pierwszego wejrzenia. Mocniejszy, bardziej dynamiczny i stworzony po to, by nim jeździć, a nie być wożonym. Teraz marka z Goodwood pokazuje nam jeszcze lepszy sposób, by cieszyć się życiem. Oto świt nowego modelu. To Rolls-Royce Dawn.",
+  "lead": "Niesamowity Rolls-Royce Wraith chwycił nas za serce od pierwszego wejrzenia. Mocniejszy, bardziej dynamiczny i stworzony po to, by nim jeździć, a nie być wożonym. Teraz marka z Goodwood pokazuje nam jeszcze lepszy sposób, by cieszyć się życiem. Oto świt nowego modelu. To Rolls-Royce Dawn.",
+  "category": "Nowości i premiery",
+  "categories": [
+    {
+      "id": 217,
+      "name": "Nowości i premiery",
+      "slug": "nowosci-i-premiery",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "rolls",
+    "royce",
+    "wraith",
+    "kabriolet",
+    "convertible",
+    "2015",
+    "premiera",
+    "dawn",
+    "rolls dawn",
+    "Rolls Royce"
+  ],
+  "publishedAt": "2015-09-08",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>&nbsp;</p>\n",
+  "bodyMarkdown": "",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/09/55eed6fdc9068.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/09/55eecf6c5bc0f.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55eed6ee136c7.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55eed6fdc9068.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55ed732096bd8.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55eecf51bef25.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55edcc640d648.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55eecf60a5001.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55eecf62c9f40.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55eed6fb5242a.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55ed731d4be52.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55ed732027f58.jpg",
+      "https://autogaleria.pl/content/uploads/2015/09/55edcc639e0d9.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/09/55eed6fdc9068.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/09/55eecf6c5bc0f.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55eed6ee136c7.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55eed6fdc9068.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55ed732096bd8.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55eecf51bef25.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55edcc640d648.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55eecf60a5001.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55eecf62c9f40.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55eed6fb5242a.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55ed731d4be52.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55ed732027f58.jpg",
+        "https://autogaleria.pl/content/uploads/2015/09/55edcc639e0d9.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Rolls-Royce Dawn - Najlepszy kabriolet na świecie | NEWS",
+    "description": "Marka z Goodwood pokazuje nam jeszcze lepszy sposób, by cieszyć się życiem. Oto świt nowego modelu. To Rolls-Royce Dawn."
+  },
+  "cars": [
+    "Rolls-Royce"
+  ],
+  "imageCacheLocal": [
+    "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria/hero.jpg",
+    "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria/gallery-1.jpg",
+    "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria/gallery-2.jpg",
+    "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria/gallery-3.jpg"
+  ]
+}

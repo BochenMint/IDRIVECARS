@@ -1,0 +1,49 @@
+---
+slug: "choroba-zwana-predkoscia"
+title: "Choroba zwana prędkością"
+publishedAt: "2015-01-05"
+category: "Felietony"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/choroba-zwana-predkoscia"
+discoveredVia: "elasticsearch-author"
+lead: "Większość z Was, motoryzacyjnie zapaleni czytelnicy, słyszała zapewne stwierdzenie, według którego prędkość jest chorobą, z której nie można się wyleczyć..."
+tags: ["blog", "prędkość", "wszystko", "nic", "bochenek", "motoryzacja", "choroba", "zwana", "predkoscia", "marcin", "albo"]
+---
+
+Dzisiaj chciałbym potwierdzić, bazując na własnym doświadczeniu, że taka choroba istnieje. Nie jest łatwo się nią zarazić - na to musi złożyć się kilka czynników. Ale jak już wirus wysooktanowy dostanie się do organizmu, zaczyna powoli zamieniać krew w benzynę, aż do momentu, w którym nic poza wyścigami i jazdą na granicy nie jest dla nosiciela w pełni satysfakcjonujące.
+
+**Jak można się zarazić?**
+
+Jak wspominałem, nie jest to łatwe. To wyjątkowo trudny do zrealizowania zbieg okoliczności. Rozłóżmy na czynniki pierwsze schemat zarażenia się...
+
+Przede wszystkim trzeba być fanem motoryzacji i mieć na ten temat pewną wiedzę. O ile nie trafiliście tu przez przypadek, myślę, że to stawia Was wśród kandydatów do zarażenia się. Badania tego nie potwierdziły, bo „amerykańscy naukowcy” takich badań nie prowadzą, ale to pierwszy krok na drodze do choroby. Wirus bytuje w mózgu - zagnieżdża sie w obszarze motoryzacyjnym naszej pamięci - to ten obszar w kształcie silnika, często w układzie „V”, który ujawnia się tylko wtedy, gdy przed tomografią komputerową do kontrastu dodamy odrobinę benzyny. Tam wirus czeka na okazję do rozwinięcia się...
+
+Taka okazja może nadejść, gdy nosiciel rozwinie w wystarczającym stopniu swoje umiejętności szybkiej jazdy, niekoniecznie w warunkach rzeczywistych - dużą moc w tym względzie mają również symulatory wyścigowe na PC czy konsole. Czasami choroba rozwija się tak szybko, że zwiększa żądzę prędkości kierowców zbyt wcześnie, a ci, niezdolni się jej oprzeć, jeżdżą z prędkością przekraczającą ich możliwości, do tego w nieodpowiednich warunkach. Tak, wirus potrafi być zabójczy.
+
+Częściej jednak pozostaje uśpiony aż do momentu, w którym nosiciel mający pojęcie o wyścigach i technice jazdy odbędzie swój chrzest na torze wyścigowym. Warunek wiedzy o szybkiej jeździe jest tu warunkiem, bowiem osoba nie posiadająca odpowiedniego przeszkolenia może szybko się zniechęcić, co uniemożliwi wirusowi rozwój i być może uchroni nosiciela przed całkowitym poddaniem się postępującej chorobie. To ostatnia szansa, by uniknąć zupełnego stoczenia się w świat wysokich prędkości...
+
+**Objawy u chorego**
+
+Gdy „wjeżdżony” w sport motorowy chory zostaje odstawiony od rywalizacji, mogą pojawić się u niego objawy takie jak rozdrażnienie, senność czy kiepskie samopoczucie. W bardziej skrajnych przypadkach może występować tzw. „syndrom niespokojnych nóg”, który w tym przypadku najczęściej objawia się zamiennymi ruchami lewej i prawej stopy podczas snu, do złudzenia przypominającymi te występujące podczas zmian biegów. Dodam, że to wcale nie są żarty…
+
+Próbując dostarczyć sobie nieco wyścigowej adrenaliny, niektórzy kierowcy decydują się na jazdę znacznie przekraczającą dozwolone przepisy, narażając siebie oraz innych na niebezpieczeństwo. Stąd wynika organizacja nielegalnych wyścigów w dużych miastach, gdzie nie ma dostępu do torów wyścigowych. Niestety, nie zapewnia to długofalowych korzyści dla chorego.
+
+Objawy łagodzą również wyścigi na symulatorach, szczególnie udział w zawodach ogranizowanych przez internet. Regularne uczestnictwo w takich cyklach pozwala złagodzić brak rzeczywistego ścigania właściwie za darmo, co jest bardzo dobrym i bezpiecznym rozwiązaniem na aktywność pomiędzy wizytami na prawdziwych torach wyścigowych.
+
+Niestety, po kilku tygodniach od ostatniego kontaktu z jazdą torową, objawy odstawienne wcale nie ustepują, jak ma to miejsce w przypadku uzależnień od różnych substancji, lecz robi się jeszcze gorzej. W trudnych przypadkach w grę wchodzi całkowity brak zadowolenia z codziennych przyjemności, spadek radości życia, a nawet depresja. To jest poważna sprawa, więc zastanów się, zanim podejmiesz jakiekolwiek kroki w świecie sportów motorowych...
+
+Znane są przypadki tak ciężkie, że nawet regularna aktywność w pełnym cyklu najwyższej serii wyścigowej świata nie jest w stanie w pełni zaspokoić żądzy prędkości i adrenaliny. Mówię tu oczywiście o Robercie Kubicy, który startując w barwach teamu Renault (w kolejnym sezonie team zmieniał nazwę na Lotus Renault) dodatkowo startował w amatorskich rajdach samochodowych za kierownicą własnej rajdówki. Pamiętacie chyba, jak to się skończyło... Po raz kolejny zaznaczam - to realna i niebezpieczna choroba.
+
+**Gdy się jej oddasz**
+
+Gdy po miesiącach oczekiwania, braku satysfakcji i adrenaliny w szarej codzienności, wreszcie wrócisz na tor wyścigowy w porządnym samochodzie… Nic nie może się równać z tym uczuciem. Totalna radość, nirwana, spełnienie. Tego nie potrafi zrozumieć nikt zdrowy. To ogromna ulga, poczucie spełnienia i znalezienie swojego miejsca na ziemi. Świadomość, że to, co robisz w tym momencie wychodzi ci naprawdę dobrze. Umiesz to robić. Jesteś w tym dobry. A gdy oprócz samej jazdy na torze wyścigowym bierzesz udział w wyścigu… To kolejny poziom.
+
+Już przed startem maszyna zaczyna działać. Świadomość, że zaraz będziesz robić coś, co zawsze ci w życiu wychodziło. Że pokażesz innym, na co cię stać. Wykorzystasz w najlepszy sposób wszystkie możliwe umiejętności.
+
+**Start.**
+
+Umysł błyskawicznie przyspiesza – nie trzeba wiele, wystarczy kilkaset metrów ze świadomością, że się ścigasz. Reakcje na otoczenie są wręcz idealne – ciało dokładnie odwzorowuje bodźce wysyłane przez umysł. Tracisz obraz, jaki na co dzień generują oczy. Zastępuje go coś innego – jakbyś miał jedno, szerokokątne oko, które widzi wszystko. Prawie nie ruszasz oczami, nie musisz. Wreszcie korzystasz z całego pola widzenia. Wreszcie wykorzystujesz możliwości swojego organizmu. Czujesz tę szybkość, tę łączność z maszyną, którą prowadzisz. I żałujesz. Żałujesz, że nie jesteś taki zawsze. Ale teraz się ścigasz i tylko to jest ważne. Integrujesz swój układ nerwowy z oponami, czujesz każdy kamień i każde ziarnko piasku na torze. Twoja wyobraźnia generuje obraz na kilka zakrętów naprzód, dzięki czemu możesz zaplanować idealną linię nie tylko w perspektywie jednego zakrętu. Twoje serce przyspiesza do absurdalnej prędkości, niemal dorównującej rozgrzanym do czerwoności cylindrom silnika, który bezlitośnie poganiasz. Podejmujesz ryzyko, z każdym zakrętem coraz większe. Ale wiesz, że podołasz. W końcu robisz to, o czym zawsze marzyłeś.
+
+To coś cudownego. To uczucie wynagradza cały okres oczekiwania. Po wyścigu czujesz się spełniony, kompletny. Wtedy cieszysz się, że jesteś chory…
+
+Chciałbym, aby każdy zarażony tym wirusem wypowiedział się na forum o swoich symptomach, i w miarę możliwości opisał je. Wiem, że nie jestem sam!

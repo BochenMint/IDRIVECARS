@@ -11,11 +11,36 @@ import path from "node:path";
 const GALLERIES_DIR = path.join(process.cwd(), "public", "galleries");
 const OUT_FILE = path.join(process.cwd(), "src", "data", "galleries-manifest.json");
 
-type Manifest = Record<string, Array<{ src: string; alt: string }>>;
+type GalleryImageManifest = {
+  src: string;
+  alt: string;
+  srcSet?: string;
+  sizes?: string;
+};
 
-async function collectWebp(dir: string, baseRel: string): Promise<Array<{ src: string; alt: string }>> {
-  const result: Array<{ src: string; alt: string }> = [];
-  let entries: { name: string; isFile: () => boolean }[];
+type Manifest = Record<string, GalleryImageManifest[]>;
+
+const RESPONSIVE_VARIANT_RE = /-(480|800|1200)\.webp$/i;
+const RESPONSIVE_WIDTHS = [480, 800, 1200] as const;
+const DEFAULT_SIZES = "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1200px";
+
+function toPublicGallerySrc(rel: string): string {
+  return `/galleries/${rel}`.replace(/\\/g, "/");
+}
+
+async function readAltFromMeta(basePath: string, fallback: string): Promise<string> {
+  const metaPath = basePath.replace(/\.webp$/i, ".meta.json");
+  try {
+    const parsed = JSON.parse(await fs.readFile(metaPath, "utf8")) as { alt?: unknown };
+    return typeof parsed.alt === "string" && parsed.alt.trim() ? parsed.alt : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+async function collectWebp(dir: string, baseRel: string): Promise<GalleryImageManifest[]> {
+  const result: GalleryImageManifest[] = [];
+  let entries: { name: string; isFile: () => boolean; isDirectory: () => boolean }[];
   try {
     entries = await fs.readdir(dir, { withFileTypes: true });
   } catch {
@@ -24,9 +49,23 @@ async function collectWebp(dir: string, baseRel: string): Promise<Array<{ src: s
   for (const e of entries) {
     const fullPath = path.join(dir, e.name);
     const rel = baseRel ? `${baseRel}/${e.name}` : e.name;
-    if (e.isFile() && e.name.toLowerCase().endsWith(".webp")) {
-      const src = `/galleries/${rel}`.replace(/\\/g, "/");
-      result.push({ src, alt: `${baseRel} – ${e.name}` });
+    if (e.isFile() && e.name.toLowerCase().endsWith(".webp") && !RESPONSIVE_VARIANT_RE.test(e.name)) {
+      const src = toPublicGallerySrc(rel);
+      const fallbackAlt = `${baseRel} - ${e.name.replace(/\.webp$/i, "").replace(/[-_]+/g, " ")}`;
+      const variantEntries = RESPONSIVE_WIDTHS.flatMap((width) => {
+        const variantName = e.name.replace(/\.webp$/i, `-${width}.webp`);
+        const variantPath = path.join(dir, variantName);
+        if (!existsSync(variantPath)) return [];
+        const variantRel = baseRel ? `${baseRel}/${variantName}` : variantName;
+        return `${toPublicGallerySrc(variantRel)} ${width}w`;
+      });
+      variantEntries.push(`${src} 1920w`);
+
+      result.push({
+        src,
+        alt: await readAltFromMeta(fullPath, fallbackAlt),
+        ...(variantEntries.length > 1 ? { srcSet: variantEntries.join(", "), sizes: DEFAULT_SIZES } : {})
+      });
     } else if (e.isDirectory()) {
       result.push(...(await collectWebp(fullPath, rel)));
     }

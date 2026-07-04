@@ -1,0 +1,67 @@
+---
+slug: "mercedes-maybach-s-600"
+title: "Mercedes-Maybach S 600"
+publishedAt: "2016-03-10"
+category: "TESTY"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/mercedes-maybach-s-600"
+discoveredVia: "elasticsearch-author"
+lead: "Marka Maybach to w świecie samochodów arystokrata rangi Rolls-Royce’a – najbardziej wyrafinowany czterokołowy pojazd dla ludzi ze szczytów rankingów najbogatszych. Gdy w 2014 roku Dr Zetsche ogłosił powrót legendy po 4 latach absencji, cała branża czekała w napięciu na efekt tych deklaracji. Oto jest – nowy Maybach. Me"
+tags: ["v12", "mercedes", "turbo", "mercedes-maybach", "maybach", "autogaleria", "luksus", "daimler", "jubileusz", "s600", "nowy maybach", "test maybacha", "1000 test", "zdjęcia maybach", "limuzyna prezesa", "burmester"]
+---
+
+Jak żyją ludzie, których stać na taki samochód? Popijają drinki pod palmami? Raczej nie. Są oczywiście tacy, którzy odziedziczyli majątki, ale większość pracuje długo, intensywnie i jest pod wpływem dużego stresu, wynikającego z odpowiedzialnego stanowiska i obracania dużymi pieniędzmi. Zebranie goni spotkanie, ludzie z różnych stron świata atakują telefonami, a krótką chwilę na odpoczynek można znaleźć jedynie podczas podróży z jednego miejsca w drugie… Oczywiście zupełnie zmyślam, bo nie mam bladego pojęcia o życiu prezesa międzynarodowej firmy, ale wiem, że gdybym w zaproponowanym trybie dnia miał odpoczywać w podróży, zainwestowałbym sporo pieniędzy, aby była to podróż wyjątkowa. Warto marzyć, prawda?
+
+## Strefa komfortu
+
+Dlaczego więc nie zaopatrzyć się w środek transportu mający na pokładzie studio odsłuchowe najwyższej klasy, które – gdy powierzymy mu odpowiedniej jakości źródło, odtworzy muzykę o nieskazitelnym brzmieniu, a nawet przeciętne MP3 podrasuje do takiej jakości, że większość ludzi będzie w głębokim szoku? Dlaczego nie pozwolić sobie na odprężający czy mobilizujący masaż na podgrzewanym i wentylowanym fotelu rozkładanym do pozycji półleżącej? Czy w zabieganym życiu prezesa nie ma miejsca na lampkę schłodzonego szampana podczas nadrabiania zaległości w wiadomościach ze świata na indywidualnym dla każdego z tylnych foteli ekranie, z których możemy sterować wszystkimi funkcjami samochodu?
+
+[![mercedes-maybach-s600-test-1000-autogaleria-2016-36](/content/uploads/2016/02/mercedes-maybach-s600-test-1000-autogaleria-2016-36.jpg)](https://autogaleria.pl/testy/mercedes-maybach-s-600/attachment/mercedes-maybach-s600-test-1000-autogaleria-2016-36/)
+
+Nie wiem jak to wygląda u prezesa, ale w moim życiu na pewno znalazłbym miejsce…
+
+## Sztuka dźwiękowa
+
+System audio High End firmy Burmester rzeczywiście powala jakością dźwięku 3D nawet z bardzo niepozornego źródła, typu telefon sparowany przez Bluetooth czy pendrive z plikami MP3. O niesamowitych wrażeniach z odsłuchu muzyki na zestawach audio klasy premium - jak Bang&Olufsen, Harman/Kardon, Mark Levinson, Bowers&Wilkins czy właśnie dostępny w Mercedesie-Maybachu Burmester - piszemy przy każdej okazji. Nie da się jednoznacznie określić, czy audio w Maybachu jest lepsze od tego w [Lexusie LS](https://autogaleria.pl/testy/lexus-ls-600h-f-sport/), [Volvo XC90](https://autogaleria.pl/pierwsze-jazdy/volvo-xc90-kubel-szwedzkiej-wody/) czy [BMW 640d Gran Coupe](https://autogaleria.pl/testy/bmw-640d-gran-coupe/), które testowaliśmy. Każdy z tych samochodów zachwyca pod tym względem.
+
+Ale tutaj wszystko wydaje się bardziej wyjątkowe, również wrażenia z obcowania z 24-kanałowym dźwiękiem i wzmacniaczem o mocy 1540 watów z obsługą 6-kanałowego Dolby Digital i DTS. Obudowy głośników są dodatkowo małymi dziełami sztuki - głośniki wysokotonowe w drzwiach na przykład, oprócz tego, że są podświetlane, po włączeniu systemu audio wyjeżdżają ruchem obrotowym ze swojej pozycji spoczynkowej.
+
+[![mercedes-maybach-s600-test-1000-autogaleria-2016-52](/content/uploads/2016/02/mercedes-maybach-s600-test-1000-autogaleria-2016-52.jpg)](https://autogaleria.pl/testy/mercedes-maybach-s-600/attachment/mercedes-maybach-s600-test-1000-autogaleria-2016-52/)
+
+W całym systemie multimedialnym brakuje mi tylko jednej rzeczy: odtwarzania płyt Blu-Ray. Niestety, na tylnych fotelach możemy obejrzeć jedynie film na DVD, a to już technologia raczej przestarzała. Faktem jest, że na wyświetlaczu z błyszczącą matrycą o przekątnej 25,4 cm i rozdzielczości odbiegającej nieco od 1080p nie zauważymy porażającej różnicy w jakości obrazu, ale trudno mi uwierzyć, żeby miłośnik oglądania filmów z budżetem pozwalającym na zakup Maybacha budował kolekcję nowości filmowych z krążków DVD. W Lexusie LS 600h L z kolei możemy oglądać filmy na Blu-Ray bez żadnego problemu, ale wszystko psuje przeciętna jakość centralnego, umieszczonego na podsufitce wyświetlacza, który oprócz rozdzielczości ekranu niższej od przeciętnego smartfonu, zamiast koloru czarnego wyświetla szary. Jak widać nawet w tej klasie nie wszystko jest idealne…
+
+## Sztuka relaksu
+
+Mam 185 cm wzrostu. Nie czuję się jakiś przesadnie wysoki. I wyobraźmy sobie teraz, że chcę sobie kupić Mercedesa-Maybacha. Jak już wspomniałem, fotel potrafi rozłożyć się do pozycji półleżącej… Na którym jest za mało miejsca, bym mógł wyprostować nogi. Poważnie – fotel pasażera podniosłem i przesunąłem maksymalnie do przodu tak, że Szofer ledwie widział lusterko boczne, a mój fotel rozłożyłem do pozycji największego komfortu. Zdejmuję buty, stopy kładę na podnóżek… A kolana mam w bardzo niewygodnej, lekko zgiętej pozycji, przez co nie mogę ich rozluźnić. W samochodzie o rozstawie osi wynoszącym 3,365 metra i długości nadwozia 5,453 metra. Szok i niedowierzanie!
+
+Ale taka jest trudna prawda, która nieco sprowadziła mnie na ziemię podczas tego pięknego, słonecznego dnia w otoczeniu luksusu z najwyższej półki. Ale nie ma tego złego, co by na dobre nie wyszło – użytkownicy „normalnych” samochodów, w których nie wszystko działa tak, jak powinno - możecie odetchnąć z ulgą. Nawet Maybach ma niedociągnięcia…
+
+No więc załóżmy, że mam 178 cm wzrostu i leżę sobie wygodnie z oczami skierowanymi ku niebu i wyciągniętymi nogami. Gdy ciekawie ukształtowane chmury przerzedziły się, zaczęło mnie razić słońce! Założyć okulary przeciwsłoneczne? Szanujmy się – będą uciskać mnie w skronie, poza tym musiałbym otworzyć schowek, następnie pokrowiec, poza tym moja dbałość o detale nie pozwala mi nie przetrzeć ich ściereczką z mikrofibry przed założeniem. Ale nie mam ochoty teraz tego robić. Sytuacja bez wyjścia? Tragedia milionera? Czy już nigdy nie zaznam smaku szczęścia?
+
+[![mercedes-maybach-s600-test-1000-autogaleria-2016-58](/content/uploads/2016/02/mercedes-maybach-s600-test-1000-autogaleria-2016-58.jpg)](https://autogaleria.pl/testy/mercedes-maybach-s-600/attachment/mercedes-maybach-s600-test-1000-autogaleria-2016-58/)
+
+Otóż nie! Za naciśnięciem jednego przycisku idealnie przejrzysta szyba dzięki funkcji _Magic Sky Control_ (panoramiczny dach z taką funkcją wymaga dopłaty 27 945 zł) w ciągu sekundy stała się mocno granatowa, a problem zniknął. Zacząłem się zastanawiać, jak to właściwie działa. Chwilka lektury materiałów producenta i wszystko jasne – specjalne cząsteczki zawieszone w szkle potrafią reagować na prąd elektryczny. Gdy szyba jest przejrzysta, ich położenie jest uporządkowane tak, że światło przenika przez szybę bez problemu. Gdy po wciśnięciu przycisku przepływ prądu przez szybę zostaje zatrzymany, cząsteczki przestają być uporządkowane, a światło przechodzi przez szybę tylko częściowo. Odetchnąłem z ulgą – kolejny „problem pierwszego świata” pokonany…
+
+Niedociągnięć nie ma również, jeśli mówimy o programach masażu – jeśli jesteście fanami chodzących po waszych plecach Azjatek, Mercedes-Maybach nada się idealnie. Program mobilizujący z ustawioną maksymalną intensywnością zapewni podobne doznania. Tak mi się wydaje, bo nigdy nikt po mnie nie chodził. Jest też masaż gorącymi kamieniami, który fantastycznie rozluźnia odcinek lędźwiowy kręgosłupa, zdejmujący napięcie masaż szyi i barków oraz inne bardzo ciekawe kombinacje. Wszystkie robią duże wrażenie, podobnie jak komfort fotela prezesa. Szeroki, obłędnie wygodny, podgrzewany, wentylowany, z pompowanymi na zakrętach, utrzymującymi ciało na miejscu bokami i pięknie wyszywaną skórą. Niedobór miejsca na wyciągnięte nogi nagle przestał mi przeszkadzać. Ale jest w S600 jeszcze jeden robiący wrażenie element...
+
+## Tu mieszka moc
+
+Osiągi tej ważącej (ze szczupłym kierowcą, bez prezesa, lub ze szczupłym prezesem, bez kierowcy…) 2 335 kg, tylnonapędowej limuzyny to klasa samochodów klasy hot-hatch: 5 sekund do 100 km/h i prędkość maksymalna wynosząca 250 km/h. Co jest źródłem takiego zamieszania? Wiedzieliście to już zapewne po przeczytaniu tytułu. To się w Maybachu zmienić nie mogło – pod maską mieszka 6-litrowe V12 o mocy 530 KM. Jak to mawia brytyjska konkurencja: „wystarczająco”…
+
+[![mercedes-maybach-s600-test-1000-autogaleria-2016-54](/content/uploads/2016/02/mercedes-maybach-s600-test-1000-autogaleria-2016-54.jpg)](https://autogaleria.pl/testy/mercedes-maybach-s-600/attachment/mercedes-maybach-s600-test-1000-autogaleria-2016-54/)
+
+Do wyciśnięcia takiej mocy i pchających cały ten prestiż 830 Nm były potrzebne dwie turbosprężarki, których dźwięk i wpływ na charakterystykę silnika jest dla pasażerów niezauważalny. Silnik zbiera się z każdych obrotów, a leniwie pracująca przekładnia 7G-TRONIC PLUS nie przeszkadza tu ani trochę, bo za wszystkie niedociągnięcia nadrabia ogromny nadmiar koni mechanicznych i niutonometrów.
+
+Wrażenia z dynamicznych przyspieszeń? To tak, jakbym dostał władzę do manipulowania czasem za pomocą komend wydawanych kierowcy. Siedzę sobie spokojnie i sprawdzam kolejny tryb masażu, bez żadnych emocji, a po chwili głośniejszego szumu z odległych okolic komory silnika obrazy za oknem migają, jak gdybym był bliski osiągnięcia prędkości dźwięku…
+
+[![mercedes-maybach-s600-test-1000-autogaleria-2016-65](/content/uploads/2016/02/mercedes-maybach-s600-test-1000-autogaleria-2016-65.jpg)](https://autogaleria.pl/testy/mercedes-maybach-s-600/attachment/mercedes-maybach-s600-test-1000-autogaleria-2016-65/)
+
+Wyciszenie przy wysokich prędkościach to klasa Rolls-Royce’a. Jednak tłumienie nierówności – chyba nie do końca. Jasne, jest kosmicznie wygodny i dzięki skanującemu drogę przed samochodem systemowi _Magic Body Control_ za nic ma dziury oraz poprzeczne nierówności, ale mam wrażenie, że Rolls jest jednak w innej galaktyce komfortu. Myślałem, że to sprawka opon - 245/45 z przodu i 275/40 z tyłu, wszystkie naciągnięte na 20-calowe, kute obręcze o wzorze jednoznacznie informującym o wersji auta i "polerce" oślepiającej wszystkich wokół. Sęk w tym, że [Wraith](https://autogaleria.pl/testy/rolls-royce-wraith/) miał na tylnej osi ogumienie w rozmiarze 285/35 R21. Więc zakończmy to tak, że Mercedes-Maybach, choć świetnie przewiduje i wybiera nierówności, jest odrobinę twardszy i przez to nie daje aż tak odczuwalnego efektu „latającego dywanu"...
+
+## Dobra oferta
+
+Czy samochód kosztujący ponad milion złotych można nazwać okazją? To może przesada, ale taki poziom luksusu w Rollsie i Bentleyu kosztuje o wiele więcej. Oszczędności, na które pozwoliło zastosowanie Mercedesa klasy S jako bazy pozwoliło obniżyć cenę auta, ale nadal jest to szlachetny Maybach, zapewniający wyjątkowy komfort, ekskluzywność i bardzo bogate wyposażenie, z którego części można jednak zrezygnować. Jeśli nie interesuje nas szereg dodatków, o których czytaliście w teście, Klasę S Maybach z silnikiem V12 można kupić za 850 000 zł, a po rezygnacji z czterech cylindrów otrzymujemy Mercedesa-Maybacha S 500 z 9-biegowym automatem o mocy 456 KM w cenie 560 500 zł. A to już kwota, którą łatwiej sobie wyobrazić…
+
+## Podsumowanie
+
+Skoro poprzedni Maybach się nie sprzedawał, być może nie było innego wyjścia. Zarząd Daimlera z panem Zetsche na czele po raz kolejny pokazał, że potrafi podejmować właściwe decyzje. Jeśli Maybach na bazie klasy S jest tańszy, ładniejszy, a wciąż odpowiednio luksusowy – nie mam nic przeciwko tej strategii. Mercedes-Maybach S 600 to wyjątkowy samochód dla wyjątkowych ludzi.

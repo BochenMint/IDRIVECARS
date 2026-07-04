@@ -16,6 +16,17 @@ public/galleries/**
 # Credentials – nie commituj loginów/haseł do serwisów prasowych
 content/press-credentials.json
 
+# Surowe dane news (skan press roomów) — lokalnie / na serwerze CI
+data/news/raw/**
+data/news/images/**
+data/news/ai-jobs/**
+!data/news/.gitkeep
+!data/news/index.json.example
+
+# Import autoGALERIA — cache HTML/obrazów, nie do repo (patrz docs/CHANGESET-SPLIT-PLAN.md)
+content/import/autogaleria/cache/**
+content/import/autogaleria/images/**
+
 # Env
 .env
 .env.local
@@ -50,4 +61,6 @@ tsconfig.tsbuildinfo
 # Wideo — duże pliki binarne, serwowane lokalnie / przez CDN
 public/videos/*.mp4
 public/videos/*.webm
+public/media/**/*.mp4
+public/media/**/*.webm
 # (poster JPG mogą trafić do repo jeśli są małe)

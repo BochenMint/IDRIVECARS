@@ -138,6 +138,8 @@ type ArticleNodeInput = {
   title: string;
   description: string;
   url: string;
+  category?: string;
+  schemaType?: "BlogPosting" | "NewsArticle" | "Article";
   brand?: string;
   model?: string;
   year?: number;
@@ -147,17 +149,28 @@ type ArticleNodeInput = {
   publishedAt: string;
   modifiedAt?: string;
   image?: string;
+  authorName?: string;
 };
 
 /**
- * Węzeł BlogPosting dla testu, z encją `Car` w polu `about`.
- * Bez `reviewRating` (blog nie używa ocen liczbowych) — unika ostrzeżeń
- * „review without rating" w Search Console, zachowując kontekst encji pojazdu.
+ * Węzeł Article/BlogPosting/NewsArticle — z encją Car w polu about dla testów.
  */
 export function articleNode(input: ArticleNodeInput) {
   const carName = [input.brand, input.model].filter(Boolean).join(" ").trim();
+  const schemaType = input.schemaType ?? "BlogPosting";
+  const section =
+    input.category === "pierwsza-jazda"
+      ? "Pierwsza jazda"
+      : input.category === "blog"
+        ? "Blog"
+        : input.category === "felieton"
+          ? "Felietony"
+          : input.category === "news"
+            ? "News"
+            : "Testy";
+
   return {
-    "@type": "BlogPosting",
+    "@type": schemaType,
     "@id": `${input.url}#article`,
     isPartOf: { "@id": WEBSITE_ID },
     headline: input.title.slice(0, 110),
@@ -166,11 +179,13 @@ export function articleNode(input: ArticleNodeInput) {
     inLanguage: "pl-PL",
     datePublished: input.publishedAt,
     dateModified: input.modifiedAt ?? input.publishedAt,
-    author: { "@id": AUTHOR_ID },
+    author: input.authorName
+      ? { "@type": "Person", name: input.authorName }
+      : { "@id": AUTHOR_ID },
     publisher: { "@id": ORG_ID },
     mainEntityOfPage: { "@type": "WebPage", "@id": input.url },
     url: input.url,
-    articleSection: "Testy",
+    articleSection: section,
     ...(input.image ? { image: [input.image] } : {}),
     ...(input.tags && input.tags.length ? { keywords: input.tags.join(", ") } : {}),
     ...(carName
@@ -189,6 +204,13 @@ export function articleNode(input: ArticleNodeInput) {
         }
       : {})
   };
+}
+
+/** Skrót dla newsów RSS — NewsArticle bez encji Car. */
+export function newsArticleNode(
+  input: Omit<ArticleNodeInput, "schemaType" | "brand" | "model" | "year" | "bodyType" | "engine">
+) {
+  return articleNode({ ...input, category: "news", schemaType: "NewsArticle" });
 }
 
 /** Owija węzły schema.org w pojedynczy graf JSON-LD (rozwiązuje referencje @id). */

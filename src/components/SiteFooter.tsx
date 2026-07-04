@@ -25,6 +25,12 @@ export function SiteFooter() {
 
         <nav className="flex flex-wrap gap-x-10 gap-y-4 lg:gap-x-12" aria-label="Stopka">
           <Link
+            href="/pierwsza-jazda"
+            className="label-mono text-stone-muted transition-opacity duration-editorial hover:text-stone hover:opacity-100"
+          >
+            Pierwsza jazda
+          </Link>
+          <Link
             href="/testy"
             className="label-mono text-stone-muted transition-opacity duration-editorial hover:text-stone hover:opacity-100"
           >

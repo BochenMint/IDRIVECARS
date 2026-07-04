@@ -8,6 +8,15 @@ const nextConfig = {
     // Galerie to statyczne WEBP — długie cache'owanie zoptymalizowanych wariantów.
     minimumCacheTTL: 2678400
   },
+  async redirects() {
+    return [
+      {
+        source: "/testy/citroen-c3",
+        destination: "/testy/citroen-c3-16-vti-exclusive-2",
+        permanent: true
+      }
+    ];
+  },
   async headers() {
     const securityHeaders = [
       { key: "X-Content-Type-Options", value: "nosniff" },

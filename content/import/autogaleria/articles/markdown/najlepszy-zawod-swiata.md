@@ -1,0 +1,27 @@
+---
+slug: "najlepszy-zawod-swiata"
+title: "Najlepszy zawód świata?"
+publishedAt: "2015-05-12"
+category: "Ciekawostki"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/najlepszy-zawod-swiata"
+discoveredVia: "elasticsearch-author"
+lead: "Zmęczeni po genewskich targach, zziębnięci i nie mogący doczekać się snu, zjechaliśmy na stację benzynową po paliwo. Zastaliśmy tam niecodzienny widok... I wyjątkowego człowieka."
+tags: ["maybach", "galeria", "praca", "reportaż"]
+---
+
+Bo jak inaczej niż „wyjątkowy” nazwać gościa, który szczerzy się do nas, trzymając w ręku trzy klucze do **[Mercedesów-Maybachów klasy S](https://autogaleria.pl/nowosci/nowosci-i-premiery/mercedes-maybach-klasy-s-prawdziwe-premium/)**, z czwartym w stacyjce limuzyny z kulturalnie pracującym V12 pod maską?
+
+Wielu moich znajomych mówi, że nie lubi swojej pracy. Wstajesz rano, stoisz w korkach, siedzisz w biurze, stoisz w korkach, wracasz zmęczony do domu.
+
+Można też jeżdzić po całym świecie i zaopatrywać targi, wyścigi i wystawy w najdroższe samochody świata. Jak bohater dzisiejszego tekstu...
+
+Cztery Maybachy i jeden wyluzowany gość (na potrzeby tekstu będziemy nazywać go Ralf) na stacji benzynowej w Genewie. Ten niecodzienny widok zrobił na nas duże wrażenie. Ale, jak za chwilę mieliśmy się dowiedzieć, najlepsze było przed nami. Otóż ów człowiek po krótkiej, zapoznawczej rozmowie, wskoczył do mierzącego pięć i pół metra Maybacha, by na wstecznym biegu beztrosko wskoczyć na rampę swojej ciężarówki i bezpiecznie zaparkować ten cenny ładunek, mając po obu stronach góra trzy centymetry "luzu" i do tego bez korzystania z lusterek, które były złożone... A robił to z większą łatwością niż większości ludzi przychodzi wciąganie pomidorowej przy niedzielnym obiedzie.
+
+Po zaparkowaniu luksusowego kolosa należało zrobić miejsce na kolejne. I tu zaczynała się zabawa w układankę - po stabilnym przymocowaniu pierwszego, korzystając z pilota należało podnieść platformę pod sam dach. I pisząc "pod sam dach", mam na myśli odległość kilku centymetrów. Chwilę potem na ciężarówkę wjeżdżał kolejny Maybach, tym razem wchodząc "na styk" nie tylko przy złożonych lusterkach, ale i przy dachu. W pewnym momencie okazało się, że samochód zwyczajnie się nie zmieści. Nie myślcie jednak, że było to dla Ralfa jakiekolwiek utrudnienie. Milimetry przed kontaktem błyszczącego dachu ze spodem platformy z wcześniej zaparkowaną klasą S Mercedes-Maybach zatrzymał się, wysiadł, chwycił pilota i podniósł platformę o około centymetr, tak, że samochód na górnym "piętrze" jeszcze bardziej zbliżył się do dachu. W ten sposób wcisnął tego pod spodem. Ciekawe, interesujące, ale i szalenie odpowiedzialne zajęcie.
+
+Sytuacja powtórzyła się jeszcze dwa razy, a gdy wszystkie cenne ładunki (z jedną krótką przerwą na przymiarkę redakcji do ostatniego Maybacha) były już gotowe do drogi, mieliśmy chwilę czasu na rozmowę. Okazuje się, że ten sam uśmiechnięty Niemiec z kolczykiem w uchu był odpowiedzialny za przywiezienie niesamowitej kolekcji **[BMW Art Cars](https://autogaleria.pl/nowosci/wydarzenia/bmw-art-cars-collection-kobiecym-okiem/)** do Warszawy. Jego firma jest również odpowiedzialna za dostarczanie samochodów ścigających się w niezwykle popularnej w Niemczech serii **[DTM](https://autogaleria.pl/migiem-o/podsumowanie-sezonu-dtm-2012-bmw-pany/)****.**
+
+Nasza praca, jakkolwiek również dość odpowiedzialna (jeśli macie wątpliwości, wyobraźcie sobie manewrowanie w ciasnym centrum Warszawy **[Rolls-Royce'em Wraith](https://autogaleria.pl/testy/rolls-royce-wraith/)**) chyba nie dorównuje zajęciu Ralfa. Od ciasnego upakowania niezwykle cennych ładunków, przez dobór równych dróg (serio, zwróćcie uwagę, jak blisko siebie i dachu są samochody) po opiekowanie się nimi w trasie i bezpieczny rozładunek.
+
+Do tego trzeba być mocno zakręconym na puncie motoryzacji, a Ralf z pewnością był jednym z nas... Kto z Was chciałby się z nim zamienić?

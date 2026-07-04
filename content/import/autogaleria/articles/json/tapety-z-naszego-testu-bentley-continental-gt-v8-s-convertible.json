@@ -1,0 +1,64 @@
+{
+  "slug": "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+  "urlKey": "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+  "sourceUrl": "https://autogaleria.pl/tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:42:53.627Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Tapety z naszego testu: Bentley Continental GT V8 S Convertible",
+  "excerpt": "Bentley Continental GT V8 S Convertible - kolejny luksusowy samochód z naszych testów. Budzi emocje przede wszystkim wyglądem oraz piorunującym dźwiękiem silnika V8 z podwójnym turbodoładowaniem. Jeśli spodobały się Wam nasze ujęcia z testu, teraz możecie ozdobić nimi swój pulpit.",
+  "lead": "Bentley Continental GT V8 S Convertible - kolejny luksusowy samochód z naszych testów. Budzi emocje przede wszystkim wyglądem oraz piorunującym dźwiękiem silnika V8 z podwójnym turbodoładowaniem. Jeśli spodobały się Wam nasze ujęcia z testu, teraz możecie ozdobić nimi swój pulpit.",
+  "category": "Tapety",
+  "categories": [
+    {
+      "id": 1142,
+      "name": "Tapety",
+      "slug": "tapety",
+      "path": []
+    }
+  ],
+  "tags": [
+    "bentley",
+    "continental",
+    "v8",
+    "convertible",
+    "tapety"
+  ],
+  "publishedAt": "2014-12-18",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>[wallpapers date=\"2014-12-18\"]</p>\n",
+  "bodyMarkdown": "\\[wallpapers date=\"2014-12-18\"\\]",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2014/12/ag_test_bentley_continental_gt_v8_s_convertible_2014_05_s.jpg",
+    "gallery": [],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2014/12/ag_test_bentley_continental_gt_v8_s_convertible_2014_05_s.jpg",
+      "gallery": [],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "TAPETY | Bentley Continental GT V8 S",
+    "description": "Tapety na pulpit | 1920x1080 | 1366x768 | 1280x800 | Bentley Continental GT V8 S Convertible"
+  },
+  "cars": [
+    "Bentley",
+    "Bentley Continental GTC V8 S"
+  ],
+  "imageCacheLocal": [
+    "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible/hero.jpg"
+  ]
+}

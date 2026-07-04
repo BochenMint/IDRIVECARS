@@ -1,0 +1,134 @@
+{
+  "slug": "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+  "urlKey": "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+  "sourceUrl": "https://autogaleria.pl/galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:59.525Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Galeria: 10 replik Bugatti Veyrona - marzyć każdy może...",
+  "excerpt": "1001 lub 1200-konny (w wersji Super Sport) Bugatti Veyron to jeden z najszybszych samochodów świata i obiekt pożądania niemal każdego fana motoryzacji. Niestety, wszystkie się już sprzedały. To zapewne zmusiło niektórych do budowy replik...",
+  "lead": "1001 lub 1200-konny (w wersji Super Sport) Bugatti Veyron to jeden z najszybszych samochodów świata i obiekt pożądania niemal każdego fana motoryzacji. Niestety, wszystkie się już sprzedały. To zapewne zmusiło niektórych do budowy replik...",
+  "category": "Po godzinach...",
+  "categories": [
+    {
+      "id": 2485,
+      "name": "Po godzinach...",
+      "slug": "po-godzinach",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "ciekawostki",
+    "galeria",
+    "bugatti",
+    "veyron",
+    "po godzinach",
+    "top 10"
+  ],
+  "publishedAt": "2015-06-06",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Jeśli myślisz, że wszystko już w życiu widziałeś i żaden przerobiony samochód Cię nie zaskoczy - zajrzyj do galerii. Pod każdym zdjęciem znajdziesz informację na temat bazy do budowy repliki.</p>\n<p>Honda Civic przerobiona na Veyrona może wywołać głębokie uczucie przygnębienia. Ale musimy przyznać - Nissan 350Z i Porsche Boxster nie dość, że wyglądają przekonująco, to na dodatek powinny się nieźle prowadzić!</p>\n<p>Zapraszamy do obejrzenia galerii i dzielenia się innymi ciekawymi pomysłami na własnego Veyrona...</p>\n<p>Zacznijmy filmem z Veyronem na bazie <span style=\"color: #ff6600;\"><a style=\"color: #ff6600;\" href=\"https://autogaleria.pl/testy/bmw-650i-xdrive-coupe/\" target=\"_blank\">BMW serii 6</a></span>. Tak, ktoś naprawdę to zrobił.</p>\n<p>https://www.youtube.com/watch?v=BDolCsO06Xw</p>\n",
+  "bodyMarkdown": "Jeśli myślisz, że wszystko już w życiu widziałeś i żaden przerobiony samochód Cię nie zaskoczy - zajrzyj do galerii. Pod każdym zdjęciem znajdziesz informację na temat bazy do budowy repliki.\n\nHonda Civic przerobiona na Veyrona może wywołać głębokie uczucie przygnębienia. Ale musimy przyznać - Nissan 350Z i Porsche Boxster nie dość, że wyglądają przekonująco, to na dodatek powinny się nieźle prowadzić!\n\nZapraszamy do obejrzenia galerii i dzielenia się innymi ciekawymi pomysłami na własnego Veyrona...\n\nZacznijmy filmem z Veyronem na bazie [BMW serii 6](https://autogaleria.pl/testy/bmw-650i-xdrive-coupe/). Tak, ktoś naprawdę to zrobił.\n\nhttps://www.youtube.com/watch?v=BDolCsO06Xw",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "BDolCsO06Xw",
+      "url": "https://www.youtube.com/watch?v=BDolCsO06Xw",
+      "embedUrl": "https://www.youtube.com/embed/BDolCsO06Xw"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/1-Bugatti-Veyron-Replica-021-e1433597042312.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/06/1-Bugatti-Veyron-Replica-001.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/1-Bugatti-Veyron-Replica-011.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/2-Bugatti-Veyron-Replica-Two-00.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/2-Bugatti-Veyron-Replica-Two-01.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/2-Bugatti-Veyron-Replica-Two-02.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/3-Bugatti-Replica-Honda-Civic-EG.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/4-Bugatti-Veyron-Replica-Honda-Civic-EG-00.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/4-Bugatti-Veyron-Replica-Honda-Civic-EG-01.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/4-Bugatti-Veyron-Replica-Honda-Civic-EG-02.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/4-Bugatti-Veyron-Replica-Honda-Civic-EG-03.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/5-Bugatti-Veyron-Nissan-350Z-00.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/5-Bugatti-Veyron-Nissan-350Z-01.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/5-Bugatti-Veyron-Nissan-350Z-02.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/5-Bugatti-Veyron-Nissan-350Z-03.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/6-Bugatti-Veyron-00-e1433595288747.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/6-Bugatti-Veyron-01.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/7-Bugatti-Veyron-replica-00.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/7-Bugatti-Veyron-replica-01.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/7-Bugatti-Veyron-replica-02.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/7-Bugatti-Veyron-replica-03.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/8-Bugatti-Veyron-Porsche-Boxster-00.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/8-Bugatti-Veyron-Porsche-Boxster-01.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/8-Bugatti-Veyron-Porsche-Boxster-02.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/8-Bugatti-Veyron-Porsche-Boxster-03.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/9-Bugatti-Veyron-Toyota-MR2-00.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/9-Bugatti-Veyron-Toyota-MR2-01.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/1-Bugatti-Veyron-Replica-021-e1433597042312.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/1-Bugatti-Veyron-Replica-021-e1433597042312.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/06/1-Bugatti-Veyron-Replica-001.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/1-Bugatti-Veyron-Replica-011.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/2-Bugatti-Veyron-Replica-Two-00.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/2-Bugatti-Veyron-Replica-Two-01.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/2-Bugatti-Veyron-Replica-Two-02.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/3-Bugatti-Replica-Honda-Civic-EG.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/4-Bugatti-Veyron-Replica-Honda-Civic-EG-00.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/4-Bugatti-Veyron-Replica-Honda-Civic-EG-01.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/4-Bugatti-Veyron-Replica-Honda-Civic-EG-02.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/4-Bugatti-Veyron-Replica-Honda-Civic-EG-03.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/5-Bugatti-Veyron-Nissan-350Z-00.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/5-Bugatti-Veyron-Nissan-350Z-01.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/5-Bugatti-Veyron-Nissan-350Z-02.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/5-Bugatti-Veyron-Nissan-350Z-03.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/6-Bugatti-Veyron-00-e1433595288747.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/6-Bugatti-Veyron-01.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/7-Bugatti-Veyron-replica-00.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/7-Bugatti-Veyron-replica-01.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/7-Bugatti-Veyron-replica-02.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/7-Bugatti-Veyron-replica-03.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/8-Bugatti-Veyron-Porsche-Boxster-00.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/8-Bugatti-Veyron-Porsche-Boxster-01.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/8-Bugatti-Veyron-Porsche-Boxster-02.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/8-Bugatti-Veyron-Porsche-Boxster-03.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/9-Bugatti-Veyron-Toyota-MR2-00.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/9-Bugatti-Veyron-Toyota-MR2-01.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/1-Bugatti-Veyron-Replica-021-e1433597042312.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Galeria: 10 replik Bugatti Veyrona - marzyć każdy może...",
+    "description": "1001 lub 1200-konny (w wersji Super Sport) Bugatti Veyron to jeden z najszybszych samochodów świata i obiekt pożądania niemal każdego fana motoryzacji. Niestety, wszystkie się już sprzedały. To zapewne zmusiło niektórych do budowy replik..."
+  },
+  "cars": [
+    "Bugatti"
+  ],
+  "imageCacheLocal": [
+    "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze/hero.jpg",
+    "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze/gallery-1.jpg",
+    "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze/gallery-2.jpg",
+    "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze/gallery-3.jpg"
+  ]
+}

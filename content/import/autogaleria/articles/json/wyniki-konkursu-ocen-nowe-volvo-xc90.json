@@ -1,0 +1,81 @@
+{
+  "slug": "wyniki-konkursu-ocen-nowe-volvo-xc90",
+  "urlKey": "wyniki-konkursu-ocen-nowe-volvo-xc90",
+  "sourceUrl": "https://autogaleria.pl/wyniki-konkursu-ocen-nowe-volvo-xc90",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:06.550Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Wyniki konkursu: \"Oceń nowe Volvo XC90!\"",
+  "excerpt": "Debata zakończona, czas więc ogłosić wyniki naszego konkursu, w którym do wygrania były cenne nagrody od Volvo i autoGalerii!",
+  "lead": "Debata zakończona, czas więc ogłosić wyniki naszego konkursu, w którym do wygrania były cenne nagrody od Volvo i autoGalerii!",
+  "category": "Producenci i rynek",
+  "categories": [
+    {
+      "id": 221,
+      "name": "Producenci i rynek",
+      "slug": "producenci-i-rynek",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "publishedAt": "2015-07-19",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>A więc oto i one:</p>\n<p>1. miejsce i zdalnie sterowane Volvo XC60 w skali 1:14 zdobywa <strong>Mateusz Balkiewicz</strong>:</p>\n<p><em>„Nowe XC90 to model przełomowy pod każdym względem - jest wprost stworzone aby zachwycać komfortem, wdziękiem i luksusem.”</em></p>\n<p>2. miejsce i wodoodporne słuchawki douszne Volvo Ocean Race wygrał<strong> Bartosz Dobosiewicz:</strong></p>\n<p><em>„Nowe Volvo XC90 jest elegancki i potężny emanuje chłodem i budzi respekt jak przystało na prawdziwego wikinga.”</em></p>\n<p>Zaś nagroda za trzecie miejsce, czyli kubek termiczny Volvo, trafia do <strong>Karola Wardala:</strong></p>\n<p><em>„Volvo XC90 - Silne i eleganckie dzieło sztuki, które dowiezie cię bezpiecznie do celu.”</em></p>\n<p>Zwycięzców prosimy o podanie adresu do wysyłki nagród na marcin.bochenek@autogaleria.pl lub przez wiadomość prywatną na <a href=\"https://www.facebook.com/autogaleria/\" target=\"_blank\">Facebooku</a>.</p>\n<p>Zwycięzcom gratulujemy, wszystkim dziękujemy za liczny udział i już zapowiadamy kolejne konkursy, więc bądźcie czujni!</p>\n<p>&nbsp;</p>\n",
+  "bodyMarkdown": "A więc oto i one:\n\n1\\. miejsce i zdalnie sterowane Volvo XC60 w skali 1:14 zdobywa **Mateusz Balkiewicz**:\n\n_„Nowe XC90 to model przełomowy pod każdym względem - jest wprost stworzone aby zachwycać komfortem, wdziękiem i luksusem.”_\n\n2\\. miejsce i wodoodporne słuchawki douszne Volvo Ocean Race wygrał **Bartosz Dobosiewicz:**\n\n_„Nowe Volvo XC90 jest elegancki i potężny emanuje chłodem i budzi respekt jak przystało na prawdziwego wikinga.”_\n\nZaś nagroda za trzecie miejsce, czyli kubek termiczny Volvo, trafia do **Karola Wardala:**\n\n_„Volvo XC90 - Silne i eleganckie dzieło sztuki, które dowiezie cię bezpiecznie do celu.”_\n\nZwycięzców prosimy o podanie adresu do wysyłki nagród na marcin.bochenek@autogaleria.pl lub przez wiadomość prywatną na [Facebooku](https://www.facebook.com/autogaleria/).\n\nZwycięzcom gratulujemy, wszystkim dziękujemy za liczny udział i już zapowiadamy kolejne konkursy, więc bądźcie czujni!",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/07/volvo-xc90-auto-test-2015-51.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/07/volvo-xc90-auto-test-2015-51.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/volvo-xc90-auto-test-2015-351.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/volvo-xc90-auto-test-2015-761.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/konkurs-volvo-xc90-autogaleria-2015-11.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/konkurs-volvo-xc90-autogaleria-2015-21.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/konkurs-volvo-xc90-autogaleria-2015-31.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/plakat.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/07/volvo-xc90-auto-test-2015-51.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/07/volvo-xc90-auto-test-2015-51.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/volvo-xc90-auto-test-2015-351.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/volvo-xc90-auto-test-2015-761.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/konkurs-volvo-xc90-autogaleria-2015-11.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/konkurs-volvo-xc90-autogaleria-2015-21.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/konkurs-volvo-xc90-autogaleria-2015-31.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/plakat.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Wyniki konkursu: \"Oceń nowe Volvo XC90!\"",
+    "description": "Debata zakończona, czas więc ogłosić wyniki naszego konkursu, w którym do wygrania były cenne nagrody od Volvo i autoGalerii!"
+  },
+  "cars": [
+    "Volvo"
+  ],
+  "imageCacheLocal": [
+    "wyniki-konkursu-ocen-nowe-volvo-xc90/hero.jpg",
+    "wyniki-konkursu-ocen-nowe-volvo-xc90/gallery-1.jpg",
+    "wyniki-konkursu-ocen-nowe-volvo-xc90/gallery-2.jpg",
+    "wyniki-konkursu-ocen-nowe-volvo-xc90/gallery-3.jpg"
+  ]
+}

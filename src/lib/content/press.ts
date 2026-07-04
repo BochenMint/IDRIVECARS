@@ -1,8 +1,10 @@
 import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
+import { loadAllNewsSources } from "@/lib/news/catalog";
+import type { NewsSourceConfig } from "@/lib/news/types";
 
-const PRESS_SOURCES_PATH = path.join(process.cwd(), "content", "press-sources.json");
+const LEGACY_PRESS_PATH = path.join(process.cwd(), "content", "press-sources.json");
 const PRESS_CREDENTIALS_PATH = path.join(process.cwd(), "content", "press-credentials.json");
 
 export type PressSource = {
@@ -11,13 +13,33 @@ export type PressSource = {
   pressUrl: string;
   loginRequired: boolean;
   region: string;
+  sourceType?: NewsSourceConfig["sourceType"];
 };
 
 export type PressCredentials = Record<string, { login: string; password: string }>;
 
+function toPressSource(s: NewsSourceConfig): PressSource {
+  return {
+    id: s.id,
+    name: s.name,
+    pressUrl: s.pressUrl ?? s.fetchUrl,
+    loginRequired: s.loginRequired,
+    region: s.region,
+    sourceType: s.sourceType
+  };
+}
+
 export async function getPressSources(): Promise<PressSource[]> {
+  const catalog = await loadAllNewsSources();
+  if (catalog.length) {
+    return catalog
+      .filter((s) => s.loginRequired || s.sourceType !== "rss")
+      .map(toPressSource);
+  }
+
+  if (!existsSync(LEGACY_PRESS_PATH)) return [];
   try {
-    const raw = await fs.readFile(PRESS_SOURCES_PATH, "utf8");
+    const raw = await fs.readFile(LEGACY_PRESS_PATH, "utf8");
     return JSON.parse(raw);
   } catch {
     return [];

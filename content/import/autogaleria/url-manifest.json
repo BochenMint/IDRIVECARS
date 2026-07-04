@@ -1,0 +1,533 @@
+{
+  "generatedAt": "2026-06-30T21:39:19.492Z",
+  "authorKey": "marcin-bochenek",
+  "totalListed": 75,
+  "elasticsearchTotal": 75,
+  "items": [
+    {
+      "urlKey": "mercedes-maybach-s-600",
+      "sourceUrl": "https://autogaleria.pl/mercedes-maybach-s-600",
+      "title": "Mercedes-Maybach S 600",
+      "date": "2016-03-10 14:03:07",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "ford-focus-rs-najlepszy-z-chuliganow",
+      "sourceUrl": "https://autogaleria.pl/ford-focus-rs-najlepszy-z-chuliganow",
+      "title": "Ford Focus RS: Najlepszy z chuliganów",
+      "date": "2016-02-09 09:02:11",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "volkswagen-passat-alltrack-all-inclusive",
+      "sourceUrl": "https://autogaleria.pl/volkswagen-passat-alltrack-all-inclusive",
+      "title": "Volkswagen Passat Alltrack: All inclusive",
+      "date": "2016-01-26 23:01:48",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "mercedes-c-coupe-i-amg-c63-s-coupe-dwie-twarze",
+      "sourceUrl": "https://autogaleria.pl/mercedes-c-coupe-i-amg-c63-s-coupe-dwie-twarze",
+      "title": "Mercedes C Coupé i AMG C63 S Coupé: Dwie twarze",
+      "date": "2015-12-20 16:12:52",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "bmw-x6-m50d-fl",
+      "sourceUrl": "https://autogaleria.pl/bmw-x6-m50d-fl",
+      "title": "BMW X6 M50d",
+      "date": "2015-11-09 23:11:18",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "mazda-mx-5-nd-do-korzeni",
+      "sourceUrl": "https://autogaleria.pl/mazda-mx-5-nd-do-korzeni",
+      "title": "Mazda MX-5 ND - Do korzeni!",
+      "date": "2015-10-26 21:10:57",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "sourceUrl": "https://autogaleria.pl/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "title": "Brabus 850 6.0 BITURBO GLE Coupe - jakby komuś było mało",
+      "date": "2015-09-28 16:09:34",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+      "sourceUrl": "https://autogaleria.pl/rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+      "title": "Rolls-Royce Dawn - Najlepszy kabriolet na świecie? [galeria]",
+      "date": "2015-09-08 15:09:13",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa",
+      "sourceUrl": "https://autogaleria.pl/mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa",
+      "title": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa",
+      "date": "2015-08-20 16:08:12",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "rekordowe-0-100-kmh-niemieckich-studentow-galeria-film",
+      "sourceUrl": "https://autogaleria.pl/rekordowe-0-100-kmh-niemieckich-studentow-galeria-film",
+      "title": "Rekordowe 0-100 km/h niemieckich studentów",
+      "date": "2015-07-24 15:07:55",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "mercedes-benz-glc-w-dobrym-kierunku",
+      "sourceUrl": "https://autogaleria.pl/mercedes-benz-glc-w-dobrym-kierunku",
+      "title": "Mercedes-Benz GLC - W dobrym kierunku",
+      "date": "2015-07-20 19:07:20",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "wyniki-konkursu-ocen-nowe-volvo-xc90",
+      "sourceUrl": "https://autogaleria.pl/wyniki-konkursu-ocen-nowe-volvo-xc90",
+      "title": "Wyniki konkursu: \"Oceń nowe Volvo XC90!\"",
+      "date": "2015-07-19 23:07:35",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "alfa-romeo-giulia-qv-na-zywo-galeria",
+      "sourceUrl": "https://autogaleria.pl/alfa-romeo-giulia-qv-na-zywo-galeria",
+      "title": "Alfa Romeo Giulia QV na żywo! | GALERIA",
+      "date": "2015-07-16 15:07:54",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "nowy-fiat-500-nie-zepsuc-ikony",
+      "sourceUrl": "https://autogaleria.pl/nowy-fiat-500-nie-zepsuc-ikony",
+      "title": "Nowy Fiat 500 - Nie zepsuć ikony",
+      "date": "2015-07-16 13:07:51",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "konkurs-ocen-nowe-xc90-i-wygraj-cenne-nagrody-od-volvo-i-autogalerii",
+      "sourceUrl": "https://autogaleria.pl/konkurs-ocen-nowe-xc90-i-wygraj-cenne-nagrody-od-volvo-i-autogalerii",
+      "title": "KONKURS - Oceń nowe XC90 i wygraj cenne nagrody od Volvo i autoGalerii!",
+      "date": "2015-07-11 15:07:42",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+      "sourceUrl": "https://autogaleria.pl/rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+      "title": "Rekordowe 0-300-0 km/h w Koenigseggu One:1 bez rąk na kierownicy!",
+      "date": "2015-07-09 21:07:16",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "nadchodzi-cos-szybkiego-od-mercedes-amg",
+      "sourceUrl": "https://autogaleria.pl/nadchodzi-cos-szybkiego-od-mercedes-amg",
+      "title": "Nadchodzi \"coś szybkiego\" od Mercedes-AMG!",
+      "date": "2015-07-03 23:07:48",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "nowy-fiat-500-doskonalenie-formy",
+      "sourceUrl": "https://autogaleria.pl/nowy-fiat-500-doskonalenie-formy",
+      "title": "Nowy Fiat 500 - doskonalenie formy",
+      "date": "2015-07-03 23:07:45",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "volkswagen-t6-500-shades-of-transporter",
+      "sourceUrl": "https://autogaleria.pl/volkswagen-t6-500-shades-of-transporter",
+      "title": "Volkswagen T6 – 500 shades of Transporter",
+      "date": "2015-07-01 13:07:45",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "ford-mustang-super-snake-waz-ktorego-warto-miec",
+      "sourceUrl": "https://autogaleria.pl/ford-mustang-super-snake-waz-ktorego-warto-miec",
+      "title": "Ford Mustang Super Snake – wąż, którego warto mieć?",
+      "date": "2015-06-30 09:06:49",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "znamy-zasady-castingu-do-top-gear",
+      "sourceUrl": "https://autogaleria.pl/znamy-zasady-castingu-do-top-gear",
+      "title": "Znamy zasady castingu do Top Gear!",
+      "date": "2015-06-19 17:06:11",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "renault-kadjar-premiere-edition-propozycja-dla-najszybszych",
+      "sourceUrl": "https://autogaleria.pl/renault-kadjar-premiere-edition-propozycja-dla-najszybszych",
+      "title": "Renault Kadjar Premiere Edition - propozycja dla najszybszych",
+      "date": "2015-06-19 16:06:10",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "jak-wyglada-praca-wyscigowych-hamulcow",
+      "sourceUrl": "https://autogaleria.pl/jak-wyglada-praca-wyscigowych-hamulcow",
+      "title": "Jak wygląda praca wyścigowych hamulców?",
+      "date": "2015-06-19 15:06:50",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "i-ty-mozesz-zostac-nowa-twarza-top-gear",
+      "sourceUrl": "https://autogaleria.pl/i-ty-mozesz-zostac-nowa-twarza-top-gear",
+      "title": "I Ty możesz zostać nową twarzą Top Gear!",
+      "date": "2015-06-18 15:06:15",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "aktualizacja-volkswagena-tiguana",
+      "sourceUrl": "https://autogaleria.pl/aktualizacja-volkswagena-tiguana",
+      "title": "Aktualizacja Volkswagena Tiguana",
+      "date": "2015-06-18 01:06:16",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "volvo-xc90-kubel-szwedzkiej-wody",
+      "sourceUrl": "https://autogaleria.pl/volvo-xc90-kubel-szwedzkiej-wody",
+      "title": "Volvo XC90 - Kubeł szwedzkiej wody...",
+      "date": "2015-06-12 02:06:28",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+      "sourceUrl": "https://autogaleria.pl/przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+      "title": "Przekonaj się, jak mało wiesz o olejach silnikowych. Zapraszamy na szkolenie!",
+      "date": "2015-06-09 16:06:11",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+      "sourceUrl": "https://autogaleria.pl/galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+      "title": "Galeria: 10 replik Bugatti Veyrona - marzyć każdy może...",
+      "date": "2015-06-06 15:06:22",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac",
+      "sourceUrl": "https://autogaleria.pl/5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac",
+      "title": "5 najczęstszych błędów na Nürburgringu - jak ich uniknąć?",
+      "date": "2015-06-06 14:06:04",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "testujemy-volkswagena-xl1",
+      "sourceUrl": "https://autogaleria.pl/testujemy-volkswagena-xl1",
+      "title": "Testujemy Volkswagena XL1!",
+      "date": "2015-05-31 15:05:23",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "mercedes-amg-gt-s-video",
+      "sourceUrl": "https://autogaleria.pl/mercedes-amg-gt-s-video",
+      "title": "Mercedes-AMG GT S",
+      "date": "2015-05-20 12:05:33",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "nowa-skoda-superb-pierwszy-test-nowej-ery",
+      "sourceUrl": "https://autogaleria.pl/nowa-skoda-superb-pierwszy-test-nowej-ery",
+      "title": "Nowa Skoda Superb - pierwszy test \"nowej ery\"",
+      "date": "2015-05-17 14:05:55",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "najlepszy-zawod-swiata",
+      "sourceUrl": "https://autogaleria.pl/najlepszy-zawod-swiata",
+      "title": "Najlepszy zawód świata?",
+      "date": "2015-05-12 14:05:50",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+      "sourceUrl": "https://autogaleria.pl/obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+      "title": "Obalamy olejowe mity - szkolenie Castrola dla czytelników autoGALERII",
+      "date": "2015-05-12 13:05:52",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "lexus-rc-f-test-na-torze-cena-zdjecia",
+      "sourceUrl": "https://autogaleria.pl/lexus-rc-f-test-na-torze-cena-zdjecia",
+      "title": "Lexus RC F - test na torze, cena, zdjęcia",
+      "date": "2015-04-30 23:04:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "sourceUrl": "https://autogaleria.pl/test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "title": "Mercedes-AMG GT S - testujemy rywala 911!",
+      "date": "2015-04-12 18:04:34",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "mercedes-cls-350-bluetec-7g-tronic-plus",
+      "sourceUrl": "https://autogaleria.pl/mercedes-cls-350-bluetec-7g-tronic-plus",
+      "title": "Mercedes CLS 350 Bluetec 7G-Tronic Plus",
+      "date": "2015-04-12 11:04:59",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "jeremy-clarkson-oficjalnie-zwolniony-z-bbc",
+      "sourceUrl": "https://autogaleria.pl/jeremy-clarkson-oficjalnie-zwolniony-z-bbc",
+      "title": "Jeremy Clarkson oficjalnie zwolniony z BBC",
+      "date": "2015-03-25 21:03:19",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "test-land-rover-discovery-sport-wspolczesny",
+      "sourceUrl": "https://autogaleria.pl/test-land-rover-discovery-sport-wspolczesny",
+      "title": "Land Rover Discovery Sport - Współczesny",
+      "date": "2015-03-14 19:03:02",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "single-seater-fun",
+      "sourceUrl": "https://autogaleria.pl/single-seater-fun",
+      "title": "Single-seater fun!",
+      "date": "2015-03-09 23:03:03",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "koenigsegg-regera-fabryka-marzen",
+      "sourceUrl": "https://autogaleria.pl/koenigsegg-regera-fabryka-marzen",
+      "title": "Koenigsegg Regera - Fabryka marzeń",
+      "date": "2015-03-04 17:03:25",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "bentley-exp-10-speed-6-concept-mniejszy-brat-continentala",
+      "sourceUrl": "https://autogaleria.pl/bentley-exp-10-speed-6-concept-mniejszy-brat-continentala",
+      "title": "Bentley EXP 10 Speed 6 Concept - Mniejszy brat Continentala",
+      "date": "2015-03-03 15:03:01",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "mclaren-odpowiada-topgear-bylismy-gotowi-na-potrojny-test",
+      "sourceUrl": "https://autogaleria.pl/mclaren-odpowiada-topgear-bylismy-gotowi-na-potrojny-test",
+      "title": "McLaren odpowiada TopGear: Byliśmy gotowi na potrójny test",
+      "date": "2015-02-23 15:02:38",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "lexus-nx-300h-awd-f-sport",
+      "sourceUrl": "https://autogaleria.pl/lexus-nx-300h-awd-f-sport",
+      "title": "Lexus NX 300h AWD F-Sport",
+      "date": "2015-02-21 22:02:02",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "tak-brzmi-aston-martin-vulcan",
+      "sourceUrl": "https://autogaleria.pl/tak-brzmi-aston-martin-vulcan",
+      "title": "Tak brzmi Aston Martin Vulcan",
+      "date": "2015-02-20 17:02:28",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "gwiazdka-michelin-dla-motointegratora",
+      "sourceUrl": "https://autogaleria.pl/gwiazdka-michelin-dla-motointegratora",
+      "title": "\"Gwiazdka\" Michelin dla Motointegratora",
+      "date": "2015-02-10 21:02:11",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "bmw-x5-xdrive-30d",
+      "sourceUrl": "https://autogaleria.pl/bmw-x5-xdrive-30d",
+      "title": "BMW X5 xDrive 30d",
+      "date": "2015-02-07 14:02:01",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "motoryzacyjny-luksus-ksiestwa-monako-czesc-2-noc-galeria",
+      "sourceUrl": "https://autogaleria.pl/motoryzacyjny-luksus-ksiestwa-monako-czesc-2-noc-galeria",
+      "title": "Motoryzacyjny luksus księstwa Monako - część 2. - Noc! [GALERIA]",
+      "date": "2015-02-03 14:02:56",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "skoda-octavia-rs-2-0-tsi-nie-zginac-w-monako",
+      "sourceUrl": "https://autogaleria.pl/skoda-octavia-rs-2-0-tsi-nie-zginac-w-monako",
+      "title": "Skoda Octavia RS 2.0 TSI",
+      "date": "2015-02-02 20:02:23",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "fame-shame-2014-czyli-zachwyty-i-rozczarowania-redaktorow-ag",
+      "sourceUrl": "https://autogaleria.pl/fame-shame-2014-czyli-zachwyty-i-rozczarowania-redaktorow-ag",
+      "title": "Fame & Shame 2014, czyli zachwyty i rozczarowania redaktorów aG",
+      "date": "2015-01-31 23:01:08",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "motoryzacyjny-luksus-ksiestwa-monako-czesc-1-galeria",
+      "sourceUrl": "https://autogaleria.pl/motoryzacyjny-luksus-ksiestwa-monako-czesc-1-galeria",
+      "title": "Motoryzacyjny luksus księstwa Monako - część 1. [GALERIA]",
+      "date": "2015-01-30 16:01:56",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+      "sourceUrl": "https://autogaleria.pl/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+      "title": "Volkswagen Scirocco 2.0 TSI BMT 220 KM DSG",
+      "date": "2015-01-29 18:01:15",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+      "sourceUrl": "https://autogaleria.pl/alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+      "title": "Alonso i Button w wehikule czasu na bazie McLarena 650S",
+      "date": "2015-01-28 23:01:33",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "lexus-nx-300h-f-sport",
+      "sourceUrl": "https://autogaleria.pl/lexus-nx-300h-f-sport",
+      "title": "Lexus NX 300h F-Sport",
+      "date": "2015-01-08 22:01:14",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "pozar-konczy-udzial-malysza-w-dakarze-2015",
+      "sourceUrl": "https://autogaleria.pl/pozar-konczy-udzial-malysza-w-dakarze-2015",
+      "title": "Pożar kończy udział Małysza w Dakarze 2015",
+      "date": "2015-01-05 21:01:32",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "choroba-zwana-predkoscia",
+      "sourceUrl": "https://autogaleria.pl/choroba-zwana-predkoscia",
+      "title": "Choroba zwana prędkością",
+      "date": "2015-01-05 21:01:08",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "oszczedzanie-paliwa-na-sportowo",
+      "sourceUrl": "https://autogaleria.pl/oszczedzanie-paliwa-na-sportowo",
+      "title": "Oszczędzanie paliwa na sportowo!",
+      "date": "2014-12-29 23:12:38",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "skoda-octavia-rs-2-0-tsi-special-stage-1",
+      "sourceUrl": "https://autogaleria.pl/skoda-octavia-rs-2-0-tsi-special-stage-1",
+      "title": "Skoda Octavia RS 2.0 TSI",
+      "date": "2014-12-27 09:12:14",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "jak-prawidlowo-przezimowac-opony",
+      "sourceUrl": "https://autogaleria.pl/jak-prawidlowo-przezimowac-opony",
+      "title": "Jak prawidłowo \"przezimować\" opony?",
+      "date": "2014-12-23 19:12:34",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "jak-oszczedzac-paliwo",
+      "sourceUrl": "https://autogaleria.pl/jak-oszczedzac-paliwo",
+      "title": "Jak oszczędzać paliwo?",
+      "date": "2014-12-22 23:12:56",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "bmw-435i-cabriolet",
+      "sourceUrl": "https://autogaleria.pl/bmw-435i-cabriolet",
+      "title": "BMW 435i Cabriolet",
+      "date": "2014-12-21 19:12:58",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+      "sourceUrl": "https://autogaleria.pl/tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+      "title": "Tapety z naszego testu: Bentley Continental GT V8 S Convertible",
+      "date": "2014-12-18 23:12:15",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "moj-pierwszy-raz",
+      "sourceUrl": "https://autogaleria.pl/moj-pierwszy-raz",
+      "title": "Mój pierwszy raz",
+      "date": "2014-12-15 01:12:46",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "wszystko-albo-nic",
+      "sourceUrl": "https://autogaleria.pl/wszystko-albo-nic",
+      "title": "Wszystko albo nic!",
+      "date": "2014-12-08 03:12:01",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "porsche-911-targa-4s-pdk",
+      "sourceUrl": "https://autogaleria.pl/porsche-911-targa-4s-pdk",
+      "title": "Porsche 911 Targa 4S PDK",
+      "date": "2014-10-22 00:10:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "rolls-royce-wraith",
+      "sourceUrl": "https://autogaleria.pl/rolls-royce-wraith",
+      "title": "Rolls-Royce Wraith",
+      "date": "2014-08-29 00:08:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "mercedes-c200-7g-tronic-plus",
+      "sourceUrl": "https://autogaleria.pl/mercedes-c200-7g-tronic-plus",
+      "title": "Mercedes C200 7G-TRONIC PLUS",
+      "date": "2014-07-28 00:07:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "citroen-c3-16-vti-exclusive-2",
+      "sourceUrl": "https://autogaleria.pl/citroen-c3-16-vti-exclusive-2",
+      "title": "Citroen C3 1.6 VTi Exclusive",
+      "date": "2014-04-27 00:04:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "bmw-435i",
+      "sourceUrl": "https://autogaleria.pl/bmw-435i",
+      "title": "BMW 435i",
+      "date": "2014-04-18 00:04:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "porsche-boxster-s",
+      "sourceUrl": "https://autogaleria.pl/porsche-boxster-s",
+      "title": "Porsche Boxster S",
+      "date": "2013-11-23 00:11:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "maserati-granturismo-sport",
+      "sourceUrl": "https://autogaleria.pl/maserati-granturismo-sport",
+      "title": "Maserati GranTurismo Sport",
+      "date": "2013-09-16 00:09:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "lexus-rx-350-f-sport",
+      "sourceUrl": "https://autogaleria.pl/lexus-rx-350-f-sport",
+      "title": "Lexus RX 350 F Sport",
+      "date": "2013-05-08 00:05:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "bmw-328i-xdrive",
+      "sourceUrl": "https://autogaleria.pl/bmw-328i-xdrive",
+      "title": "BMW 328i xDrive",
+      "date": "2013-04-24 00:04:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "citroen-c-elysee-16-hdi-seduction",
+      "sourceUrl": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction",
+      "title": "Citroen C-Elysee 1.6 HDi Seduction",
+      "date": "2013-04-07 00:04:00",
+      "discoveredVia": "elasticsearch-author"
+    },
+    {
+      "urlKey": "citroen-c3-16-vti-exclusive",
+      "sourceUrl": "https://autogaleria.pl/citroen-c3-16-vti-exclusive",
+      "title": "Citroen C3 1.6 VTi Exclusive",
+      "date": "2010-07-17 00:07:00",
+      "discoveredVia": "elasticsearch-author"
+    }
+  ]
+}

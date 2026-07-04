@@ -3,6 +3,10 @@
 /**
  * Slot reklamowy – lazy-loaded, z etykietą "Reklama".
  * Docelowo: wstrzyknąć skrypt AdSense lub kod z panelu admin (np. program partnerski).
+ *
+ * Dopóki żadna sieć reklamowa nie jest podpięta, slot nie renderuje nic (fallback
+ * z docs/PLAN-REKLAMY-I-NEWS.md: "gdy brak kampanii: puste miejsce") – zamiast
+ * pokazywać odwiedzającym szary placeholder z widocznym ID slotu.
  */
 type AdSlotProps = {
   /** Identyfikator slotu (np. header-billboard, sidebar-top) – do mapowania na ID jednostki reklamowej. */
@@ -20,7 +24,11 @@ const formatStyles: Record<NonNullable<AdSlotProps["format"]>, string> = {
   footer: "min-h-[90px] w-full max-w-[728px] mx-auto"
 };
 
+const ADS_ENABLED = process.env.NEXT_PUBLIC_ADS_ENABLED === "true";
+
 export function AdSlot({ slotId, format = "medium-rectangle", className = "" }: AdSlotProps) {
+  if (!ADS_ENABLED) return null;
+
   return (
     <aside
       className={`flex flex-col items-center justify-center rounded-lg border border-neutral-200 bg-neutral-100/80 ${formatStyles[format]} ${className}`}

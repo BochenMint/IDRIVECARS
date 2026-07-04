@@ -1,0 +1,93 @@
+{
+  "slug": "lexus-nx-300h-f-sport",
+  "urlKey": "lexus-nx-300h-f-sport",
+  "sourceUrl": "https://autogaleria.pl/lexus-nx-300h-f-sport",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:42:27.640Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Lexus NX 300h F-Sport",
+  "excerpt": "Lexus NX to nowa propozycja japońskiej marki. Mały SUV, zwany popularnie Crossoverem. Nie dostanie taryfy ulgowej. Będzie musiał się ubrudzić...",
+  "lead": "Lexus NX to nowa propozycja japońskiej marki. Mały SUV, zwany popularnie Crossoverem. Nie dostanie taryfy ulgowej. Będzie musiał się ubrudzić...",
+  "category": "Producenci i rynek",
+  "categories": [
+    {
+      "id": 221,
+      "name": "Producenci i rynek",
+      "slug": "producenci-i-rynek",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "publishedAt": "2015-01-08",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>To prawda - nie wygląda, jakby miał ochotę wyjeżdżać poza asfalt, szczególnie w wersji F-Sport. Ale jak by nie patrzeć, ma napęd na cztery koła. Sprawdziliśmy więc, na co stać wersję oznaczoną jako 300h. Zapraszamy na film!</p>\n<p><a href=\"http://www.autogaleria.pl/filmy/lexus-nx-300h-f-sport/attachment/lexus_nx_300h_f_sport_video_zapowiedz-3/\" is=\"content-image\" rel=\"attachment wp-att-130092\"><img class=\" size-thumbnail wp-image-130092 alignnone\" src=\"http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-3-150x150.jpg\" alt=\"Lexus NX 300h F-Sport\" /></a> <a href=\"http://www.autogaleria.pl/filmy/lexus-nx-300h-f-sport/attachment/lexus_nx_300h_f_sport_video_zapowiedz-2/\" is=\"content-image\" rel=\"attachment wp-att-130091\"><img class=\" size-thumbnail wp-image-130091 alignnone\" src=\"http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-2-150x150.jpg\" alt=\"Lexus NX 300h F-Sport\" /></a> <a href=\"http://www.autogaleria.pl/filmy/lexus-nx-300h-f-sport/attachment/lexus_nx_300h_f_sport_video_zapowiedz-1/\" is=\"content-image\" rel=\"attachment wp-att-130090\"><img class=\" size-thumbnail wp-image-130090 alignleft\" src=\"http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1-150x150.jpg\" alt=\"Lexus NX 300h F-Sport\" /></a></p>\n<p>https://www.youtube.com/watch?v=1FI6LxsweNQ</p>\n<p>&nbsp;</p>\n",
+  "bodyMarkdown": "To prawda - nie wygląda, jakby miał ochotę wyjeżdżać poza asfalt, szczególnie w wersji F-Sport. Ale jak by nie patrzeć, ma napęd na cztery koła. Sprawdziliśmy więc, na co stać wersję oznaczoną jako 300h. Zapraszamy na film!\n\n[![Lexus NX 300h F-Sport](http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-3-150x150.jpg)](http://www.autogaleria.pl/filmy/lexus-nx-300h-f-sport/attachment/lexus_nx_300h_f_sport_video_zapowiedz-3/) [![Lexus NX 300h F-Sport](http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-2-150x150.jpg)](http://www.autogaleria.pl/filmy/lexus-nx-300h-f-sport/attachment/lexus_nx_300h_f_sport_video_zapowiedz-2/) [![Lexus NX 300h F-Sport](http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1-150x150.jpg)](http://www.autogaleria.pl/filmy/lexus-nx-300h-f-sport/attachment/lexus_nx_300h_f_sport_video_zapowiedz-1/)\n\nhttps://www.youtube.com/watch?v=1FI6LxsweNQ",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "1FI6LxsweNQ",
+      "url": "https://www.youtube.com/watch?v=1FI6LxsweNQ",
+      "embedUrl": "https://www.youtube.com/embed/1FI6LxsweNQ"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-2.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-3.jpg",
+      "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-3-150x150.jpg",
+      "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-2-150x150.jpg",
+      "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1-150x150.jpg"
+    ],
+    "inline": [
+      "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-3-150x150.jpg",
+      "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-2-150x150.jpg",
+      "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1-150x150.jpg"
+    ],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-2.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-3.jpg",
+        "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-3-150x150.jpg",
+        "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-2-150x150.jpg",
+        "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1-150x150.jpg"
+      ],
+      "inline": [
+        "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-3-150x150.jpg",
+        "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-2-150x150.jpg",
+        "http://www.autogaleria.pl/wp-content/uploads/2015/01/lexus_nx_300h_f_sport_video_zapowiedz-1-150x150.jpg"
+      ]
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "FILM | Lexus NX 300h F-Sport",
+    "description": "Lexus NX to nowa propozycja japońskiej marki. Mały SUV, zwany popularnie Crossoverem. Nie dostanie taryfy ulgowej. Będzie musiał się ubrudzić..."
+  },
+  "cars": [
+    "Lexus"
+  ],
+  "imageCacheLocal": [
+    "lexus-nx-300h-f-sport/hero.jpg",
+    "lexus-nx-300h-f-sport/gallery-1.jpg",
+    "lexus-nx-300h-f-sport/gallery-2.jpg",
+    "lexus-nx-300h-f-sport/gallery-3.jpg"
+  ]
+}

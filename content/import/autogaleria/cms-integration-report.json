@@ -1,0 +1,895 @@
+{
+  "generatedAt": "2026-06-30T21:45:47.254Z",
+  "counts": {
+    "source": 75,
+    "created": 54,
+    "skipped": 21,
+    "conflicts": 21,
+    "draft": 18,
+    "published": 36,
+    "warnings": 49
+  },
+  "created": [
+    {
+      "slug": "5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac",
+      "title": "5 najczęstszych błędów na Nürburgringu - jak ich uniknąć?",
+      "category": "blog",
+      "status": "published",
+      "target": "content/blog/5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac.mdx"
+    },
+    {
+      "slug": "aktualizacja-volkswagena-tiguana",
+      "title": "Aktualizacja Volkswagena Tiguana",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/aktualizacja-volkswagena-tiguana.mdx"
+    },
+    {
+      "slug": "alfa-romeo-giulia-qv-na-zywo-galeria",
+      "title": "Alfa Romeo Giulia QV na żywo! | GALERIA",
+      "category": "blog",
+      "status": "draft",
+      "target": "content/blog/alfa-romeo-giulia-qv-na-zywo-galeria.mdx"
+    },
+    {
+      "slug": "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+      "title": "Alonso i Button w wehikule czasu na bazie McLarena 650S",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s.mdx"
+    },
+    {
+      "slug": "bentley-exp-10-speed-6-concept-mniejszy-brat-continentala",
+      "title": "Bentley EXP 10 Speed 6 Concept - Mniejszy brat Continentala",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/bentley-exp-10-speed-6-concept-mniejszy-brat-continentala.mdx"
+    },
+    {
+      "slug": "bmw-328i-xdrive",
+      "title": "BMW 328i xDrive",
+      "category": "test",
+      "status": "published",
+      "target": "content/testy/bmw-328i-xdrive.mdx"
+    },
+    {
+      "slug": "bmw-x5-xdrive-30d",
+      "title": "BMW X5 xDrive 30d",
+      "category": "test",
+      "status": "published",
+      "target": "content/testy/bmw-x5-xdrive-30d.mdx"
+    },
+    {
+      "slug": "choroba-zwana-predkoscia",
+      "title": "Choroba zwana prędkością",
+      "category": "felieton",
+      "status": "published",
+      "target": "content/felieton/choroba-zwana-predkoscia.mdx"
+    },
+    {
+      "slug": "citroen-c3-16-vti-exclusive-2",
+      "title": "Citroen C3 1.6 VTi Exclusive",
+      "category": "test",
+      "status": "published",
+      "target": "content/testy/citroen-c3-16-vti-exclusive-2.mdx"
+    },
+    {
+      "slug": "citroen-c3-16-vti-exclusive",
+      "title": "Citroen C3 1.6 VTi Exclusive",
+      "category": "test",
+      "status": "published",
+      "target": "content/testy/citroen-c3-16-vti-exclusive.mdx"
+    },
+    {
+      "slug": "fame-shame-2014-czyli-zachwyty-i-rozczarowania-redaktorow-ag",
+      "title": "Fame & Shame 2014, czyli zachwyty i rozczarowania redaktorów aG",
+      "category": "blog",
+      "status": "draft",
+      "target": "content/blog/fame-shame-2014-czyli-zachwyty-i-rozczarowania-redaktorow-ag.mdx"
+    },
+    {
+      "slug": "ford-mustang-super-snake-waz-ktorego-warto-miec",
+      "title": "Ford Mustang Super Snake – wąż, którego warto mieć?",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/ford-mustang-super-snake-waz-ktorego-warto-miec.mdx"
+    },
+    {
+      "slug": "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+      "title": "Galeria: 10 replik Bugatti Veyrona - marzyć każdy może...",
+      "category": "blog",
+      "status": "draft",
+      "target": "content/blog/galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze.mdx"
+    },
+    {
+      "slug": "gwiazdka-michelin-dla-motointegratora",
+      "title": "\"Gwiazdka\" Michelin dla Motointegratora",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/gwiazdka-michelin-dla-motointegratora.mdx"
+    },
+    {
+      "slug": "i-ty-mozesz-zostac-nowa-twarza-top-gear",
+      "title": "I Ty możesz zostać nową twarzą Top Gear!",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/i-ty-mozesz-zostac-nowa-twarza-top-gear.mdx"
+    },
+    {
+      "slug": "jak-oszczedzac-paliwo",
+      "title": "Jak oszczędzać paliwo?",
+      "category": "felieton",
+      "status": "published",
+      "target": "content/felieton/jak-oszczedzac-paliwo.mdx"
+    },
+    {
+      "slug": "jak-prawidlowo-przezimowac-opony",
+      "title": "Jak prawidłowo \"przezimować\" opony?",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/jak-prawidlowo-przezimowac-opony.mdx"
+    },
+    {
+      "slug": "jak-wyglada-praca-wyscigowych-hamulcow",
+      "title": "Jak wygląda praca wyścigowych hamulców?",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/jak-wyglada-praca-wyscigowych-hamulcow.mdx"
+    },
+    {
+      "slug": "jeremy-clarkson-oficjalnie-zwolniony-z-bbc",
+      "title": "Jeremy Clarkson oficjalnie zwolniony z BBC",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/jeremy-clarkson-oficjalnie-zwolniony-z-bbc.mdx"
+    },
+    {
+      "slug": "koenigsegg-regera-fabryka-marzen",
+      "title": "Koenigsegg Regera - Fabryka marzeń",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/koenigsegg-regera-fabryka-marzen.mdx"
+    },
+    {
+      "slug": "konkurs-ocen-nowe-xc90-i-wygraj-cenne-nagrody-od-volvo-i-autogalerii",
+      "title": "KONKURS - Oceń nowe XC90 i wygraj cenne nagrody od Volvo i autoGalerii!",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/konkurs-ocen-nowe-xc90-i-wygraj-cenne-nagrody-od-volvo-i-autogalerii.mdx"
+    },
+    {
+      "slug": "lexus-nx-300h-awd-f-sport",
+      "title": "Lexus NX 300h AWD F-Sport",
+      "category": "test",
+      "status": "published",
+      "target": "content/testy/lexus-nx-300h-awd-f-sport.mdx"
+    },
+    {
+      "slug": "lexus-rc-f-test-na-torze-cena-zdjecia",
+      "title": "Lexus RC F - test na torze, cena, zdjęcia",
+      "category": "pierwsza-jazda",
+      "status": "published",
+      "target": "content/testy/lexus-rc-f-test-na-torze-cena-zdjecia.mdx"
+    },
+    {
+      "slug": "mclaren-odpowiada-topgear-bylismy-gotowi-na-potrojny-test",
+      "title": "McLaren odpowiada TopGear: Byliśmy gotowi na potrójny test",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/mclaren-odpowiada-topgear-bylismy-gotowi-na-potrojny-test.mdx"
+    },
+    {
+      "slug": "mercedes-amg-gt-s-video",
+      "title": "Mercedes-AMG GT S",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/mercedes-amg-gt-s-video.mdx"
+    },
+    {
+      "slug": "mercedes-c-coupe-i-amg-c63-s-coupe-dwie-twarze",
+      "title": "Mercedes C Coupé i AMG C63 S Coupé: Dwie twarze",
+      "category": "pierwsza-jazda",
+      "status": "published",
+      "target": "content/testy/mercedes-c-coupe-i-amg-c63-s-coupe-dwie-twarze.mdx"
+    },
+    {
+      "slug": "mercedes-c200-7g-tronic-plus",
+      "title": "Mercedes C200 7G-TRONIC PLUS",
+      "category": "test",
+      "status": "published",
+      "target": "content/testy/mercedes-c200-7g-tronic-plus.mdx"
+    },
+    {
+      "slug": "mercedes-cls-350-bluetec-7g-tronic-plus",
+      "title": "Mercedes CLS 350 Bluetec 7G-Tronic Plus",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/mercedes-cls-350-bluetec-7g-tronic-plus.mdx"
+    },
+    {
+      "slug": "moj-pierwszy-raz",
+      "title": "Mój pierwszy raz",
+      "category": "felieton",
+      "status": "published",
+      "target": "content/felieton/moj-pierwszy-raz.mdx"
+    },
+    {
+      "slug": "motoryzacyjny-luksus-ksiestwa-monako-czesc-1-galeria",
+      "title": "Motoryzacyjny luksus księstwa Monako - część 1. [GALERIA]",
+      "category": "blog",
+      "status": "draft",
+      "target": "content/blog/motoryzacyjny-luksus-ksiestwa-monako-czesc-1-galeria.mdx"
+    },
+    {
+      "slug": "motoryzacyjny-luksus-ksiestwa-monako-czesc-2-noc-galeria",
+      "title": "Motoryzacyjny luksus księstwa Monako - część 2. - Noc! [GALERIA]",
+      "category": "blog",
+      "status": "draft",
+      "target": "content/blog/motoryzacyjny-luksus-ksiestwa-monako-czesc-2-noc-galeria.mdx"
+    },
+    {
+      "slug": "nadchodzi-cos-szybkiego-od-mercedes-amg",
+      "title": "Nadchodzi \"coś szybkiego\" od Mercedes-AMG!",
+      "category": "blog",
+      "status": "draft",
+      "target": "content/blog/nadchodzi-cos-szybkiego-od-mercedes-amg.mdx"
+    },
+    {
+      "slug": "najlepszy-zawod-swiata",
+      "title": "Najlepszy zawód świata?",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/najlepszy-zawod-swiata.mdx"
+    },
+    {
+      "slug": "nowy-fiat-500-doskonalenie-formy",
+      "title": "Nowy Fiat 500 - doskonalenie formy",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/nowy-fiat-500-doskonalenie-formy.mdx"
+    },
+    {
+      "slug": "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+      "title": "Obalamy olejowe mity - szkolenie Castrola dla czytelników autoGALERII",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii.mdx"
+    },
+    {
+      "slug": "oszczedzanie-paliwa-na-sportowo",
+      "title": "Oszczędzanie paliwa na sportowo!",
+      "category": "felieton",
+      "status": "published",
+      "target": "content/felieton/oszczedzanie-paliwa-na-sportowo.mdx"
+    },
+    {
+      "slug": "porsche-911-targa-4s-pdk",
+      "title": "Porsche 911 Targa 4S PDK",
+      "category": "test",
+      "status": "published",
+      "target": "content/testy/porsche-911-targa-4s-pdk.mdx"
+    },
+    {
+      "slug": "pozar-konczy-udzial-malysza-w-dakarze-2015",
+      "title": "Pożar kończy udział Małysza w Dakarze 2015",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/pozar-konczy-udzial-malysza-w-dakarze-2015.mdx"
+    },
+    {
+      "slug": "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+      "title": "Przekonaj się, jak mało wiesz o olejach silnikowych. Zapraszamy na szkolenie!",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie.mdx"
+    },
+    {
+      "slug": "rekordowe-0-100-kmh-niemieckich-studentow-galeria-film",
+      "title": "Rekordowe 0-100 km/h niemieckich studentów",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/rekordowe-0-100-kmh-niemieckich-studentow-galeria-film.mdx"
+    },
+    {
+      "slug": "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+      "title": "Rekordowe 0-300-0 km/h w Koenigseggu One:1 bez rąk na kierownicy!",
+      "category": "blog",
+      "status": "draft",
+      "target": "content/blog/rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy.mdx"
+    },
+    {
+      "slug": "renault-kadjar-premiere-edition-propozycja-dla-najszybszych",
+      "title": "Renault Kadjar Premiere Edition - propozycja dla najszybszych",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/renault-kadjar-premiere-edition-propozycja-dla-najszybszych.mdx"
+    },
+    {
+      "slug": "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+      "title": "Rolls-Royce Dawn - Najlepszy kabriolet na świecie? [galeria]",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria.mdx"
+    },
+    {
+      "slug": "single-seater-fun",
+      "title": "Single-seater fun!",
+      "category": "felieton",
+      "status": "published",
+      "target": "content/felieton/single-seater-fun.mdx"
+    },
+    {
+      "slug": "skoda-octavia-rs-2-0-tsi-nie-zginac-w-monako",
+      "title": "Skoda Octavia RS 2.0 TSI",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/skoda-octavia-rs-2-0-tsi-nie-zginac-w-monako.mdx"
+    },
+    {
+      "slug": "skoda-octavia-rs-2-0-tsi-special-stage-1",
+      "title": "Skoda Octavia RS 2.0 TSI",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/skoda-octavia-rs-2-0-tsi-special-stage-1.mdx"
+    },
+    {
+      "slug": "tak-brzmi-aston-martin-vulcan",
+      "title": "Tak brzmi Aston Martin Vulcan",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/tak-brzmi-aston-martin-vulcan.mdx"
+    },
+    {
+      "slug": "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+      "title": "Tapety z naszego testu: Bentley Continental GT V8 S Convertible",
+      "category": "blog",
+      "status": "draft",
+      "target": "content/blog/tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible.mdx"
+    },
+    {
+      "slug": "test-land-rover-discovery-sport-wspolczesny",
+      "title": "Land Rover Discovery Sport - Współczesny",
+      "category": "pierwsza-jazda",
+      "status": "published",
+      "target": "content/testy/test-land-rover-discovery-sport-wspolczesny.mdx"
+    },
+    {
+      "slug": "testujemy-volkswagena-xl1",
+      "title": "Testujemy Volkswagena XL1!",
+      "category": "news",
+      "status": "draft",
+      "target": "content/news/testujemy-volkswagena-xl1.mdx"
+    },
+    {
+      "slug": "volvo-xc90-kubel-szwedzkiej-wody",
+      "title": "Volvo XC90 - Kubeł szwedzkiej wody...",
+      "category": "pierwsza-jazda",
+      "status": "published",
+      "target": "content/testy/volvo-xc90-kubel-szwedzkiej-wody.mdx"
+    },
+    {
+      "slug": "wszystko-albo-nic",
+      "title": "Wszystko albo nic!",
+      "category": "felieton",
+      "status": "published",
+      "target": "content/felieton/wszystko-albo-nic.mdx"
+    },
+    {
+      "slug": "wyniki-konkursu-ocen-nowe-volvo-xc90",
+      "title": "Wyniki konkursu: \"Oceń nowe Volvo XC90!\"",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/wyniki-konkursu-ocen-nowe-volvo-xc90.mdx"
+    },
+    {
+      "slug": "znamy-zasady-castingu-do-top-gear",
+      "title": "Znamy zasady castingu do Top Gear!",
+      "category": "news",
+      "status": "published",
+      "target": "content/news/znamy-zasady-castingu-do-top-gear.mdx"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "bmw-435i-cabriolet",
+      "title": "BMW 435i Cabriolet",
+      "category": "test",
+      "target": "content/testy/bmw-435i-cabriolet.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "bmw-435i",
+      "title": "BMW 435i",
+      "category": "test",
+      "target": "content/testy/bmw-435i.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "bmw-x6-m50d-fl",
+      "title": "BMW X6 M50d",
+      "category": "test",
+      "target": "content/testy/bmw-x6-m50d-fl.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "title": "Brabus 850 6.0 BITURBO GLE Coupe - jakby komuś było mało",
+      "category": "news",
+      "target": "content/testy/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "citroen-c-elysee-16-hdi-seduction",
+      "title": "Citroen C-Elysee 1.6 HDi Seduction",
+      "category": "test",
+      "target": "content/testy/citroen-c-elysee-16-hdi-seduction.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "ford-focus-rs-najlepszy-z-chuliganow",
+      "title": "Ford Focus RS: Najlepszy z chuliganów",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/ford-focus-rs-najlepszy-z-chuliganow.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "lexus-nx-300h-f-sport",
+      "title": "Lexus NX 300h F-Sport",
+      "category": "news",
+      "target": "content/testy/lexus-nx-300h-f-sport.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "lexus-rx-350-f-sport",
+      "title": "Lexus RX 350 F Sport",
+      "category": "test",
+      "target": "content/testy/lexus-rx-350-f-sport.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "maserati-granturismo-sport",
+      "title": "Maserati GranTurismo Sport",
+      "category": "test",
+      "target": "content/testy/maserati-granturismo-sport.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "mazda-mx-5-nd-do-korzeni",
+      "title": "Mazda MX-5 ND - Do korzeni!",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/mazda-mx-5-nd-do-korzeni.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "mercedes-benz-glc-w-dobrym-kierunku",
+      "title": "Mercedes-Benz GLC - W dobrym kierunku",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/mercedes-benz-glc-w-dobrym-kierunku.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa",
+      "title": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "mercedes-maybach-s-600",
+      "title": "Mercedes-Maybach S 600",
+      "category": "test",
+      "target": "content/testy/mercedes-maybach-s-600.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "nowa-skoda-superb-pierwszy-test-nowej-ery",
+      "title": "Nowa Skoda Superb - pierwszy test \"nowej ery\"",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/nowa-skoda-superb-pierwszy-test-nowej-ery.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "nowy-fiat-500-nie-zepsuc-ikony",
+      "title": "Nowy Fiat 500 - Nie zepsuć ikony",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/nowy-fiat-500-nie-zepsuc-ikony.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "porsche-boxster-s",
+      "title": "Porsche Boxster S",
+      "category": "test",
+      "target": "content/testy/porsche-boxster-s.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "rolls-royce-wraith",
+      "title": "Rolls-Royce Wraith",
+      "category": "test",
+      "target": "content/testy/rolls-royce-wraith.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "title": "Mercedes-AMG GT S - testujemy rywala 911!",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/test-mercedes-amg-gt-s-testujemy-rywala-911.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "volkswagen-passat-alltrack-all-inclusive",
+      "title": "Volkswagen Passat Alltrack: All inclusive",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/volkswagen-passat-alltrack-all-inclusive.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+      "title": "Volkswagen Scirocco 2.0 TSI BMT 220 KM DSG",
+      "category": "test",
+      "target": "content/testy/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "volkswagen-t6-500-shades-of-transporter",
+      "title": "Volkswagen T6 – 500 shades of Transporter",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/volkswagen-t6-500-shades-of-transporter.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    }
+  ],
+  "conflicts": [
+    {
+      "slug": "bmw-435i-cabriolet",
+      "title": "BMW 435i Cabriolet",
+      "category": "test",
+      "target": "content/testy/bmw-435i-cabriolet.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "bmw-435i",
+      "title": "BMW 435i",
+      "category": "test",
+      "target": "content/testy/bmw-435i.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "bmw-x6-m50d-fl",
+      "title": "BMW X6 M50d",
+      "category": "test",
+      "target": "content/testy/bmw-x6-m50d-fl.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "title": "Brabus 850 6.0 BITURBO GLE Coupe - jakby komuś było mało",
+      "category": "news",
+      "target": "content/testy/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "citroen-c-elysee-16-hdi-seduction",
+      "title": "Citroen C-Elysee 1.6 HDi Seduction",
+      "category": "test",
+      "target": "content/testy/citroen-c-elysee-16-hdi-seduction.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "ford-focus-rs-najlepszy-z-chuliganow",
+      "title": "Ford Focus RS: Najlepszy z chuliganów",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/ford-focus-rs-najlepszy-z-chuliganow.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "lexus-nx-300h-f-sport",
+      "title": "Lexus NX 300h F-Sport",
+      "category": "news",
+      "target": "content/testy/lexus-nx-300h-f-sport.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "lexus-rx-350-f-sport",
+      "title": "Lexus RX 350 F Sport",
+      "category": "test",
+      "target": "content/testy/lexus-rx-350-f-sport.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "maserati-granturismo-sport",
+      "title": "Maserati GranTurismo Sport",
+      "category": "test",
+      "target": "content/testy/maserati-granturismo-sport.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "mazda-mx-5-nd-do-korzeni",
+      "title": "Mazda MX-5 ND - Do korzeni!",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/mazda-mx-5-nd-do-korzeni.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "mercedes-benz-glc-w-dobrym-kierunku",
+      "title": "Mercedes-Benz GLC - W dobrym kierunku",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/mercedes-benz-glc-w-dobrym-kierunku.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa",
+      "title": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "mercedes-maybach-s-600",
+      "title": "Mercedes-Maybach S 600",
+      "category": "test",
+      "target": "content/testy/mercedes-maybach-s-600.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "nowa-skoda-superb-pierwszy-test-nowej-ery",
+      "title": "Nowa Skoda Superb - pierwszy test \"nowej ery\"",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/nowa-skoda-superb-pierwszy-test-nowej-ery.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "nowy-fiat-500-nie-zepsuc-ikony",
+      "title": "Nowy Fiat 500 - Nie zepsuć ikony",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/nowy-fiat-500-nie-zepsuc-ikony.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "porsche-boxster-s",
+      "title": "Porsche Boxster S",
+      "category": "test",
+      "target": "content/testy/porsche-boxster-s.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "rolls-royce-wraith",
+      "title": "Rolls-Royce Wraith",
+      "category": "test",
+      "target": "content/testy/rolls-royce-wraith.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "title": "Mercedes-AMG GT S - testujemy rywala 911!",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/test-mercedes-amg-gt-s-testujemy-rywala-911.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "volkswagen-passat-alltrack-all-inclusive",
+      "title": "Volkswagen Passat Alltrack: All inclusive",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/volkswagen-passat-alltrack-all-inclusive.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+      "title": "Volkswagen Scirocco 2.0 TSI BMT 220 KM DSG",
+      "category": "test",
+      "target": "content/testy/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    },
+    {
+      "slug": "volkswagen-t6-500-shades-of-transporter",
+      "title": "Volkswagen T6 – 500 shades of Transporter",
+      "category": "pierwsza-jazda",
+      "target": "content/testy/volkswagen-t6-500-shades-of-transporter.mdx",
+      "reason": "slug już istnieje; bezpiecznie pominięto bez nadpisywania"
+    }
+  ],
+  "warnings": [
+    {
+      "slug": "5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac."
+    },
+    {
+      "slug": "aktualizacja-volkswagena-tiguana",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/aktualizacja-volkswagena-tiguana."
+    },
+    {
+      "slug": "alfa-romeo-giulia-qv-na-zywo-galeria",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/alfa-romeo-giulia-qv-na-zywo-galeria."
+    },
+    {
+      "slug": "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s."
+    },
+    {
+      "slug": "bentley-exp-10-speed-6-concept-mniejszy-brat-continentala",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/bentley-exp-10-speed-6-concept-mniejszy-brat-continentala."
+    },
+    {
+      "slug": "bmw-x5-xdrive-30d",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/bmw-x5-xdrive-30d."
+    },
+    {
+      "slug": "choroba-zwana-predkoscia",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/choroba-zwana-predkoscia."
+    },
+    {
+      "slug": "fame-shame-2014-czyli-zachwyty-i-rozczarowania-redaktorow-ag",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/fame-shame-2014-czyli-zachwyty-i-rozczarowania-redaktorow-ag."
+    },
+    {
+      "slug": "ford-mustang-super-snake-waz-ktorego-warto-miec",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/ford-mustang-super-snake-waz-ktorego-warto-miec."
+    },
+    {
+      "slug": "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze."
+    },
+    {
+      "slug": "gwiazdka-michelin-dla-motointegratora",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/gwiazdka-michelin-dla-motointegratora."
+    },
+    {
+      "slug": "i-ty-mozesz-zostac-nowa-twarza-top-gear",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/i-ty-mozesz-zostac-nowa-twarza-top-gear."
+    },
+    {
+      "slug": "jak-oszczedzac-paliwo",
+      "message": "Obrazy są tylko w cache importu (2); brak public/galleries/jak-oszczedzac-paliwo."
+    },
+    {
+      "slug": "jak-prawidlowo-przezimowac-opony",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/jak-prawidlowo-przezimowac-opony."
+    },
+    {
+      "slug": "jak-wyglada-praca-wyscigowych-hamulcow",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/jak-wyglada-praca-wyscigowych-hamulcow."
+    },
+    {
+      "slug": "jeremy-clarkson-oficjalnie-zwolniony-z-bbc",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/jeremy-clarkson-oficjalnie-zwolniony-z-bbc."
+    },
+    {
+      "slug": "koenigsegg-regera-fabryka-marzen",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/koenigsegg-regera-fabryka-marzen."
+    },
+    {
+      "slug": "konkurs-ocen-nowe-xc90-i-wygraj-cenne-nagrody-od-volvo-i-autogalerii",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/konkurs-ocen-nowe-xc90-i-wygraj-cenne-nagrody-od-volvo-i-autogalerii."
+    },
+    {
+      "slug": "lexus-nx-300h-awd-f-sport",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/lexus-nx-300h-awd-f-sport."
+    },
+    {
+      "slug": "lexus-rc-f-test-na-torze-cena-zdjecia",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/lexus-rc-f-test-na-torze-cena-zdjecia."
+    },
+    {
+      "slug": "mclaren-odpowiada-topgear-bylismy-gotowi-na-potrojny-test",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/mclaren-odpowiada-topgear-bylismy-gotowi-na-potrojny-test."
+    },
+    {
+      "slug": "mercedes-amg-gt-s-video",
+      "message": "Obrazy są tylko w cache importu (1); brak public/galleries/mercedes-amg-gt-s-video."
+    },
+    {
+      "slug": "mercedes-c-coupe-i-amg-c63-s-coupe-dwie-twarze",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/mercedes-c-coupe-i-amg-c63-s-coupe-dwie-twarze."
+    },
+    {
+      "slug": "mercedes-cls-350-bluetec-7g-tronic-plus",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/mercedes-cls-350-bluetec-7g-tronic-plus."
+    },
+    {
+      "slug": "moj-pierwszy-raz",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/moj-pierwszy-raz."
+    },
+    {
+      "slug": "motoryzacyjny-luksus-ksiestwa-monako-czesc-1-galeria",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/motoryzacyjny-luksus-ksiestwa-monako-czesc-1-galeria."
+    },
+    {
+      "slug": "motoryzacyjny-luksus-ksiestwa-monako-czesc-2-noc-galeria",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/motoryzacyjny-luksus-ksiestwa-monako-czesc-2-noc-galeria."
+    },
+    {
+      "slug": "nadchodzi-cos-szybkiego-od-mercedes-amg",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/nadchodzi-cos-szybkiego-od-mercedes-amg."
+    },
+    {
+      "slug": "najlepszy-zawod-swiata",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/najlepszy-zawod-swiata."
+    },
+    {
+      "slug": "nowy-fiat-500-doskonalenie-formy",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/nowy-fiat-500-doskonalenie-formy."
+    },
+    {
+      "slug": "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii."
+    },
+    {
+      "slug": "oszczedzanie-paliwa-na-sportowo",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/oszczedzanie-paliwa-na-sportowo."
+    },
+    {
+      "slug": "pozar-konczy-udzial-malysza-w-dakarze-2015",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/pozar-konczy-udzial-malysza-w-dakarze-2015."
+    },
+    {
+      "slug": "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie."
+    },
+    {
+      "slug": "rekordowe-0-100-kmh-niemieckich-studentow-galeria-film",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/rekordowe-0-100-kmh-niemieckich-studentow-galeria-film."
+    },
+    {
+      "slug": "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy."
+    },
+    {
+      "slug": "renault-kadjar-premiere-edition-propozycja-dla-najszybszych",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/renault-kadjar-premiere-edition-propozycja-dla-najszybszych."
+    },
+    {
+      "slug": "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria."
+    },
+    {
+      "slug": "single-seater-fun",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/single-seater-fun."
+    },
+    {
+      "slug": "skoda-octavia-rs-2-0-tsi-nie-zginac-w-monako",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/skoda-octavia-rs-2-0-tsi-nie-zginac-w-monako."
+    },
+    {
+      "slug": "skoda-octavia-rs-2-0-tsi-special-stage-1",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/skoda-octavia-rs-2-0-tsi-special-stage-1."
+    },
+    {
+      "slug": "tak-brzmi-aston-martin-vulcan",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/tak-brzmi-aston-martin-vulcan."
+    },
+    {
+      "slug": "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+      "message": "Obrazy są tylko w cache importu (1); brak public/galleries/tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible."
+    },
+    {
+      "slug": "test-land-rover-discovery-sport-wspolczesny",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/test-land-rover-discovery-sport-wspolczesny."
+    },
+    {
+      "slug": "testujemy-volkswagena-xl1",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/testujemy-volkswagena-xl1."
+    },
+    {
+      "slug": "volvo-xc90-kubel-szwedzkiej-wody",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/volvo-xc90-kubel-szwedzkiej-wody."
+    },
+    {
+      "slug": "wszystko-albo-nic",
+      "message": "Obrazy są tylko w cache importu (2); brak public/galleries/wszystko-albo-nic."
+    },
+    {
+      "slug": "wyniki-konkursu-ocen-nowe-volvo-xc90",
+      "message": "Obrazy są tylko w cache importu (4); brak public/galleries/wyniki-konkursu-ocen-nowe-volvo-xc90."
+    },
+    {
+      "slug": "znamy-zasady-castingu-do-top-gear",
+      "message": "Obrazy są tylko w cache importu (3); brak public/galleries/znamy-zasady-castingu-do-top-gear."
+    }
+  ],
+  "categoryCounts": {
+    "test": 17,
+    "pierwsza-jazda": 13,
+    "blog": 9,
+    "felieton": 6,
+    "news": 30
+  }
+}

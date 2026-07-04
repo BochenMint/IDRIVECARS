@@ -1,0 +1,81 @@
+{
+  "slug": "5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac",
+  "urlKey": "5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac",
+  "sourceUrl": "https://autogaleria.pl/5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:41:03.066Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "5 najczęstszych błędów na Nürburgringu - jak ich uniknąć?",
+  "excerpt": "Wszyscy znamy filmy kręcone telefonami, na których samochody, które - jak się wydaje - jadą powoli, kilka sekund później wpadają w objęcia barier blisko toru. Instruktorzy z wypożyczalni RSR Nurburg podpowiadają, jak nie zrobić sobie krzywdy i się nie skompromitować.",
+  "lead": "Wszyscy znamy filmy kręcone telefonami, na których samochody, które - jak się wydaje - jadą powoli, kilka sekund później wpadają w objęcia barier blisko toru. Instruktorzy z wypożyczalni RSR Nurburg podpowiadają, jak nie zrobić sobie krzywdy i się nie skompromitować.",
+  "category": "Po godzinach...",
+  "categories": [
+    {
+      "id": 2485,
+      "name": "Po godzinach...",
+      "slug": "po-godzinach",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "film",
+    "nürburgring",
+    "5",
+    "nordschleife",
+    "poradnik",
+    "błędów"
+  ],
+  "publishedAt": "2015-06-06",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Pominąłem zupełnie pytanie, czy ta wiedza się Wam przyda, bo wizytę na tym torze uznaję za warunek konieczny nazywania się „petrolheadem”. To jak pielgrzymka do Mekki dla Muzułmanów. Każdy motoryzacyjny zapaleniec musi poznać smak „Zielonego Piekła”...</p>\n<p>Zapewniam, że jeśli nie macie pojęcia o jeździe na Północnej Pętli - ludzie z RSR są odpowiednimi mentorami. To oni 6 lat temu nauczyli mnie jeździć po tym niesamowicie wymagającym torze, a następnie pracowaliśmy nad tym, jak jeździć na nim szybko. Niesamowite doświadczenie.</p>\n<p>Zachęcam wszystkich do zapoznania się z zaprezentowanymi w ciekawej formie wskazówkami Gabriele oraz Ray’a przed wycieczką do tego niesamowitego miejsca. A jak raz pojedziecie - zapewniam, że wrócicie nie raz! <span style=\"color: #ff6600;\"><a style=\"color: #ff6600;\" href=\"https://autogaleria.pl/blog/wszystko-albo-nic/choroba-zwana-predkoscia/\" target=\"_blank\">Wyścigową chorobą</a></span> łatwo się zarazić...</p>\n<p>A oto film (po angielsku):</p>\n<p>https://www.youtube.com/watch?v=JC6siAx-PI8</p>\n",
+  "bodyMarkdown": "Pominąłem zupełnie pytanie, czy ta wiedza się Wam przyda, bo wizytę na tym torze uznaję za warunek konieczny nazywania się „petrolheadem”. To jak pielgrzymka do Mekki dla Muzułmanów. Każdy motoryzacyjny zapaleniec musi poznać smak „Zielonego Piekła”...\n\nZapewniam, że jeśli nie macie pojęcia o jeździe na Północnej Pętli - ludzie z RSR są odpowiednimi mentorami. To oni 6 lat temu nauczyli mnie jeździć po tym niesamowicie wymagającym torze, a następnie pracowaliśmy nad tym, jak jeździć na nim szybko. Niesamowite doświadczenie.\n\nZachęcam wszystkich do zapoznania się z zaprezentowanymi w ciekawej formie wskazówkami Gabriele oraz Ray’a przed wycieczką do tego niesamowitego miejsca. A jak raz pojedziecie - zapewniam, że wrócicie nie raz! [Wyścigową chorobą](https://autogaleria.pl/blog/wszystko-albo-nic/choroba-zwana-predkoscia/) łatwo się zarazić...\n\nA oto film (po angielsku):\n\nhttps://www.youtube.com/watch?v=JC6siAx-PI8",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "JC6siAx-PI8",
+      "url": "https://www.youtube.com/watch?v=JC6siAx-PI8",
+      "embedUrl": "https://www.youtube.com/embed/JC6siAx-PI8"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/5-najczestszych-bledow-na-nurburgringu-2015-1-e1433593438138.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/06/5-najczestszych-bledow-na-nurburgringu-2015-1-e1433593438138.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/5-najczestszych-bledow-na-nurburgringu-2015-2-e1433593453847.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/5-najczestszych-bledow-na-nurburgringu-2015-1-e1433593438138.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/06/5-najczestszych-bledow-na-nurburgringu-2015-1-e1433593438138.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/5-najczestszych-bledow-na-nurburgringu-2015-2-e1433593453847.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "5 najczęstszych błędów na Nürburgringu | VIDEO",
+    "description": "Wszyscy znamy filmy kręcone telefonami, na których samochody, które - jak się wydaje - jadą powoli, kilka sekund później wpadają w objęcia barier blisko toru. Instruktorzy z wypożyczalni RSR Nurburg podpowiadają, jak nie zrobić sobie krzywdy i się nie skompromitować."
+  },
+  "cars": [],
+  "imageCacheLocal": [
+    "5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac/hero.jpg",
+    "5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac/gallery-1.jpg",
+    "5-najczestszych-bledow-na-nurburgringu-jak-ich-uniknac/gallery-2.jpg"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-01T00:00:00.000Z",
+  "pass": 6,
+  "sourceId": "autocentrum-rss",
+  "verdict": "FIXED",
+  "rootCause": "fetchUrl wskazywał katalog HTML (/rss/), nie feed XML. Bot dostawał stronę z JavaScriptem — parser widział niezakodowane '<' w JS, nie w RSS.",
+  "wrongUrl": "https://www.autocentrum.pl/rss/",
+  "correctUrl": "https://www.autocentrum.pl/rss/newsy/",
+  "liveTest": {
+    "status": "PASS",
+    "itemsParsed": 10,
+    "contentType": "application/xml"
+  },
+  "codeChanges": [
+    "content/news-catalog/sources.json — fetchUrl → /rss/newsy/",
+    "content/news-sources.json — url → /rss/newsy/",
+    "src/lib/news/adapters/rss.ts — walidacja content-type / <?xml przed parsowaniem",
+    "data/news/fixtures/autocentrum-newsy-rss.xml — fixture offline",
+    "scripts/news/test-rss-source.ts — test live + fixture"
+  ],
+  "note": "Sanity XML (sanitizeRssXml) zostaje jako defense-in-depth; główna naprawa to poprawny URL."
+}

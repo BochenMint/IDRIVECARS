@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-07-01T00:00:00.000Z",
+  "pass": 6,
+  "drafts": [
+    {
+      "slug": "bmw-328i-xdrive",
+      "path": "content/testy/bmw-328i-xdrive.mdx",
+      "status": "draft",
+      "verdict": "BLOCKED — brak mediów",
+      "imagesInCache": 0,
+      "galleryDir": null,
+      "marcinManifest": "brak wpisu dla slug bmw-328i-xdrive; bmw-328i-xdrive-niech-zyje-dynamika → bmw-435i-cabriolet (proxy 435i Cabriolet — inny model, niebezpieczne)",
+      "recommendation": "Ręczne mapowanie folderu D:\\MARCIN jeśli istnieje dedykowana galeria 328i; nie używać proxy 435i"
+    },
+    {
+      "slug": "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+      "path": "content/blog/tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible.mdx",
+      "status": "draft",
+      "category": "blog",
+      "verdict": "REMAIN_DRAFT — wpis tapetowy, nie pełny artykuł",
+      "imagesInCache": 1,
+      "body": "[wallpapers shortcode] — wymaga renderera tapet lub galleryDir",
+      "relatedTest": "bentley-continental-gt-v8-s-convertible (ma galerię)",
+      "recommendation": "Po akceptacji redakcyjnej: category galeria/tapety + galleryDir: galleries/bentley-continental-gt-v8-s-convertible LUB dedykowany shortcode wallpapers; nie publikować z samym hero"
+    },
+    {
+      "slug": "mercedes-amg-gt-s-video",
+      "path": "content/news/mercedes-amg-gt-s-video.mdx",
+      "status": "draft",
+      "category": "news",
+      "verdict": "REMAIN_DRAFT — archiwum wideo, nie news prasowy",
+      "videoUrl": "https://www.youtube.com/watch?v=SAiDStUs_NM",
+      "imagesInCache": 1,
+      "recommendation": "Przy publikacji: rozważyć category blog lub kind film; heroVideoUrl zamiast samego videoUrl; link do testu test-mercedes-amg-gt-s-testujemy-rywala-911"
+    }
+  ]
+}

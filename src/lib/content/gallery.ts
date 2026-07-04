@@ -1,12 +1,14 @@
 export type GalleryImage = {
   src: string;
   alt: string;
+  srcSet?: string;
+  sizes?: string;
 };
 
 /** Manifest galerii generowany przez: npm run generate:galleries-manifest (lub prebuild). */
 import manifest from "@/data/galleries-manifest.json";
 
-type ManifestType = Record<string, Array<{ src: string; alt: string }>>;
+type ManifestType = Record<string, GalleryImage[]>;
 const galleries = manifest as ManifestType;
 
 function slugFromGalleryDir(galleryDir: string | undefined): string | null {

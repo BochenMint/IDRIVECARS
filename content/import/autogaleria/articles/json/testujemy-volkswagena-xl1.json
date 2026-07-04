@@ -1,0 +1,97 @@
+{
+  "slug": "testujemy-volkswagena-xl1",
+  "urlKey": "testujemy-volkswagena-xl1",
+  "sourceUrl": "https://autogaleria.pl/testujemy-volkswagena-xl1",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:41:05.863Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Testujemy Volkswagena XL1!",
+  "excerpt": "Volkswagen XL1 został stworzony według podobnej koncepcji, co Bugatti Veyron. Podobnie jak 1200-konne monstrum przekraczające 400 km/h, XL1 jest pokazem możliwości jednego z największych koncernów motoryzacyjnych na świecie. Jest bowiem najoszczędniejszym samochodem świata dopuszczonym do produkcji - spala średnio 0,9 l/100 km.",
+  "lead": "Volkswagen XL1 został stworzony według podobnej koncepcji, co Bugatti Veyron. Podobnie jak 1200-konne monstrum przekraczające 400 km/h, XL1 jest pokazem możliwości jednego z największych koncernów motoryzacyjnych na świecie. Jest bowiem najoszczędniejszym samochodem świata dopuszczonym do produkcji - spala średnio 0,9 ",
+  "category": "Ciekawostki",
+  "categories": [
+    {
+      "id": 220,
+      "name": "Ciekawostki",
+      "slug": "ciekawostki",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "film",
+    "volkswagen",
+    "eko",
+    "xl1",
+    "volkswagen xl1",
+    "najoszczedniejszy",
+    "1-litre car"
+  ],
+  "publishedAt": "2015-05-31",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Tak egzotycznego samochodu już dawno nie gościliśmy w naszych testach. Waży zaledwie 795 kg dzięki budowie z tworzyw sztucznych wspomaganych włóknem węglowym, jego współczynnik oporu powietrza wynosi 0,189, a 48-konne TDI o dwóch cylindrach i 0,8 l pojemności w połączeniu z 27-konnym silnikiem elektrycznym potrafi rozpędzić tę \"kapsułę\" do 160 km/h.</p>\n<p>Jeśli macie pytania dotyczące tego wynalazku - piszcie na forum, postaramy się odpowiedzieć w teście!</p>\n<p>A tak brzmi i przyspiesza <span style=\"color: #ff6600;\"><a style=\"color: #ff6600;\" href=\"https://autogaleria.pl/nowosci/nowosci-i-premiery/volkswagen-xl1-sens-istnienia/\" target=\"_blank\">Volkswagen XL1</a></span>:</p>\n<p>https://www.youtube.com/watch?v=cu6dJrks66o</p>\n",
+  "bodyMarkdown": "Tak egzotycznego samochodu już dawno nie gościliśmy w naszych testach. Waży zaledwie 795 kg dzięki budowie z tworzyw sztucznych wspomaganych włóknem węglowym, jego współczynnik oporu powietrza wynosi 0,189, a 48-konne TDI o dwóch cylindrach i 0,8 l pojemności w połączeniu z 27-konnym silnikiem elektrycznym potrafi rozpędzić tę \"kapsułę\" do 160 km/h.\n\nJeśli macie pytania dotyczące tego wynalazku - piszcie na forum, postaramy się odpowiedzieć w teście!\n\nA tak brzmi i przyspiesza [Volkswagen XL1](https://autogaleria.pl/nowosci/nowosci-i-premiery/volkswagen-xl1-sens-istnienia/):\n\nhttps://www.youtube.com/watch?v=cu6dJrks66o",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "cu6dJrks66o",
+      "url": "https://www.youtube.com/watch?v=cu6dJrks66o",
+      "embedUrl": "https://www.youtube.com/embed/cu6dJrks66o"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-1.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-7.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-8.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-2.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-3.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-4.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-5.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-6.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-1.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-7.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-8.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-2.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-3.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-4.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-5.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/volkswagen-xl1-auto-test-2015-6.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Testujemy Volkswagena XL1! | FILM",
+    "description": "Volkswagen XL1 został stworzony według podobnej koncepcji, co Bugatti Veyron. Podobnie jak 1200-konne monstrum przekraczające 400 km/h, XL1 jest pokazem możliwości jednego z największych koncernów motoryzacyjnych na świecie. Jest bowiem najoszczędniejszym samochodem świata dopuszczonym do produkcji - spala średnio 0,9 l/100 km."
+  },
+  "cars": [
+    "Volkswagen"
+  ],
+  "imageCacheLocal": [
+    "testujemy-volkswagena-xl1/hero.jpg",
+    "testujemy-volkswagena-xl1/gallery-1.jpg",
+    "testujemy-volkswagena-xl1/gallery-2.jpg",
+    "testujemy-volkswagena-xl1/gallery-3.jpg"
+  ]
+}

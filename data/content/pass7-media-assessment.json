@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-07-01T02:00:00.000Z",
+  "pass": 7,
+  "items": [
+    {
+      "slug": "bmw-328i-xdrive",
+      "verdict": "BLOCKED",
+      "action": "Raport audytu — brak galerii do podpięcia",
+      "report": "data/content/bmw-328i-xdrive-pass7-audit.json"
+    },
+    {
+      "slug": "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+      "verdict": "REMAIN_DRAFT",
+      "action": "Dodano canonicalUrl + galleryDir (metadata); nie publikować bez renderera [wallpapers]",
+      "relatedTest": "bentley-continental-gt-v8-s-convertible",
+      "galleryFiles": 475,
+      "galleryPath": "public/galleries/bentley-continental-gt-v8-s-convertible"
+    },
+    {
+      "slug": "mercedes-amg-gt-s-video",
+      "verdict": "REMAIN_DRAFT",
+      "action": "Dodano canonicalUrl → test AMG GT S; nie publikować jako news",
+      "canonicalTarget": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "recommendation": "Opcja A (zalecana): archiwum draft + canonical do testu z heroVideoUrl. Opcja B: merge treści wideo do testu. Opcja C: osobna strona /filmy/ — wymaga nowego typu treści."
+    },
+    {
+      "slug": "citroen-c3",
+      "verdict": "LEGACY_DRAFT",
+      "action": "Redirect 301 /testy/citroen-c3 → citroen-c3-16-vti-exclusive-2 w next.config.mjs",
+      "canonicalTarget": "citroen-c3-16-vti-exclusive-2"
+    }
+  ]
+}

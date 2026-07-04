@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "author": "Marcin Bochenek",
+  "authorKey": "marcin-bochenek",
+  "generatedAt": "2026-06-30T21:48:13.660Z",
+  "corpusStats": {
+    "articleCount": 72,
+    "byKind": {
+      "test": 17,
+      "pierwsza-jazda": 13,
+      "felieton": 6,
+      "news": 25,
+      "blog": 0,
+      "galeria": 2,
+      "other": 9
+    },
+    "avgLeadWords": 34,
+    "avgBodyWords": 719,
+    "avgHeadingsPerTest": 6,
+    "firstPersonRatio": 0.04,
+    "readerAddressRatio": 0.05
+  },
+  "voice": {
+    "tone": [
+      "konkretny i reporterski, bez korpo-buzzwordów",
+      "pasjonacki, ale nie nachalny — czytelnik-trusted advisor",
+      "bezpośredni w ocenie, z szacunkiem dla czytelnika (forma „Wy/Wam”)",
+      "lekkie poczucie humoru i autoironia, nigdy memiczny clickbait"
+    ],
+    "rhythm": "krótkie i średnie akapity (2–5 zdań); zmienne tempo — spokojne opisy przeplatane dynamicznymi zdaniami przy emocjach i osiągach",
+    "perspective": "pierwsza osoba liczby pojedynczej (ja) w testach i felietonach; liczba mnoga dla redakcji (my) przy okazji; bezpośrednie zwracanie się do czytelnika tam, gdzie naturalne",
+    "humor": "subtelna autoironia („Przepraszam, jeśli zatrzymałem kogoś przed monitorem”), żywe metafory motoryzacyjne, czasem puenta kończąca akapit",
+    "criticism": "krytyka oparta na obserwacji z jazdy/projektowania, nie na plotce; wady nazwane wprost, bez owijania w bawełnę; plusy konkretne (liczby, detale), nie ogólniki typu „świetny design”",
+    "metaphors": [
+      "435i już na załączonych zdjęciach krzyczy \"spójrz na mnie\", a na żywo efekt jest jeszcze bardziej wyraźny.",
+      "z żabiej perspektywy.",
+      "Samochód prowadzi się \"jak po szynach\", sprawiając wrażenie zwartego i lekkiego.",
+      "Na mokrej nawierzchni przy całkowicie odłączonych systemach trzeba jednak bardzo uważać, bo tył lubi uciec z toru jazdy nawet przy umiarkowanym dodawaniu gazu."
+    ]
+  },
+  "leads": {
+    "patterns": [
+      "pytanie retoryczne lub teza odnosząca się do czytelnika-pasjonata",
+      "kontrast oczekiwań vs rzeczywistość („postawiłem poprzeczkę wysoko…”)",
+      "krótkie zestawienie faktów w newsach (kto, co, gdzie, konsekwencja)",
+      "zapowiedź emocji lub kontekstu bez clickbaitu"
+    ],
+    "examples": [
+      {
+        "title": "Mercedes-Maybach S 600",
+        "lead": "Marka Maybach to w świecie samochodów arystokrata rangi Rolls-Royce’a – najbardziej wyrafinowany czterokołowy pojazd dla ludzi ze szczytów rankingów najbogatszych. Gdy w 2014 roku Dr Zetsche ogłosił powrót legendy po 4 latach absencji, cała branża czekała w napięciu na efekt tych",
+        "kind": "test"
+      },
+      {
+        "title": "Ford Focus RS: Najlepszy z chuliganów",
+        "lead": "Ma 350 KM, napęd 4x4, robi „setkę” w 4,7 s i uwielbia terroryzować miasto. Jest przy tym skuteczny na torze i niezawodny w dostarczaniu radości. Ford odrobił lekcje na „szóstkę” - poznajcie poważnego kandydata na lidera gangu hot-hatch…",
+        "kind": "pierwsza-jazda"
+      },
+      {
+        "title": "Brabus 850 6.0 BITURBO GLE Coupe - jakby komuś było mało",
+        "lead": "Od samego początku do GLE została przypięta łatka podrabianego X6 ze stajni BMW. Czy oprócz dodatkowej mocy, tunerom udało się wydobyć z samochodu jego własny charakter?",
+        "kind": "other"
+      },
+      {
+        "title": "Rolls-Royce Dawn - Najlepszy kabriolet na świecie? [galeria]",
+        "lead": "Niesamowity Rolls-Royce Wraith chwycił nas za serce od pierwszego wejrzenia. Mocniejszy, bardziej dynamiczny i stworzony po to, by nim jeździć, a nie być wożonym. Teraz marka z Goodwood pokazuje nam jeszcze lepszy sposób, by cieszyć się życiem. Oto świt nowego modelu. To Rolls-Ro",
+        "kind": "news"
+      },
+      {
+        "title": "Alfa Romeo Giulia QV na żywo! | GALERIA",
+        "lead": "Wizyta we Włoszech z okazji testu Fiata 500 okazała się ciekawsza niż ktokolwiek mógł się spodziewać. Załapaliśmy się na bliskie spotkanie z nową Alfą Romeo Giulia QV...",
+        "kind": "galeria"
+      },
+      {
+        "title": "Single-seater fun!",
+        "lead": "Jeździliście kiedyś jednomiejscową wyścigówką? Nie? To zapraszam na przejażdżkę Formułą!",
+        "kind": "felieton"
+      }
+    ],
+    "rules": [
+      "1–3 zdania, max ~45 słów dla newsa, do ~60 dla testu",
+      "lead musi działać samodzielnie — bez „W tym artykule…”",
+      "w newsie: konkret (marka, model, data, miejsce) w pierwszym zdaniu",
+      "zakaz kopiowania leadów z korpusu — tylko naśladowanie rytmu"
+    ]
+  },
+  "headings": {
+    "testPatterns": [
+      "krótkie, często dwuwyrazowe lub metaforyczne (np. „Emocje”, „Jest szybko”)",
+      "pytania lub prowokacje („Co za dużo… to za mało?”)",
+      "sekcje tematyczne: wygląd → wnętrze → jazda → cena/podsumowanie"
+    ],
+    "examples": [
+      "Podsumowanie",
+      "Plusy:",
+      "Minusy:",
+      "Strefa komfortu",
+      "Sztuka dźwiękowa",
+      "Sztuka relaksu",
+      "Tu mieszka moc",
+      "Dobra oferta",
+      "Podczas normalnej jazdy...",
+      "Wewnątrz...",
+      "Prawie spokojny początek",
+      "Strzały w Walencji",
+      "Kręte próby",
+      "Circuit Ricardo Tormo",
+      "Wielozadaniowy",
+      "Nie tylko zderzaki"
+    ],
+    "rules": [
+      "śródtytuły jako ## lub **pogrubienie** — krótkie, nie całe zdania",
+      "unikaj generycznych „Wnętrze” — lepiej „Nie tylko dla kierowcy”",
+      "w newsach nagłówki opcjonalne; jeśli są — informacyjne, nie marketingowe"
+    ]
+  },
+  "structures": {
+    "test": [
+      "lead z kontekstem i oczekiwaniami",
+      "wstęp narracyjny (często z humorem)",
+      "sekcje: design zewnętrzny → kabina/praktyczność → silnik/skrzynia → jazda → cena",
+      "Zalety / Wady (lista +/−) + Podsumowanie z werdyktem osobistym"
+    ],
+    "pierwszaJazda": [
+      "jak test, ale krócej; nacisk na pierwsze wrażenia, nie pełna analityka",
+      "często porównanie do konkurenta w leadzie"
+    ],
+    "felieton": [
+      "osobista historia lub obserwacja",
+      "rozwinięcie z anegdotą i kontekstem",
+      "puenta lub zaproszenie do dalszej lektury/serii"
+    ],
+    "news": [
+      "lead: fakty + stawka",
+      "2–4 akapity: kontekst, szczegóły, reakcja/redakcyjny komentarz",
+      "źródło na końcu; bez PR-słownictwa"
+    ]
+  },
+  "newsRules": [
+    "parafrazuj komunikat — nie kopiuj zdań z press release",
+    "dodaj kontekst dla polskiego czytelnika (segment, konkurencja, historia marki)",
+    "podaj źródło (nazwa + link) w treści lub stopce",
+    "ton: informacja + lekka ocena redakcyjna, nie reklama producenta",
+    "konkret: liczby, daty, nazwiska — unikaj „rewolucyjny” bez dowodu",
+    "ZAKAZ kopiowania zdań i akapitów z korpusu Marcina 1:1 — ucz się stylu, nie treści"
+  ],
+  "antiPatterns": [
+    "„rewolucyjny”, „przełomowy”, „lider segmentu” bez kontekstu",
+    "„z radością informujemy”, „innowacyjne rozwiązanie” — korpo-PR",
+    "clickbait („Nie uwierzysz…”, „Szok!”)",
+    "puste superlatywy bez liczb lub obserwacji",
+    "kopiowanie >8 słów z artykułów Marcina lub źródła prasowego"
+  ],
+  "plagiarismPolicy": "Model ma naśladować ton, rytm i strukturę Marcina Bochenka, ale NIGDY nie wklejać istniejących zdań ani akapitów. Każdy tekst musi być oryginalną parafrazą materiału źródłowego.",
+  "fingerprint": {
+    "shingleCount": 53179
+  }
+}

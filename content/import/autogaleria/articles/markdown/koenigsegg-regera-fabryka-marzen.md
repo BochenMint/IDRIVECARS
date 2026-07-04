@@ -1,0 +1,30 @@
+---
+slug: "koenigsegg-regera-fabryka-marzen"
+title: "Koenigsegg Regera - Fabryka marzeń"
+publishedAt: "2015-03-04"
+category: "Nowości i premiery"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/koenigsegg-regera-fabryka-marzen"
+discoveredVia: "elasticsearch-author"
+lead: "Szwedzki Koenigsegg zaprezentował wczoraj zupełnie nowy model. Jego nazwa to Regera, a parametry i osiągi można określić jedynie jako czysty, skoncentrowany obłęd. Z jednym biegiem do przodu. O mocy przekraczającej jeden megawat."
+tags: ["2015", "hybryda", "plug-in", "supercar", "genewa", "geneva", "koenigsegg", "regera", "megacar"]
+---
+
+O nowym Koenigseggu długo myślałem, długo go oglądałem, zadawałem wiele pytań i słuchałem entuzjastycznych odpowiedzi ludzi, którzy tworzyli ten przełomowy pojazd. Pojazd zwany przez Koenigsegga Megacarem. Dlaczego?
+
+Na początek wstęp techniczny.  
+Zapomnijcie o kilowatach - 1521 KM to 1,11 MW. 1100 KM z podwójnie turbodoładowanego V8 i 700 KM z trzech silników elektrycznych, ale oczywiście moc maksymalna nie jest sumą mocy wszystkich silników. Jeden z nich jest umieszczony na wale korbowym i wspomaga pracę silnika, a dwa pozostałe umieszczono pomiędzy przekładnią KDD (Koenigsegg Direct Drive, dojdziemy do tego...) a tylnymi kołami. Moment obrotowy: ponad 2000 Nm. Skrzynia biegów: brak.
+
+Jak to, brak skrzyni biegów? Już tłumaczę. KDD to coś, co w pierwszej chwili trudno ogarnąć rozumem, ale gdy ktoś kompetentny wyjaśnił mi, jak to działa, okazało się to fantastycznie prostym i skutecznym rozwiązaniem. Otóż za 5-litrowym V8 siedzi hydrauliczne sprzęgło, które łączy silnik z KDD. Sama przekładnia to jeden bieg o przełożeniu 2,85. Przy niskich prędkościach jedziemy na „półsprzęgle”, by przy prędkości odpowiadającej 3200 obrotom na minutę uzyskać pełne połączenie i bezpośrednie przełożenie napędu. 400 km/h na pierwszym biegu? Dla Koenigsegga to nie problem. Dzięki temu unikamy wożenia ze sobą biegów, które poza krótką chwilą, gdy się na nich rozpędzamy, są tylko zbędnym balastem - nie ma również wstecznego, który jest realizowany przez silniki elektryczne. A bez nich - karbonowa Regera, która jest hybrydą typu plug-in z dużą baterią, waży zaledwie 1420 kg. Gotowy do jazdy, z pełnym bakiem - 1628 kg. Prawda, że trudno wyobrazić sobie taki stosunek masy do mocy?
+
+Za KDD moment obrotowy wędruje na tylne i wyłącznie tylne koła poprzez dwa silniki elektryczne, ale nie jesteśmy na nie skazani - oferują również funkcjonalność przekazywania momentu obrotowego wyłącznie z silnika spalinowego. Tryb w pełni elektryczny jest również dostępny, baterię możemy sobie wcześniej naładować, a pojemność 9 kWh zapewnia zasięg do 35 km w mieście. Akumulator chłodzony cieczą jest umieszczony maksymalnie nisko, w tunelu środkowym, a dla bezpieczeństwa jest „zakuty” w aluminiową obudowę.
+
+Najbardziej porażające jest przyspieszenie tego samochodu. O ile 2,8 sekundy do 100 km/h to w świecie supersamochodów nic nowego (wśród tylnonapędowych Regera nie ma sobie równych), tak 3,2 sekundy pomiędzy 150 a 250 km/h i 20 sekund do 400 km/h już jest. Powtórzmy: 20 SEKUND DO 400 KM/H. Rozmawiałem z samym Christianem von Koenigseggiem - twierdzi, że nie ma w tym przesady... Podczas przyspieszania na pełnym gazie opony pozostają na granicy przyczepności (dzięki „sprytnemu”, jak mówią w Koengiseggu, systemowi kontroli trakcji) aż do osiągnięcia 270 km/h. Ruszanie od samego początku odbywa się z pomocą zarówno silnika spalinowego, jak i elektrycznych.
+
+Ciekawy (poza tym, że cały samochód jest wyjątkowo ciekawy) jest również wydech. Duża, centralnie umieszczona końcówka to chłodzenie KDD i silników elektrycznych. Właściwy wydech został zaprojektowany przez Christiana von Koenigsegga i wykonany przez firmę Akrapović, a jego końcówki zostały wkomponowane w pionowe elementy dyfuzora, wspomagając jego pracę (na zasadzie „dmuchanego dyfuzora” zakazanego już w F1).
+
+A jeśli chodzi o dizajn... Jest w nim moc, aerodynamika i piękno. Moim zdaniem to najładniejszy samochód Koenigsegga i najładniejsza z obecnych superhybryd. A jeśli dodamy do tego świadomość, co potrafi, [LaFerrari](http://www.autogaleria.pl/nowosci/nowosci-i-premiery/laferrari-esencja-ferrari/ "LaFerrari - Esencja Ferrari"), [McLaren P1](http://www.autogaleria.pl/nowosci/nowosci-i-premiery/mclaren-p1-duzo-halasu-o-co/ "McLaren P1 - Dużo hałasu... o co?") i [Porsche 918 Spyder](http://www.autogaleria.pl/nowosci/prototypy-i-wizje/porsche-918-spyder-ekoroadster/ "Porsche 918 Spyder - Ekoroadster") przestają się liczyć.
+
+We wnętrzu oprócz wysokiej jakości skóry i świetnego wykonania (potwierdzone organoleptycznie) znajdziemy system multimedialny z 3G, Wi-Fi, dobrym audio, Apple CarPlay i wyświetlaczem LCD w miejscu zegarów. Fotele są elektrycznie regulowane w ośmiu płaszczyznach. Są nawet uchwyty na kubki, ale wydają się stanowczo za płytkie, by utrzymać cokolwiek podczas przyspieszania...
+
+Koenigsegg Regera, samochód w pełni gotowy do produkcji, powstanie w liczbie 80-ciu egzemplarzy, a każdy będzie kosztował 1,8 miliona dolarów. Jest to obiektywnie okazyjna cena jak na oferowane osiągi.

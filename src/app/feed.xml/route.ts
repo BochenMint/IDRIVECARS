@@ -1,4 +1,5 @@
-import { getAllTests } from "@/lib/content/testy";
+import { getAllArticleMetas } from "@/lib/content/articles";
+import { articlePublicPath } from "@/lib/content/categories";
 import { toMetaDescription } from "@/lib/seo";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -14,7 +15,7 @@ function escapeXml(str: string): string {
 }
 
 export async function GET(): Promise<Response> {
-  const tests = await getAllTests();
+  const tests = await getAllArticleMetas();
   const items = tests.slice(0, 30);
 
   const lastBuildDate = items.length > 0
@@ -23,7 +24,7 @@ export async function GET(): Promise<Response> {
 
   const itemsXml = items
     .map((test) => {
-      const link = `${SITE_URL}/testy/${test.slug}`;
+      const link = `${SITE_URL}${articlePublicPath(test.category, test.slug)}`;
       const description = escapeXml(toMetaDescription(test.lead ?? null));
       const pubDate = new Date(test.publishedAt).toUTCString();
       return `    <item>

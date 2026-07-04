@@ -20,8 +20,17 @@ export default function AdminLayout({
             <Link href="/admin" className="text-neutral-600 hover:text-neutral-900">
               Start
             </Link>
+            <Link href="/admin/content" className="text-neutral-600 hover:text-neutral-900">
+              Treści
+            </Link>
+            <Link href="/admin/content/drafts" className="text-neutral-600 hover:text-neutral-900">
+              Szkice
+            </Link>
             <Link href="/admin/news" className="text-neutral-600 hover:text-neutral-900">
               News
+            </Link>
+            <Link href="/admin/news/review" className="text-neutral-600 hover:text-neutral-900">
+              Review
             </Link>
             <Link href="/admin/news/press" className="text-neutral-600 hover:text-neutral-900">
               Serwisy prasowe

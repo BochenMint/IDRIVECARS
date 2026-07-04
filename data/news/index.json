@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-30T22:15:08.911Z",
+  "entries": [
+    {
+      "id": "toyota-pressroom-rss-07c88ef9a270ad77",
+      "contentHash": "07c88ef9a270ad77",
+      "sourceUrl": "https://pressroom.toyota.com/inside-toyota-rd-meet-the-engineers-driving-innovation-and-mobility/",
+      "title": "Inside Toyota R&D: Meet the Engineers Driving Innovation and Mobility",
+      "status": "needs-ai-draft",
+      "fetchedAt": "2026-06-30T22:07:10.396Z",
+      "publishedAt": "2026-06-18T12:58:55.000Z",
+      "storagePath": "raw\\toyota-pressroom-rss-07c88ef9a270ad77.json"
+    },
+    {
+      "id": "toyota-pressroom-rss-f76043be49181c94",
+      "contentHash": "f76043be49181c94",
+      "sourceUrl": "https://pressroom.toyota.com/toyota-recalls-certain-model-year-2026-toyota-bz-and-lexus-rz-vehicles/",
+      "title": "Toyota Recalls Certain Model Year 2026 Toyota bZ and Lexus RZ vehicles",
+      "status": "needs-ai-draft",
+      "fetchedAt": "2026-06-30T22:07:10.396Z",
+      "publishedAt": "2026-06-18T16:59:06.000Z",
+      "storagePath": "raw\\toyota-pressroom-rss-f76043be49181c94.json"
+    },
+    {
+      "id": "toyota-pressroom-rss-60dda3f21d7c0447",
+      "contentHash": "60dda3f21d7c0447",
+      "sourceUrl": "https://pressroom.toyota.com/working-with-dad-toyota-team-members-share-their-stories/",
+      "title": "Working With Dad: Toyota Team Members Share Their Stories",
+      "status": "needs-ai-draft",
+      "fetchedAt": "2026-06-30T22:07:10.395Z",
+      "publishedAt": "2026-06-19T12:58:19.000Z",
+      "storagePath": "raw\\toyota-pressroom-rss-60dda3f21d7c0447.json"
+    },
+    {
+      "id": "toyota-pressroom-rss-27a29c100354f9b3",
+      "contentHash": "27a29c100354f9b3",
+      "sourceUrl": "https://pressroom.toyota.com/toyota-announces-executive-changes-3/",
+      "title": "Toyota Announces Executive Changes",
+      "status": "needs-ai-draft",
+      "fetchedAt": "2026-06-30T22:07:10.394Z",
+      "publishedAt": "2026-06-19T15:58:58.000Z",
+      "storagePath": "raw\\toyota-pressroom-rss-27a29c100354f9b3.json"
+    },
+    {
+      "id": "toyota-pressroom-rss-d9235d1141077c5a",
+      "contentHash": "d9235d1141077c5a",
+      "sourceUrl": "https://pressroom.toyota.com/toyota-kentucky-begins-assembly-of-all-new-rav4-hybrid-breaks-ground-on-advanced-paint-facility/",
+      "title": "Toyota Kentucky Begins Assembly of  All-New RAV4 Hybrid; Breaks Ground on Advanced Paint Facility",
+      "status": "needs-ai-draft",
+      "fetchedAt": "2026-06-30T22:07:10.394Z",
+      "publishedAt": "2026-06-22T13:58:06.000Z",
+      "storagePath": "raw\\toyota-pressroom-rss-d9235d1141077c5a.json"
+    },
+    {
+      "id": "toyota-pressroom-rss-bcc428d3e89cbc71",
+      "contentHash": "bcc428d3e89cbc71",
+      "sourceUrl": "https://pressroom.toyota.com/toyota-mississippis-4t-academy-celebrates-inaugural-class/",
+      "title": "Toyota Mississippi’s 4T Academy Celebrates Inaugural Class",
+      "status": "needs-ai-draft",
+      "fetchedAt": "2026-06-30T22:07:10.393Z",
+      "publishedAt": "2026-06-26T13:58:10.000Z",
+      "storagePath": "raw\\toyota-pressroom-rss-bcc428d3e89cbc71.json"
+    },
+    {
+      "id": "toyota-pressroom-rss-75868bb1f0b3fe07",
+      "contentHash": "75868bb1f0b3fe07",
+      "sourceUrl": "https://pressroom.toyota.com/joby-aviation-and-toyota-motor-corporation-launch-initial-phase-of-a-strategic-manufacturing-alliance-to-realize-air-mobility-for-all/",
+      "title": "Joby Aviation and Toyota Motor Corporation Launch Initial Phase of a Strategic Manufacturing Alliance to Realize Air Mobility for All",
+      "status": "needs-ai-draft",
+      "fetchedAt": "2026-06-30T22:07:10.392Z",
+      "publishedAt": "2026-06-30T11:58:45.000Z",
+      "storagePath": "raw\\toyota-pressroom-rss-75868bb1f0b3fe07.json"
+    },
+    {
+      "id": "toyota-pressroom-rss-e92de97f312162ed",
+      "contentHash": "e92de97f312162ed",
+      "sourceUrl": "https://pressroom.toyota.com/too-afraid-to-ask-internal-combustion-engine-types/",
+      "title": "Too Afraid To Ask: Internal Combustion Engine Types",
+      "status": "review",
+      "fetchedAt": "2026-06-30T22:07:10.391Z",
+      "publishedAt": "2026-06-30T13:58:55.000Z",
+      "storagePath": "raw\\toyota-pressroom-rss-e92de97f312162ed.json"
+    }
+  ],
+  "hashIndex": {
+    "e92de97f312162ed": "toyota-pressroom-rss-e92de97f312162ed",
+    "75868bb1f0b3fe07": "toyota-pressroom-rss-75868bb1f0b3fe07",
+    "bcc428d3e89cbc71": "toyota-pressroom-rss-bcc428d3e89cbc71",
+    "d9235d1141077c5a": "toyota-pressroom-rss-d9235d1141077c5a",
+    "27a29c100354f9b3": "toyota-pressroom-rss-27a29c100354f9b3",
+    "60dda3f21d7c0447": "toyota-pressroom-rss-60dda3f21d7c0447",
+    "f76043be49181c94": "toyota-pressroom-rss-f76043be49181c94",
+    "07c88ef9a270ad77": "toyota-pressroom-rss-07c88ef9a270ad77"
+  }
+}

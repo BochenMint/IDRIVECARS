@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-07-01T02:15:00.000Z",
+  "pass": 7,
+  "build": {
+    "pages": 200,
+    "galleries": 152,
+    "images": 5024,
+    "exitCode": 0
+  },
+  "routes": {
+    "citroen-c3-16-vti-exclusive-2": "SSG OK",
+    "bentley-continental-gt-v8-s-convertible": "SSG OK",
+    "bentley-continental-gtc-v8-s": "SSG OK (pełny test importu)",
+    "test-mercedes-amg-gt-s-testujemy-rywala-911": "SSG OK",
+    "bmw-328i-xdrive": "NOT in build (draft — OK)",
+    "tapety-bentley": "NOT in build (draft — OK)",
+    "mercedes-amg-gt-s-video": "NOT in news build (draft — OK)"
+  },
+  "galleries": {
+    "bentley-continental-gt-v8-s-convertible": 475,
+    "bmw-328i-xdrive": null
+  },
+  "redirects": {
+    "source": "/testy/citroen-c3",
+    "destination": "/testy/citroen-c3-16-vti-exclusive-2",
+    "permanent": true
+  },
+  "checks": {
+    "validate:content": "PASS",
+    "style:check": "PASS",
+    "news:sanity": "PASS",
+    "news:test-rss": "PASS",
+    "lint": "PASS",
+    "build": "PASS"
+  }
+}
