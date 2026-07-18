@@ -60,7 +60,7 @@ export default function LeasingCalc({
   const affiliateHref = `${affiliateUrl}?subid=${encodeURIComponent(subid)}&model=${encodeURIComponent(`${brand} ${model}`)}`;
 
   return (
-    <section className="my-10 rounded-xl border border-stone-200 bg-white p-6 shadow-sm" aria-labelledby="leasing-calc-title">
+    <section className="my-10 rounded-xl border border-neutral-200 bg-white p-6 shadow-sm" aria-labelledby="leasing-calc-title">
       <h2 id="leasing-calc-title" className="font-display text-2xl text-[#171717]">
         Kalkulator leasingu i wynajmu
       </h2>
@@ -75,7 +75,7 @@ export default function LeasingCalc({
             type="number"
             value={price}
             onChange={(e) => setPrice(Number(e.target.value))}
-            className="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-neutral-300 px-3 py-2"
             min={0}
             step={1000}
           />
@@ -86,7 +86,7 @@ export default function LeasingCalc({
             type="number"
             value={down}
             onChange={(e) => setDown(Number(e.target.value))}
-            className="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-neutral-300 px-3 py-2"
             min={0}
             max={100}
           />
@@ -97,7 +97,7 @@ export default function LeasingCalc({
             type="number"
             value={term}
             onChange={(e) => setTerm(Number(e.target.value))}
-            className="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-neutral-300 px-3 py-2"
             min={12}
             max={60}
           />
@@ -108,7 +108,7 @@ export default function LeasingCalc({
             type="number"
             value={rv}
             onChange={(e) => setRv(Number(e.target.value))}
-            className="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-neutral-300 px-3 py-2"
             min={0}
             max={70}
           />
@@ -119,7 +119,7 @@ export default function LeasingCalc({
             type="number"
             value={rate}
             onChange={(e) => setRate(Number(e.target.value))}
-            className="mt-1 w-full rounded-lg border border-stone-300 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-neutral-300 px-3 py-2"
             min={0}
             max={30}
             step={0.1}
@@ -130,13 +130,13 @@ export default function LeasingCalc({
       <button
         type="button"
         onClick={handleCalculate}
-        className="mt-6 rounded-full bg-[#b91c1c] px-6 py-3 text-sm font-semibold text-white hover:bg-[#991b1b]"
+        className="mt-6 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-neutral-700"
       >
         Oblicz ratę
       </button>
 
       {hasCalculated && result && (
-        <div className="mt-8 space-y-4 border-t border-stone-200 pt-6">
+        <div className="mt-8 space-y-4 border-t border-neutral-200 pt-6">
           <p className="text-lg font-semibold text-[#171717]">
             Leasing: {formatPlnOrientacyjnie(result.leaseNetMonthly)}
           </p>
@@ -150,7 +150,7 @@ export default function LeasingCalc({
                 href={affiliateHref}
                 rel="sponsored noopener noreferrer"
                 target="_blank"
-                className="inline-block rounded-full bg-[#171717] px-6 py-3 text-sm font-semibold text-white hover:bg-[#b91c1c]"
+                className="inline-block rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white no-underline transition hover:bg-neutral-700"
               >
                 Sprawdź ofertę u partnera
               </a>

@@ -1,29 +1,66 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TestCard from '../../components/TestCard.astro';
+import AdSlot from '../../components/AdSlot.astro';
 import { getCollection } from 'astro:content';
+import { getFirstGalleryImageSrc } from '../../lib/gallery';
 import { itemListSchema, breadcrumbSchema } from '../../lib/seo';
 
 const tests = (await getCollection('tests')).sort(
   (a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime(),
 );
 
-const listItems = tests.map((t) => ({ name: t.data.title, path: `/testy/${t.data.slug}` }));
+const heroFallbacks = tests.map((t) => getFirstGalleryImageSrc(t.data.galleryDir));
+
+const listItems = tests.map((t) => ({
+  name: `${t.data.brand} ${t.data.model} – ${t.data.title}`,
+  path: `/testy/${t.data.slug}`,
+}));
 ---
 
 <BaseLayout
   title="Testy samochodów"
-  description="Autorskie testy i pierwsze jazdy — IDRIVECARS"
+  description="Autorskie testy samochodów Marcina Bochenka – uczciwe wrażenia z jazdy, konkretne dane i duże zdjęcia."
   canonical="/testy"
-  jsonLd={[breadcrumbSchema([{ name: 'Strona główna', path: '/' }, { name: 'Testy', path: '/testy' }]), itemListSchema(listItems)]}
+  jsonLd={[
+    breadcrumbSchema([
+      { name: 'Strona główna', path: '/' },
+      { name: 'Testy', path: '/testy' },
+    ]),
+    itemListSchema(listItems),
+  ]}
 >
-  <div class="page-shell py-12 md:py-16">
-    <h1 class="font-display text-4xl text-[#171717] md:text-5xl">Testy samochodów</h1>
-    <p class="mt-4 max-w-2xl text-[#737373]">
-      {tests.length} artykułów — od pierwszych jazd po długie testy z galeriami zdjęć.
-    </p>
-    <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-      {tests.map((test) => <TestCard test={test} />)}
-    </div>
-  </div>
+  <section class="space-y-8">
+    <header class="space-y-3">
+      <p class="text-xs uppercase tracking-[0.25em] text-neutral-500">Testy</p>
+      <h1 class="font-display text-3xl tracking-tight sm:text-4xl">Testy samochodów IDRIVECARS</h1>
+      <p class="max-w-2xl text-sm leading-relaxed text-neutral-600">
+        Zbiór spokojnie napisanych, autorskich testów z portalu autoGALERIA.pl, przeniesionych tutaj
+        z naciskiem na czytelność i zdjęcia. W każdym tekście: dane techniczne, wrażenia z jazdy,
+        wnętrze i praktyczność, zużycie paliwa oraz podsumowanie – dla kogo ten samochód i czy warto.
+      </p>
+    </header>
+
+  {
+    tests.length === 0 ? (
+      <p class="text-sm text-neutral-500">
+        Na razie jest tu tylko przykładowy artykuł. Gdy przeniesiemy kolejne testy, pojawią się na
+        tej liście automatycznie.
+      </p>
+    ) : (
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {tests.map((test, i) => (
+          <Fragment>
+            <TestCard test={test} heroImageFallback={heroFallbacks[i] ?? null} />
+            {(i + 1) % 6 === 0 && (
+              <div class="flex justify-center md:col-span-2 lg:col-span-3">
+                <AdSlot slotId="between-cards" format="medium-rectangle" />
+              </div>
+            )}
+          </Fragment>
+        ))}
+      </div>
+    )
+  }
+  </section>
 </BaseLayout>

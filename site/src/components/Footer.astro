@@ -1,34 +1,26 @@
 ---
-import { siteConfig } from '../lib/site';
+import AdSlot from './AdSlot.astro';
 
 const year = new Date().getFullYear();
 ---
 
-<footer class="mt-16 border-t border-stone-200 bg-white">
-  <div class="page-shell py-12">
-    <div class="grid gap-8 md:grid-cols-3">
-      <div>
-        <p class="font-display text-xl text-[#171717]">{siteConfig.name}</p>
-        <p class="mt-2 text-sm text-[#737373]">{siteConfig.description}</p>
-      </div>
-      <div>
-        <p class="text-sm font-semibold text-[#171717]">Nawigacja</p>
-        <ul class="mt-3 space-y-2 text-sm text-[#737373]">
-          <li><a href="/testy" class="hover:text-[#171717]">Testy</a></li>
-          <li><a href="/news" class="hover:text-[#171717]">News</a></li>
-          <li><a href="/polityka-redakcyjna" class="hover:text-[#171717]">Polityka redakcyjna</a></li>
-          <li><a href="/kontakt" class="hover:text-[#171717]">Kontakt</a></li>
-        </ul>
-      </div>
-      <div>
-        <p class="text-sm font-semibold text-[#171717]">Kontakt</p>
-        <p class="mt-3 text-sm text-[#737373]">
-          <a href={`mailto:${siteConfig.email}`} class="hover:text-[#171717]">{siteConfig.email}</a>
-        </p>
-      </div>
+<footer class="border-t border-neutral-200 bg-white/80">
+  <div class="mx-auto max-w-6xl px-4 py-4 sm:px-6 lg:px-8">
+    <AdSlot slotId="footer" format="footer" class="mb-4" />
+  </div>
+  <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-neutral-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+    <div>
+      <p>© {year} IDRIVECARS / Marcin Bochenek</p>
+      <p class="mt-1 text-neutral-400">
+        Spokojny serwis o samochodach – testy, pierwsze jazdy i galerie zdjęć.
+      </p>
     </div>
-    <p class="mt-10 text-center text-xs text-[#737373]">
-      © {year} {siteConfig.author.name}. Wszelkie prawa zastrzeżone.
+    <p class="text-neutral-400">
+      <a href="/polityka-redakcyjna" class="text-neutral-500 no-underline hover:text-ink hover:underline">Polityka redakcyjna</a>
+      {' · '}
+      <a href="/modele" class="text-neutral-500 no-underline hover:text-ink hover:underline">Modele</a>
+      {' · '}
+      <a href="/porownanie" class="text-neutral-500 no-underline hover:text-ink hover:underline">Porównanie</a>
     </p>
   </div>
 </footer>

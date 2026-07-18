@@ -29,10 +29,11 @@ const extraJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 ---
 
 <!doctype html>
-<html lang="pl">
+<html lang="pl" class="h-full scroll-smooth">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0a0a" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -84,13 +85,15 @@ const extraJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     </script>
     <JsonLd data={[organizationSchema(), websiteSchema(), ...extraJsonLd]} />
   </head>
-  <body class="min-h-screen flex flex-col">
-    <a href="#main" class="skip-link">Przejdź do treści</a>
+  <body class="page-shell">
+    <a href="#main-content" class="skip-link">Przejdź do treści</a>
     <Header />
-    <div class="page-shell py-3">
-      <AdSlot slot="leaderboard" label="Reklama — leaderboard 728×90" />
+    <div class="border-b border-neutral-100 bg-neutral-50/50 px-4 py-2">
+      <div class="mx-auto max-w-6xl">
+        <AdSlot slotId="header-billboard" format="leaderboard" />
+      </div>
     </div>
-    <main id="main" class="flex-1">
+    <main id="main-content" class="page-main" role="main">
       <slot />
     </main>
     <Footer />

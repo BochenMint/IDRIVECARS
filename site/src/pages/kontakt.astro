@@ -6,23 +6,34 @@ import { breadcrumbSchema } from '../lib/seo';
 
 <BaseLayout
   title="Kontakt"
-  description="Skontaktuj się z redakcją IDRIVECARS"
+  description="Skontaktuj się w sprawie testów, współpracy redakcyjnej lub wykorzystania zdjęć z projektu IDRIVECARS."
   canonical="/kontakt"
   jsonLd={breadcrumbSchema([
     { name: 'Strona główna', path: '/' },
     { name: 'Kontakt', path: '/kontakt' },
   ])}
 >
-  <div class="page-shell py-12 md:py-16">
-    <h1 class="font-display text-4xl text-[#171717] md:text-5xl">Kontakt</h1>
-    <p class="mt-4 max-w-xl text-[#737373]">
-      Pytania redakcyjne, współpraca i zgłoszenia błędów — napisz do nas.
-    </p>
-    <div class="mt-10 rounded-xl border border-stone-200 bg-white p-8">
-      <p class="text-sm text-[#737373]">E-mail</p>
-      <a href={`mailto:${siteConfig.email}`} class="font-display mt-1 block text-2xl text-[#b91c1c] hover:underline">
-        {siteConfig.email}
-      </a>
+  <section class="space-y-6">
+    <header class="space-y-3">
+      <p class="text-xs uppercase tracking-[0.25em] text-neutral-500">Kontakt</p>
+      <h1 class="font-display text-3xl tracking-tight sm:text-4xl">Kontakt z IDRIVECARS</h1>
+    </header>
+
+    <div class="space-y-4 text-sm leading-relaxed text-neutral-700">
+      <p>
+        Jeśli chcesz porozmawiać o testach, współpracy redakcyjnej lub wykorzystaniu zdjęć z
+        projektu IDRIVECARS, napisz wiadomość e-mail. Odpowiadam zwykle w ciągu kilku dni; przy
+        zapytaniach o współpracę lub licencję na zdjęcia opisz krótko, o co chodzi – ułatwi to
+        ustalenie szczegółów.
+      </p>
+      <p>
+        <strong>Adres e-mail</strong>:{' '}
+        <span class="rounded bg-neutral-100 px-2 py-1 font-mono text-xs">{siteConfig.email}</span>
+      </p>
+      <p>
+        Zapraszam też do lektury testów i galerii – jeśli masz pytanie o konkretny model, który
+        opisywałem, napisz z podaniem tytułu artykułu; chętnie doprecyzuję lub uzupełnię informacje.
+      </p>
     </div>
-  </div>
+  </section>
 </BaseLayout>

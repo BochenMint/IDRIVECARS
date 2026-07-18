@@ -56,7 +56,7 @@ export default function InsuranceCalc({
         <button
           type="button"
           onClick={() => setExpanded(true)}
-          className="text-sm font-semibold text-[#b91c1c] hover:underline"
+          className="text-sm font-semibold text-ink underline-offset-4 hover:underline"
         >
           A ubezpieczenie tego modelu? →
         </button>
@@ -99,12 +99,12 @@ export default function InsuranceCalc({
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="rounded-full bg-[#171717] px-6 py-3 text-sm font-semibold text-white hover:bg-[#b91c1c]"
+            className="rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-neutral-700"
           >
             {status === 'loading' ? 'Wysyłanie…' : 'Poproś o wycenę'}
           </button>
           {status === 'success' && <p className="text-sm text-green-700">Zapytanie wysłane.</p>}
-          {status === 'error' && <p className="text-sm text-[#b91c1c]">Błąd wysyłki.</p>}
+          {status === 'error' && <p className="text-sm text-accent">Błąd wysyłki.</p>}
         </form>
       ) : (
         <div className="mt-4">

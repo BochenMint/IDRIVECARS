@@ -8,6 +8,8 @@
     "test:finance": "npm run test --prefix site",
     "db:init": "python3 data/init_db.py",
     "agent": "python3 agent/pipeline.py",
-    "leadgen": "uvicorn leadgen.main:app --reload --port 8000"
+    "leadgen": "uvicorn leadgen.main:app --reload --port 8000",
+    "sync:content": "bash -c 'for f in content/testy/*.mdx; do cp -n \"$f\" \"site/src/content/tests/$(basename \"$f\" .mdx).md\"; done'",
+    "deploy": "bash scripts/deploy-site.sh"
   }
 }

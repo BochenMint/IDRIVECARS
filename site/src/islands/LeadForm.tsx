@@ -94,12 +94,12 @@ export default function LeadForm({
       <button
         type="submit"
         disabled={status === 'loading'}
-        className="rounded-full bg-[#171717] px-6 py-3 text-sm font-semibold text-white hover:bg-[#b91c1c] disabled:opacity-50"
+        className="rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-neutral-700 disabled:opacity-50"
       >
         {status === 'loading' ? 'Wysyłanie…' : 'Wyślij zapytanie'}
       </button>
       {status === 'success' && <p className="text-sm text-green-700">Dziękujemy! Skontaktujemy się wkrótce.</p>}
-      {status === 'error' && <p className="text-sm text-[#b91c1c]">Błąd wysyłki. Spróbuj ponownie.</p>}
+      {status === 'error' && <p className="text-sm text-accent">Błąd wysyłki. Spróbuj ponownie.</p>}
     </form>
   );
 }

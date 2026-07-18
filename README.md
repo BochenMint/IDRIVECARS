@@ -1,50 +1,49 @@
-# IDRIVECARS — monorepo
+# IDRIVECARS
 
 Portfolio dziennikarskie i blog motoryzacyjny **Marcina Bochenka** — autorskie testy samochodów, pierwsze jazdy i galerie zdjęć.
 
-## Struktura monorepo
+**Jedyny frontend:** Astro 5 w `site/`. Legacy Next.js jest w `archive/next-legacy/` (tylko referencja — nie deployuj).
+
+## Struktura
 
 ```
-site/           # Astro 5 SSG — produkcyjna witryna idrivecars.pl (GŁÓWNY FRONTEND)
-content/        # Źródło prawdy treści (testy MDX) — synchronizowane do site/src/content/tests/
-agent/          # Pipeline agenta redakcyjnego
-leadgen/        # FastAPI — webhooki leadów, dashboard, routing ubezpieczeń
-lora/           # Modele LoRA / fine-tuning (opcjonalnie)
-data/           # SQLite schema + init_db.py
-src/            # DEPRECATED — legacy Next.js 15 (App Router), nie rozwijaj
+site/                 # Astro 5 SSG — produkcja idrivecars.pl
+content/              # Źródło treści (testy MDX) → sync do site/src/content/tests/
+public/galleries/     # WEBP galerie (symlinkowane do site/public/galleries)
+agent/                # Pipeline news (ingest → enrich → draft → gate → publish)
+leadgen/              # FastAPI — leady, RODO, routing ubezpieczeń, dashboard
+lora/                 # Voice LoRA (prepare / train / evaluate)
+data/                 # SQLite schema + seed
+scripts/              # Galerie, import, deploy
+archive/next-legacy/  # ARCHIWUM Next.js 15 — nie rozwijaj
+docs/BRIEF-STATUS.md  # Status faz briefu v2
 ```
 
-> **Migracja:** Nowy frontend to `site/` (Astro 5 + React islands + Tailwind v4). Katalog `src/` przy root to stary Next.js — pozostawiony tylko do referencji. Treści testów kopiuj z `content/testy/*.mdx` do `site/src/content/tests/*.md` (lub uruchom sync przy buildzie).
-
-## Uruchomienie witryny (Astro)
+## Uruchomienie
 
 ```bash
 npm install --prefix site
-npm run dev          # z root — proxy do site/
+npm run dev          # http://localhost:4321
+npm run build
+npm run test         # vitest — finance.ts
 ```
-
-Strona: [http://localhost:4321](http://localhost:4321)
-
-## Build i testy
 
 ```bash
-npm run test         # vitest — kalkulator finansowy
-npm run build        # astro build w site/
+npm run db:init
+npm run leadgen      # FastAPI :8000
+python3 agent/pipeline.py --dry-run
 ```
 
-## Leadgen i baza
+## Design
 
-```bash
-npm run db:init      # inicjalizacja SQLite
-npm run leadgen      # FastAPI na :8000
-```
+Zachowany język wizualny z poprzedniej wersji (Next):
 
-## Pipeline treści
+- Kolory: surface `#FAFAF8`, ink `#171717`, muted `#737373`, accent `#B91C1C`
+- Typografia: Instrument Serif (display) + DM Sans
+- Spokojne CTA (czarne), bez czerwonego billboardu
+- Split hero na home, karty testów 16/10, lightbox galerii
 
-### Testy (MDX → content collection)
-
-Pliki źródłowe: `content/testy/*.mdx`  
-Kopia w witrynie: `site/src/content/tests/*.md`
+## Sync treści
 
 ```bash
 for f in content/testy/*.mdx; do
@@ -52,32 +51,11 @@ for f in content/testy/*.mdx; do
 done
 ```
 
-### News i modele
+## Deploy (Mac + Cloudflare Tunnel)
 
-- `site/src/content/news/` — artykuły news z oznaczeniem AI
-- `site/src/content/models/` — katalog modeli z orientacyjnymi cenami
+```bash
+export DEPLOY_PATH=/path/to/local/serve
+./scripts/deploy-site.sh
+```
 
-## Design (site/)
-
-- **Kolory:** surface `#FAFAF8`, ink `#171717`, muted `#737373`, accent `#B91C1C`
-- **Typografia:** Instrument Serif (display) + DM Sans (UI) — Google Fonts
-- **Hero:** full-bleed, brand-first, bez kart w sekcji hero
-- **Reklamy:** zarezerwowane sloty o stałych wymiarach (CLS)
-
-## SEO
-
-Konfiguracja w `site/src/lib/site.ts` i `site/src/lib/seo.ts`:
-
-- JSON-LD: Organization, WebSite, Person, Article, Review, NewsArticle, BreadcrumbList, ItemList
-- `robots` meta: `max-image-preview:large`
-- Sitemap: `@astrojs/sitemap`
-- RSS: `/rss.xml`
-- IndexNow: `/indexnow-key.txt`
-
-## Legacy Next.js (`src/`)
-
-Stary stack Next.js 15 pozostaje w repozytorium jako referencja. **Nie używaj** `npm run dev` z root dla Next — użyj skryptów monorepo powyżej.
-
-## Licencja
-
-Treści i zdjęcia © Marcin Bochenek. Kod projektu — prywatny.
+Szczegóły statusu faz: [`docs/BRIEF-STATUS.md`](docs/BRIEF-STATUS.md).

@@ -20,36 +20,39 @@ const selected =
     { name: 'Porównanie', path: '/porownanie' },
   ])}
 >
-  <div class="page-shell py-12 md:py-16">
-    <h1 class="font-display text-4xl text-[#171717] md:text-5xl">Porównanie modeli</h1>
-    <p class="mt-4 text-[#737373]">
-      Wybierz modele przez parametry URL: <code class="text-sm">?m=skoda-octavia&m=vw-golf</code>
-    </p>
+  <section class="space-y-8">
+    <header class="space-y-3">
+      <p class="text-xs uppercase tracking-[0.25em] text-neutral-500">Porównanie</p>
+      <h1 class="font-display text-3xl tracking-tight sm:text-4xl">Porównanie modeli</h1>
+      <p class="max-w-2xl text-sm leading-relaxed text-neutral-600">
+        Wybierz modele przez parametry URL: <code class="text-sm">?m=skoda-octavia&m=vw-golf</code>
+      </p>
+    </header>
 
-    <div class="mt-10 overflow-x-auto">
+    <div class="overflow-x-auto">
       <table class="w-full min-w-[600px] border-collapse text-left text-sm">
         <thead>
-          <tr class="border-b border-stone-200">
-            <th class="py-3 pr-4 font-medium text-[#737373]">Cecha</th>
+          <tr class="border-b border-neutral-200">
+            <th class="py-3 pr-4 font-medium text-neutral-500">Cecha</th>
             {selected.map((m) => (
-              <th class="py-3 pr-4 font-display text-lg text-[#171717]">
-                <a href={`/modele/${m.data.slug}`} class="hover:text-[#b91c1c]">
+              <th class="py-3 pr-4 font-display text-lg text-ink">
+                <a href={`/modele/${m.data.slug}`} class="text-ink no-underline hover:opacity-80">
                   {m.data.brand} {m.data.model}
                 </a>
               </th>
             ))}
           </tr>
         </thead>
-        <tbody class="text-[#737373]">
-          <tr class="border-b border-stone-100">
+        <tbody class="text-neutral-600">
+          <tr class="border-b border-neutral-100">
             <td class="py-3 pr-4 font-medium">Segment</td>
             {selected.map((m) => <td class="py-3 pr-4">{m.data.segment}</td>)}
           </tr>
-          <tr class="border-b border-stone-100">
+          <tr class="border-b border-neutral-100">
             <td class="py-3 pr-4 font-medium">Nadwozie</td>
             {selected.map((m) => <td class="py-3 pr-4">{m.data.bodyType ?? '—'}</td>)}
           </tr>
-          <tr class="border-b border-stone-100">
+          <tr class="border-b border-neutral-100">
             <td class="py-3 pr-4 font-medium">Cena katalogowa</td>
             {selected.map((m) => (
               <td class="py-3 pr-4">
@@ -59,7 +62,7 @@ const selected =
               </td>
             ))}
           </tr>
-          <tr class="border-b border-stone-100">
+          <tr class="border-b border-neutral-100">
             <td class="py-3 pr-4 font-medium">Rynek używanych</td>
             {selected.map((m) => (
               <td class="py-3 pr-4">
@@ -72,5 +75,5 @@ const selected =
         </tbody>
       </table>
     </div>
-  </div>
+  </section>
 </BaseLayout>
