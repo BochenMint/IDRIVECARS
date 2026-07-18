@@ -1,0 +1,264 @@
+sources:
+  - id: volkswagen-pl
+    name: Volkswagen Polska
+    brand: Volkswagen
+    type: html
+    url: https://www.volkswagen.pl/pl/news.html
+    license: official-newsroom
+    embargo_until: null
+
+  - id: volkswagen-group-rss
+    name: Volkswagen Group Newsroom
+    brand: Volkswagen
+    type: rss
+    url: https://www.volkswagen-newsroom.com/en/rss/press-releases/all.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: skoda-pl
+    name: Škoda Polska
+    brand: Skoda
+    type: html
+    url: https://www.skoda-auto.pl/news
+    license: official-newsroom
+    embargo_until: null
+
+  - id: skoda-storyboard-rss
+    name: Škoda Storyboard
+    brand: Skoda
+    type: rss
+    url: https://www.skoda-storyboard.com/rss/press-releases.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: seat-mediacenter-rss
+    name: SEAT Mediacenter
+    brand: Seat
+    type: rss
+    url: https://www.seat-mediacenter.com/rss/all.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: cupra-mediacenter-rss
+    name: CUPRA Mediacenter
+    brand: Cupra
+    type: rss
+    url: https://www.seat-cupra-mediacenter.com/rss/all.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: toyota-europe-rss
+    name: Toyota Europe Newsroom
+    brand: Toyota
+    type: rss
+    url: https://newsroom.toyota.eu/rss.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: toyota-pl
+    name: Toyota Polska
+    brand: Toyota
+    type: html
+    url: https://www.toyota.pl/aktualnosci
+    license: official-newsroom
+    embargo_until: null
+
+  - id: lexus-europe-rss
+    name: Lexus Europe
+    brand: Lexus
+    type: rss
+    url: https://newsroom.lexus.eu/rss.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: kia-newscenter-rss
+    name: Kia News Center
+    brand: Kia
+    type: rss
+    url: https://www.kianewscenter.com/rss/all.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: hyundai-news-rss
+    name: Hyundai Newsroom
+    brand: Hyundai
+    type: rss
+    url: https://www.hyundainews.com/en-us/rss/all
+    license: official-newsroom
+    embargo_until: null
+
+  - id: hyundai-pl
+    name: Hyundai Polska
+    brand: Hyundai
+    type: html
+    url: https://www.hyundai.com/pl/pl/news.html
+    license: official-newsroom
+    embargo_until: null
+
+  - id: bmw-group-rss
+    name: BMW Group Press
+    brand: BMW
+    type: rss
+    url: https://www.press.bmwgroup.com/global/article/rss/
+    license: official-newsroom
+    embargo_until: null
+
+  - id: mercedes-media-rss
+    name: Mercedes-Benz Media
+    brand: Mercedes
+    type: rss
+    url: https://media.mercedes-benz.com/mars/rss/
+    license: official-newsroom
+    embargo_until: null
+
+  - id: audi-mediacenter-rss
+    name: Audi Mediacenter
+    brand: Audi
+    type: rss
+    url: https://www.audi-mediacenter.com/en/rss/press-releases.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: volvo-cars-rss
+    name: Volvo Cars Media
+    brand: Volvo
+    type: rss
+    url: https://www.media.volvocars.com/global/en-gb/media/pressreleases/rss
+    license: official-newsroom
+    embargo_until: null
+
+  - id: ford-media-rss
+    name: Ford Media
+    brand: Ford
+    type: rss
+    url: https://media.ford.com/content/fordmedia/fna/us/en/rss.html
+    license: official-newsroom
+    embargo_until: null
+
+  - id: renault-group-rss
+    name: Renault Group Media
+    brand: Renault
+    type: rss
+    url: https://media.renault.com/en/rss
+    license: official-newsroom
+    embargo_until: null
+
+  - id: dacia-news-rss
+    name: Dacia News
+    brand: Dacia
+    type: rss
+    url: https://media.renault.com/en/dacia/rss
+    license: official-newsroom
+    embargo_until: null
+
+  - id: stellantis-media-rss
+    name: Stellantis Media
+    brand: Stellantis
+    type: rss
+    url: https://www.media.stellantis.com/rss/news.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: peugeot-press-rss
+    name: Peugeot Press
+    brand: Peugeot
+    type: rss
+    url: https://www.media.stellantis.com/rss/peugeot.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: citroen-press-rss
+    name: Citroën Press
+    brand: Citroen
+    type: rss
+    url: https://www.media.stellantis.com/rss/citroen.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: opel-press-rss
+    name: Opel Press
+    brand: Opel
+    type: rss
+    url: https://www.media.stellantis.com/rss/opel.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: mazda-newsroom-rss
+    name: Mazda Newsroom
+    brand: Mazda
+    type: rss
+    url: https://newsroom.mazda.com/rss/newsreleases.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: honda-eu-rss
+    name: Honda Europe News
+    brand: Honda
+    type: rss
+    url: https://hondanews.eu/eu/en/press-releases/rss
+    license: official-newsroom
+    embargo_until: null
+
+  - id: nissan-global-rss
+    name: Nissan Global Newsroom
+    brand: Nissan
+    type: rss
+    url: https://global.nissannews.com/en/rss
+    license: official-newsroom
+    embargo_until: null
+
+  - id: suzuki-pl
+    name: Suzuki Polska
+    brand: Suzuki
+    type: html
+    url: https://www.suzuki.com.pl/aktualnosci
+    license: official-newsroom
+    embargo_until: null
+
+  - id: jeep-press-rss
+    name: Jeep Press
+    brand: Jeep
+    type: rss
+    url: https://www.media.stellantis.com/rss/jeep.xml
+    license: official-newsroom
+    embargo_until: null
+
+  - id: porsche-newsroom-rss
+    name: Porsche Newsroom
+    brand: Porsche
+    type: rss
+    url: https://newsroom.porsche.com/en/press-releases/rss.html
+    license: official-newsroom
+    embargo_until: null
+
+  - id: tesla-press
+    name: Tesla Press
+    brand: Tesla
+    type: html
+    url: https://www.tesla.com/about/press
+    license: official-newsroom
+    embargo_until: null
+
+  - id: byd-europe
+    name: BYD Europe
+    brand: BYD
+    type: html
+    url: https://www.byd.com/eu/news
+    license: official-newsroom
+    embargo_until: null
+
+  - id: mg-motor-eu
+    name: MG Motor Europe
+    brand: MG
+    type: html
+    url: https://www.mgmotor.eu/news
+    license: official-newsroom
+    embargo_until: null
+
+  - id: alpine-cars-rss
+    name: Alpine Cars
+    brand: Alpine
+    type: rss
+    url: https://media.renault.com/en/alpine/rss
+    license: official-newsroom
+    embargo_until: null

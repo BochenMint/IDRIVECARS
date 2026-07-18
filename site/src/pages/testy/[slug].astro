@@ -1,0 +1,148 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Gallery from '../../components/Gallery.astro';
+import TodayModule from '../../components/TodayModule.astro';
+import LeasingCalc from '../../islands/LeasingCalc';
+import { getCollection, render } from 'astro:content';
+import { articleSchema, reviewSchema, breadcrumbSchema } from '../../lib/seo';
+import { siteConfig } from '../../lib/site';
+import type { GetStaticPaths } from 'astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export const getStaticPaths = (async () => {
+  const tests = await getCollection('tests');
+  return tests.map((test) => ({
+    params: { slug: test.data.slug },
+    props: { test },
+  }));
+}) satisfies GetStaticPaths;
+
+const { test } = Astro.props;
+const { Content } = await render(test);
+const meta = test.data;
+
+const heroImage = meta.heroImage ? `/${meta.heroImage.replace(/^\//, '')}` : null;
+
+// Check for today sidecar JSON
+const sidecarPath = path.join(process.cwd(), 'src/content/tests', `${meta.slug}.today.json`);
+const hasSidecar = fs.existsSync(sidecarPath);
+let sidecarDate: string | undefined;
+if (hasSidecar) {
+  try {
+    const sidecar = JSON.parse(fs.readFileSync(sidecarPath, 'utf-8'));
+    sidecarDate = sidecar.refreshedAt;
+  } catch {
+  }
+}
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: 'Strona główna', path: '/' },
+    { name: 'Testy', path: '/testy' },
+    { name: meta.title, path: `/testy/${meta.slug}` },
+  ]),
+  meta.rating ? reviewSchema(meta, heroImage) : articleSchema(meta, heroImage),
+];
+
+const defaultPrice = 150_000;
+---
+
+<BaseLayout
+  title={meta.title}
+  description={meta.lead ?? meta.title}
+  canonical={`/testy/${meta.slug}`}
+  jsonLd={jsonLd}
+>
+  <article class="pb-16">
+    <header class="page-shell py-10 md:py-14">
+      <p class="text-sm font-medium uppercase tracking-wide text-[#737373]">
+        {meta.brand} · {meta.model}
+        {meta.year && ` · ${meta.year}`}
+      </p>
+      <h1 class="font-display mt-3 text-4xl leading-tight text-[#171717] md:text-5xl">{meta.title}</h1>
+      {meta.lead && <p class="mt-4 max-w-3xl text-lg text-[#737373]">{meta.lead}</p>}
+      <time datetime={meta.publishedAt} class="mt-4 block text-sm text-[#737373]">
+        {new Date(meta.publishedAt).toLocaleDateString('pl-PL', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        })}
+      </time>
+    </header>
+
+    {
+      heroImage && (
+        <figure class="mb-10 w-full">
+          <img
+            src={heroImage}
+            alt={meta.title}
+            width={1600}
+            height={900}
+            class="mx-auto max-h-[70vh] w-full object-cover"
+            loading="eager"
+          />
+        </figure>
+      )
+    }
+
+    <div class="page-shell">
+      <div class="lg:grid lg:grid-cols-[1fr_320px] lg:gap-12">
+        <div>
+          <div class="prose-article max-w-none" id="article-body">
+            <Content />
+          </div>
+          <AdSlot slot="rectangle" label="Reklama — po 2. akapicie" />
+        </div>
+        <aside class="hidden lg:block">
+          <div class="sticky top-24 space-y-6">
+            <AdSlot slot="sidebar" label="Reklama — sidebar 300×600" />
+          </div>
+        </aside>
+      </div>
+
+      <AdSlot slot="rectangle" label="Reklama — środek artykułu" />
+
+      {hasSidecar && <TodayModule brand={meta.brand} model={meta.model} refreshedAt={sidecarDate} />}
+
+      <Gallery galleryDir={meta.galleryDir} alt={`${meta.brand} ${meta.model}`} />
+
+      <section class="my-10 rounded-xl border border-stone-200 bg-stone-50 p-8 text-center">
+        <p class="text-sm text-[#737373]">Miejsce na wideo z testu</p>
+        <div class="mt-4 flex aspect-video items-center justify-center rounded-lg bg-stone-200 text-[#737373]">
+          Wideo wkrótce
+        </div>
+      </section>
+
+      <LeasingCalc
+        client:load
+        netPrice={defaultPrice}
+        brand={meta.brand}
+        model={meta.model}
+        leadgenUrl={siteConfig.leadgenUrl}
+        consentText={siteConfig.consentCheckboxText}
+        subid={`test-${meta.slug}`}
+      />
+
+      {
+        meta.rating && (
+          <p class="mt-4 text-sm text-[#737373]">
+            Ocena redakcyjna: <strong class="text-[#171717]">{meta.rating}/10</strong>
+          </p>
+        )
+      }
+
+      {
+        meta.originalUrl && (
+          <p class="mt-6 text-sm text-[#737373]">
+            Pierwotna publikacja:{' '}
+            <a href={meta.originalUrl} rel="noopener noreferrer" class="text-[#b91c1c] hover:underline">
+              autoGALERIA.pl
+            </a>
+          </p>
+        )
+      }
+    </div>
+  </article>
+</BaseLayout>

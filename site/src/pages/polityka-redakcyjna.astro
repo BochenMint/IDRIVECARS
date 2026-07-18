@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { breadcrumbSchema } from '../lib/seo';
+---
+
+<BaseLayout
+  title="Polityka redakcyjna"
+  description="Zasady redakcyjne IDRIVECARS — niezależność, transparentność AI, linki partnerskie"
+  canonical="/polityka-redakcyjna"
+  jsonLd={breadcrumbSchema([
+    { name: 'Strona główna', path: '/' },
+    { name: 'Polityka redakcyjna', path: '/polityka-redakcyjna' },
+  ])}
+>
+  <div class="page-shell py-12 md:py-16">
+    <h1 class="font-display text-4xl text-[#171717] md:text-5xl">Polityka redakcyjna</h1>
+
+    <div class="prose-article mt-10 max-w-3xl">
+      <h2>Niezależność redakcyjna</h2>
+      <p>
+        Testy i recenzje na IDRIVECARS powstają niezależnie od producentów i importerów. Nie
+        przyjmujemy zapłaty za pozytywne oceny. Linki partnerskie (leasing, ubezpieczenia) są
+        wyraźnie oznaczone zgodnie z wymogami UOKiK.
+      </p>
+
+      <h2>Wsparcie sztucznej inteligencji (news)</h2>
+      <p>
+        Moduł news wykorzystuje narzędzia AI do agregacji doniesień branżowych i przygotowania
+        szkicu artykułu. Każdy tekst przechodzi weryfikację redakcyjną przed publikacją. Artykuły
+        powstałe z udziałem AI są oznaczone sekcją „Wsparcie AI i weryfikacja redakcyjna”.
+      </p>
+
+      <h2>Testy samochodów</h2>
+      <p>
+        Testy oparte na realnej jeździe są autorstwa Marcina Bochenka i nie wykorzystują
+        generatywnej AI do opisu wrażeń z jazdy. Dane techniczne mogą być uzupełniane z
+        katalogów producenta.
+      </p>
+
+      <h2>Linki partnerskie i oznakowanie</h2>
+      <p>
+        Odnośniki sponsorskie mają atrybut <code>rel="sponsored"</code> oraz widoczne oznakowanie
+        partnera. Kalkulatory finansowe pokazują wartości orientacyjne — nie stanowią oferty
+        handlowej.
+      </p>
+
+      <h2>Korekty i kontakt</h2>
+      <p>
+        Błędy merytoryczne prosimy zgłaszać na{' '}
+        <a href="/kontakt">stronie kontaktowej</a>. Poprawki publikujemy z datą aktualizacji.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

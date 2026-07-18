@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { personSchema, breadcrumbSchema } from '../lib/seo';
+import { siteConfig } from '../lib/site';
+---
+
+<BaseLayout
+  title="O mnie"
+  description="Marcin Bochenek — dziennikarz motoryzacyjny, 10 lat testów, były sprzedawca samochodów, licencjonowany pośrednik ubezpieczeń (OFWCA)"
+  canonical="/o-mnie"
+  jsonLd={[personSchema(), breadcrumbSchema([{ name: 'Strona główna', path: '/' }, { name: 'O mnie', path: '/o-mnie' }])]}
+>
+  <div class="page-shell py-12 md:py-16">
+    <h1 class="font-display text-4xl text-[#171717] md:text-5xl">{siteConfig.author.name}</h1>
+    <p class="mt-2 text-lg text-[#737373]">{siteConfig.author.jobTitle}</p>
+
+    <div class="prose-article mt-10 max-w-3xl">
+      <p>
+        Od ponad <strong>10 lat</strong> testuję samochody — od pierwszych jazd po długie recenzje z
+        galeriami zdjęć. Moje teksty publikowałem m.in. na autoGALERIA.pl; dziś prowadzę
+        niezależny serwis <strong>IDRIVECARS</strong>.
+      </p>
+      <p>
+        Zanim zostałem dziennikarzem motoryzacyjnym, byłem <strong>sprzedawcą samochodów</strong>.
+        Znam więc rynek od strony salonu i klienta — wiem, co sprzedawcy obiecują, a co auto
+        naprawdę potrafi na co dzień.
+      </p>
+      <p>
+        Posiadam licencję <strong>OFWCA</strong> (Osoba Fizyczna Upoważniona do Czynności
+        Agencyjnych) w zakresie dystrybucji ubezpieczeń. Dzięki temu mogę rzetelnie doradzać w
+        kwestii polis — nie tylko pisać o autach, ale też pomagać w ich zabezpieczeniu.
+      </p>
+      <p>
+        W module news korzystam z narzędzi AI do agregacji i wstępnej redakcji — każdy artykuł
+        jest jednak weryfikowany przeze mnie lub redakcję. Szczegóły:{' '}
+        <a href="/polityka-redakcyjna">polityka redakcyjna</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

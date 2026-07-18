@@ -1,5 +1,6 @@
 # Dependencies
 node_modules
+site/node_modules
 .pnp
 .pnp.js
 
@@ -8,6 +9,8 @@ node_modules
 out
 build
 dist
+site/dist
+site/.astro
 
 # Galerie – tylko lokalnie (WEBP generowane przez npm run convert:linked)
 public/galleries/**
@@ -20,11 +23,28 @@ content/press-credentials.json
 .env
 .env.local
 .env.*.local
+agent/.env
+leadgen/.env
+
+# Python
+**/__pycache__
+**/.venv
+*.pyc
+
+# Data (keep schema.sql, seed.sql)
+data/idrive.db
+data/snapshots/
+
+# LoRA artifacts (large; keep README + scripts)
+lora/datasets/
+lora/adapters/
+lora/eval/outputs
 
 # Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
 
 # IDE
 .idea
@@ -35,3 +55,10 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Agent runtime state
+agent/data/drafts/
+agent/data/logs/
+agent/data/snapshots/
+agent/data/refreshed_tests/
+agent/*.db

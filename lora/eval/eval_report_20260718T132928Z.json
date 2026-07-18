@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260718T132928Z",
+  "dataset": "/workspace/lora/datasets/idrive_voice_v1.jsonl",
+  "examples": 1834,
+  "blind_test_export": "/workspace/lora/eval/blind_test_20260718T132928Z.json",
+  "banned_phrases": {
+    "reference_hits": 141,
+    "generation_hits": 0,
+    "linted": "reference_corpus",
+    "must_be_zero": true,
+    "details": []
+  },
+  "hallucination_check": {
+    "samples": 20,
+    "failures": 0,
+    "details": []
+  },
+  "passed": true
+}

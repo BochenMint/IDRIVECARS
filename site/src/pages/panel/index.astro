@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Panel leadgen" description="Panel administracyjny" noIndex canonical="/panel">
+  <div class="page-shell py-12 md:py-16">
+    <h1 class="font-display text-3xl text-[#171717]">Panel leadgen</h1>
+    <p class="mt-4 max-w-2xl text-[#737373]">
+      Ten widok jest zarezerwowany pod panel administracyjny. W produkcji strona
+      <code>/panel</code> powinna proxy'ować do serwisu leadgen (<code>uvicorn leadgen.main:app</code>)
+      lub osadzać dashboard w iframe z odpowiednim tokenem autoryzacji.
+    </p>
+    <p class="mt-4 text-sm text-[#737373]">
+      Uruchom lokalnie: <code>npm run leadgen</code> z katalogu głównego monorepo, następnie
+      otwórz <a href="http://localhost:8000/dashboard" class="text-[#b91c1c] hover:underline">http://localhost:8000/dashboard</a>.
+    </p>
+  </div>
+</BaseLayout>

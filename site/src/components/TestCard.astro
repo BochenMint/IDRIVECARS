@@ -1,0 +1,49 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  test: CollectionEntry<'tests'>;
+}
+
+const { test } = Astro.props;
+const { title, lead, brand, model, publishedAt, heroImage } = test.data;
+const href = `/testy/${test.data.slug}`;
+const image = heroImage ? `/${heroImage.replace(/^\//, '')}` : null;
+---
+
+<article class="group flex flex-col overflow-hidden rounded-xl border border-stone-200 bg-white transition-shadow hover:shadow-md">
+  <a href={href} class="block">
+    {
+      image ? (
+        <img
+          src={image}
+          alt={`${brand} ${model}`}
+          width={640}
+          height={360}
+          loading="lazy"
+          class="aspect-[16/9] w-full object-cover transition-transform group-hover:scale-[1.02]"
+        />
+      ) : (
+        <div class="flex aspect-[16/9] w-full items-center justify-center bg-stone-100 text-sm text-[#737373]">
+          {brand} {model}
+        </div>
+      )
+    }
+    <div class="p-5">
+      <p class="text-xs font-medium uppercase tracking-wide text-[#737373]">
+        {brand} · {model}
+      </p>
+      <h2 class="font-display mt-1 text-xl leading-snug text-[#171717] group-hover:text-[#b91c1c]">
+        {title}
+      </h2>
+      {lead && <p class="mt-2 line-clamp-2 text-sm text-[#737373]">{lead}</p>}
+      <time datetime={publishedAt} class="mt-3 block text-xs text-[#737373]">
+        {new Date(publishedAt).toLocaleDateString('pl-PL', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        })}
+      </time>
+    </div>
+  </a>
+</article>

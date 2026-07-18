@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  site:
+    name: Site build & test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install site dependencies
+        run: npm ci --prefix site
+
+      - name: Run site tests
+        run: npm test --prefix site
+
+      - name: Build site
+        run: npm run build --prefix site
+
+  python:
+    name: Python syntax check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile Python packages
+        run: python3 -m compileall agent leadgen lora data
+
+# Deploy is manual on Mac via Cloudflare Tunnel (cloudflared) — not automated in CI.
+# After merge: run scripts/deploy-site.sh locally with DEPLOY_PATH set.

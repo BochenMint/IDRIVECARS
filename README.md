@@ -1,119 +1,82 @@
-# IDRIVECARS
+# IDRIVECARS — monorepo
 
 Portfolio dziennikarskie i blog motoryzacyjny **Marcina Bochenka** — autorskie testy samochodów, pierwsze jazdy i galerie zdjęć.
 
-Stack: **Next.js 15** (App Router) · **TypeScript** · **Tailwind CSS** · treść w **MDX** · galerie **WEBP** (Sharp).
+## Struktura monorepo
 
-## Uruchomienie
-
-```bash
-npm install
-npm run dev
+```
+site/           # Astro 5 SSG — produkcyjna witryna idrivecars.pl (GŁÓWNY FRONTEND)
+content/        # Źródło prawdy treści (testy MDX) — synchronizowane do site/src/content/tests/
+agent/          # Pipeline agenta redakcyjnego
+leadgen/        # FastAPI — webhooki leadów, dashboard, routing ubezpieczeń
+lora/           # Modele LoRA / fine-tuning (opcjonalnie)
+data/           # SQLite schema + init_db.py
+src/            # DEPRECATED — legacy Next.js 15 (App Router), nie rozwijaj
 ```
 
-Strona: [http://localhost:3000](http://localhost:3000)
+> **Migracja:** Nowy frontend to `site/` (Astro 5 + React islands + Tailwind v4). Katalog `src/` przy root to stary Next.js — pozostawiony tylko do referencji. Treści testów kopiuj z `content/testy/*.mdx` do `site/src/content/tests/*.md` (lub uruchom sync przy buildzie).
+
+## Uruchomienie witryny (Astro)
+
+```bash
+npm install --prefix site
+npm run dev          # z root — proxy do site/
+```
+
+Strona: [http://localhost:4321](http://localhost:4321)
+
+## Build i testy
+
+```bash
+npm run test         # vitest — kalkulator finansowy
+npm run build        # astro build w site/
+```
+
+## Leadgen i baza
+
+```bash
+npm run db:init      # inicjalizacja SQLite
+npm run leadgen      # FastAPI na :8000
+```
 
 ## Pipeline treści
 
-### 1. Artykuły (MDX)
+### Testy (MDX → content collection)
 
-Pliki w `content/testy/*.mdx` z frontmatter:
-
-```yaml
-slug: ford-focus-rs-najlepszy-z-chuliganow
-title: "Ford Focus RS – najlepszy z chuliganów"
-brand: Ford
-model: Focus RS
-galleryDir: "galleries/ford-focus-rs-pierwsza-jazda"
-publishedAt: "2016-03-15"
-```
-
-Import z dysku lokalnego (Word → MDX):
+Pliki źródłowe: `content/testy/*.mdx`  
+Kopia w witrynie: `site/src/content/tests/*.md`
 
 ```bash
-npm run import:local
+for f in content/testy/*.mdx; do
+  cp -n "$f" "site/src/content/tests/$(basename "$f" .mdx).md"
+done
 ```
 
-Źródła tekstów: `D:\MARCIN\Artykuły`, `D:\MARCIN\Z PULPITU\DYSK GOOGLE\MARCIN\aG\Testy`
+### News i modele
 
-### 2. Galerie zdjęć
+- `site/src/content/news/` — artykuły news z oznaczeniem AI
+- `site/src/content/models/` — katalog modeli z orientacyjnymi cenami
 
-Mapowanie artykuł → folder źródłowy: `scripts/gallery-links.json`
+## Design (site/)
 
-Konwersja powiązanych galerii (JPG/PNG → WEBP, bez usuwania oryginałów):
-
-```bash
-npm run convert:linked   # konwersja + kuracja (25 najlepszych) + manifest
-npm run curate:galleries                  # ręczna kuracja istniejących galerii
-npm run curate:galleries -- --dry-run     # podgląd bez usuwania
-```
-
-Kuracja ocenia ostrość, ekspozycję, rozdzielczość i odrzuca prawie identyczne ujęcia (dHash). Usuwa **tylko kopie WEBP** z `public/galleries` — oryginały na `D:\MARCIN` nietknięte.
-
-Pełna konwersja wszystkich folderów z `D:\MARCIN\Galerie z testów`:
-
-```bash
-npm run convert:galleries
-```
-
-Źródła zdjęć (priorytet):
-
-1. `D:\MARCIN\Galerie z testów`
-2. `D:\MARCIN\I DRIVE CARS\Galerie`
-3. `raw-galleries/` (lokalne kopie)
-
-### 3. Build
-
-```bash
-npm run build   # prebuild generuje manifest galerii
-```
-
-## Struktura projektu
-
-```
-content/testy/          # artykuły MDX
-content/news/           # newsy RSS (planowane)
-public/galleries/       # zdjęcia WEBP
-scripts/                # import, konwersja, manifest
-src/app/                # strony Next.js
-src/data/galleries-manifest.json
-docs/                   # plany redakcyjne i techniczne
-```
-
-## Design
-
-- **Typografia:** Instrument Serif (nagłówki) + DM Sans (UI/treść) — trend editorial 2026
-- **Layout:** czysta siatka, duże fotografie, asymetryczny hero
-- **Performance:** WEBP, lazy loading, variable fonts, manifest galerii generowany przy buildzie
+- **Kolory:** surface `#FAFAF8`, ink `#171717`, muted `#737373`, accent `#B91C1C`
+- **Typografia:** Instrument Serif (display) + DM Sans (UI) — Google Fonts
+- **Hero:** full-bleed, brand-first, bez kart w sekcji hero
+- **Reklamy:** zarezerwowane sloty o stałych wymiarach (CLS)
 
 ## SEO
 
-Cała konfiguracja SEO jest scentralizowana w [`src/lib/site.ts`](src/lib/site.ts) — domena,
-tytuły, opisy, słowa kluczowe i dane autora. **Przed premierą ustaw produkcyjną domenę**
-w polu `siteConfig.url` (domyślnie `https://idrivecars.pl`); reszta (canonical, sitemap,
-robots, Open Graph, JSON-LD) wylicza się automatycznie.
+Konfiguracja w `site/src/lib/site.ts` i `site/src/lib/seo.ts`:
 
-Co jest wbudowane:
+- JSON-LD: Organization, WebSite, Person, Article, Review, NewsArticle, BreadcrumbList, ItemList
+- `robots` meta: `max-image-preview:large`
+- Sitemap: `@astrojs/sitemap`
+- RSS: `/rss.xml`
+- IndexNow: `/indexnow-key.txt`
 
-- **Metadane** — pełny zestaw (title/template, description, keywords, canonical, Open Graph,
-  Twitter Cards, robots) w [`layout.tsx`](src/app/layout.tsx) i per-stronie.
-- **Dane strukturalne (JSON-LD)** — `Organization`, `WebSite`, `Person`, `Article` (z opisem
-  pojazdu `Car`), `NewsArticle`, `BreadcrumbList`, `ItemList` — buildery w
-  [`src/lib/seo.ts`](src/lib/seo.ts).
-- **`sitemap.xml`** — strony statyczne + wszystkie testy i newsy, z priorytetami i
-  `changeFrequency` ([`sitemap.ts`](src/app/sitemap.ts)).
-- **`robots.txt`** — indeksacja dozwolona, `/admin` i `/api` wykluczone ([`robots.ts`](src/app/robots.ts)).
-- **Open Graph image** — generowany dynamicznie (1200×630) w
-  [`opengraph-image.tsx`](src/app/opengraph-image.tsx); testy nadpisują go zdjęciem z galerii.
-- **PWA / ikony** — [`manifest.ts`](src/app/manifest.ts) + `icon.svg`.
-- **Renderowanie statyczne (SSG)** — strony treści są prerenderowane do statycznego HTML
-  (lepszy Core Web Vitals i indeksacja).
+## Legacy Next.js (`src/`)
 
-## Dokumentacja
-
-- [`docs/CONTENT-MAP.md`](docs/CONTENT-MAP.md) — inwentaryzacja `D:\MARCIN` i mapowanie artykułów
-- [`docs/PLAN-REKLAMY-I-NEWS.md`](docs/PLAN-REKLAMY-I-NEWS.md) — reklamy i moduł news
-- [`scripts/gallery-links.json`](scripts/gallery-links.json) — powiązania artykuł ↔ galeria
+Stary stack Next.js 15 pozostaje w repozytorium jako referencja. **Nie używaj** `npm run dev` z root dla Next — użyj skryptów monorepo powyżej.
 
 ## Licencja
 

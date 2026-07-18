@@ -1,0 +1,27 @@
+---
+interface Props {
+  text?: string;
+  partnerName?: string;
+}
+
+const {
+  text = 'Materiał zawiera linki partnerskie. idrivecars.pl może otrzymać wynagrodzenie od partnera przy skorzystaniu z oferty — zgodnie z wymogami UOKiK.',
+  partnerName,
+} = Astro.props;
+---
+
+<aside class="mt-4 rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-sm text-muted">
+  <p>
+    {partnerName && <strong class="text-ink">{partnerName} — </strong>}
+    {text}
+  </p>
+</aside>
+
+<style>
+  .text-muted {
+    color: var(--muted);
+  }
+  .text-ink {
+    color: var(--ink);
+  }
+</style>

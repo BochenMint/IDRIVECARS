@@ -1,0 +1,10 @@
+# Phase 2 wave migration — legacy test refresh cadence
+# Do NOT bulk-publish; stagger 15–25 articles per week for SEO safety.
+
+max_per_week: 20
+start_date: "2026-07-21"
+
+# When the same test exists on autogaleria.pl or elsewhere:
+# - canonical_or_update: keep canonical on idrivecars.pl, refresh "Ten model dziś" block
+# - skip: do not touch if published elsewhere without explicit approval
+published_elsewhere_policy: canonical_or_update

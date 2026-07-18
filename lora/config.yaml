@@ -1,0 +1,62 @@
+# idrivecars.pl author voice LoRA — training configuration
+# Adapter versioning: bump adapter_name + dataset when retraining on gate-accepted texts.
+
+project:
+  name: idrive_voice
+  site: idrivecars.pl
+  language: pl
+
+# Base orchestrator model (Qwen family — adjust path to your local checkout).
+model:
+  mlx_path: ~/models/Qwen2.5-7B-Instruct-4bit
+  unsloth_id: unsloth/Qwen2.5-7B-Instruct-bnb-4bit
+  max_seq_length: 4096
+
+adapter:
+  name: idrive_voice_v1
+  version: 1
+  # Plan v2 ~3 months after v1 gate acceptance, fed by gate-accepted drafts.
+  next_version:
+    name: idrive_voice_v2
+    planned_after_months: 3
+    source: gate_accepted_texts  # agent draft pipeline → approved JSONL append
+
+dataset:
+  name: idrive_voice_v1
+  path: datasets/idrive_voice_v1.jsonl
+  holdout_ratio: 0.10
+  target_examples_min: 500
+  target_examples_max: 2000
+
+training:
+  method: qlora  # QLoRA on MLX (Mac) or Unsloth (CUDA)
+  lora_rank: 16          # try 32 if underfitting on owner's Mac
+  lora_alpha: 32
+  lora_dropout: 0.05
+  lora_layers: 16        # number of layers to apply LoRA (mlx-lm default range)
+  epochs: 2              # 2–3 typical; increase only with more fresh gate data
+  batch_size: 2
+  gradient_accumulation_steps: 4
+  learning_rate: 2.0e-4
+  warmup_steps: 50
+  weight_decay: 0.01
+  seed: 42
+
+paths:
+  adapters_dir: adapters
+  eval_dir: eval
+  gate_accepted_inbox: datasets/gate_accepted_inbox.jsonl
+
+evaluation:
+  blind_pairs: 10
+  hallucination_samples: 20
+  banned_phrases_must_be_zero: true
+
+prompt_template: |
+  Jesteś autorem testów samochodowych idrivecars.pl. Pisz konkretnie, w pierwszej osobie,
+  krótkimi akapitami. Bez generycznych frazesów AI. Zachowaj ton rzeczowy z lekkim humorem.
+
+  ### Instrukcja:
+  {instruction}
+
+  ### Tekst:

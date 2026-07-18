@@ -1,0 +1,18 @@
+---
+interface Props {
+  slot?: 'leaderboard' | 'rectangle' | 'sidebar';
+  label?: string;
+}
+
+const { slot = 'rectangle', label = 'Reklama' } = Astro.props;
+
+const classMap = {
+  leaderboard: 'ad-slot ad-slot--leaderboard',
+  rectangle: 'ad-slot ad-slot--rectangle',
+  sidebar: 'ad-slot ad-slot--sidebar',
+} as const;
+---
+
+<aside class={classMap[slot]} role="complementary" aria-label={label} data-ad-slot={slot}>
+  <span>{label}</span>
+</aside>

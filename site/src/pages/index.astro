@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TestCard from '../components/TestCard.astro';
+import { getCollection } from 'astro:content';
+import { siteConfig } from '../lib/site';
+
+const tests = (await getCollection('tests'))
+  .sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime())
+  .slice(0, 6);
+---
+
+<BaseLayout title={siteConfig.title} description={siteConfig.description}>
+  <section class="hero-atmosphere relative w-full overflow-hidden py-24 md:py-36 lg:py-44">
+    <div class="page-shell relative z-10 text-center">
+      <p class="animate-hero-delay text-sm font-medium uppercase tracking-[0.3em] text-[#737373]">
+        Blog motoryzacyjny Marcina Bochenka
+      </p>
+      <h1 class="animate-hero font-display mt-6 text-6xl leading-none tracking-tight text-[#171717] md:text-8xl lg:text-9xl">
+        IDRIVECARS
+      </h1>
+      <p class="animate-hero-delay mx-auto mt-8 max-w-xl text-lg text-[#737373] md:text-xl">
+        Autorskie testy samochodów, pierwsze jazdy i galerie zdjęć — bez clickbaitu, z konkretnymi wrażeniami z jazdy.
+      </p>
+      <div class="animate-hero-delay mt-10">
+        <a
+          href="/testy"
+          class="inline-block rounded-full bg-[#b91c1c] px-8 py-4 text-sm font-semibold text-white transition-colors hover:bg-[#991b1b]"
+        >
+          Przeglądaj testy
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-shell py-16 md:py-24">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="font-display text-3xl text-[#171717] md:text-4xl">Najnowsze testy</h2>
+      <a href="/testy" class="text-sm font-medium text-[#b91c1c] hover:underline">Wszystkie →</a>
+    </div>
+    <div class="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {tests.map((test) => <TestCard test={test} />)}
+    </div>
+  </section>
+</BaseLayout>

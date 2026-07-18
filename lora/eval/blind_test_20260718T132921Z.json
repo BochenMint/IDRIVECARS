@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "slug": "honda-cr-v",
+    "type": "outline_to_paragraph",
+    "instruction": "Napisz akapit testu Honda CR-V\nStyl: pierwsza osoba, konkret, krótkie zdania, bez frazesów AI.",
+    "reference_author_text": "**Jest dobrze…\n**…również w kwestii wyglądu nowa CR-V nie zawodzi, kusząc okazałym grillem i bardziej poważną sylwetką niż odrobinę stonowany poprzednik. Owszem, przypomina trochę Volvo, ale od kiedy jest to złe skojarzenie? Rzeczywiście, sprawia wrażenie auta pozycjonowanego odrobinę wyżej i słusznie zapowiada moc wrażeń za kierownicą.\n\nPokaźna bryła auta nie zawodzi, oferując mnóstwo miejsca z przodu, z tyłu - gdzie prawie płaska podłoga  oraz wygodna kanapa pozwalają na komfortową podróż w pięć osób, oraz w bagażniku - 589 litrów oraz 1146 l do linii okien (1669 l do dachu) po złożeniu drugiego rzędu siedzeń to bardzo dobry wynik. Dostęp do bagażnika utrudnia jednak nie typowy dla SUV-ów wysoki próg bagażnika, lecz… za nisko otwierająca się klapa bagażnika, która - o ile nie jesteś Azjatą - może zostawić kilka guzów na Twojej głowie. To jedyne ograniczenie przestrzeni życiowej w CR-V.",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "slug": "bmw-x5",
+    "type": "outline_to_paragraph",
+    "instruction": "Napisz akapit testu BMW X5\nStyl: pierwsza osoba, konkret, krótkie zdania, bez frazesów AI.",
+    "reference_author_text": "[zalety-wady]\nZalety:\n+ oszczędny, kulturalny i dynamiczny turbodiesel,\n+ płynna i szybka, 8-biegowa skrzynia,\n+ wysoki komfort jazdy przy pewnym prowadzeniu,\n+ poczucie ogólnego dopracowania i brak wyraźnych wad,\n+ stylowa konfiguracja testowego egzemplarza.\n\nWady:\n- niezbyt czuły układ kierowniczy,\n- mimo wszystkich zalet, wysoka cena,\n- błąd w konfiguracji – felgi z logo „M”.\n[/zalety-wady]",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "slug": "bmw-435i-cabriolet",
+    "type": "facts_to_style",
+    "instruction": "Na podstawie suchych faktów z komunikatu prasowego / specyfikacji napisz krótki fragment newsa lub testu w stylu idrivecars.pl.\n\n- brand: BMW\n- model: 435i Cabriolet\n- lead: **BMW 435i Cabriolet - Czy to piękno?**  **BMW po raz kolejny stworzyło coś, co swym wyglądem wykręca szyje kobiet, a silnikiem odkształca facetom spodnie.**  Mowa o 435i Cabrio, umożliwiającym lepsze wsłuchiwanie się w ryk sześciu cylindrów i trzystu koni, oraz płacz tego pechow\n- title: BMW 435i Cabriolet\n- spec: 140 km\n- fact: Swój wkład w ten wynik ma również 8-biegowa, automatyczna skrzynia ZF, dzięki której przy 140 km/h silnik pracuje na niecałych {{YEAR}} obrotów na minutę.\n- fact: Audi również oferuje konstrukcję ZF jako alternatywę dla S-Tronic, podczas gdy Mercedes w większości modeli lansuje własne rozwiązania (poza nowym, 9-biegowym automatem), które w najmniejszym stopniu nie dorównują tym z konkurencji, głównie ze względu na „głupawą” elektronikę sterującą.",
+    "reference_author_text": "Swój wkład w ten wynik ma również 8-biegowa, automatyczna skrzynia ZF, dzięki której przy 140 km/h silnik pracuje na niecałych {{YEAR}} obrotów na minutę. Co do samej skrzyni – już wszystko o niej napisaliśmy, ale co mi tam, dla pewności napiszę raz jeszcze – to najlepszy automat na rynku dzięki pierwszorzędnej płynności (zmiany biegów podczas spokojnej jazdy są niezauważalne) i towarzyszącej jej szybkości. W trybie *Sport+* skrzynia rasowo kopie po karku przy zmianach biegów i nie ustępuje w znaczącym stopniu skrzyniom dwusprzęgłowym pod względem szybkości ich przełączania. Audi również oferuje konstrukcję ZF jako alternatywę dla S-Tronic, podczas gdy Mercedes w większości modeli lansuje własne rozwiązania (poza nowym, 9-biegowym automatem), które w najmniejszym stopniu nie dorównują tym z konkurencji, głównie ze względu na „głupawą” elektronikę sterującą.\n\nDlaczego – zapytacie – tak wyróżniam kwestię oszczędności paliwa w luksusowym, mocnym kabriolecie? To bardzo proste – dzięki temu w baku zostaje więcej paliwa na głupią i dającą największą frajdę dynamiczną jazdę z gazem w podłodze, bo 435i Cabrio i to potrafi.",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "slug": "fiat-500-by-gucci",
+    "type": "outline_to_paragraph",
+    "instruction": "Napisz akapit testu Fiat 500 by Gucci\nStyl: pierwsza osoba, konkret, krótkie zdania, bez frazesów AI.",
+    "reference_author_text": "Znajdziemy tu skórzaną tapicerkę na prawie płaskich fotelach przednich, oraz na dwóch całkowicie płaskich z tyłu. Siedziska są czarne, ozdobione fakturą składającą się z wielu logo „Gucci”, boczki zaś mają kolor kości słoniowej. Całość została ozdobiona czerwono - zielonymi paskami, tworząc zdecydowanie najlepszą estetycznie część tego niewielkiego, ale mieszczącego cztery średniego wzrostu dorosłe osoby wnętrza. Wygoda, jaką są w stanie zapewnić, to już zupełnie inna kwestia...\n\n**Za kierownicą\n**Po zajęciu miejsca na fotelu nowego &lt;i&gt;Cinquocento&lt;/i&gt; zyskujemy wysoko usytuowany punkt do obserwacji dynamicznie wyprzedzanych, nudnych aut - dzięki dobrej widoczności i długości ledwie przekraczającej 3,5 metra wciśnięcie się w każdą lukę w korku i w każde miejsce parkingowe jest dziecinnie proste - właśnie dlatego w tym aucie stosunkowo szybko zaakceptowałem pozycję „na stołku”, której zwykle bardzo nie lubię. Dużo trudniej zaakceptować wbijające się w tyłek twarde szwy, łączące poszczególne rodzaje materiałów. Nie zdają egzaminu nawet podczas niezbyt długich podróży, ponieważ dyskomfort zacząłem odczuwać juz po niespełna godzinie jazdy.",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "slug": "mercedes-s-500e",
+    "type": "outline_to_paragraph",
+    "instruction": "Napisz akapit testu Mercedes S 500e\nStyl: pierwsza osoba, konkret, krótkie zdania, bez frazesów AI.",
+    "reference_author_text": "**Mercedes-Benz S 500e: Luksus pod napięciem**\n\n**Pamiętacie Mercedesa-Maybacha S 600 z naszego tysięcznego testu? To bez wątpienia jeden z najlepszych wyborów dla prezesa preferującego podróżowanie na tylnej kanapie. Dzisiaj zajmiemy się Mercedesem klasy S stworzonym dla kierowcy. Co nie znaczy, że wiele tańszym…**",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "slug": "pierwsza-jazda-skoda-fabia",
+    "type": "facts_to_style",
+    "instruction": "Na podstawie suchych faktów z komunikatu prasowego / specyfikacji napisz krótki fragment newsa lub testu w stylu idrivecars.pl.\n\n- brand: Pierwsza\n- model: Jazda - Skoda Fabia\n- lead: # Pierwsza Jazda: Skoda Fabia - Młodzi w kapeluszach?  **Nowa Skoda Fabia wkracza na rynek z nowymi rozwiązaniami, które mają wzbudzić zainteresowanie młodych klientów. Wygląda teraz dużo ciekawiej, a różne dodatki stylistyczne pozwalają na uzyskanie indywidualnego charakteru. Py\n- title: Pierwsza Jazda - Skoda Fabia\n- spec: 000 km\n- spec: 000 km",
+    "reference_author_text": "Zupełnie nowym rozwiązaniem w Skodzie jest &lt;i&gt;Mirror link&lt;/i&gt; - rozwiązanie pozwalające na używanie ekranu systemu multimedialnego jako wyświetlacza smartfona. Wystarczy podłączyć telefon z systemem operacyjnym Android przez USB (testowane na HTC dostarczonym przez Skodę, a liczba wspieranych telefonów jest ograniczona),  a wyświetlacz zostanie zdublowany. Dzięki temu możemy korzystać ze wszystkich programów na naszym podręcznym urządzeniu, w tym oczywiście z nawigacji (Fabia nie ma własnej nawet w opcji) - często lepszej niż te oferowane przez koncern VAG - lub z programu pozwalającego na unikanie kontroli policji i fotoradarów. To bardzo fajne rozwiązanie, ale wymaga dopracowania. Na przykład, kiedy wyłączymy ekran na telefonie, zgaśnie również ten samochodowy. A smartfon z włączonym GPS, Bluetooth, dostępem do internetu przez 3G lub LTE i do tego z ciągle włączonym ekranem nie dość, że osiągnie temparaturę płynnej lawy, to jeszcze może się okazać, że ładowanie przez kabel USB nie zrównoważy dużego poboru prądu i bateria będzie się rozładowywać.\n\n**Cena zmian\n**Cennik nowej Fabii startuje {{PRICE}}, a obowiązująca do odwołania oferta premierowa oferuje prezent w postaci pakietu przeglądów na 4 lata do 60 000 km i pakiet pogwarancyjny na 2 lata, również do 60 000 km. Alternatywnie, od lutego {{YEAR}} będzie można dostać darmową instalację LPG dla silnika 1.0 MPI. Testowany egzemplarz to koszt minimum {{PRICE}}. Teraz czekamy i obserwujemy, jak duży będzie przyrost ilości nowych Fabii na polskich drogach.",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "slug": "pierwsza-jazda-micra",
+    "type": "outline_to_paragraph",
+    "instruction": "Napisz akapit testu Pierwsza Jazda Micra\nStyl: pierwsza osoba, konkret, krótkie zdania, bez frazesów AI.",
+    "reference_author_text": "Aby zachęcić panie to wizyty w salonie, Micra otrzymała bardziej przyciągający wzrok przód, gdzie nowe światła, atrapa chłodnicy oraz chrom wokół świateł przeciwmgielnych i wlotu powietrza pod tablicą rejestracyjną skutecznie odświeżają najmniejszego Nissana, nadając mu nieco bardziej elegancką prezencję. Z tyłu również jest bardziej modnie i nowocześnie dzięki LED-owym światłom tylnym, a dynamiki ma dodawać nowy zderzak oraz spojler nad tylną szybą. Czy rzeczywiście tak jest? Właściwie to tak, chociaż początkowo taki element w samochodzie z silnikiem o pojemności 1,2 litra może śmieszyć...\n\nIstotnym elementem w walce o względy kobiet (i nie tylko) jest rónież kolor nadwozia. Micra wkracza do walki z dwiema nowymi barwami bojowymi - &lt;i&gt;Szarością wolframu&lt;/i&gt; oraz &lt;i&gt;Błękitem Pacyfiku&lt;/i&gt;. No i felgi - nowe wzory 15- i 16-calowych kół wyglądają bardzo dobrze. Nissan wcale nie mydli oczu mówiąc, że Micra stała się bardziej wyrazista - wystarczy spojrzeć na zdjęcia. Nie widać na nich wprawdzie rzekomych 50% nowych części nadwozia, ale zmiany zdecydowanie wyszły Micrze na dobre.",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "slug": "pierwsza-jazda-vw-golf-gti",
+    "type": "outline_to_paragraph",
+    "instruction": "Napisz akapit testu Pierwsza jazda - VW Golf GTI\nStyl: pierwsza osoba, konkret, krótkie zdania, bez frazesów AI.",
+    "reference_author_text": "Jest to zasługa mechanicznej, elektronicznie sterowanej blokady mechanizmu różnicowego, która jest częścią pakietu Performance, za który warto dopłacić. Na torze wyścigowym mieliśmy możliwość sprawdzenia jej możliwości. Wyniki są całkiem zadowalające - na wyjściach z ciasnych zakrętów, na niezbyt czystym asfalcie, można było wychodzić z zakrętów z gazem w podłodze z włączonym trybem ESC Sport. Należy bowiem zaznaczyć, że zupełne wyłączenie systemów nie jest tu możliwe - szczęśliwie, tryb sportowy pracuje niezauważalnie, pozwalając na dużo piszczenia i jeszcze więcej prędkości, w czym pomaga rewelacyjnie zestrojone zawieszenie, pokazujące swoje zalety zarówno w jeździe sportowej, jak i w wyprawie przez pełne dziur polskie drogi.\n\nW szybkiej jeździe pomaga również układ kierowniczy o zmiennym przełożeniu - podczas spokojnej jazdy na wprost, działa spokojnie i z mniejszą precyzją, lecz podczas mocniejszych skrętów zębatka trafia na uzębienie skośne, przez co skręcamy mocniej przy mniejszym skręcie kierownicą. Podczas jazdy w ciasnych zakrętach naprawdę da się odczuć, że oba skrajne położenia kół dzieli tylko 2,1 obrotu kierownicy.",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "slug": "audi-s3-sportback-quattro",
+    "type": "facts_to_style",
+    "instruction": "Na podstawie suchych faktów z komunikatu prasowego / specyfikacji napisz krótki fragment newsa lub testu w stylu idrivecars.pl.\n\n- brand: Audi\n- model: S3 Sportback quattro\n- lead: **Audi S3 Sportback quattro - Niemiecka corrida**  **Czerwień to agresja. Czerwień to namiętność. Tak naprawdę wszystko, co słyszeliście o symbolice koloru czerwonego, znajduje swoje odzwierciedlenie w tym Audi. Nie ręczę za intencje kobiet z takimi paznokciami, ale jeśli zobaczy\n- title: Audi S3 Sportback quattro\n- fact: Tu z S-trójką wygrywa na przykład V40 R-Design z silnikiem T5 – jest ciszej, ale zdecydowanie bardziej rasowo.",
+    "reference_author_text": "**Posłuchaj\n**Cztery końcówki wydechu służą nagłośnieniu silnika, który lubi robić hałas podczas przyspieszania i głośne strzały przy zmianach biegów, dzięki czemu możemy być spokojni o przyciągnięcie uwagi przechodniów, kierowców i mieszkańców okolicznych osiedli. Niestety brakuje mu przy tym odrobiny wyrafinowania. Cztery to nie pięć czy sześć. To słychać. Tu z S-trójką wygrywa na przykład V40 R-Design z silnikiem T5 – jest ciszej, ale zdecydowanie bardziej rasowo. Ale każdy lubi co innego i charakterystyczny dźwięk 2.0 TFSI z pewnością znajdzie swoich zwolenników.\n\nFajnie brzmi próba z udziałem &lt;i&gt;launch control&lt;/i&gt;. Wyłączasz kontrolę trakcji, skrzynia w tryb „S”, lewa noga na pedał hamulca, prawa na gaz - po zwolnieniu lewego pedału jednostajny ryk ustabilizowanego na wysokich obrotach silnika gwałtownie się zmienia, słychać cichy, krótki pisk czterech kół i samochód błyskawicznie osiąga 88 mil na godzinę, zostawiając za sobą ogniste ślady i znikając w czeluściach czasoprzestrzeni. No, prawie.",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "slug": "bmw-x6-m50d-fl",
+    "type": "outline_to_paragraph",
+    "instruction": "Napisz akapit testu BMW X6 M50d\nStyl: pierwsza osoba, konkret, krótkie zdania, bez frazesów AI.",
+    "reference_author_text": "BMW X6 od premiery dzieli opinię publiczną – jedni uważają go za niepotrzebny crossover-coupé, drudzy za odważne połączenie przestrzeni z dynamiką. Wersja M50d nie pozostawia wątpliwości: to auto nastawione na osiągi i charakter, z silnikiem diesla, który brzmi i jedzie jak z górnej półki.",
+    "model_generation": "",
+    "owner_score_1_to_5": null,
+    "notes": ""
+  }
+]

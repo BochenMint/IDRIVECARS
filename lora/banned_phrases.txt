@@ -1,0 +1,64 @@
+# Generic AI / filler phrases to reject in idrivecars.pl voice output.
+# One phrase per line; lines starting with # are ignored.
+# Case-insensitive substring match.
+
+w dzisiejszych czasach
+warto zauważyć
+w świecie motoryzacji
+warto wspomnieć
+nie da się ukryć
+jak wiadomo
+należy podkreślić
+należy zauważyć
+warto podkreślić
+w erze
+w dobie
+dynamicznie rozwijający się
+rewolucyjny przełom
+game changer
+bez wątpienia
+z pewnością można stwierdzić
+co więcej
+ponadto warto dodać
+w kontekście
+podsumowując
+na koniec warto
+w skrócie
+w dzisiejszym świecie
+kluczowym aspektem jest
+istotnym elementem jest
+nie sposób nie zauważyć
+trudno nie zauważyć
+warto mieć na uwadze
+niewątpliwie
+zdecydowanie warto
+w świetle powyższego
+jak już wspomniano
+co ciekawe
+ciekawostką jest
+warte uwagi jest
+w branży motoryzacyjnej
+warto zaznaczyć
+warto odnotować
+warto zwrócić uwagę
+w obecnych czasach
+w dzisiejszych realiach
+w obecnym krajobrazie
+nie bez znaczenia jest
+na sam koniec
+ostatecznie rzecz biorąc
+warto wiedzieć że
+w kontekście motoryzacji
+w kontekście rynku
+w tym kontekście
+warto przyjrzeć się
+warto pamiętać
+jak wspomniano wcześniej
+warto dodać
+nie bez powodu
+w segmencie
+w tym segmencie
+na dzień dzisiejszy
+w obecnej sytuacji
+w obecnym momencie
+w dzisiejszym krajobrazie

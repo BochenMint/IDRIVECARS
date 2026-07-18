@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TestCard from '../../components/TestCard.astro';
+import { getCollection } from 'astro:content';
+import { itemListSchema, breadcrumbSchema } from '../../lib/seo';
+
+const tests = (await getCollection('tests')).sort(
+  (a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime(),
+);
+
+const listItems = tests.map((t) => ({ name: t.data.title, path: `/testy/${t.data.slug}` }));
+---
+
+<BaseLayout
+  title="Testy samochodów"
+  description="Autorskie testy i pierwsze jazdy — IDRIVECARS"
+  canonical="/testy"
+  jsonLd={[breadcrumbSchema([{ name: 'Strona główna', path: '/' }, { name: 'Testy', path: '/testy' }]), itemListSchema(listItems)]}
+>
+  <div class="page-shell py-12 md:py-16">
+    <h1 class="font-display text-4xl text-[#171717] md:text-5xl">Testy samochodów</h1>
+    <p class="mt-4 max-w-2xl text-[#737373]">
+      {tests.length} artykułów — od pierwszych jazd po długie testy z galeriami zdjęć.
+    </p>
+    <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {tests.map((test) => <TestCard test={test} />)}
+    </div>
+  </div>
+</BaseLayout>
