@@ -88,6 +88,7 @@ Checklist: co jest w monorepo vs co wymaga lokalnych credentiali na Macu właśc
 |---------|--------|
 | GitHub Actions: test + build + compileall | ✅ `.github/workflows/ci.yml` |
 | Deploy Mac + Cloudflare Tunnel | 🔶 `scripts/deploy-site.sh` |
+| Owner CMS (testy, newsy, publikacja) | ✅ | `cms/` — `npm run cms` :8001 |
 | Jedyny frontend Astro (`site/`) | ✅ | Next przeniesiony do `archive/next-legacy/` |
 
 ---

@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Panel{% endblock %}
+
+{% block content %}
+<div class="cms-page">
+  <div class="cms-page__header">
+    <h1>Panel publikacji</h1>
+    <p class="cms-muted">Wklej tekst, dodaj zdjęcia, kliknij Publikuj.</p>
+  </div>
+
+  <div class="cms-stats">
+    <div class="cms-stat">
+      <span class="cms-stat__num">{{ counts.tests }}</span>
+      <span class="cms-stat__label">Testy</span>
+    </div>
+    <div class="cms-stat">
+      <span class="cms-stat__num">{{ counts.news }}</span>
+      <span class="cms-stat__label">Newsy</span>
+    </div>
+  </div>
+
+  <div class="cms-cta-row">
+    <a href="/cms/new/tests" class="cms-btn cms-btn--primary cms-btn--lg">Nowy test</a>
+    <a href="/cms/new/news" class="cms-btn cms-btn--secondary cms-btn--lg">Nowy news</a>
+  </div>
+
+  <div class="cms-grid-2">
+    <section>
+      <div class="cms-section-head">
+        <h2>Ostatnie testy</h2>
+        <a href="/cms/list/tests" class="cms-link">Wszystkie →</a>
+      </div>
+      {% if recent_tests %}
+      <ul class="cms-list">
+        {% for item in recent_tests %}
+        <li>
+          <a href="/cms/edit/tests/{{ item.slug }}">{{ item.title }}</a>
+          <span class="cms-muted">{{ item.publishedAt or '' }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="cms-muted">Brak testów.</p>
+      {% endif %}
+    </section>
+
+    <section>
+      <div class="cms-section-head">
+        <h2>Ostatnie newsy</h2>
+        <a href="/cms/list/news" class="cms-link">Wszystkie →</a>
+      </div>
+      {% if recent_news %}
+      <ul class="cms-list">
+        {% for item in recent_news %}
+        <li>
+          <a href="/cms/edit/news/{{ item.slug }}">{{ item.title }}</a>
+          <span class="cms-muted">{{ item.publishedAt or '' }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="cms-muted">Brak newsów.</p>
+      {% endif %}
+    </section>
+  </div>
+</div>
+{% endblock %}

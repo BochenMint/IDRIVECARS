@@ -25,6 +25,7 @@ content/press-credentials.json
 .env.*.local
 agent/.env
 leadgen/.env
+cms/.env
 
 # Python
 **/__pycache__

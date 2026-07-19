@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% set show_nav = false %}
+{% block title %}Logowanie{% endblock %}
+
+{% block content %}
+<div class="cms-auth">
+  <div class="cms-auth__card">
+    <h1>Panel właściciela</h1>
+    <p class="cms-muted">Zaloguj się, aby publikować testy i newsy na idrivecars.pl</p>
+    {% if request.query_params.get('error') %}
+    <div class="cms-alert cms-alert--error">Nieprawidłowe hasło</div>
+    {% endif %}
+    <form method="post" action="/cms/login" class="cms-form">
+      <label for="password">Hasło</label>
+      <input type="password" id="password" name="password" required autofocus autocomplete="current-password">
+      <button type="submit" class="cms-btn cms-btn--primary">Zaloguj</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

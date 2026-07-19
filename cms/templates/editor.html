@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% block title %}{% if is_new %}Nowy{% else %}Edycja{% endif %} {{ meta.label|lower }}{% endblock %}
+
+{% block content %}
+<div class="cms-editor" id="cms-editor"
+  data-content-type="{{ content_type }}"
+  data-existing-slug="{{ item.slug if item else '' }}">
+
+  <div class="cms-editor__header">
+    <a href="/cms/list/{{ content_type }}" class="cms-back">← {{ meta.label_plural }}</a>
+    <h1>{% if is_new %}Nowy {{ meta.label|lower }}{% else %}Edycja: {{ item.title }}{% endif %}</h1>
+  </div>
+
+  <div id="cms-success" class="cms-alert cms-alert--success" hidden></div>
+
+  <form id="cms-editor-form" class="cms-editor__grid">
+    <div class="cms-editor__main">
+      <div class="cms-field">
+        <label for="title">Tytuł *</label>
+        <input type="text" id="title" name="title" required
+          value="{{ item.title if item else '' }}" placeholder="np. Pierwsza jazda Skoda Octavia">
+      </div>
+
+      {% if content_type == 'tests' %}
+      <div class="cms-field-row">
+        <div class="cms-field">
+          <label for="brand">Marka *</label>
+          <input type="text" id="brand" name="brand" required value="{{ item.brand if item else '' }}">
+        </div>
+        <div class="cms-field">
+          <label for="model">Model *</label>
+          <input type="text" id="model" name="model" required value="{{ item.model if item else '' }}">
+        </div>
+        <div class="cms-field cms-field--narrow">
+          <label for="year">Rok</label>
+          <input type="number" id="year" name="year" min="1990" max="2030"
+            value="{{ item.year if item and item.year else '' }}">
+        </div>
+      </div>
+      {% else %}
+      <div class="cms-field-row">
+        <div class="cms-field">
+          <label for="brand">Marka</label>
+          <input type="text" id="brand" name="brand" value="{{ item.brand if item else '' }}">
+        </div>
+        <div class="cms-field">
+          <label for="model">Model</label>
+          <input type="text" id="model" name="model" value="{{ item.model if item else '' }}">
+        </div>
+      </div>
+      <div class="cms-field-row">
+        <div class="cms-field">
+          <label for="sourceName">Źródło (nazwa)</label>
+          <input type="text" id="sourceName" name="sourceName" value="{{ item.sourceName if item else '' }}">
+        </div>
+        <div class="cms-field">
+          <label for="sourceUrl">Źródło (URL)</label>
+          <input type="url" id="sourceUrl" name="sourceUrl" value="{{ item.sourceUrl if item else '' }}">
+        </div>
+      </div>
+      <div class="cms-field cms-field--checkbox">
+        <label>
+          <input type="checkbox" id="aiAssisted" name="aiAssisted"
+            {% if not item or item.aiAssisted %}checked{% endif %}>
+          Treść wspomagana AI (wymagane ujawnienie na stronie)
+        </label>
+      </div>
+      {% endif %}
+
+      <div class="cms-field">
+        <label for="body">Treść *</label>
+        <textarea id="body" name="body" rows="20" required
+          placeholder="Wklej tekst artykułu (Markdown lub zwykły tekst)…">{{ item.body if item else '' }}</textarea>
+      </div>
+
+      {% if content_type == 'tests' %}
+      <details class="cms-details">
+        <summary>Dane techniczne (opcjonalne)</summary>
+        <div class="cms-field-row cms-field-row--wrap">
+          <div class="cms-field"><label for="engine">Silnik</label>
+            <input type="text" id="engine" name="engine" value="{{ item.engine if item else '' }}"></div>
+          <div class="cms-field"><label for="power">Moc</label>
+            <input type="text" id="power" name="power" value="{{ item.power if item else '' }}"></div>
+          <div class="cms-field"><label for="gearbox">Skrzynia</label>
+            <input type="text" id="gearbox" name="gearbox" value="{{ item.gearbox if item else '' }}"></div>
+          <div class="cms-field"><label for="drivetrain">Napęd</label>
+            <input type="text" id="drivetrain" name="drivetrain" value="{{ item.drivetrain if item else '' }}"></div>
+          <div class="cms-field"><label for="bodyType">Nadwozie</label>
+            <input type="text" id="bodyType" name="bodyType" value="{{ item.bodyType if item else '' }}"></div>
+          <div class="cms-field cms-field--narrow"><label for="rating">Ocena (1–10)</label>
+            <input type="number" id="rating" name="rating" min="1" max="10" step="0.1"
+              value="{{ item.rating if item and item.rating else '' }}"></div>
+        </div>
+      </details>
+      {% endif %}
+
+      <div class="cms-field">
+        <label>Zdjęcia</label>
+        <div id="dropzone" class="cms-dropzone">
+          <p>Przeciągnij zdjęcia lub <label for="file-input" class="cms-link">wybierz pliki</label></p>
+          <input type="file" id="file-input" multiple accept="image/*" hidden>
+        </div>
+        <div id="thumbnails" class="cms-thumbnails"></div>
+        <p class="cms-hint">Pierwsze zdjęcie = zdjęcie główne (hero)</p>
+      </div>
+    </div>
+
+    <aside class="cms-editor__sidebar">
+      <div class="cms-seo-panel">
+        <h2>Podgląd SEO</h2>
+        <p class="cms-hint">Uzupełniane automatycznie</p>
+        <dl>
+          <dt>Tytuł</dt>
+          <dd id="seo-title" class="cms-seo-value">—</dd>
+          <dt>Opis</dt>
+          <dd id="seo-description" class="cms-seo-value">—</dd>
+          <dt>URL</dt>
+          <dd id="seo-url" class="cms-seo-value cms-seo-url">—</dd>
+          <dt>Slug</dt>
+          <dd id="seo-slug" class="cms-seo-value cms-muted">—</dd>
+        </dl>
+      </div>
+    </aside>
+  </form>
+
+  <div class="cms-editor__actions">
+    <button type="button" id="btn-save" class="cms-btn cms-btn--secondary">Zapisz szkic</button>
+    <button type="button" id="btn-publish" class="cms-btn cms-btn--primary">Publikuj</button>
+    <span id="cms-status" class="cms-muted"></span>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+window.CMS_EDITOR = {
+  contentType: {{ content_type|tojson }},
+  existingSlug: {{ (item.slug if item else '')|tojson }}
+};
+</script>
+{% endblock %}

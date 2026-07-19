@@ -12,6 +12,7 @@ content/              # Źródło treści (testy MDX) → sync do site/src/conte
 public/galleries/     # WEBP galerie (symlinkowane do site/public/galleries)
 agent/                # Pipeline news (ingest → enrich → draft → gate → publish)
 leadgen/              # FastAPI — leady, RODO, routing ubezpieczeń, dashboard
+cms/                  # FastAPI — panel właściciela (testy, newsy, publikacja)
 lora/                 # Voice LoRA (prepare / train / evaluate)
 data/                 # SQLite schema + seed
 scripts/              # Galerie, import, deploy
@@ -31,7 +32,23 @@ npm run test         # vitest — finance.ts
 ```bash
 npm run db:init
 npm run leadgen      # FastAPI :8000
+npm run cms          # FastAPI :8001 — panel właściciela
 python3 agent/pipeline.py --dry-run
+```
+
+## CMS (panel właściciela)
+
+```bash
+pip install -r cms/requirements.txt
+cp cms/.env.example cms/.env   # ustaw CMS_PASSWORD, CMS_SECRET
+npm run cms                    # http://127.0.0.1:8001/cms/
+```
+
+Workflow: wklej tekst → dodaj zdjęcia → **Publikuj**. SEO i frontmatter uzupełniają się automatycznie.
+Szczegóły: [`cms/README.md`](cms/README.md).
+
+```bash
+python3 -m pytest cms/tests -q
 ```
 
 ## Design

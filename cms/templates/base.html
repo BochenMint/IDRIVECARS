@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}CMS{% endblock %} — IDRIVECARS</title>
+  <link rel="stylesheet" href="/cms/static/cms.css">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  {% if show_nav is not defined or show_nav %}
+  <header class="cms-header">
+    <div class="cms-header__inner">
+      <a href="/cms/" class="cms-logo">IDRIVECARS <span>CMS</span></a>
+      <nav class="cms-nav">
+        <a href="/cms/list/tests">Testy</a>
+        <a href="/cms/list/news">Newsy</a>
+        <form action="/cms/logout" method="post" class="cms-logout-form">
+          <button type="submit" class="cms-link-btn">Wyloguj</button>
+        </form>
+      </nav>
+    </div>
+  </header>
+  {% endif %}
+  <main class="cms-main">
+    {% block content %}{% endblock %}
+  </main>
+  <script src="/cms/static/cms.js" defer></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>
