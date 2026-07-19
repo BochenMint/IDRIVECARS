@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { breadcrumbSchema, itemListSchema } from '../../lib/seo';
+
+const news = (await getCollection('news')).sort(
+  (a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime(),
+);
+
+const listItems = news.map((n) => ({ name: n.data.title, path: `/news/${n.data.slug}` }));
+---
+
+<BaseLayout
+  title="News motoryzacyjny"
+  description="Aktualności ze świata motoryzacji — IDRIVECARS"
+  canonical="/news"
+  jsonLd={[breadcrumbSchema([{ name: 'Strona główna', path: '/' }, { name: 'News', path: '/news' }]), itemListSchema(listItems)]}
+>
+  <section class="space-y-8">
+    <header class="space-y-3">
+      <p class="text-xs uppercase tracking-[0.25em] text-neutral-500">News</p>
+      <h1 class="font-display text-3xl tracking-tight sm:text-4xl">News</h1>
+      <p class="max-w-2xl text-sm leading-relaxed text-neutral-600">
+        Aktualności branżowe z redakcyjną weryfikacją.
+      </p>
+    </header>
+    <ul class="divide-y divide-neutral-200">
+      {
+        news.map((item) => (
+          <li class="py-6">
+            <a href={`/news/${item.data.slug}`} class="group block no-underline">
+              <time datetime={item.data.publishedAt} class="text-sm text-neutral-500">
+                {new Date(item.data.publishedAt).toLocaleDateString('pl-PL')}
+              </time>
+              <h2 class="font-display mt-1 text-2xl text-ink group-hover:opacity-80">
+                {item.data.title}
+              </h2>
+              {item.data.lead && <p class="mt-2 text-neutral-600">{item.data.lead}</p>}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</BaseLayout>

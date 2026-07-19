@@ -1,0 +1,51 @@
+---
+slug: "mini-cooper-s-rauno-aaltonen"
+title: "Mini Cooper S Rauno Aaltonen"
+brand: "Mini"
+model: "Cooper S Rauno Aaltonen"
+publishedAt: "2015-06-01"
+lead: "# Mini Cooper S Roadster Rauno Aaltonen - Atak śniegu  **Rauno Aaltonen to fiński kierowca rajdowy, zwycięzca m.in. słynnego rajdu Monte Carlo za kierownicą Mini Coopera S. Na śniegu również triumfował, i to niejednokrotnie. Może właśnie dlatego edycja Coopera S poświęcona ‘Lataj"
+originalUrl: ""
+tags: ["test"]
+---
+
+# Mini Cooper S Roadster Rauno Aaltonen - Atak śniegu
+
+**Rauno Aaltonen to fiński kierowca rajdowy, zwycięzca m.in. słynnego rajdu Monte Carlo za kierownicą Mini Coopera S. Na śniegu również triumfował, i to niejednokrotnie. Może właśnie dlatego edycja Coopera S poświęcona ‘Latającemu Finowi’ tak skutecznie przyciąga śnieżyce...**
+
+Czy to marka MINI ma w sobie coś przyzywającego niekorzystne warunki atmosferyczne, czy może ze mną jest coś nie tak? Kilka miesięcy temu, gdy miałem niewątpliwą przyjemność testowania Coopera S w wersji Roadster, jeździłem po Polsce w poszukiwaniu luki w gęstej powłoce z deszczowych chmur, która choć na chwilę pozwoliłaby mi nacieszyć się jazdą bez dachu. Kilka razy się udało, ale były to chwilowe epizody. Fatalna pogoda przy testowaniu samochodów ma jednak jedną, zasadniczą zaletę - na wierzch wychodzą wszystkie niedociągnięcia, jakich inżynierownie dopuścili się w procesie projektowania układu napędowego oraz zawieszenia. Właśnie dlatego ludzie odpowiedzialni za Coopera S zasługują na najwyższe uznanie. Ale po kolei.
+
+**Silnik 1.6 Turbo** produkcji BMW legitymuje się mocą 184 KM rozwijaną przy 5500 obr./min., a maksymalny moment obrotowy to 240 Nm dostępne w zakresie 1600-5000 obr./min. Warto tu wspomnieć o zastosowanej w tym silniku turbosprężarce typu TwinScroll, która różni się od powszechnie stosowanych tym, że gazy wydechowe trafiają do niej nie - jak to ma miejsce w przypadku większości konstrukcji - jedną rurą, lecz dwiema. Korzyści polegają na tym, że spaliny uderzają w łopatki turbiny w bardziej zsynchronizowany sposób, co wynika z charakterystyki pracy silnika 4-cylindrowego - cylindry pracują w parach, tj. identyczne zjawiska występują jednocześnie w cylindrze pierwszym i trzecim oraz drugim i czwartym - właśnie tak podzielony jest dopływ spalin do turbiny. Pozwala to na uniknięcie interferencji gazów, podnosząc tym samym efektywność procesu sprężania, a więc i moc wyjściową silnika. Czas więc ją wykorzystać w sposób, jakiego nie powstydziłby się „Profesor rajdów” Rauno Aaltonen!
+
+**Wciskam gaz.** Auto bez żadnego zawahania rusza do przodu - moc czuć od samego dołu, a im wskazówka umieszczonego przed oczami kierowcy obrotomierza wyżej, tym lepiej. Charakterystyka tego motoru jest bardzo „wolnossąca” - obecności turbiny prawie nie czuć, a już na pewno jej nie słychać. Turbodziura również nie istnieje. Fani starej szkoły z pewnością go polubią, lecz nie tylko oni - zdobyć tytul silnika roku w swojej kategorii 4 razy z rzędu to chyba całkiem niezłe osiągnięcie? BMW to od lat najbardziej uznany producent silników, co potwierdzi cała nasza redakcja. Ciężko tu o słabe punkty.
+
+**Sterowność** auta i komunikacja z kierowcą podczas jazdy w potężnej śnieżycy pozwala wyjść z każdej opresji i bezpiecznie dojechać do celu. A gdy jedynym celem jest frajda z jazdy, Cooper S jest świetnym wyborem - co potwierdziłem zabierając go na zaśnieżone, polne drogi, do złudzenia przypominające odcinek specjalny. Tak dobrze nie bawiłem się od dawna! Ciężko uwierzyć, że przednionapędowe auto może tak skutecznie pokonywać zaspy i śnieżne wzniesienia, których na trasie naszego „rajdu” nie brakowało. Spójrzcie tylko na zdjęcia - to MINI jest prawdziwym śnieżnym wojownikiem. Aż strach pomyśleć, jakim rajdowcem by było, gdyby zamontować w nim xDrive! Może w nieuchronnie zbliżającej się nowej generacji?
+
+**Gdy pojawia się** naturalna dla aut przednionapędowych **podsterowność**, wystarczy chwycić poprawnie umiejscowioną dźwignię hamulca ręcznego, aby obrócić auto w pożądanym kierunku, a następnie bardzo czułym w trybie &lt;i&gt;sport&lt;/i&gt; pedałem gazu wykrzesać z podłoża maksimum przyczepności, o którą walczą „zimówki” Pirelli w rozmiarze 205/45/R17, a na koniec soczyście strzelić z wydechu przy zmianie biegu na wyższy. Można nawet pojechać kawałek w mniej lub bardziej kontrolowanym slajdzie! Nieustanne skupienie i pełna świadomość tego, co się robi - to właśnie przepis na udaną zabawę z Cooperem S na śniegu. Ani układ kierowniczy, ani zawieszenie nie próbuje odcinać nas od cennych danych z zewnątrz. Tu na prawdę wszystko gra i niewiele jest elementów, do których możnaby się przyczepić...
+
+Jeśli już postawiony pod ścianą musiałbym coś **skrytykować**, była by to kilka milimetrów za wysoka pozycja za kierownicą dla człowieka o wzroście nieco większym niż „mini”, albo kiepsko pomyślane klamki - zamiast tylko pociągnąć, trzeba tu najpierw wcisnąć element od wewnątrz klamki, który w obecnych warunkach potrafi zamarzać. O przyciskach sterujących szybami umieszczonych pod panelem klimatyzacji nie będę się rozpisywał, bo każdy szuka ich na drzwiach tylko raz. Później róznic już właściwie nie ma. Jakość materiałów we wnętrzu jest zróżnicowana, ale z kilkoma małymi wyjątkami dobra. Wygląd? Sprawa dyskusyjna, ale ja tu kupuję - deska rozdzielcza idealnie wpisuje się w klimat MINI.
+
+**Wracając do prowadzenia**, najbardziej „normalne” warunki, w jakich podróżował testowany Cooper to mokra solanka. Swoją drogą trzeba pochwalić tegoroczne poczynania drogowców - błyskawicznie poradzili sobie z opanowaniem sytuacji na drogach, które przez większość czasu pozostawały czarne, jednocześnie trzymając się z daleka od moich ulubionych, zimowych szlaków. Tak trzymać! Prowadzenie „S-ki” na asfalcie jest dokładnie takie samo, jak na śniegu - oczywiście przy dużej prędkości potrafi wyjechać z zakrętu. Ale zanim to zrobi, wysyła trzy szczegółowe raporty z oceną przyczepności i stanu nawierzchni do odcinka lędźwiowego i dłoni. Kawał dobrej roboty! 
+
+Tak dobrze jeżdżące auto zasługuje na odpowiedni pakiet wizualny, podkreślający jego zdolności i wyróżniający wśród innych aut na drodze. Tu również nie ma powodów do narzekań - Cooper S posiada 17-calowe felgi, odpowiednio muskularne zderzaki, a zamówienie krzykliwego koloru i pasów na nadwoziu powinno być obowiązkowe, bo pasuje tu idealnie. Uwagę przyciąga jednak nie tylko wizualnie, ale też akustycznie - podwójna, centralnie umieszczona końcówka wydechu wydaje bardzo przujemny, rasowy dźwięk na wysokich obrotach, a podczas spokojnej jazdy silnika prawie nie słychać. 
+
+**Przejedźmy się teraz na spokojnie** - zauważymy wtedy niskie - jak na możliwości silnika - spalanie: 5,4 l/100 km podczas jazdy poza miastem oraz w okolicach 8 litrów w mieście. Oczywiście wtedy, kiedy zależy nam na ustaleniu możliwych do osiągnięcia wartości - średnia z testu wynosi już 8,5 litra. Za dużo wygody byłoby wadą w aucie sportowym, bo wymusiłoby przechyły nadwozia na zakrętach - tu zestaw McPherson z przodu i układ wielowahaczowy z tyłu został ustawiony stricte pod zakręty, więc jest twardo, nawet bardzo. Cała konstrukcja jest jednak na tyle solidnie złożona i wyciszona, że poza solidnymi sygnałami o skutkach stosowania polskich tradycji budowlanych na drogach, nadal można dość wygodnie podróżować, oczywiście we dwójkę, bo tylna kanapa to podręczny bagażnik. Ten główny jest bardzo niewielki (160 litrów), ale posiada praktyczne i solidne siatki mocujące bagaż.
+
+**Edycja specjalna Rauno Aaltonen** to naturalny ukłon w stronę rajdów - wszak to właśnie za kierownicą BMC Mini (wtedy jeszcze pisanego małymi literami) Coopera S o mocy 62 KM i wadze 699 kg Fin zwyciężył w Rajdzie Monte Carlo w 1966 roku. Od tego czasu nieco się pozmieniało, jednak zestaw dodatków ma przypominać nam o ciekawej historii marki - czerwony lakier oraz skórzane dodatki we wnętrzu, jak elementy foteli, część deski rozdzielczej oraz obszycie świetnej w użytkowaniu kierownicy. Czytałem też o czerwonym pierścieniu wokół charakterystycznego prędkościomierza z podpisem Aaltonena, ale w testowej konfiguracji tego elementu przez pomyłkę zabrakło. Z zewnątrz mamy ciekawie wyglądające lampy na chromowanej atrapie chłodnicy, które pełnią funkcję świateł „długich” - z której wywiązują się znakomicie, rozświetlając najgłębszy mrok. Dopłata do wersji specjalnej wynosi 10 203 zł.
+
+**Z dodatków** w testowanej wersji auta w oczy rzuca się właściwie tylko wkomponowany w prędkościomierz ekran systemu iDrive, wyposażonego w sterownik w wersji mini. Nie ma podgrzewanych foteli, brak czujników parkowania i innych rzeczy, których braku na początku w ogóle nie zauważyłem. To nie jest tutaj ważne. Są za to „ekskluzywne” felgi - białe &lt;i&gt;Infinite Stream Spoke&lt;/i&gt; za  dopłatą 410 zł (dla „zwykłego” Coopera S - 2 326 zł), pakiet &lt;i&gt;Chilli&lt;/i&gt; za 10 203 zł z kierownicą wielofunkcyjną, regulacją wysokości fotela pasażera, dywanikami welurowymi, czujnikiem deszczu, klimatyzacją automatyczną, pakietem dodatkowego oświetlenia, przyciskiem &lt;i&gt;sport&lt;/i&gt; oraz oświetleniem przeciwmgielne i reflektorami biksenonowymi. Mamy też pakiet &lt;i&gt;Red Hot&lt;/i&gt; za 2 447 zł, dynamiczną kontrolę trakcji (655 zł), podłokietnik z wątpliwej użyteczności schowkiem (655 zł) oraz listwy ozdobne w kolorze czerni fortepianowej, które stanowią świetne zwieńczenie stylowego i przebojowego wnętrza MINI. Cena auta w takiej konfiguracji to 99 900 zł za bazowego Coopera S i 30 491 zł za wyposażenie - razem **130 391 zł**.
+
+Plusy: 
++ Fantastyczny silnik 1.6 Turbo
+Świetna przyczepność i kontrola w każdych warunkachPrecyzja prowadzeniaKlimat rajdów w edycji limitowanej Minusy:
+- Stosunkowo wysoka cena
+
+- Nieużyteczne tylne fotele
+
+- Fotel kierowcy o kilka milimetrów za wysoko
+
+**Ciężko było się tego spodziewać, a jednak - MINI Cooper S w wersji poświęconej Rauno Aaltonenowi to śnieżny rajdowiec z krwi i kości, a nie tylko marketingowy pozer. Daje radość wyciskania wszystkiego ze śladowej, śnieżnej przyczepności, a to tylko ułamek jego sportowych możliwości. Niezwykle udane auto!**
+
+**Dystans: 273,5 km**
+
+**spalanie: 8,1/5,4/8,5 (miasto/trasa/średnie) - może tak być? Patrz akapit o spalaniu.**

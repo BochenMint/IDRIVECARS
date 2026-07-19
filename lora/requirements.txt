@@ -1,0 +1,18 @@
+# Core dataset + evaluation (runs on Linux CI / cloud worker)
+pyyaml>=6.0
+tqdm>=4.66
+
+# Optional — MLX LoRA on owner's Mac (Apple Silicon, ~48 GB RAM)
+# Install separately on Mac: pip install mlx mlx-lm
+# mlx>=0.18
+# mlx-lm>=0.19
+
+# Optional — Unsloth on CUDA worker (e.g. RTX 5080)
+# Install separately on GPU machine per https://github.com/unslothai/unsloth
+# unsloth
+# torch
+# transformers>=4.40
+# datasets
+# trl
+# peft
+# bitsandbytes

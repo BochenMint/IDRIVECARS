@@ -1,0 +1,20 @@
+---
+interface Props {
+  brand: string;
+  model: string;
+  refreshedAt?: string;
+}
+
+const { brand, model, refreshedAt } = Astro.props;
+const date = refreshedAt ?? new Date().toISOString().slice(0, 10);
+---
+
+<aside class="my-8 rounded-xl border border-stone-200 bg-white p-6 shadow-sm">
+  <p class="text-xs font-semibold uppercase tracking-[0.18em] text-muted">Ten model dziś</p>
+  <h3 class="font-display mt-2 text-xl text-[#171717]">
+    {brand} {model}
+  </h3>
+  <p class="mt-2 text-sm text-[#737373]">
+    Aktualizacja danych rynkowych i kalkulatora finansowania — {new Date(date).toLocaleDateString('pl-PL')}.
+  </p>
+</aside>

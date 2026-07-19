@@ -1,0 +1,1015 @@
+{
+  "timestamp": "20260718T132921Z",
+  "dataset": "/workspace/lora/datasets/idrive_voice_v1.jsonl",
+  "examples": 1834,
+  "blind_test_export": "/workspace/lora/eval/blind_test_20260718T132921Z.json",
+  "banned_phrases": {
+    "reference_hits": 141,
+    "generation_hits": 0,
+    "linted": "reference_corpus",
+    "must_be_zero": true,
+    "details": [
+      {
+        "index": 13,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Chodzi o Volkswagena Golfa VII generacji w najbogatszej wersji &lt;i&gt;Highline&lt;/i&gt;, a Peugeot to również topowa &lt;i&gt;Allure&lt;/i&gt;. Zajrzyjmy do wnętrza tego drugiego, które oceniać będziemy przez pryzmat auta uznawanego za l"
+      },
+      {
+        "index": 35,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Jest też wspomniany wyżej TDI. Ma 184 konie mechaniczne mocy i 380 Nm momentu obrotowego, a więc o 30 więcej niż wersja benzynowa. Maksymalnie pojedzie 232 km/h, ale przyspieszenie do 100 km/h to bardzo przeciętne i niezbyt sportowe 8,1 sek"
+      },
+      {
+        "index": 87,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "A jednak jest to problem, ponieważ wszystkie moje próby wprowadzenia auta w poślizg na suchej nawierzchni zakończyły się porażką pomimo wyłączonej kontroli trakcji i wychodzeniu z poślizgu. Na mokrym zdarzy się czasem jakaś delikatna nerwow"
+      },
+      {
+        "index": 116,
+        "phrases": [
+          "niewątpliwie"
+        ],
+        "excerpt": "...to zdecydowany plus Micry. Pojemność 1,2 litra i 3 cylindry nie brzmią zbyt bojowo, ale dzięki kompresorowi taki zestaw generuje 98 KM przy 5600 obr./min. oraz 142 Nm momentu na poziomie 4400 obr./min. Podczas jazdy miejskiej - a do niej"
+      },
+      {
+        "index": 132,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Zwrotność auta robi wrażenie, a dynamika towarzysząca ruszaniu - dzięki wadze równej 980 kg i mocy 75 KM - tworzy z Twingo prawdziwego zwierza zakupowego. Od sklepu do sklepu skaczemy z prędkością błyskawicy, zatrzymując się w mig dzięki ma"
+      },
+      {
+        "index": 182,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Miękkie i dobrze wyprofilowane fotele i wystarczająco dobra pozycja za kierownicą pozwalają na odprężenie się za kółkiem i czerpanie przyjemności z jazdy w trasie. Sama kierownica jest gruba, ładnie wygląda i jest obszyta przyjemną w dotyku"
+      },
+      {
+        "index": 186,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "**Za „podstawowe” pieniądze** otrzymujemy auto z silnikiem 1.2 TSI w wariancie 85-konnym oraz tylne zawieszenie z belką skrętną oraz ogromną ilość miejsca z przodu oraz z tyłu, która sprawia wrażenie obcowania z autem z pogranicza segmentów"
+      },
+      {
+        "index": 245,
+        "phrases": [
+          "podsumowując",
+          "w segmencie"
+        ],
+        "excerpt": "Ceny wersji RS nie przerażają, bo możemy ją mieć już za {{PRICE}} w najciekawszym wariancie - a więc liftbacka ze świetną manualną skrzynią i 220-konnym TSI. Oczywiście z systemem start-stop... Podobne Combi kosztuje {{PRICE}}, a dopłata do"
+      },
+      {
+        "index": 274,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "Cabrio, mające zadebiutować jako model koncepcyjny na zbliżającym się salonie w Genewie, jest tak na prawdę wersją coupe – tyle, że wyposażoną w składany, miękki dach. W dolnej części nadwozia mamy do czynienia ze znanymi kształtami. Jedyne"
+      },
+      {
+        "index": 291,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Na podobnej zasadzie działa **dyfuzor**, tworzący tylną część podłogi. Złożony z nisko położonej powierzchni oraz rozszerzających się ku górze kanałów, ułatwiających odpływ i zwiększających prędkość przepływu powietrza pod bolidem. Wzrost p"
+      },
+      {
+        "index": 336,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "**Tato, jak się jeździ Evalią?**\nAby odpowiedzieć na tak postawione pytanie Tatuś (lub Mamusia) będzie się musiał nieco nagłowić. Bo o czym tu opowiadać? Pozycja za kierownicą to siedzenie „na stołku” z kierownicą pochyloną jak w ciężarówce"
+      },
+      {
+        "index": 342,
+        "phrases": [
+          "niesamowity"
+        ],
+        "excerpt": "**Zalety:**\n+ Osiągi i brzmienie silnika\n+ Precyzyjne prowadzenie\n+ Niesamowity komfort\n+ Skuteczny masaż pleców\n+ Wygląd\n\n**Wady:\n**- System multimedialny z Golfów i Passatów…\n- ...Co w samochodzie za prawie milion złotych jest pomyłką"
+      },
+      {
+        "index": 344,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "...sprawy mają się podobnie - pozycja jest do zaakceptowania, choć do ideału sporo jej brakuje. Kierownicę trzyma się dość wygodnie, a fotel ma na względzie komfort pleców kierowcy. Ilość miejsca w pierwszym rzędzie jest również zadowalając"
+      },
+      {
+        "index": 356,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Ale zapłacić prawie {{PRICE}} za Renault Fluence to szalony pomysł - odpowiedzią na brak zainteresowania elektryczną motoryzacją musi być zmniejszenie kosztów i zwiększenie pojemności baterii. Na szczęście jest już na to wiele realnych pomy"
+      },
+      {
+        "index": 360,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "# Audi TT - Powrót do korzeni\n\n**Nowe Audi TT wkracza na polski rynek z zamiarem ugryzienia nieco większego kawałka rynkowego tortu niż poprzednik. Aby to osiągnąć, dodano mu mocy, odjęto wagi, oraz - co ciekawe - zdecydowano się na stylist"
+      },
+      {
+        "index": 361,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "Nowy Jeep Cherokee - SUV czystej krwi\n\n**Marka Jeep to kawał historii. Daleki jestem od stwierdzenia, że Willys wygrał II Wojnę Światową, ale bez wątpienia pomógł Aliantom to zrobić. Jego dziedzictwo trwa do dziś, a jego wyrazem nie są jedy"
+      },
+      {
+        "index": 370,
+        "phrases": [
+          "niewątpliwie"
+        ],
+        "excerpt": "Zresztą całkiem sprawnie - wielowahaczowe zawieszenie na tylnej osi i kolumny MacPhersona z przodu to bardzo stabilny zestaw, który w trybie sportowym działa wyśmienicie, a prędkość pokonywania łuków może być bardzo wysoka bez obaw o utratę"
+      },
+      {
+        "index": 371,
+        "phrases": [
+          "nie sposób nie zauważyć"
+        ],
+        "excerpt": "Przyczajony, szeroki przód z długą maską i mocno pochyloną przednią szybą, finezyjne przetłoczenia i bardzo groźne spojrzenie, podkreślane dodatkowo przez LED-owe światła do jazdy dziennej to znak, że czas zjechać na prawy pas, rzucić szybk"
+      },
+      {
+        "index": 377,
+        "phrases": [
+          "nie bez powodu"
+        ],
+        "excerpt": "Siedemnastocalowe felgi robią w malutkim Mini piorunujące wrażenie. Podobnie, jak efektowne pasy wzdłuż nadwozia i wysuwający się przy 80 km/h tylny spoiler. Wiem, że jego podstawową funkcją jest dociskanie tyłu, ale nie bez powodu można go"
+      },
+      {
+        "index": 383,
+        "phrases": [
+          "niesamowity"
+        ],
+        "excerpt": "Dlaczego nie zaopatrzyć się w środek transportu mający na pokładzie studio odsłuchowe najwyższej klasy? System audio High End firmy Burmester powala jakością dźwięku 3D nawet z niepozornego źródła. O niesamowitych wrażeniach z odsłuchu w Ma"
+      },
+      {
+        "index": 384,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Oficjalne zużycie paliwa to 11,7 l/100 km w cyklu mieszanym; w rzeczywistej jeździe po autostradzie i w mieście łatwo zejść do 14–16 l. Cena wersji testowej przekraczała milion złotych; Maybach S 500 z V8 startował od ok. {{PRICE}}. Dla por"
+      },
+      {
+        "index": 389,
+        "phrases": [
+          "niewątpliwie"
+        ],
+        "excerpt": "**Rozum**\n\nZakup Skody niewątpliwie się z nim kojarzy. Ale dlaczego? Może dlatego, że nie czujemy się oszukani hasłem „simply clever” - jest to jeden z niewielu sloganów reklamowych, które nie są w żadnym wypadku puste. Gniazdko 230V na tyl"
+      },
+      {
+        "index": 401,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "Cabrio, mające zadebiutować jako model koncepcyjny na zbliżającym się salonie w Genewie, jest tak na prawdę wersją coupe – tyle, że wyposażoną w składany, miękki dach. W dolnej części nadwozia mamy do czynienia ze znanymi kształtami. Jedyne"
+      },
+      {
+        "index": 411,
+        "phrases": [
+          "nie bez znaczenia jest",
+          "w segmencie"
+        ],
+        "excerpt": "Podczas jazdy Panamerą Diesel nie sposób narzekać na brak komfortu, również akustycznego. Automatyczna przekładnia Tiptronic S ma aż 8 przełożeń, dzięki czemu obroty właściwie zawsze są na tyle niskie, żeby silnika nie było słychać. A po gł"
+      },
+      {
+        "index": 430,
+        "phrases": [
+          "jak wiadomo"
+        ],
+        "excerpt": "**Moc **obu aut pochodzi z różnych paliw, lecz każde z nich jest całkiem dynamiczne - 2-litrowy, francuski diesel rozpędza 308 do 100 km/h w 8,8 s korzystając z mocy 150 KM**. **W Golfie mieszka benzynowy 1.4 TSI o mocy 160 KM i przyspiesze"
+      },
+      {
+        "index": 444,
+        "phrases": [
+          "warto odnotować"
+        ],
+        "excerpt": "**Gadżety**, jakie można sobie teraz zamówić w Skodzie zadowolą najbardziej wybrednych klientów z pokaźnymi portfelami, ale czy tacy szukają ofert u czeskiego producenta? Pojawił się system &lt;i&gt;Columbus&lt;/i&gt;, czyli nowoczesny, poj"
+      },
+      {
+        "index": 462,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Ta historia zaczyna się tak, jak wiele innych. Znaliśmy się tylko z widzenia - mieszkała w pobliżu. Mijaliśmy się na ulicy, lecz każdy zawsze zmierzał w swoją stronę. Odchodziła, nie zwracając na mnie uwagi, a ja cierpliwie czekałem na nast"
+      },
+      {
+        "index": 499,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Kabinę również można uznać za praktyczną - jest bardzo przestronna, świetnie wykonana i estetyczna, a jedynym zgrzytem jest obsluga wentylacji za pomocą ekranu dotykowego, co niepotrzebnie tą czynność komplikuje. Podobny problem występuje w"
+      },
+      {
+        "index": 507,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "**Twin Clutch Transmission...**\n...czyli dwusprzęgłowa skrzynia biegów TCT to strzał w dziesiątkę dla samochodu ze sportowym rodowodem, jakim bez wątpienia jest każda Alfa Romeo. Prawdziwi &lt;i&gt;Alfisti&lt;/i&gt; chcą mieć pełną kontrolę"
+      },
+      {
+        "index": 523,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Chodzi o Volkswagena Golfa VII generacji w najbogatszej wersji &lt;i&gt;Highline&lt;/i&gt;, a Peugeot to również topowa &lt;i&gt;Allure&lt;/i&gt;. Zajrzyjmy do wnętrza tego drugiego, które oceniać będziemy przez pryzmat auta uznawanego za l"
+      },
+      {
+        "index": 530,
+        "phrases": [
+          "podsumowując"
+        ],
+        "excerpt": "**Jeżeli chodzi o wygodę**, nie ma tu nic do zarzucenia - z belki skrętnej nie da się wycisnąć lepszego kompromisu pomiędzy wygodą a prowadzeniem i tu nikt nic nie zepsuł. Felgi w rozmiarze 15 cali i na normalnych, drogowych oponach świetni"
+      },
+      {
+        "index": 548,
+        "phrases": [
+          "w tym segmencie"
+        ],
+        "excerpt": "Janusz za to twardo stąpa po ziemii i nie da się wciągnąć w żadne obiecanki o zielonych lasach Amazonii. Już sytuacja po wyczerpaniu baterii, gdy spalanie lubi wzrosnąć, wywołała u niego oburzenie. W trasie byłoby gorzej, bo przy duzej pręd"
+      },
+      {
+        "index": 550,
+        "phrases": [
+          "warto wspomnieć"
+        ],
+        "excerpt": "Powiedzmy sobie szczerze - poprzednie Audi TT nie było najbardziej męskim samochodem na świecie. Może to tylko moja opinia, ale zdecydowanie lepiej wyglądały w nim kobiety, a całemu projektowi brakowało odrobiny agresji. Podczas pierwszego "
+      },
+      {
+        "index": 551,
+        "phrases": [
+          "w tym segmencie"
+        ],
+        "excerpt": "Sport w vanie jednak jest możliwy. Co prawda nie ma mowy, żeby Golf Sportsvan pokonywał zakręty tak samo szybko jak zwykły Golf, ale szok, jaki towarzyszy szybkiemu wchodzeniu w zakręt tego typu samochodem wystarczy z nawiązką do zatuszowan"
+      },
+      {
+        "index": 552,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Niestety, są również minusy - układ kierowniczy mógłby nieco więcej się odzywać, przekazując informacje o drodze, a skrzynia biegów mogłaby być nieco mądrzejsza. Potrafi wprawdzie szybko zmieniać biegi, ale przy sytuacjach nietypowych, wypr"
+      },
+      {
+        "index": 554,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Testowany egzemplarz jest napędzany przez znany z nowych Renault silnik 0.9 TCe, a więc 3-cylindrowy motor benzynowy z turbodoładowaniem. Ma on kilka istotnych wad, na przykład plan wyrwania się spod maski za każdym razem, gdy wskazówka obr"
+      },
+      {
+        "index": 563,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "**Mercedes-Benz S 500e: Luksus pod napięciem**\n\n**Pamiętacie Mercedesa-Maybacha S 600 z naszego tysięcznego testu? To bez wątpienia jeden z najlepszych wyborów dla prezesa preferującego podróżowanie na tylnej kanapie. Dzisiaj zajmiemy się M"
+      },
+      {
+        "index": 564,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Testowany egzemplarz jest napędzany przez znany z nowych Renault silnik 0.9 TCe, a więc 3-cylindrowy motor benzynowy z turbodoładowaniem. Ma on kilka istotnych wad, na przykład plan wyrwania się spod maski za każdym razem, gdy wskazówka obr"
+      },
+      {
+        "index": 595,
+        "phrases": [
+          "niesamowity"
+        ],
+        "excerpt": "Dlaczego nie zaopatrzyć się w środek transportu mający na pokładzie studio odsłuchowe najwyższej klasy? System audio High End firmy Burmester powala jakością dźwięku 3D nawet z niepozornego źródła. O niesamowitych wrażeniach z odsłuchu w Ma"
+      },
+      {
+        "index": 596,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Ciekawym akcesorium byłby ocieplacz na nogi kierowcy i pasażera, gdyby nie jego cena - 717 złotych. Zimą wystarczy zaopatrzyć się w kocyk albo ubrać kalesony, wyjdzie taniej. Tylne czujniki parkowania kosztują {{PRICE}}, chlapacze przednie "
+      },
+      {
+        "index": 609,
+        "phrases": [
+          "warto przyjrzeć się"
+        ],
+        "excerpt": "- „Milczący” układ kierowniczy\n\nTwingo w roli miejskiego auta na zakupy sprawdza się wyśmienicie. Jeśli nie stać Was na Mini dla żony, warto przyjrzeć się ofercie Renault."
+      },
+      {
+        "index": 643,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "**Twin Clutch Transmission...**\n...czyli dwusprzęgłowa skrzynia biegów TCT to strzał w dziesiątkę dla samochodu ze sportowym rodowodem, jakim bez wątpienia jest każda Alfa Romeo. Prawdziwi &lt;i&gt;Alfisti&lt;/i&gt; chcą mieć pełną kontrolę"
+      },
+      {
+        "index": 658,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "**Za „podstawowe” pieniądze** otrzymujemy auto z silnikiem 1.2 TSI w wariancie 85-konnym oraz tylne zawieszenie z belką skrętną oraz ogromną ilość miejsca z przodu oraz z tyłu, która sprawia wrażenie obcowania z autem z pogranicza segmentów"
+      },
+      {
+        "index": 671,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "# Skoda Citigo 1.0 MPI Elegance - ABC\n\n**Rozmiary i cena segmentu A, Przestronność segmentu B i wyposażenie zbliżone do tego oferowanego w segmencie C. Czy takie połączenie jest możliwe? Pewnie! Przed Wami Skoda Citigo w najbogatszej wersji"
+      },
+      {
+        "index": 691,
+        "phrases": [
+          "jak wiadomo"
+        ],
+        "excerpt": "Do tego napęd tylko na tylną oś, rewelacyjne zawieszenie i całkowity brak świadomości o rozmiarach auta, które prowadzimy. Jak na swoje gabaryty Panamera jest zaskakująco zwinna, dzięki czemu zaczynam rozumieć, dlaczego w nazwie modelu znal"
+      },
+      {
+        "index": 705,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "**Tato, jak się jeździ Evalią?**\nAby odpowiedzieć na tak postawione pytanie Tatuś (lub Mamusia) będzie się musiał nieco nagłowić. Bo o czym tu opowiadać? Pozycja za kierownicą to siedzenie „na stołku” z kierownicą pochyloną jak w ciężarówce"
+      },
+      {
+        "index": 726,
+        "phrases": [
+          "podsumowując"
+        ],
+        "excerpt": "Miejsca tyle, ile tylko można zapragnąć, 8 wygodnych miejsc oraz komfort i prowadzenie, jakich po tak dużym samochodzie trudno się spodziewać. Z akcesoriami Forda do przewozu desek, rowerów, kajaków itp. jest to samochód, dzięki któremu wak"
+      },
+      {
+        "index": 744,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Bagażnik oferuje 288 litrów całkiem ustawnej przestrzeni, którą po złożeniu siedzeń można powiększyć do 923 litrów licząc aż po dach. Co ciekawe, kanapa w Rio nie składa się w stosunku 2:3, lecz 6:4 - nie wiem, kto wymyślił taki zapis, ale "
+      },
+      {
+        "index": 753,
+        "phrases": [
+          "bez wątpienia",
+          "rewolucyjny"
+        ],
+        "excerpt": "Na początek zaproponuję przerwę w lekturze. Spójrzcie na zdjęcia, jakie wykonaliśmy na włoskiej wyspie - Sardynii. Jest to miejsce niezwykłe, a temperatura pod koniec października wynosiła 28 stopni. Drogi pozwalały na obnażenie wszystkich "
+      },
+      {
+        "index": 756,
+        "phrases": [
+          "w obecnej sytuacji"
+        ],
+        "excerpt": "Kosztuje nieco za dużo. Gdyby cena była o 20 tysięcy niższa, jego sukces, ze wszystkimi udogodnieniami i nową jakością, byłby pewny. A w obecnej sytuacji... będizemy musieli poczekać na reakcję rynku. To z pewnością bardzo dobra oferta, cho"
+      },
+      {
+        "index": 761,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "Bez wątpienia mamy tu do czynienia z autem, którego kupno podyktowane jest grubością portfela - i nie chodzi tu bynajmniej o jego otyłość. We wnętrzu widać to jak na dłoni - miękkich tworzyw tu po prostu nie ma, a wszystko jest odrobinę „ta"
+      },
+      {
+        "index": 772,
+        "phrases": [
+          "w tym segmencie"
+        ],
+        "excerpt": "Janusz za to twardo stąpa po ziemii i nie da się wciągnąć w żadne obiecanki o zielonych lasach Amazonii. Już sytuacja po wyczerpaniu baterii, gdy spalanie lubi wzrosnąć, wywołała u niego oburzenie. W trasie byłoby gorzej, bo przy duzej pręd"
+      },
+      {
+        "index": 773,
+        "phrases": [
+          "warto zaznaczyć"
+        ],
+        "excerpt": "**Grosze**, ponieważ pod maską egzemplarza testowego znalazł się hiperoszczędny diesel 1.6 HDi o mocy 90 KM, która wystarczy, by w mgnieniu oka wyprzedzić ciężarówkę na drodze krajowej, nie sięgając nawet do lewarka zmiany biegów, który swo"
+      },
+      {
+        "index": 790,
+        "phrases": [
+          "rewolucyjny"
+        ],
+        "excerpt": "**Jest dobrze, ale mogłoby być lepiej. Nowe Scirocco, które zaprezentowano w Genewie, powinno okazać się lepsze we wszystkich kategoriach, w których obecne nieco kuleje. Rewolucyjnych zmian jednak nie będzie, więc najprawdopodobniej zabrakn"
+      },
+      {
+        "index": 794,
+        "phrases": [
+          "rewolucyjny"
+        ],
+        "excerpt": "Problemem rewolucyjnych rakiet V-2 było to, że 60% z nich miała wady konstrukcyjne wykluczające je z działań wojennych, a 6% spośród wszystkich rakiet wybuchło zaraz po starcie. Tak przynajmniej twierdzi Wikipedia. Audi RS7 z podwójnie doła"
+      },
+      {
+        "index": 810,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Ale zapłacić prawie {{PRICE}} za Renault Fluence to szalony pomysł - odpowiedzią na brak zainteresowania elektryczną motoryzacją musi być zmniejszenie kosztów i zwiększenie pojemności baterii. Na szczęście jest już na to wiele realnych pomy"
+      },
+      {
+        "index": 811,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "Bardzo kompleksowym zestawem asystentów jest opisywany przy okazji pierwszych jazd Nissanem Note &lt;i&gt;Safety Shield&lt;/i&gt;. W Qashqaiu dodano do niego elektryczny hamulec awaryjny, który ma trzy fazy działania. Najpierw, gdy czujniki"
+      },
+      {
+        "index": 833,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Niestety, są również minusy - układ kierowniczy mógłby nieco więcej się odzywać, przekazując informacje o drodze, a skrzynia biegów mogłaby być nieco mądrzejsza. Potrafi wprawdzie szybko zmieniać biegi, ale przy sytuacjach nietypowych, wypr"
+      },
+      {
+        "index": 841,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Wystarczy rzucić okiem na specyfikację i dane techniczne - rozstaw osi wynoszący 2,7 metra, bagażnik o pojemności 385 litrów i miejsce na nogi, którego nie powstydziłoby się auto segmentu D. Czy z przodu, czy z tyłu - jest bardzo przestronn"
+      },
+      {
+        "index": 845,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Łatwo więc dojść do wniosku, że w segmencie B, gdzie cena gra często kluczową rolę, trzeba się jednak na coś zdecydować. Niestety, w KIA nikt na to nie wpadł. A szkoda - nowe Rio to całkiem dobrze prezentujące się auto, które przez swój bra"
+      },
+      {
+        "index": 848,
+        "phrases": [
+          "warto wspomnieć"
+        ],
+        "excerpt": "Powiedzmy sobie szczerze - poprzednie Audi TT nie było najbardziej męskim samochodem na świecie. Może to tylko moja opinia, ale zdecydowanie lepiej wyglądały w nim kobiety, a całemu projektowi brakowało odrobiny agresji. Podczas pierwszego "
+      },
+      {
+        "index": 850,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "**W środku\n**O tym, że wnętrze nie wzbudza żadnych skrajnych emocji już wspominałem. O tym, co właściwie znajdziemy na pokładzie roadstera od Porsche jeszcze nie. W przypadku testowanego egzemplarza pupę sadzamy na wentylowanych i podgrzewa"
+      },
+      {
+        "index": 862,
+        "phrases": [
+          "rewolucyjny"
+        ],
+        "excerpt": "Problemem rewolucyjnych rakiet V-2 było to, że 60% z nich miała wady konstrukcyjne wykluczające je z działań wojennych, a 6% spośród wszystkich rakiet wybuchło zaraz po starcie. Tak przynajmniej twierdzi Wikipedia. Audi RS7 z podwójnie doła"
+      },
+      {
+        "index": 880,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Łatwo więc dojść do wniosku, że w segmencie B, gdzie cena gra często kluczową rolę, trzeba się jednak na coś zdecydować. Niestety, w KIA nikt na to nie wpadł. A szkoda - nowe Rio to całkiem dobrze prezentujące się auto, które przez swój bra"
+      },
+      {
+        "index": 902,
+        "phrases": [
+          "w skrócie"
+        ],
+        "excerpt": "**Pierwsza Jazda: Skoda Rapid Spaceback - Kompakt dla młodych?**\n\n**Praktyczny, atrakcyjny, ale również zabawny samochód dla młodych - tak w skrócie Skoda określa swoje nowe auto kompaktowe. Wygląda rzeczywiście ciekawie, jest ‘Simply Cleve"
+      },
+      {
+        "index": 915,
+        "phrases": [
+          "w tym segmencie"
+        ],
+        "excerpt": "Oczywiście niesie to z sobą konsekwencję w postaci mniejszego komfortu na nierównych drogach, których mamy w Polsce sporo, choć mam wrażenie, że w Portugalii jest ich więcej. Nie jest to jednak drastyczny spadek komfortu - subiektywne wraże"
+      },
+      {
+        "index": 917,
+        "phrases": [
+          "must have"
+        ],
+        "excerpt": "Podobnie we wnętrzu - tu również dominuje kolor brązowy, w postaci wstawek na desce rozdzielczej i drzwiach ze skóry ekologicznej oraz na materiałowych obiciach foteli. Taki zestaw wraz z ciekawym projektem deski rozdzielczej sprawia bardzo"
+      },
+      {
+        "index": 932,
+        "phrases": [
+          "niewątpliwie"
+        ],
+        "excerpt": "**Volkswagen Golf Variant 2.0 TDI Highline - O to chodziło**\n\n**Wygrywający wszystkie możliwe konkursy nowy Golf niewątpliwie się Volkswagenowi udał, ale to wcale nie gwarantuje sukcesu wszystkich wersji nadwoziowych. Podczas przeszło tysią"
+      },
+      {
+        "index": 933,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "...sprawy mają się podobnie - pozycja jest do zaakceptowania, choć do ideału sporo jej brakuje. Kierownicę trzyma się dość wygodnie, a fotel ma na względzie komfort pleców kierowcy. Ilość miejsca w pierwszym rzędzie jest również zadowalając"
+      },
+      {
+        "index": 938,
+        "phrases": [
+          "warto dodać"
+        ],
+        "excerpt": "**Przestrzeń** wewnątrz kabiny jest niemal identyczna, jak w Micrze, Ibizie, Fabii czy Fieście i mniejsza niż w kompaktach, lecz bez żadnej klaustrofobii po przesiadce z takiego auta nie doświadczymy - tego po trojaczkach Volkswagena nikt b"
+      },
+      {
+        "index": 940,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "**Elegancka**\n\nNajbogatsza wersja wyposażeniowa Octavii kosztuje „w podstawie” ponad 100 tysięcy złotych i nie zawiedzie nawet wybrednych. Listę wyposażenia standardowego (oprócz podstawy „biedniejszych” wersji, rzecz jasna) otwiera dwustre"
+      },
+      {
+        "index": 958,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "Nowy Jeep Cherokee - SUV czystej krwi\n\n**Marka Jeep to kawał historii. Daleki jestem od stwierdzenia, że Willys wygrał II Wojnę Światową, ale bez wątpienia pomógł Aliantom to zrobić. Jego dziedzictwo trwa do dziś, a jego wyrazem nie są jedy"
+      },
+      {
+        "index": 959,
+        "phrases": [
+          "warto dodać"
+        ],
+        "excerpt": "**Full power!\n**Pora przechylić wskaźnik kW w prawe skrajne położenie i poczuć dostępny na każde zawołanie maksymalny moment obrotowy równy 226 Nm. Wrażenia - niesamowite! Przyjemne, jednostajne wciskanie w fotel potrafi wywołać uśmiech na "
+      },
+      {
+        "index": 971,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "Bez wątpienia mamy tu do czynienia z autem, którego kupno podyktowane jest grubością portfela - i nie chodzi tu bynajmniej o jego otyłość. We wnętrzu widać to jak na dłoni - miękkich tworzyw tu po prostu nie ma, a wszystko jest odrobinę „ta"
+      },
+      {
+        "index": 978,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "**Pierwsza Jazda: nowy Nissan Note**\n\n**Nissan Note ma być kluczem Nissana do dominacji w segmencie B. Mówi się, że nie ma prawie nic współnego z poprzednikiem, a zastosowane w nim technologię sprawią, że prezesi rywalizujących z Nissanem m"
+      },
+      {
+        "index": 983,
+        "phrases": [
+          "nie bez znaczenia jest",
+          "w segmencie"
+        ],
+        "excerpt": "Podczas jazdy Panamerą Diesel nie sposób narzekać na brak komfortu, również akustycznego. Automatyczna przekładnia Tiptronic S ma aż 8 przełożeń, dzięki czemu obroty właściwie zawsze są na tyle niskie, żeby silnika nie było słychać. A po gł"
+      },
+      {
+        "index": 985,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "**W środku\n**O tym, że wnętrze nie wzbudza żadnych skrajnych emocji już wspominałem. O tym, co właściwie znajdziemy na pokładzie roadstera od Porsche jeszcze nie. W przypadku testowanego egzemplarza pupę sadzamy na wentylowanych i podgrzewa"
+      },
+      {
+        "index": 996,
+        "phrases": [
+          "nie bez powodu"
+        ],
+        "excerpt": "Spójrzcie na niego. Nie bez powodu jest to jeden z najczęściej spotykanych samochodów luksusowych w księstwie Monako. Szlachetna elegancja łączy się tu z mocą, jaką obiecują potężne nadkola i napięciem sylwetki, którą każdy fan motoryzacji "
+      },
+      {
+        "index": 1001,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Kabinę również można uznać za praktyczną - jest bardzo przestronna, świetnie wykonana i estetyczna, a jedynym zgrzytem jest obsluga wentylacji za pomocą ekranu dotykowego, co niepotrzebnie tą czynność komplikuje. Podobny problem występuje w"
+      },
+      {
+        "index": 1009,
+        "phrases": [
+          "w tym segmencie"
+        ],
+        "excerpt": "Sport w vanie jednak jest możliwy. Co prawda nie ma mowy, żeby Golf Sportsvan pokonywał zakręty tak samo szybko jak zwykły Golf, ale szok, jaki towarzyszy szybkiemu wchodzeniu w zakręt tego typu samochodem wystarczy z nawiązką do zatuszowan"
+      },
+      {
+        "index": 1083,
+        "phrases": [
+          "niesamowity"
+        ],
+        "excerpt": "Dlaczego nie zaopatrzyć się w środek transportu mający na pokładzie studio odsłuchowe najwyższej klasy? System audio High End firmy Burmester powala jakością dźwięku 3D nawet z niepozornego źródła. O niesamowitych wrażeniach z odsłuchu w Ma"
+      },
+      {
+        "index": 1099,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Zwrotność auta robi wrażenie, a dynamika towarzysząca ruszaniu - dzięki wadze równej 980 kg i mocy 75 KM - tworzy z Twingo prawdziwego zwierza zakupowego. Od sklepu do sklepu skaczemy z prędkością błyskawicy, zatrzymując się w mig dzięki ma"
+      },
+      {
+        "index": 1104,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Po otrzymaniu składanego kluczyka ozdobionego kształtem herbowego grilla Alfy Romeo, zaczynam szukać odpowiedzi. Wskakuję więc za kierownicę. Przekręcam kluczyk, budząc do życia elektronikę Alfy. Na powitanie otwiera się zasłaniający drogę "
+      },
+      {
+        "index": 1107,
+        "phrases": [
+          "zdecydowanie warto"
+        ],
+        "excerpt": "Silnik 2.3 EcoBoost, będący wzmocnioną i zmodyfikowaną jednostką z nowego Mustanga, budzi się do życia ze złowrogim pomrukiem i jest to dźwięk tak daleki od wszelkich skojarzeń „eko”, jak to tylko możliwe. Słyszę tylko „boost” turbosprężark"
+      },
+      {
+        "index": 1194,
+        "phrases": [
+          "niewątpliwie"
+        ],
+        "excerpt": "...to zdecydowany plus Micry. Pojemność 1,2 litra i 3 cylindry nie brzmią zbyt bojowo, ale dzięki kompresorowi taki zestaw generuje 98 KM przy 5600 obr./min. oraz 142 Nm momentu na poziomie 4400 obr./min. Podczas jazdy miejskiej - a do niej"
+      },
+      {
+        "index": 1200,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Wystarczy rzucić okiem na specyfikację i dane techniczne - rozstaw osi wynoszący 2,7 metra, bagażnik o pojemności 385 litrów i miejsce na nogi, którego nie powstydziłoby się auto segmentu D. Czy z przodu, czy z tyłu - jest bardzo przestronn"
+      },
+      {
+        "index": 1209,
+        "phrases": [
+          "podsumowując"
+        ],
+        "excerpt": "**Jeżeli chodzi o wygodę**, nie ma tu nic do zarzucenia - z belki skrętnej nie da się wycisnąć lepszego kompromisu pomiędzy wygodą a prowadzeniem i tu nikt nic nie zepsuł. Felgi w rozmiarze 15 cali i na normalnych, drogowych oponach świetni"
+      },
+      {
+        "index": 1222,
+        "phrases": [
+          "jak wiadomo"
+        ],
+        "excerpt": "Do tego napęd tylko na tylną oś, rewelacyjne zawieszenie i całkowity brak świadomości o rozmiarach auta, które prowadzimy. Jak na swoje gabaryty Panamera jest zaskakująco zwinna, dzięki czemu zaczynam rozumieć, dlaczego w nazwie modelu znal"
+      },
+      {
+        "index": 1224,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "Bardzo kompleksowym zestawem asystentów jest opisywany przy okazji pierwszych jazd Nissanem Note &lt;i&gt;Safety Shield&lt;/i&gt;. W Qashqaiu dodano do niego elektryczny hamulec awaryjny, który ma trzy fazy działania. Najpierw, gdy czujniki"
+      },
+      {
+        "index": 1241,
+        "phrases": [
+          "w obecnych czasach"
+        ],
+        "excerpt": "Na równych, asfaltowych drogach, gdzie zaczęliśmy testowanie „Szerokiego”, sprawdziliśmy te właściwości, które przez potencjalnych nabywców będą testowane najczęściej. Fajnie mieć autko zdolne wspinać się po skałach, ale powiedzmy sobie szc"
+      },
+      {
+        "index": 1246,
+        "phrases": [
+          "warto odnotować"
+        ],
+        "excerpt": "**Gadżety**, jakie można sobie teraz zamówić w Skodzie zadowolą najbardziej wybrednych klientów z pokaźnymi portfelami, ale czy tacy szukają ofert u czeskiego producenta? Pojawił się system &lt;i&gt;Columbus&lt;/i&gt;, czyli nowoczesny, poj"
+      },
+      {
+        "index": 1253,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Bagażnik oferuje 288 litrów całkiem ustawnej przestrzeni, którą po złożeniu siedzeń można powiększyć do 923 litrów licząc aż po dach. Co ciekawe, kanapa w Rio nie składa się w stosunku 2:3, lecz 6:4 - nie wiem, kto wymyślił taki zapis, ale "
+      },
+      {
+        "index": 1271,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "W warunkach miejskich Rio czuje się znacznie lepiej, dzięki czemu poza godzinami szczytu można spokojnie zejść poniżej 6 litrów, a w apogeum zakorkowania miasta zadowalający będzie wynik 7-8 l/100 km, na co istotny wpływ ma sześć krótkich p"
+      },
+      {
+        "index": 1292,
+        "phrases": [
+          "niewątpliwie"
+        ],
+        "excerpt": "**Volkswagen Golf Variant 2.0 TDI Highline - O to chodziło**\n\n**Wygrywający wszystkie możliwe konkursy nowy Golf niewątpliwie się Volkswagenowi udał, ale to wcale nie gwarantuje sukcesu wszystkich wersji nadwoziowych. Podczas przeszło tysią"
+      },
+      {
+        "index": 1306,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Oficjalne zużycie paliwa to 11,7 l/100 km w cyklu mieszanym; w rzeczywistej jeździe po autostradzie i w mieście łatwo zejść do 14–16 l. Cena wersji testowej przekraczała milion złotych; Maybach S 500 z V8 startował od ok. {{PRICE}}. Dla por"
+      },
+      {
+        "index": 1316,
+        "phrases": [
+          "w tym segmencie"
+        ],
+        "excerpt": "Ostatni Ford Focus RS pojawił się na rynku w {{YEAR}} roku i od razu stał się kultowy. Wcześniej logo RS nosiły takie gwiazdy jak Ford Escort RS Cosworth, Ford RS200 czy wreszcie pierwszy Focus RS, za kierownicą którego w rajdowej wersji OS"
+      },
+      {
+        "index": 1320,
+        "phrases": [
+          "w obecnej sytuacji"
+        ],
+        "excerpt": "Kosztuje nieco za dużo. Gdyby cena była o 20 tysięcy niższa, jego sukces, ze wszystkimi udogodnieniami i nową jakością, byłby pewny. A w obecnej sytuacji... będizemy musieli poczekać na reakcję rynku. To z pewnością bardzo dobra oferta, cho"
+      },
+      {
+        "index": 1321,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "**Nieodłącznym elementem wnętrza** „la nuova Cinquocento” jest styl - tu 500L nie może i nie dorównuje mniejszej wersji, ale nie jest źle, ponieważ nadal wygląda ciekawie dzięki przyjaznemu designowi i lakierowanemu panelowi na desce rozdzi"
+      },
+      {
+        "index": 1322,
+        "phrases": [
+          "w tym segmencie"
+        ],
+        "excerpt": "Ostatni Ford Focus RS pojawił się na rynku w {{YEAR}} roku i od razu stał się kultowy. Wcześniej logo RS nosiły takie gwiazdy jak Ford Escort RS Cosworth, Ford RS200 czy wreszcie pierwszy Focus RS, za kierownicą którego w rajdowej wersji OS"
+      },
+      {
+        "index": 1334,
+        "phrases": [
+          "nie bez powodu"
+        ],
+        "excerpt": "Siedemnastocalowe felgi robią w malutkim Mini piorunujące wrażenie. Podobnie, jak efektowne pasy wzdłuż nadwozia i wysuwający się przy 80 km/h tylny spoiler. Wiem, że jego podstawową funkcją jest dociskanie tyłu, ale nie bez powodu można go"
+      },
+      {
+        "index": 1336,
+        "phrases": [
+          "warto zaznaczyć"
+        ],
+        "excerpt": "**Grosze**, ponieważ pod maską egzemplarza testowego znalazł się hiperoszczędny diesel 1.6 HDi o mocy 90 KM, która wystarczy, by w mgnieniu oka wyprzedzić ciężarówkę na drodze krajowej, nie sięgając nawet do lewarka zmiany biegów, który swo"
+      },
+      {
+        "index": 1375,
+        "phrases": [
+          "warto dodać"
+        ],
+        "excerpt": "**Przestrzeń** wewnątrz kabiny jest niemal identyczna, jak w Micrze, Ibizie, Fabii czy Fieście i mniejsza niż w kompaktach, lecz bez żadnej klaustrofobii po przesiadce z takiego auta nie doświadczymy - tego po trojaczkach Volkswagena nikt b"
+      },
+      {
+        "index": 1381,
+        "phrases": [
+          "podsumowując"
+        ],
+        "excerpt": "**Ceny **obu aut nieco się różnią - testowana wersja &lt;i&gt;Highline&lt;/i&gt; Golfa to wydatek {{PRICE}} - ale wypada dodać, że jest wyposażona w silnik 1.4 TSI. Z wysokoprężnym 2.0 TDI cena startuje z poziomu {{PRICE}}, a &lt;i&gt;Allur"
+      },
+      {
+        "index": 1394,
+        "phrases": [
+          "rewolucyjny"
+        ],
+        "excerpt": "**Jest dobrze, ale mogłoby być lepiej. Nowe Scirocco, które zaprezentowano w Genewie, powinno okazać się lepsze we wszystkich kategoriach, w których obecne nieco kuleje. Rewolucyjnych zmian jednak nie będzie, więc najprawdopodobniej zabrakn"
+      },
+      {
+        "index": 1396,
+        "phrases": [
+          "niesamowity"
+        ],
+        "excerpt": "**Zalety:**\n+ Osiągi i brzmienie silnika\n+ Precyzyjne prowadzenie\n+ Niesamowity komfort\n+ Skuteczny masaż pleców\n+ Wygląd\n\n**Wady:\n**- System multimedialny z Golfów i Passatów…\n- ...Co w samochodzie za prawie milion złotych jest pomyłką"
+      },
+      {
+        "index": 1421,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "**Pierwsza Jazda: nowy Nissan Note**\n\n**Nissan Note ma być kluczem Nissana do dominacji w segmencie B. Mówi się, że nie ma prawie nic współnego z poprzednikiem, a zastosowane w nim technologię sprawią, że prezesi rywalizujących z Nissanem m"
+      },
+      {
+        "index": 1428,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "W warunkach miejskich Rio czuje się znacznie lepiej, dzięki czemu poza godzinami szczytu można spokojnie zejść poniżej 6 litrów, a w apogeum zakorkowania miasta zadowalający będzie wynik 7-8 l/100 km, na co istotny wpływ ma sześć krótkich p"
+      },
+      {
+        "index": 1430,
+        "phrases": [
+          "niewątpliwie"
+        ],
+        "excerpt": "**Rozum**\n\nZakup Skody niewątpliwie się z nim kojarzy. Ale dlaczego? Może dlatego, że nie czujemy się oszukani hasłem „simply clever” - jest to jeden z niewielu sloganów reklamowych, które nie są w żadnym wypadku puste. Gniazdko 230V na tyl"
+      },
+      {
+        "index": 1432,
+        "phrases": [
+          "niewątpliwie"
+        ],
+        "excerpt": "Zresztą całkiem sprawnie - wielowahaczowe zawieszenie na tylnej osi i kolumny MacPhersona z przodu to bardzo stabilny zestaw, który w trybie sportowym działa wyśmienicie, a prędkość pokonywania łuków może być bardzo wysoka bez obaw o utratę"
+      },
+      {
+        "index": 1436,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Na miejscu był również standardowy Scirocco, z silnikiem 2.0 TSI o mocy 220 KM. Jego moc zwiększono więc jedynie o 10 KM, ale moment obrotowy wzrósł aż o 70 Nm, dając w sumie aż 350 Nm w zakresie od 1500 do 4400 obr./min. Co ciekawe, zrówna"
+      },
+      {
+        "index": 1445,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "# Audi TT - Powrót do korzeni\n\n**Nowe Audi TT wkracza na polski rynek z zamiarem ugryzienia nieco większego kawałka rynkowego tortu niż poprzednik. Aby to osiągnąć, dodano mu mocy, odjęto wagi, oraz - co ciekawe - zdecydowano się na stylist"
+      },
+      {
+        "index": 1446,
+        "phrases": [
+          "w tym segmencie"
+        ],
+        "excerpt": "Oczywiście niesie to z sobą konsekwencję w postaci mniejszego komfortu na nierównych drogach, których mamy w Polsce sporo, choć mam wrażenie, że w Portugalii jest ich więcej. Nie jest to jednak drastyczny spadek komfortu - subiektywne wraże"
+      },
+      {
+        "index": 1449,
+        "phrases": [
+          "bez wątpienia",
+          "rewolucyjny"
+        ],
+        "excerpt": "Na początek zaproponuję przerwę w lekturze. Spójrzcie na zdjęcia, jakie wykonaliśmy na włoskiej wyspie - Sardynii. Jest to miejsce niezwykłe, a temperatura pod koniec października wynosiła 28 stopni. Drogi pozwalały na obnażenie wszystkich "
+      },
+      {
+        "index": 1451,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Jest też wspomniany wyżej TDI. Ma 184 konie mechaniczne mocy i 380 Nm momentu obrotowego, a więc o 30 więcej niż wersja benzynowa. Maksymalnie pojedzie 232 km/h, ale przyspieszenie do 100 km/h to bardzo przeciętne i niezbyt sportowe 8,1 sek"
+      },
+      {
+        "index": 1465,
+        "phrases": [
+          "jak wiadomo"
+        ],
+        "excerpt": "**Moc **obu aut pochodzi z różnych paliw, lecz każde z nich jest całkiem dynamiczne - 2-litrowy, francuski diesel rozpędza 308 do 100 km/h w 8,8 s korzystając z mocy 150 KM**. **W Golfie mieszka benzynowy 1.4 TSI o mocy 160 KM i przyspiesze"
+      },
+      {
+        "index": 1478,
+        "phrases": [
+          "niewątpliwie",
+          "warto zaznaczyć"
+        ],
+        "excerpt": "Bo po co się męczyć w ciasnym i niewygodnym wnętrzu? Proszę bardzo - przestronna kabina e6 bez problemu pomieści pięć dorosłych osób, które w skórzanych siedzeniach odbędą daleką, przeszło 300-kilometrową podróż, bo tyle wynosi zasięg tego "
+      },
+      {
+        "index": 1523,
+        "phrases": [
+          "bez wątpienia"
+        ],
+        "excerpt": "**Mercedes-Benz S 500e: Luksus pod napięciem**\n\n**Pamiętacie Mercedesa-Maybacha S 600 z naszego tysięcznego testu? To bez wątpienia jeden z najlepszych wyborów dla prezesa preferującego podróżowanie na tylnej kanapie. Dzisiaj zajmiemy się M"
+      },
+      {
+        "index": 1543,
+        "phrases": [
+          "w obecnych czasach"
+        ],
+        "excerpt": "Na równych, asfaltowych drogach, gdzie zaczęliśmy testowanie „Szerokiego”, sprawdziliśmy te właściwości, które przez potencjalnych nabywców będą testowane najczęściej. Fajnie mieć autko zdolne wspinać się po skałach, ale powiedzmy sobie szc"
+      },
+      {
+        "index": 1545,
+        "phrases": [
+          "podsumowując",
+          "w segmencie"
+        ],
+        "excerpt": "Ceny wersji RS nie przerażają, bo możemy ją mieć już za {{PRICE}} w najciekawszym wariancie - a więc liftbacka ze świetną manualną skrzynią i 220-konnym TSI. Oczywiście z systemem start-stop... Podobne Combi kosztuje {{PRICE}}, a dopłata do"
+      },
+      {
+        "index": 1551,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Na miejscu był również standardowy Scirocco, z silnikiem 2.0 TSI o mocy 220 KM. Jego moc zwiększono więc jedynie o 10 KM, ale moment obrotowy wzrósł aż o 70 Nm, dając w sumie aż 350 Nm w zakresie od 1500 do 4400 obr./min. Co ciekawe, zrówna"
+      },
+      {
+        "index": 1557,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Po otrzymaniu składanego kluczyka ozdobionego kształtem herbowego grilla Alfy Romeo, zaczynam szukać odpowiedzi. Wskakuję więc za kierownicę. Przekręcam kluczyk, budząc do życia elektronikę Alfy. Na powitanie otwiera się zasłaniający drogę "
+      },
+      {
+        "index": 1573,
+        "phrases": [
+          "zdecydowanie warto"
+        ],
+        "excerpt": "Silnik 2.3 EcoBoost, będący wzmocnioną i zmodyfikowaną jednostką z nowego Mustanga, budzi się do życia ze złowrogim pomrukiem i jest to dźwięk tak daleki od wszelkich skojarzeń „eko”, jak to tylko możliwe. Słyszę tylko „boost” turbosprężark"
+      },
+      {
+        "index": 1584,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Ciekawym akcesorium byłby ocieplacz na nogi kierowcy i pasażera, gdyby nie jego cena - 717 złotych. Zimą wystarczy zaopatrzyć się w kocyk albo ubrać kalesony, wyjdzie taniej. Tylne czujniki parkowania kosztują {{PRICE}}, chlapacze przednie "
+      },
+      {
+        "index": 1586,
+        "phrases": [
+          "warto dodać"
+        ],
+        "excerpt": "**Full power!\n**Pora przechylić wskaźnik kW w prawe skrajne położenie i poczuć dostępny na każde zawołanie maksymalny moment obrotowy równy 226 Nm. Wrażenia - niesamowite! Przyjemne, jednostajne wciskanie w fotel potrafi wywołać uśmiech na "
+      },
+      {
+        "index": 1632,
+        "phrases": [
+          "must have"
+        ],
+        "excerpt": "Podobnie we wnętrzu - tu również dominuje kolor brązowy, w postaci wstawek na desce rozdzielczej i drzwiach ze skóry ekologicznej oraz na materiałowych obiciach foteli. Taki zestaw wraz z ciekawym projektem deski rozdzielczej sprawia bardzo"
+      },
+      {
+        "index": 1643,
+        "phrases": [
+          "nie da się ukryć"
+        ],
+        "excerpt": "Gdy otrzymaliśmy zaproszenie na premierę prasową nowego modelu, którą zorganizowano w Rovinj w Chorwacji, nie zastanawialiśmy się długo - 30 stopni Celsjusza więcej to wystarczający argument. Drogi, po których jeździliśmy Qashqai’em pozwala"
+      },
+      {
+        "index": 1648,
+        "phrases": [
+          "nie sposób nie zauważyć"
+        ],
+        "excerpt": "Przyczajony, szeroki przód z długą maską i mocno pochyloną przednią szybą, finezyjne przetłoczenia i bardzo groźne spojrzenie, podkreślane dodatkowo przez LED-owe światła do jazdy dziennej to znak, że czas zjechać na prawy pas, rzucić szybk"
+      },
+      {
+        "index": 1669,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "Na podobnej zasadzie działa **dyfuzor**, tworzący tylną część podłogi. Złożony z nisko położonej powierzchni oraz rozszerzających się ku górze kanałów, ułatwiających odpływ i zwiększających prędkość przepływu powietrza pod bolidem. Wzrost p"
+      },
+      {
+        "index": 1672,
+        "phrases": [
+          "podsumowując"
+        ],
+        "excerpt": "Miejsca tyle, ile tylko można zapragnąć, 8 wygodnych miejsc oraz komfort i prowadzenie, jakich po tak dużym samochodzie trudno się spodziewać. Z akcesoriami Forda do przewozu desek, rowerów, kajaków itp. jest to samochód, dzięki któremu wak"
+      },
+      {
+        "index": 1687,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "# Skoda Citigo 1.0 MPI Elegance - ABC\n\n**Rozmiary i cena segmentu A, Przestronność segmentu B i wyposażenie zbliżone do tego oferowanego w segmencie C. Czy takie połączenie jest możliwe? Pewnie! Przed Wami Skoda Citigo w najbogatszej wersji"
+      },
+      {
+        "index": 1730,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "Miękkie i dobrze wyprofilowane fotele i wystarczająco dobra pozycja za kierownicą pozwalają na odprężenie się za kółkiem i czerpanie przyjemności z jazdy w trasie. Sama kierownica jest gruba, ładnie wygląda i jest obszyta przyjemną w dotyku"
+      },
+      {
+        "index": 1746,
+        "phrases": [
+          "nie da się ukryć"
+        ],
+        "excerpt": "Gdy otrzymaliśmy zaproszenie na premierę prasową nowego modelu, którą zorganizowano w Rovinj w Chorwacji, nie zastanawialiśmy się długo - 30 stopni Celsjusza więcej to wystarczający argument. Drogi, po których jeździliśmy Qashqai’em pozwala"
+      },
+      {
+        "index": 1759,
+        "phrases": [
+          "warto przyjrzeć się"
+        ],
+        "excerpt": "- „Milczący” układ kierowniczy\n\nTwingo w roli miejskiego auta na zakupy sprawdza się wyśmienicie. Jeśli nie stać Was na Mini dla żony, warto przyjrzeć się ofercie Renault."
+      },
+      {
+        "index": 1781,
+        "phrases": [
+          "nie bez powodu"
+        ],
+        "excerpt": "Spójrzcie na niego. Nie bez powodu jest to jeden z najczęściej spotykanych samochodów luksusowych w księstwie Monako. Szlachetna elegancja łączy się tu z mocą, jaką obiecują potężne nadkola i napięciem sylwetki, którą każdy fan motoryzacji "
+      },
+      {
+        "index": 1786,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "**Elegancka**\n\nNajbogatsza wersja wyposażeniowa Octavii kosztuje „w podstawie” ponad 100 tysięcy złotych i nie zawiedzie nawet wybrednych. Listę wyposażenia standardowego (oprócz podstawy „biedniejszych” wersji, rzecz jasna) otwiera dwustre"
+      },
+      {
+        "index": 1788,
+        "phrases": [
+          "niewątpliwie",
+          "warto zaznaczyć"
+        ],
+        "excerpt": "Bo po co się męczyć w ciasnym i niewygodnym wnętrzu? Proszę bardzo - przestronna kabina e6 bez problemu pomieści pięć dorosłych osób, które w skórzanych siedzeniach odbędą daleką, przeszło 300-kilometrową podróż, bo tyle wynosi zasięg tego "
+      },
+      {
+        "index": 1804,
+        "phrases": [
+          "w segmencie"
+        ],
+        "excerpt": "A jednak jest to problem, ponieważ wszystkie moje próby wprowadzenia auta w poślizg na suchej nawierzchni zakończyły się porażką pomimo wyłączonej kontroli trakcji i wychodzeniu z poślizgu. Na mokrym zdarzy się czasem jakaś delikatna nerwow"
+      },
+      {
+        "index": 1808,
+        "phrases": [
+          "co ciekawe"
+        ],
+        "excerpt": "**Nieodłącznym elementem wnętrza** „la nuova Cinquocento” jest styl - tu 500L nie może i nie dorównuje mniejszej wersji, ale nie jest źle, ponieważ nadal wygląda ciekawie dzięki przyjaznemu designowi i lakierowanemu panelowi na desce rozdzi"
+      },
+      {
+        "index": 1811,
+        "phrases": [
+          "w skrócie"
+        ],
+        "excerpt": "**Pierwsza Jazda: Skoda Rapid Spaceback - Kompakt dla młodych?**\n\n**Praktyczny, atrakcyjny, ale również zabawny samochód dla młodych - tak w skrócie Skoda określa swoje nowe auto kompaktowe. Wygląda rzeczywiście ciekawie, jest ‘Simply Cleve"
+      },
+      {
+        "index": 1812,
+        "phrases": [
+          "podsumowując"
+        ],
+        "excerpt": "**Ceny **obu aut nieco się różnią - testowana wersja &lt;i&gt;Highline&lt;/i&gt; Golfa to wydatek {{PRICE}} - ale wypada dodać, że jest wyposażona w silnik 1.4 TSI. Z wysokoprężnym 2.0 TDI cena startuje z poziomu {{PRICE}}, a &lt;i&gt;Allur"
+      },
+      {
+        "index": 1816,
+        "phrases": [
+          "co więcej"
+        ],
+        "excerpt": "Ta historia zaczyna się tak, jak wiele innych. Znaliśmy się tylko z widzenia - mieszkała w pobliżu. Mijaliśmy się na ulicy, lecz każdy zawsze zmierzał w swoją stronę. Odchodziła, nie zwracając na mnie uwagi, a ja cierpliwie czekałem na nast"
+      }
+    ]
+  },
+  "hallucination_check": {
+    "samples": 20,
+    "failures": 0,
+    "details": []
+  },
+  "passed": false
+}

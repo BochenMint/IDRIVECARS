@@ -1,0 +1,35 @@
+---
+interface Props {
+  slotId: string;
+  format?: 'leaderboard' | 'medium-rectangle' | 'sidebar-sticky' | 'in-article' | 'footer';
+  class?: string;
+}
+
+const { slotId, format = 'medium-rectangle', class: className = '' } = Astro.props;
+
+const formatStyles: Record<NonNullable<Props['format']>, string> = {
+  leaderboard: 'min-h-[90px] w-full max-w-[728px] mx-auto',
+  'medium-rectangle': 'h-[250px] w-[300px]',
+  'sidebar-sticky': 'h-[250px] w-[300px]',
+  'in-article': 'h-[250px] w-[300px] mx-auto',
+  footer: 'min-h-[90px] w-full max-w-[728px] mx-auto',
+};
+---
+
+<aside
+  class:list={[
+    'flex flex-col items-center justify-center rounded-lg border border-neutral-200 bg-neutral-100/80',
+    formatStyles[format],
+    className,
+  ]}
+  aria-label="Reklama"
+>
+  <span class="mb-2 text-[10px] uppercase tracking-wider text-neutral-400">Reklama</span>
+  <div
+    data-ad-slot={slotId}
+    data-ad-format={format}
+    class="flex h-full min-h-[90px] w-full items-center justify-center text-center text-xs text-neutral-500"
+  >
+    Slot: {slotId}
+  </div>
+</aside>

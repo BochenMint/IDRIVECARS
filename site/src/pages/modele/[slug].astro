@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LeasingCalc from '../../islands/LeasingCalc';
+import { getCollection, render } from 'astro:content';
+import { breadcrumbSchema } from '../../lib/seo';
+import { siteConfig } from '../../lib/site';
+import type { GetStaticPaths } from 'astro';
+
+export const getStaticPaths = (async () => {
+  const models = await getCollection('models');
+  return models.map((m) => ({
+    params: { slug: m.data.slug },
+    props: { model: m },
+  }));
+}) satisfies GetStaticPaths;
+
+const { model } = Astro.props;
+const { Content } = await render(model);
+const meta = model.data;
+const netPrice = meta.msrpPln ?? meta.usedPriceEstPln ?? 100_000;
+---
+
+<BaseLayout
+  title={`${meta.brand} ${meta.model}`}
+  description={`${meta.brand} ${meta.model} — segment ${meta.segment}, orientacyjne ceny i kalkulator`}
+  canonical={`/modele/${meta.slug}`}
+  jsonLd={breadcrumbSchema([
+    { name: 'Strona główna', path: '/' },
+    { name: 'Modele', path: '/modele' },
+    { name: `${meta.brand} ${meta.model}`, path: `/modele/${meta.slug}` },
+  ])}
+>
+  <div class="page-shell py-12 md:py-16">
+    <p class="text-sm uppercase tracking-wide text-[#737373]">{meta.segment} · {meta.bodyType}</p>
+    <h1 class="font-display mt-2 text-4xl text-[#171717] md:text-5xl">
+      {meta.brand} {meta.model}
+    </h1>
+
+    <div class="mt-6 flex flex-wrap gap-6 text-sm text-[#737373]">
+      {
+        meta.msrpPln && (
+          <p>
+            Cena katalogowa: <strong class="text-[#171717]">ok. {meta.msrpPln.toLocaleString('pl-PL')} zł (orientacyjnie)</strong>
+          </p>
+        )
+      }
+      {
+        meta.usedPriceEstPln && (
+          <p>
+            Rynek używanych: <strong class="text-[#171717]">ok. {meta.usedPriceEstPln.toLocaleString('pl-PL')} zł (orientacyjnie)</strong>
+          </p>
+        )
+      }
+    </div>
+
+    <div class="prose-article mt-8 max-w-none">
+      <Content />
+    </div>
+
+    <LeasingCalc
+      client:load
+      netPrice={netPrice}
+      brand={meta.brand}
+      model={meta.model}
+      leadgenUrl={siteConfig.leadgenUrl}
+      consentText={siteConfig.consentCheckboxText}
+      subid={`model-${meta.slug}`}
+    />
+  </div>
+</BaseLayout>

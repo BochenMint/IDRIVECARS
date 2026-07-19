@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PartnerDisclosure from '../../components/PartnerDisclosure.astro';
+import { getCollection, render } from 'astro:content';
+import { newsArticleSchema, breadcrumbSchema } from '../../lib/seo';
+import type { GetStaticPaths } from 'astro';
+
+export const getStaticPaths = (async () => {
+  const items = await getCollection('news');
+  return items.map((item) => ({
+    params: { slug: item.data.slug },
+    props: { item },
+  }));
+}) satisfies GetStaticPaths;
+
+const { item } = Astro.props;
+const { Content } = await render(item);
+const meta = item.data;
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: 'Strona główna', path: '/' },
+    { name: 'News', path: '/news' },
+    { name: meta.title, path: `/news/${meta.slug}` },
+  ]),
+  newsArticleSchema(meta),
+];
+---
+
+<BaseLayout title={meta.title} description={meta.lead ?? meta.title} canonical={`/news/${meta.slug}`} jsonLd={jsonLd}>
+  <article class="page-shell py-12 md:py-16">
+    <header>
+      <time datetime={meta.publishedAt} class="text-sm text-[#737373]">
+        {new Date(meta.publishedAt).toLocaleDateString('pl-PL', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        })}
+      </time>
+      <h1 class="font-display mt-3 text-4xl text-[#171717] md:text-5xl">{meta.title}</h1>
+      {meta.lead && <p class="mt-4 text-lg text-[#737373]">{meta.lead}</p>}
+    </header>
+
+    <div class="prose-article mt-10 max-w-none">
+      <Content />
+    </div>
+
+    {
+      meta.aiAssisted !== false && (
+        <aside class="mt-12 rounded-xl border border-amber-200 bg-amber-50 p-6">
+          <h2 class="font-display text-lg text-[#171717]">Wsparcie AI i weryfikacja redakcyjna</h2>
+          <p class="mt-2 text-sm text-[#737373]">
+            Ten artykuł powstał z wykorzystaniem narzędzi sztucznej inteligencji (agregacja i wstępna
+            redakcja), a następnie został zweryfikowany i uzupełniony przez redakcję IDRIVECARS.
+            Szczegóły w{' '}
+            <a href="/polityka-redakcyjna" class="font-medium text-ink underline-offset-4 hover:underline">
+              polityce redakcyjnej
+            </a>
+            .
+          </p>
+        </aside>
+      )
+    }
+
+  {
+    meta.partnerDisclosure && (
+      <PartnerDisclosure text={meta.partnerDisclosure} />
+    )
+  }
+
+    {
+      meta.sourceUrl && (
+        <p class="mt-6 text-sm text-[#737373]">
+          Źródło:{' '}
+          <a href={meta.sourceUrl} rel="noopener noreferrer" class="font-medium text-ink underline-offset-4 hover:underline">
+            {meta.sourceName ?? meta.sourceUrl}
+          </a>
+        </p>
+      )
+    }
+  </article>
+</BaseLayout>

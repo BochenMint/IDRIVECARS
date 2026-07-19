@@ -1,0 +1,36 @@
+---
+interface Props {
+  galleryDir?: string;
+  images?: string[];
+  alt?: string;
+}
+
+const { galleryDir, images = [], alt = 'Galeria zdjęć' } = Astro.props;
+
+let galleryImages = images;
+if (galleryImages.length === 0 && galleryDir) {
+  galleryImages = [`/${galleryDir.replace(/^\//, '')}/hero.webp`];
+}
+---
+
+{
+  galleryImages.length > 0 && (
+    <section class="my-10" aria-label="Galeria zdjęć">
+      <h2 class="font-display mb-6 text-2xl">Galeria</h2>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {galleryImages.map((src, i) => (
+          <figure class="overflow-hidden rounded-xl border border-stone-200">
+            <img
+              src={src}
+              alt={`${alt} — zdjęcie ${i + 1}`}
+              width={640}
+              height={427}
+              loading="lazy"
+              class="aspect-[3/2] w-full object-cover"
+            />
+          </figure>
+        ))}
+      </div>
+    </section>
+  )
+}

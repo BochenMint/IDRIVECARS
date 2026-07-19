@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TestCard from '../components/TestCard.astro';
+import { getCollection } from 'astro:content';
+import { breadcrumbSchema } from '../lib/seo';
+
+const tests = (await getCollection('tests')).sort(
+  (a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime(),
+);
+const withGalleries = tests.filter((test) => Boolean(test.data.galleryDir));
+---
+
+<BaseLayout
+  title="Galerie zdjęć"
+  description="Galerie zdjęć z autorskich testów IDRIVECARS – duże kadry, detale i klimat każdego samochodu."
+  canonical="/galerie"
+  jsonLd={breadcrumbSchema([
+    { name: 'Strona główna', path: '/' },
+    { name: 'Galerie', path: '/galerie' },
+  ])}
+>
+  <section class="space-y-8">
+    <header class="space-y-3">
+      <p class="text-xs uppercase tracking-[0.25em] text-neutral-500">Galerie</p>
+      <h1 class="font-display text-3xl tracking-tight sm:text-4xl">Galerie zdjęć z testów</h1>
+      <p class="max-w-2xl text-sm leading-relaxed text-neutral-600">
+        Zdjęcia są sercem IDRIVECARS. Każdy test ma własną galerię – po konwersji do WEBP ładuje się
+        szybko, zachowując jakość.
+      </p>
+    </header>
+
+    {
+      withGalleries.length === 0 ? (
+        <p class="text-sm text-neutral-500">
+          Gdy tylko przekonwertujesz pierwsze galerie (skrypt <code>npm run convert:galleries</code>),
+          pojawią się tutaj w formie kart prowadzących do poszczególnych testów.
+        </p>
+      ) : (
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {withGalleries.map((test) => (
+            <TestCard test={test} />
+          ))}
+        </div>
+      )
+    }
+  </section>
+</BaseLayout>

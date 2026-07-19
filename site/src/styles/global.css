@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #FAFAF8;
+  --color-ink: #171717;
+  --color-muted: #737373;
+  --color-accent: #B91C1C;
+  --color-accent-soft: #FEF2F2;
+  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "DM Sans", system-ui, ui-sans-serif, sans-serif;
+}
+
+html, body { height: 100%; }
+body { @apply bg-surface text-ink antialiased font-sans; }
+a { @apply text-ink underline-offset-4 hover:underline; }
+.page-shell { @apply flex min-h-screen flex-col; }
+.page-main { @apply mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pb-20 pt-10 sm:px-6 lg:px-8; }
+:focus-visible { outline: 2px solid rgb(23 23 23); outline-offset: 3px; }
+.skip-link { @apply sr-only; }
+.skip-link:focus { @apply not-sr-only fixed left-4 top-4 z-50 rounded-md bg-ink px-4 py-2 text-sm font-medium text-white no-underline; }
+.article-inline-image img { max-width: 100%; height: auto; display: block; }
+.text-balance { text-wrap: balance; }
+
+/* prose-article matching Next typography.article */
+.prose-article {
+  max-width: 65ch;
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  color: rgb(38 38 38);
+}
+.prose-article p { margin: 0 0 1.25em; }
+.prose-article p:first-of-type { font-size: 1.2em; line-height: 1.65; color: rgb(64 64 64); }
+.prose-article h2 { margin: 2.25em 0 0.6em; font-size: 1.4em; font-weight: 400; letter-spacing: -0.02em; line-height: 1.25; font-family: var(--font-display); }
+.prose-article h3 { margin: 1.75em 0 0.4em; font-size: 1.15em; font-weight: 600; line-height: 1.4; }
+.prose-article a { font-weight: 500; color: rgb(23 23 23); }
+.prose-article img { border-radius: 0.5rem; margin: 1.5em 0; }
+.prose-article ul, .prose-article ol { margin: 0.75em 0 1.25em; padding-left: 1.5em; }
+.prose-article li { margin: 0.35em 0; }
+.prose-article strong { font-weight: 600; }
+.prose-article figure { margin: 2.5em 0; }

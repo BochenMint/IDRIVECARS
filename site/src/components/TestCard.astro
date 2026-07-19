@@ -1,0 +1,56 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  test: CollectionEntry<'tests'>;
+  heroImageFallback?: string | null;
+}
+
+const { test, heroImageFallback } = Astro.props;
+const meta = test.data;
+const slug = meta.slug;
+const href = `/testy/${slug}`;
+
+const rawHero = meta.heroImage
+  ? `/${meta.heroImage.replace(/^\/?/, '').replace(/\\/g, '/')}`
+  : null;
+const heroSrc = (heroImageFallback ?? rawHero)?.replace(/\\/g, '/') ?? null;
+const isFirstDrive = meta.title.toLowerCase().includes('pierwsza jazda');
+---
+
+<article class="group flex flex-col overflow-hidden rounded-xl border border-neutral-200/80 bg-white transition duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-neutral-200/60">
+  <a href={href} class="relative block aspect-[16/10] overflow-hidden bg-neutral-100 no-underline">
+    {
+      heroSrc ? (
+        <img
+          src={heroSrc}
+          alt={meta.title}
+          class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+          loading="lazy"
+        />
+      ) : (
+        <div class="flex h-full w-full items-center justify-center bg-neutral-100 text-xs text-muted">
+          Galeria w przygotowaniu
+        </div>
+      )
+    }
+    {
+      isFirstDrive && (
+        <span class="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-ink backdrop-blur">
+          Pierwsza jazda
+        </span>
+      )
+    }
+  </a>
+  <div class="flex flex-1 flex-col gap-2 px-5 py-5">
+    <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-muted">
+      {meta.brand} {meta.model} {meta.year ?? ''}
+    </p>
+    <h3 class="font-display text-xl leading-snug tracking-tight">
+      <a href={href} class="text-ink no-underline hover:opacity-80">
+        {meta.title}
+      </a>
+    </h3>
+    {meta.lead && <p class="line-clamp-2 text-sm leading-relaxed text-neutral-600">{meta.lead}</p>}
+  </div>
+</article>

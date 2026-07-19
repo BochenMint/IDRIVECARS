@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../lib/site';
+import { breadcrumbSchema } from '../lib/seo';
+---
+
+<BaseLayout
+  title="Kontakt"
+  description="Skontaktuj się w sprawie testów, współpracy redakcyjnej lub wykorzystania zdjęć z projektu IDRIVECARS."
+  canonical="/kontakt"
+  jsonLd={breadcrumbSchema([
+    { name: 'Strona główna', path: '/' },
+    { name: 'Kontakt', path: '/kontakt' },
+  ])}
+>
+  <section class="space-y-6">
+    <header class="space-y-3">
+      <p class="text-xs uppercase tracking-[0.25em] text-neutral-500">Kontakt</p>
+      <h1 class="font-display text-3xl tracking-tight sm:text-4xl">Kontakt z IDRIVECARS</h1>
+    </header>
+
+    <div class="space-y-4 text-sm leading-relaxed text-neutral-700">
+      <p>
+        Jeśli chcesz porozmawiać o testach, współpracy redakcyjnej lub wykorzystaniu zdjęć z
+        projektu IDRIVECARS, napisz wiadomość e-mail. Odpowiadam zwykle w ciągu kilku dni; przy
+        zapytaniach o współpracę lub licencję na zdjęcia opisz krótko, o co chodzi – ułatwi to
+        ustalenie szczegółów.
+      </p>
+      <p>
+        <strong>Adres e-mail</strong>:{' '}
+        <span class="rounded bg-neutral-100 px-2 py-1 font-mono text-xs">{siteConfig.email}</span>
+      </p>
+      <p>
+        Zapraszam też do lektury testów i galerii – jeśli masz pytanie o konkretny model, który
+        opisywałem, napisz z podaniem tytułu artykułu; chętnie doprecyzuję lub uzupełnię informacje.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

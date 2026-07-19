@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /panel
+Disallow: /dashboard
+
+Sitemap: https://idrivecars.pl/sitemap-index.xml

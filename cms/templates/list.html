@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}{{ meta.label_plural }}{% endblock %}
+
+{% block content %}
+<div class="cms-page">
+  <div class="cms-page__header cms-page__header--row">
+    <div>
+      <h1>{{ meta.label_plural }}</h1>
+      <p class="cms-muted">{{ items|length }} artykułów</p>
+    </div>
+    <a href="/cms/new/{{ content_type }}" class="cms-btn cms-btn--primary">Nowy {{ meta.label|lower }}</a>
+  </div>
+
+  {% if items %}
+  <div class="cms-table-wrap">
+    <table class="cms-table">
+      <thead>
+        <tr>
+          <th>Tytuł</th>
+          {% if content_type == 'tests' %}<th>Marka / model</th>{% endif %}
+          <th>Data</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in items %}
+        <tr>
+          <td><a href="/cms/edit/{{ content_type }}/{{ item.slug }}">{{ item.title }}</a></td>
+          {% if content_type == 'tests' %}
+          <td class="cms-muted">{{ item.brand or '' }} {{ item.model or '' }}</td>
+          {% endif %}
+          <td class="cms-muted">{{ item.publishedAt or '' }}</td>
+          <td class="cms-table__actions">
+            <button type="button" class="cms-link-btn cms-delete-btn"
+              data-type="{{ content_type }}" data-slug="{{ item.slug }}">Usuń</button>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <p class="cms-muted">Brak artykułów. <a href="/cms/new/{{ content_type }}">Utwórz pierwszy</a>.</p>
+  {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.querySelectorAll('.cms-delete-btn').forEach(btn => {
+  btn.addEventListener('click', async () => {
+    if (!confirm('Usunąć ten artykuł?')) return;
+    const res = await fetch(`/cms/api/${btn.dataset.type}/${btn.dataset.slug}`, { method: 'DELETE' });
+    if (res.ok) location.reload();
+    else alert('Błąd usuwania');
+  });
+});
+</script>
+{% endblock %}

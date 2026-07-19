@@ -2,119 +2,77 @@
 
 Portfolio dziennikarskie i blog motoryzacyjny **Marcina Bochenka** — autorskie testy samochodów, pierwsze jazdy i galerie zdjęć.
 
-Stack: **Next.js 15** (App Router) · **TypeScript** · **Tailwind CSS** · treść w **MDX** · galerie **WEBP** (Sharp).
+**Jedyny frontend:** Astro 5 w `site/`. Legacy Next.js jest w `archive/next-legacy/` (tylko referencja — nie deployuj).
+
+## Struktura
+
+```
+site/                 # Astro 5 SSG — produkcja idrivecars.pl
+content/              # Źródło treści (testy MDX) → sync do site/src/content/tests/
+public/galleries/     # WEBP galerie (symlinkowane do site/public/galleries)
+agent/                # Pipeline news (ingest → enrich → draft → gate → publish)
+leadgen/              # FastAPI — leady, RODO, routing ubezpieczeń, dashboard
+cms/                  # FastAPI — panel właściciela (testy, newsy, publikacja)
+lora/                 # Voice LoRA (prepare / train / evaluate)
+data/                 # SQLite schema + seed
+scripts/              # Galerie, import, deploy
+archive/next-legacy/  # ARCHIWUM Next.js 15 — nie rozwijaj
+docs/BRIEF-STATUS.md  # Status faz briefu v2
+```
 
 ## Uruchomienie
 
 ```bash
-npm install
-npm run dev
+npm install --prefix site
+npm run dev          # http://localhost:4321
+npm run build
+npm run test         # vitest — finance.ts
 ```
-
-Strona: [http://localhost:3000](http://localhost:3000)
-
-## Pipeline treści
-
-### 1. Artykuły (MDX)
-
-Pliki w `content/testy/*.mdx` z frontmatter:
-
-```yaml
-slug: ford-focus-rs-najlepszy-z-chuliganow
-title: "Ford Focus RS – najlepszy z chuliganów"
-brand: Ford
-model: Focus RS
-galleryDir: "galleries/ford-focus-rs-pierwsza-jazda"
-publishedAt: "2016-03-15"
-```
-
-Import z dysku lokalnego (Word → MDX):
 
 ```bash
-npm run import:local
+npm run db:init
+npm run leadgen      # FastAPI :8000
+npm run cms          # FastAPI :8001 — panel właściciela
+python3 agent/pipeline.py --dry-run
 ```
 
-Źródła tekstów: `D:\MARCIN\Artykuły`, `D:\MARCIN\Z PULPITU\DYSK GOOGLE\MARCIN\aG\Testy`
-
-### 2. Galerie zdjęć
-
-Mapowanie artykuł → folder źródłowy: `scripts/gallery-links.json`
-
-Konwersja powiązanych galerii (JPG/PNG → WEBP, bez usuwania oryginałów):
+## CMS (panel właściciela)
 
 ```bash
-npm run convert:linked   # konwersja + kuracja (25 najlepszych) + manifest
-npm run curate:galleries                  # ręczna kuracja istniejących galerii
-npm run curate:galleries -- --dry-run     # podgląd bez usuwania
+pip install -r cms/requirements.txt
+cp cms/.env.example cms/.env   # ustaw CMS_PASSWORD, CMS_SECRET
+npm run cms                    # http://127.0.0.1:8001/cms/
 ```
 
-Kuracja ocenia ostrość, ekspozycję, rozdzielczość i odrzuca prawie identyczne ujęcia (dHash). Usuwa **tylko kopie WEBP** z `public/galleries` — oryginały na `D:\MARCIN` nietknięte.
-
-Pełna konwersja wszystkich folderów z `D:\MARCIN\Galerie z testów`:
+Workflow: wklej tekst → dodaj zdjęcia → **Publikuj**. SEO i frontmatter uzupełniają się automatycznie.
+Szczegóły: [`cms/README.md`](cms/README.md).
 
 ```bash
-npm run convert:galleries
-```
-
-Źródła zdjęć (priorytet):
-
-1. `D:\MARCIN\Galerie z testów`
-2. `D:\MARCIN\I DRIVE CARS\Galerie`
-3. `raw-galleries/` (lokalne kopie)
-
-### 3. Build
-
-```bash
-npm run build   # prebuild generuje manifest galerii
-```
-
-## Struktura projektu
-
-```
-content/testy/          # artykuły MDX
-content/news/           # newsy RSS (planowane)
-public/galleries/       # zdjęcia WEBP
-scripts/                # import, konwersja, manifest
-src/app/                # strony Next.js
-src/data/galleries-manifest.json
-docs/                   # plany redakcyjne i techniczne
+python3 -m pytest cms/tests -q
 ```
 
 ## Design
 
-- **Typografia:** Instrument Serif (nagłówki) + DM Sans (UI/treść) — trend editorial 2026
-- **Layout:** czysta siatka, duże fotografie, asymetryczny hero
-- **Performance:** WEBP, lazy loading, variable fonts, manifest galerii generowany przy buildzie
+Zachowany język wizualny z poprzedniej wersji (Next):
 
-## SEO
+- Kolory: surface `#FAFAF8`, ink `#171717`, muted `#737373`, accent `#B91C1C`
+- Typografia: Instrument Serif (display) + DM Sans
+- Spokojne CTA (czarne), bez czerwonego billboardu
+- Split hero na home, karty testów 16/10, lightbox galerii
 
-Cała konfiguracja SEO jest scentralizowana w [`src/lib/site.ts`](src/lib/site.ts) — domena,
-tytuły, opisy, słowa kluczowe i dane autora. **Przed premierą ustaw produkcyjną domenę**
-w polu `siteConfig.url` (domyślnie `https://idrivecars.pl`); reszta (canonical, sitemap,
-robots, Open Graph, JSON-LD) wylicza się automatycznie.
+## Sync treści
 
-Co jest wbudowane:
+```bash
+for f in content/testy/*.mdx; do
+  cp -n "$f" "site/src/content/tests/$(basename "$f" .mdx).md"
+done
+```
 
-- **Metadane** — pełny zestaw (title/template, description, keywords, canonical, Open Graph,
-  Twitter Cards, robots) w [`layout.tsx`](src/app/layout.tsx) i per-stronie.
-- **Dane strukturalne (JSON-LD)** — `Organization`, `WebSite`, `Person`, `Article` (z opisem
-  pojazdu `Car`), `NewsArticle`, `BreadcrumbList`, `ItemList` — buildery w
-  [`src/lib/seo.ts`](src/lib/seo.ts).
-- **`sitemap.xml`** — strony statyczne + wszystkie testy i newsy, z priorytetami i
-  `changeFrequency` ([`sitemap.ts`](src/app/sitemap.ts)).
-- **`robots.txt`** — indeksacja dozwolona, `/admin` i `/api` wykluczone ([`robots.ts`](src/app/robots.ts)).
-- **Open Graph image** — generowany dynamicznie (1200×630) w
-  [`opengraph-image.tsx`](src/app/opengraph-image.tsx); testy nadpisują go zdjęciem z galerii.
-- **PWA / ikony** — [`manifest.ts`](src/app/manifest.ts) + `icon.svg`.
-- **Renderowanie statyczne (SSG)** — strony treści są prerenderowane do statycznego HTML
-  (lepszy Core Web Vitals i indeksacja).
+## Deploy (Mac + Cloudflare Tunnel)
 
-## Dokumentacja
+```bash
+export DEPLOY_PATH=/path/to/local/serve
+./scripts/deploy-site.sh
+```
 
-- [`docs/CONTENT-MAP.md`](docs/CONTENT-MAP.md) — inwentaryzacja `D:\MARCIN` i mapowanie artykułów
-- [`docs/PLAN-REKLAMY-I-NEWS.md`](docs/PLAN-REKLAMY-I-NEWS.md) — reklamy i moduł news
-- [`scripts/gallery-links.json`](scripts/gallery-links.json) — powiązania artykuł ↔ galeria
-
-## Licencja
-
-Treści i zdjęcia © Marcin Bochenek. Kod projektu — prywatny.
+Szczegóły statusu faz: [`docs/BRIEF-STATUS.md`](docs/BRIEF-STATUS.md).

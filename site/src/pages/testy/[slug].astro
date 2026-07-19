@@ -1,0 +1,147 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import TodayModule from '../../components/TodayModule.astro';
+import Gallery from '../../islands/Gallery';
+import LeasingCalc from '../../islands/LeasingCalc';
+import { getCollection, render } from 'astro:content';
+import { articleSchema, reviewSchema, breadcrumbSchema } from '../../lib/seo';
+import { getGalleryImages } from '../../lib/gallery';
+import { siteConfig } from '../../lib/site';
+import type { GetStaticPaths } from 'astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export const getStaticPaths = (async () => {
+  const tests = await getCollection('tests');
+  return tests.map((test) => ({
+    params: { slug: test.data.slug },
+    props: { test },
+  }));
+}) satisfies GetStaticPaths;
+
+const { test } = Astro.props;
+const { Content } = await render(test);
+const meta = test.data;
+
+const galleryImages = getGalleryImages(meta.galleryDir);
+const heroImage =
+  galleryImages[0]?.src ??
+  (meta.heroImage ? `/${meta.heroImage.replace(/^\//, '')}` : null);
+
+const sidecarPath = path.join(process.cwd(), 'src/content/tests', `${meta.slug}.today.json`);
+const hasSidecar = fs.existsSync(sidecarPath);
+let sidecarDate: string | undefined;
+if (hasSidecar) {
+  try {
+    const sidecar = JSON.parse(fs.readFileSync(sidecarPath, 'utf-8'));
+    sidecarDate = sidecar.refreshedAt;
+  } catch {
+    /* ignore */
+  }
+}
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: 'Strona główna', path: '/' },
+    { name: 'Testy', path: '/testy' },
+    { name: `${meta.brand} ${meta.model}`, path: `/testy/${meta.slug}` },
+  ]),
+  meta.rating ? reviewSchema(meta, heroImage) : articleSchema(meta, heroImage),
+];
+
+const defaultPrice = 150_000;
+---
+
+<BaseLayout
+  title={`${meta.brand} ${meta.model} – ${meta.title}`}
+  description={meta.lead ?? meta.title}
+  canonical={`/testy/${meta.slug}`}
+  jsonLd={jsonLd}
+>
+  <article class="space-y-12">
+    <header class="space-y-4">
+      <p class="text-xs uppercase tracking-[0.25em] text-neutral-500">
+        Test • {meta.brand} {meta.model} {meta.year ?? ''}
+      </p>
+      <h1 class="font-display text-3xl tracking-tight sm:text-4xl">{meta.title}</h1>
+      <div class="flex flex-wrap gap-4 text-xs text-neutral-600">
+        {meta.engine && <span>Silnik: {meta.engine}</span>}
+        {meta.power && <span>Moc: {meta.power}</span>}
+        {meta.gearbox && <span>Skrzynia: {meta.gearbox}</span>}
+        {meta.drivetrain && <span>Napęd: {meta.drivetrain}</span>}
+        {meta.bodyType && <span>Nadwozie: {meta.bodyType}</span>}
+        {
+          meta.publishedAt && (
+            <span>
+              Data publikacji:{' '}
+              {new Date(meta.publishedAt).toLocaleDateString('pl-PL', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </span>
+          )
+        }
+      </div>
+    </header>
+
+    <div class="mx-auto max-w-[65ch]">
+      <section class="prose-article max-w-none" aria-label="Treść artykułu">
+        <Content />
+      </section>
+    </div>
+
+    <div class="mx-auto flex max-w-[65ch] justify-center">
+      <AdSlot slotId="in-article-mid" format="in-article" />
+    </div>
+
+    {
+      meta.originalUrl && (
+        <p class="border-t border-neutral-200 pt-8 text-xs text-neutral-500">
+          Tekst w pierwotnej formie ukazał się na portalu{' '}
+          <a href={meta.originalUrl} target="_blank" rel="noreferrer" class="text-ink">
+            autoGALERIA.pl
+          </a>{' '}
+          jako materiał autorstwa Marcina Bochenka.
+        </p>
+      )
+    }
+
+    {
+      galleryImages.length > 0 && (
+        <section class="border-t border-neutral-200 pt-12">
+          <h2 class="font-display text-2xl tracking-tight text-neutral-900">
+            Pełna galeria zdjęć
+          </h2>
+          <p class="mt-2 text-sm text-neutral-600">
+            Wszystkie zdjęcia z testu w jednym miejscu – powiększ klikając w miniaturę.
+          </p>
+          <div class="mt-6">
+            <Gallery client:load images={galleryImages} />
+          </div>
+        </section>
+      )
+    }
+
+    {hasSidecar && <TodayModule brand={meta.brand} model={meta.model} refreshedAt={sidecarDate} />}
+
+    <LeasingCalc
+      client:load
+      netPrice={defaultPrice}
+      brand={meta.brand}
+      model={meta.model}
+      leadgenUrl={siteConfig.leadgenUrl}
+      consentText={siteConfig.consentCheckboxText}
+      subid={`test-${meta.slug}`}
+    />
+
+    {
+      meta.rating && (
+        <p class="text-sm text-neutral-600">
+          Ocena redakcyjna: <strong class="text-ink">{meta.rating}/10</strong>
+        </p>
+      )
+    }
+  </article>
+</BaseLayout>
