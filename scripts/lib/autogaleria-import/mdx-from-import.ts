@@ -6,6 +6,7 @@ import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { sanitizeProsConsList } from "./pros-cons";
+import { dedupeImportedProsConsSections } from "../../../src/lib/content/html";
 
 export type CmsCategory = "test" | "pierwsza-jazda" | "blog" | "felieton" | "news";
 export type Status = "draft" | "published";
@@ -235,13 +236,21 @@ function tablesToMarkdown(tables: ImportedArticle["tables"]): string {
 }
 
 export function buildBody(article: ImportedArticle): string {
-  const parts = [article.bodyMarkdown.trim()];
+  const pros = sanitizeProsConsList(article.pros ?? []);
+  const cons = sanitizeProsConsList(article.cons ?? []);
+  const hasStructuredSections =
+    pros.length > 0 || cons.length > 0 || Boolean(article.summary?.trim());
+
+  let body = article.bodyMarkdown.trim();
+  if (hasStructuredSections) {
+    body = dedupeImportedProsConsSections(body);
+  }
+
+  const parts = [body];
 
   const tables = tablesToMarkdown(article.tables);
   if (tables) parts.push(tables);
 
-  const pros = sanitizeProsConsList(article.pros ?? []);
-  const cons = sanitizeProsConsList(article.cons ?? []);
   if (pros.length) {
     parts.push("## Zalety", "", ...pros.map((p) => `- ${p}`));
   }

@@ -39,13 +39,13 @@ export async function ArticleListing({ category }: ArticleListingProps) {
                 variant="row"
                 index={i}
               />
-              {i > 0 && (i + 1) % 8 === 0 && (
+              {i === 3 && articles.length > 4 && (
                 <div className="my-16 flex justify-center border-y border-soft py-12">
                   <AdSlot
                     slotId="between-cards"
                     format="medium-rectangle"
-                    slotIndex={Math.floor(i / 8)}
-                    pageKey={`${listingPath}#${i}`}
+                    slotIndex={0}
+                    pageKey={listingPath}
                   />
                 </div>
               )}

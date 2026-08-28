@@ -12,21 +12,21 @@ export const HOUSE_ADS: HouseAd[] = [
   {
     id: "mint-apartments",
     brand: "Mint Apartments",
-    tagline: "Apartamenty w centrum — rezerwacja online, bez prowizji pośredników.",
+    tagline: "Apartamenty na krótki pobyt w Gdańsku — rezerwacja bez prowizji portali.",
     href: "https://mintapartments.pl",
     cta: "mintapartments.pl"
   },
   {
     id: "marcin-bochenek",
     brand: "Marcin Bochenek",
-    tagline: "Portfolio — motoryzacja, web i projekty cyfrowe.",
+    tagline: "Autor IDRIVECARS — testy, web i projekty cyfrowe.",
     href: "https://marcinbochenek.pl",
     cta: "marcinbochenek.pl"
   },
   {
     id: "plumm",
     brand: "Plumm",
-    tagline: "Narzędzia i usługi cyfrowe — sprawdź, co robimy na żywo.",
+    tagline: "Księgowość online dla JDG — faktury KSeF, PIT, VAT i ZUS w jednej aplikacji.",
     href: "https://plumm.pl",
     cta: "plumm.pl"
   }

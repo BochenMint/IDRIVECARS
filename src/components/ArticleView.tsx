@@ -31,7 +31,7 @@ import {
 } from "@/lib/seo";
 import { SITE_AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
 import { injectInlineGalleryImages } from "@/lib/content/testy";
-import { splitArticleHtmlForAds } from "@/lib/ads/article-breaks";
+import { articleHasMidAd, splitArticleHtmlForAds } from "@/lib/ads/article-breaks";
 import { AdSlot } from "@/components/AdSlot";
 import { ArticleContentWithAds } from "@/components/ArticleContentWithAds";
 
@@ -127,6 +127,7 @@ export async function ArticleView({ article }: ArticleViewProps) {
   const articleSegments = isWallpapers
     ? [{ type: "html" as const, html: contentWithInlineImages }]
     : splitArticleHtmlForAds(contentWithInlineImages);
+  const hasMidArticleAd = !isWallpapers && articleHasMidAd(articleSegments);
   const adPageKey = articlePublicPath(meta.category, meta.slug);
   const displayTitle = meta.headline ?? meta.seoTitle ?? meta.title;
   const leadPlain = meta.lead ? toPlainText(meta.lead) : "";
@@ -278,12 +279,12 @@ export async function ArticleView({ article }: ArticleViewProps) {
               )}
             </section>
 
-            {!isWallpapers && (
+            {!isWallpapers && !hasMidArticleAd && (
               <div className="mt-16 flex justify-center lg:max-w-[65ch]">
                 <AdSlot
                   slotId="in-article-end"
                   format="in-article"
-                  slotIndex={2}
+                  slotIndex={1}
                   pageKey={adPageKey}
                 />
               </div>

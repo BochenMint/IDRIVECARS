@@ -78,7 +78,10 @@ export function cleanArticleMarkdown(
   // 5. Usuń sieroty markdown z importu autoGALERII (puste ** **, linie z samymi **).
   markdown = stripOrphanMarkdownEmphasis(markdown);
 
-  // 6. Podnieś poziomy nagłówków w body, żeby pod stronowym H1 nie zaczynać od H3.
+  // 6. Usuń zduplikowane Zalety/Wady/Podsumowanie (inline **X:** + sekcje ## X z compose).
+  markdown = dedupeImportedProsConsSections(markdown);
+
+  // 7. Podnieś poziomy nagłówków w body, żeby pod stronowym H1 nie zaczynać od H3.
   markdown = normalizeBodyHeadingLevels(markdown);
 
   return { markdown, headline };
@@ -136,4 +139,31 @@ function stripOrphanMarkdownEmphasis(markdown: string): string {
   out = out.replace(/(\S)\.\*{2}[ \t]+\*{2}(?=\s|$)/g, "$1.");
 
   return out;
+}
+
+const INLINE_PROS_BLOCK =
+  /\*\*Zalety:\*\*\s*\n(?:[ \t]*(?:[\+\-•]|\d+\.)\s*.+\n?)*/i;
+const INLINE_CONS_BLOCK =
+  /\*\*Wady:\*\*\s*\n(?:[ \t]*(?:[\+\-•]|\d+\.)\s*.+\n?)*/i;
+const INLINE_SUMMARY_BLOCK =
+  /\*\*Podsumowanie:\*\*\s*\n[\s\S]*?(?=\n##\s|\n\*\*[A-ZĄĆĘŁŃÓŚŹŻ]|\s*$)/i;
+
+/**
+ * Import autoGALERII zostawia w body inline Zalety/Wady, a compose dokłada nagłówki ##.
+ * Przy renderze zostawiamy sekcje ## — usuwamy wcześniejsze duplikaty inline.
+ */
+export function dedupeImportedProsConsSections(markdown: string): string {
+  let out = markdown;
+
+  if (/^##\s+Zalety\s*$/im.test(out)) {
+    out = out.replace(INLINE_PROS_BLOCK, "");
+  }
+  if (/^##\s+Wady\s*$/im.test(out)) {
+    out = out.replace(INLINE_CONS_BLOCK, "");
+  }
+  if (/^##\s+Podsumowanie\s*$/im.test(out)) {
+    out = out.replace(INLINE_SUMMARY_BLOCK, "");
+  }
+
+  return out.replace(/\n{3,}/g, "\n\n").trim();
 }
