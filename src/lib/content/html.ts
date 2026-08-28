@@ -75,5 +75,41 @@ export function cleanArticleMarkdown(
     .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&");
 
+  // 5. Usuń sieroty markdown z importu autoGALERII (puste ** **, linie z samymi **).
+  markdown = stripOrphanMarkdownEmphasis(markdown);
+
   return { markdown, headline };
+}
+
+/** Usuwa uszkodzone znaczniki emfazy z importu — bez zmiany brzmienia zdań. */
+function stripOrphanMarkdownEmphasis(markdown: string): string {
+  let out = markdown;
+
+  // Linie składające się wyłącznie z markerów emfazy (np. samotne "**" na końcu pliku).
+  out = out.replace(/^[ \t]*\*{1,2}[ \t]*$/gm, "");
+  out = out.replace(/^[ \t]*_{1,2}[ \t]*$/gm, "");
+
+  // Puste pary bold/italic: "** **", "__ __"
+  out = out.replace(/\*{2}[ \t\u00a0]*\*{2}/g, "");
+  out = out.replace(/_{2}[ \t\u00a0]*_{2}/g, "");
+
+  // Końcowa sierota ** na linii z nieparzystą liczbą markerów (import zjadł otwarcie).
+  out = out
+    .split("\n")
+    .map((line) => {
+      const markers = line.match(/\*\*/g)?.length ?? 0;
+      if (markers % 2 === 1 && /\*\*[ \t]*$/.test(line)) {
+        return line.replace(/\*\*[ \t]*$/, "");
+      }
+      return line;
+    })
+    .join("\n");
+
+  // Zamknięcie akapitu + pusta linia ze sierotą: "...tekst.**\n**" → "...tekst."
+  out = out.replace(/(\S)\.\*{2}[ \t]*\n[ \t]*\*{2}[ \t]*(?=\n|$)/g, "$1.");
+
+  // Końcowa sierota po kropce na tej samej linii: "...tekst.** **"
+  out = out.replace(/(\S)\.\*{2}[ \t]+\*{2}(?=\s|$)/g, "$1.");
+
+  return out;
 }

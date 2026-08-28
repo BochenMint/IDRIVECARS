@@ -1,11 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { personNode, breadcrumbNode, jsonLdGraph, jsonLdScript } from "@/lib/seo";
+import { personNode, breadcrumbNode, jsonLdGraph, jsonLdScript, pageCanonical } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "O mnie",
   description:
-    "Marcin Bochenek — dziennikarz motoryzacyjny, autor IDRIVECARS. Autorskie testy, pierwsze jazdy i własne zdjęcia bez clickbaitu."
+    "Marcin Bochenek — dziennikarz motoryzacyjny, autor IDRIVECARS. Autorskie testy, pierwsze jazdy i własne zdjęcia bez clickbaitu.",
+  ...pageCanonical("/o-mnie")
 };
 
 export default function AboutPage() {

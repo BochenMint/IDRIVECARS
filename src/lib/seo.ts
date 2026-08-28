@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   SITE_AUTHOR,
   SITE_DESCRIPTION,
@@ -5,6 +6,12 @@ import {
   SITE_URL,
   SOCIAL_LINKS
 } from "@/lib/site";
+
+/** Kanoniczny URL strony statycznej (względny — rozwiązywany przez metadataBase). */
+export function pageCanonical(path: string): Pick<Metadata, "alternates"> {
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  return { alternates: { canonical: normalized } };
+}
 
 const ORG_ID = `${SITE_URL}/#organization`;
 const AUTHOR_ID = `${SITE_URL}/#author`;
@@ -24,6 +31,34 @@ function decodeEntities(input: string): string {
 }
 
 /**
+ * Markdown/HTML → czysty tekst do wyświetlania w podglądach (karty, leady).
+ * Nie zmienia treści merytorycznej — usuwa tylko znaczniki i składnię formatowania.
+ */
+export function toPlainText(
+  input: string | undefined | null,
+  maxLength?: number
+): string {
+  if (!input || !input.trim()) return "";
+
+  let text = input;
+  text = text.replace(/```[\s\S]*?```/g, " ");
+  text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, " ");
+  text = text.replace(/\[([^\]]*)\]\([^)]*\)/g, "$1");
+  text = text.replace(/<[^>]+>/g, " ");
+  text = decodeEntities(text);
+  text = text.replace(/<[^>]+>/g, " ");
+  text = text.replace(/^[\s>#]+/gm, " ");
+  text = text.replace(/[*_`~]+/g, "");
+  text = text.replace(/\s+/g, " ").trim();
+
+  if (!maxLength || text.length <= maxLength) return text;
+  const truncated = text.slice(0, maxLength);
+  const lastSpace = truncated.lastIndexOf(" ");
+  const base = lastSpace > maxLength * 0.6 ? truncated.slice(0, lastSpace) : truncated;
+  return `${base.replace(/[\s.,;:–-]+$/, "")}…`;
+}
+
+/**
  * Czyści dowolny tekst (markdown/HTML) do płaskiej meta-description.
  * Usuwa znaczniki, linki, nagłówki i emfazę, skleja białe znaki i przycina
  * do `maxLength` na granicy słowa. Pusty wejściowy tekst → domyślny opis witryny.
@@ -32,24 +67,9 @@ export function toMetaDescription(
   input: string | undefined | null,
   maxLength = 160
 ): string {
-  if (!input || !input.trim()) return SITE_DESCRIPTION;
-
-  let text = input;
-  text = text.replace(/```[\s\S]*?```/g, " "); // bloki kodu
-  text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, " "); // obrazy
-  text = text.replace(/\[([^\]]*)\]\([^)]*\)/g, "$1"); // linki → tekst
-  text = text.replace(/<[^>]+>/g, " "); // znaczniki HTML
-  text = decodeEntities(text); // encje → znaki
-  text = text.replace(/<[^>]+>/g, " "); // znaczniki ujawnione po dekodowaniu
-  text = text.replace(/^[\s>#]+/gm, " "); // nagłówki / cytaty na początku linii
-  text = text.replace(/[*_`~]+/g, ""); // emfaza / kod inline
-  text = text.replace(/\s+/g, " ").trim();
-
-  if (text.length <= maxLength) return text;
-  const truncated = text.slice(0, maxLength);
-  const lastSpace = truncated.lastIndexOf(" ");
-  const base = lastSpace > maxLength * 0.6 ? truncated.slice(0, lastSpace) : truncated;
-  return `${base.replace(/[\s.,;:–-]+$/, "")}…`;
+  const plain = toPlainText(input);
+  if (!plain) return SITE_DESCRIPTION;
+  return toPlainText(plain, maxLength);
 }
 
 /** Zamienia ścieżkę lub względny adres na bezwzględny URL (dla OG / JSON-LD). */

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  LaunchAgent — cron news co 2 godziny.
+
+  Instalacja:
+    cp deploy/mac-mini/com.idrivecars.news-cron.plist ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.idrivecars.news-cron.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.idrivecars.news-cron</string>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/PLACEHOLDER_USER/sites/idrivecars</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/PLACEHOLDER_USER/sites/idrivecars/scripts/news-cron-mac-mini.sh</string>
+  </array>
+
+  <key>StartInterval</key>
+  <integer>7200</integer>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/PLACEHOLDER_USER/sites/idrivecars/logs/news-cron.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/PLACEHOLDER_USER/sites/idrivecars/logs/news-cron.err.log</string>
+</dict>
+</plist>

@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getNewsBySlug, getNewsItems } from "@/lib/content/news";
-import { buildNewsArticleJsonLd, buildNewsCanonicalUrl } from "@/lib/news/seo";
+import { buildNewsArticleJsonLd, buildNewsMetadata } from "@/lib/news/seo";
 import { AdSlot } from "@/components/AdSlot";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { jsonLdScript } from "@/lib/seo";
+import { jsonLdScript, toPlainText } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -17,12 +17,7 @@ export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const item = await getNewsBySlug(slug);
   if (!item || item.status !== "published") return { title: "News | IDRIVECARS" };
-  const canonical = item.canonicalUrl ?? buildNewsCanonicalUrl(slug);
-  return {
-    title: item.seoTitle ?? `${item.title} | News`,
-    description: item.seoDescription ?? item.lead,
-    alternates: { canonical }
-  };
+  return buildNewsMetadata(item);
 }
 
 export default async function NewsSlugPage({ params }: Props) {
@@ -55,7 +50,7 @@ export default async function NewsSlugPage({ params }: Props) {
             {item.title}
           </h1>
           {item.lead && (
-            <p className="mt-6 text-lead font-light text-subtle">{item.lead}</p>
+            <p className="mt-6 text-lead font-light text-subtle">{toPlainText(item.lead)}</p>
           )}
           <div className="py-10">
             <AdSlot slotId="in-article" format="in-article" />

@@ -1,4 +1,9 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: true }
+};
 
 const SUGGESTIONS = [
   { href: "/testy", label: "Testy", hint: "Indeks wszystkich testów" },

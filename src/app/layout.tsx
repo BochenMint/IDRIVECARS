@@ -7,6 +7,9 @@ import {
   SITE_NAME,
   SITE_URL
 } from "@/lib/site";
+import { AdSenseScript } from "../components/AdSenseScript";
+import { CookieConsent } from "../components/CookieConsent";
+import { GoogleAnalytics } from "../components/GoogleAnalytics";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 import "./globals.css";
@@ -46,7 +49,6 @@ export const metadata: Metadata = {
   applicationName: SITE_NAME,
   category: "automotive",
   alternates: {
-    canonical: "/",
     types: {
       "application/rss+xml": `${SITE_URL}/feed.xml`
     }
@@ -76,11 +78,22 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pl" className={`${bebas.variable} ${inter.variable} ${plexMono.variable}`}>
       <body className="text-body leading-body">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded focus:bg-ink focus:px-4 focus:py-2 focus:text-canvas focus:outline-none"
+        >
+          Przejdź do treści
+        </a>
+        <GoogleAnalytics />
+        <AdSenseScript />
         <div className="page-shell">
           <SiteHeader />
-          <main role="main">{children}</main>
+          <main id="main-content" role="main">
+            {children}
+          </main>
           <SiteFooter />
         </div>
+        <CookieConsent />
       </body>
     </html>
   );

@@ -43,6 +43,9 @@ Zamień `BASE` na `NEXT_PUBLIC_SITE_URL` (np. `https://idrivecars.pl`).
 
 Dodatkowo (nie wliczane w „5 URL”):
 
+- `{BASE}/api/health` — 200, JSON `"status":"ok"`
+- `{BASE}/polityka-prywatnosci` — 200 (wymagane przed Google Ads)
+- `{BASE}/cookies` — 200
 - `{BASE}/sitemap.xml` — 200, zawiera `/testy/...`
 - `{BASE}/sitemap-news.xml` — 200
 - `{BASE}/feed.xml` — RSS 2.0, poprawny XML

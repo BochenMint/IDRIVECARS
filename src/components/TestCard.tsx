@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { articlePublicPath } from "@/lib/content/categories";
+import { toPlainText } from "@/lib/seo";
 import type { ArticleMeta } from "../lib/content/types-article";
 
 const IMAGE_QUALITY = 75;
@@ -26,6 +27,7 @@ export function TestCard({
 }: TestCardProps) {
   const heroSrc = heroImageFallback?.replace(/\\/g, "/") ?? null;
   const heroAlt = [test.brand, test.model].filter(Boolean).join(" ") || test.title;
+  const leadPlain = test.lead ? toPlainText(test.lead) : "";
   const sparseGallery = galleryImageCount !== undefined && galleryImageCount < 3;
 
   /** Poster (fallback dla wideo): heroVideoPoster z meta, potem heroSrc. */
@@ -67,8 +69,8 @@ export function TestCard({
               {test.brand} {test.model} {test.year ?? ""}
             </p>
             <h1 className="font-display display-track text-display-xl uppercase text-stone">{test.title}</h1>
-            {test.lead && (
-              <p className="mt-8 max-w-lg text-lead font-light text-stone/80">{test.lead}</p>
+            {leadPlain && (
+              <p className="mt-8 max-w-lg text-lead font-light text-stone/80">{leadPlain}</p>
             )}
             <span className="label-mono mt-12 inline-block text-stone/50 transition-opacity duration-editorial group-hover:opacity-100">
               Czytaj test
@@ -86,18 +88,21 @@ export function TestCard({
           href={href}
           className="grid grid-cols-[3.75rem_1fr] gap-6 py-14 sm:grid-cols-[5.5rem_1fr_12rem] sm:items-center sm:gap-12 sm:py-16"
         >
-          <span className="font-display text-4xl leading-none tracking-wide text-stone-muted/60 transition-opacity duration-editorial group-hover:text-stone-muted sm:text-[2.75rem]">
+          <span
+            aria-hidden="true"
+            className="font-display text-4xl leading-none tracking-wide text-subtle/80 transition-opacity duration-editorial group-hover:text-subtle sm:text-[2.75rem]"
+          >
             {index !== undefined ? String(index + 1).padStart(2, "0") : "—"}
           </span>
           <div className="min-w-0 space-y-3.5">
-            <p className="label-mono text-stone-muted">
+            <p className="label-mono">
               {test.brand} {test.model} {test.year ?? ""}
             </p>
             <h2 className="font-display display-track text-display-md uppercase transition-opacity duration-editorial group-hover:opacity-55">
               {test.title}
             </h2>
           </div>
-          <div className="relative col-span-2 aspect-[16/10] max-h-28 overflow-hidden sm:col-span-1 sm:max-h-none sm:aspect-[4/3]">
+          <div className="relative col-span-2 aspect-[16/10] max-h-28 overflow-hidden sm:col-span-1 sm:max-h-none sm:aspect-[4/3] [contain-intrinsic-size:176px_132px]">
             {heroSrc ? (
               <Image
                 src={heroSrc}
@@ -122,7 +127,7 @@ export function TestCard({
   return (
     <article className="group">
       <Link href={href} className="block">
-        <div className={`relative w-full overflow-hidden ${gridAspect} ${gridMaxH}`}>
+        <div className={`relative w-full overflow-hidden ${gridAspect} ${gridMaxH} [contain-intrinsic-size:400px_250px]`}>
           {/* Grid: wideo (loop/muted) jeśli dostępne, inaczej obraz */}
           {heroVideoUrl ? (
             <video
@@ -148,7 +153,7 @@ export function TestCard({
           )}
         </div>
         <div className="space-y-2.5 pt-6 pb-1 sm:pt-7">
-          <p className="label-mono text-stone-muted">
+          <p className="label-mono">
             {test.brand} {test.model}
           </p>
           <h3 className="font-display display-track text-display-md uppercase text-ink transition-opacity duration-editorial group-hover:opacity-55">

@@ -1,10 +1,13 @@
+import type { Metadata } from "next";
 import { TestCard } from "@/components/TestCard";
 import { getFirstGalleryImageSrc } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
+import { pageCanonical } from "@/lib/seo";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Galerie",
-  description: "Galerie zdjęć z testów IDRIVECARS — własna fotografia Marcina Bochenka."
+  description: "Galerie zdjęć z testów IDRIVECARS — własna fotografia Marcina Bochenka.",
+  ...pageCanonical("/galerie")
 };
 
 export default async function GalleriesPage() {

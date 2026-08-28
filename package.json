@@ -48,7 +48,8 @@
     "style:build": "tsx scripts/style/build-marcin-style.ts",
     "style:check": "tsx scripts/style/check-marcin-style.ts",
     "news:style-check": "tsx scripts/style/news-style-check.ts",
-    "smoke:static": "tsx scripts/post-build-smoke.ts"
+    "smoke:static": "tsx scripts/post-build-smoke.ts",
+    "smoke:production": "bash scripts/smoke-production.sh"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

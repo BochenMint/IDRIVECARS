@@ -35,7 +35,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
 
               {isLast || !item.href ? (
                 <span
-                  className="label-mono text-stone-muted/70"
+                  className="label-mono"
                   {...(isLast ? { "aria-current": "page" as const } : {})}
                 >
                   {item.name}
@@ -43,7 +43,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
               ) : (
                 <Link
                   href={item.href}
-                  className="editorial-link label-mono transition-opacity duration-editorial"
+                  className="label-mono transition-opacity duration-editorial hover:opacity-70"
                 >
                   {item.name}
                 </Link>

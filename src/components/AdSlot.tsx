@@ -25,9 +25,21 @@ const formatStyles: Record<NonNullable<AdSlotProps["format"]>, string> = {
 };
 
 const ADS_ENABLED = process.env.NEXT_PUBLIC_ADS_ENABLED === "true";
+const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID?.trim();
+const ADSENSE_SLOTS: Record<string, string | undefined> = {
+  "header-billboard": process.env.NEXT_PUBLIC_ADSENSE_SLOT_HEADER,
+  "sidebar-top": process.env.NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR_TOP,
+  "sidebar-sticky": process.env.NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR_STICKY,
+  "in-article": process.env.NEXT_PUBLIC_ADSENSE_SLOT_IN_ARTICLE,
+  footer: process.env.NEXT_PUBLIC_ADSENSE_SLOT_FOOTER,
+  "between-cards": process.env.NEXT_PUBLIC_ADSENSE_SLOT_BETWEEN_CARDS
+};
 
 export function AdSlot({ slotId, format = "medium-rectangle", className = "" }: AdSlotProps) {
   if (!ADS_ENABLED) return null;
+
+  const adUnitId = ADSENSE_SLOTS[slotId]?.trim();
+  const hasAdSense = Boolean(ADSENSE_CLIENT && adUnitId);
 
   return (
     <aside
@@ -35,14 +47,24 @@ export function AdSlot({ slotId, format = "medium-rectangle", className = "" }: 
       aria-label="Reklama"
     >
       <span className="mb-2 text-[10px] uppercase tracking-wider text-neutral-400">Reklama</span>
-      {/* Placeholder pod AdSense / program partnerski – docelowo dangerouslySetInnerHTML lub iframe z ad servera */}
-      <div
-        data-ad-slot={slotId}
-        data-ad-format={format}
-        className="flex h-full min-h-[90px] w-full items-center justify-center text-center text-xs text-neutral-500"
-      >
-        Slot: {slotId}
-      </div>
+      {hasAdSense ? (
+        <ins
+          className="adsbygoogle block w-full"
+          style={{ display: "block" }}
+          data-ad-client={ADSENSE_CLIENT}
+          data-ad-slot={adUnitId}
+          data-ad-format={format === "leaderboard" || format === "footer" ? "horizontal" : "rectangle"}
+          data-full-width-responsive={format === "leaderboard" || format === "footer" ? "true" : undefined}
+        />
+      ) : (
+        <div
+          data-ad-slot={slotId}
+          data-ad-format={format}
+          className="flex h-full min-h-[90px] w-full items-center justify-center text-center text-xs text-neutral-500"
+        >
+          Slot: {slotId}
+        </div>
+      )}
     </aside>
   );
 }

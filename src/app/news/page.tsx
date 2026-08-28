@@ -1,10 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getNewsItems } from "@/lib/content/news";
 import { AdSlot } from "@/components/AdSlot";
+import { pageCanonical, toPlainText } from "@/lib/seo";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "News motoryzacyjne",
-  description: "Najnowsze wiadomości ze świata motoryzacji — premiery, rynek, przepisy."
+  description: "Najnowsze wiadomości ze świata motoryzacji — premiery, rynek, przepisy.",
+  ...pageCanonical("/news")
 };
 
 export default async function NewsPage() {
@@ -13,7 +16,7 @@ export default async function NewsPage() {
   return (
     <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
       <header className="reveal-section mb-20 border-b border-soft pb-16 md:mb-28 md:pb-20">
-        <p className="label-mono mb-8 text-stone-muted">Wiadomości</p>
+        <p className="label-mono mb-8">Wiadomości</p>
         <h1 className="font-display display-track text-display-lg uppercase text-ink">
           News
         </h1>
@@ -34,7 +37,7 @@ export default async function NewsPage() {
               {items.map((n) => (
                 <li key={n.slug}>
                   <article className="py-10 md:py-12">
-                    <time className="label-mono text-stone-muted" dateTime={n.publishedAt}>
+                    <time className="label-mono" dateTime={n.publishedAt}>
                       {new Date(n.publishedAt).toLocaleDateString("pl-PL", {
                         dateStyle: "medium"
                       })}
@@ -51,10 +54,10 @@ export default async function NewsPage() {
                     </h2>
                     {n.lead && (
                       <p className="mt-4 line-clamp-2 font-light text-subtle">
-                        {n.lead}
+                        {toPlainText(n.lead)}
                       </p>
                     )}
-                    <p className="label-mono mt-5 text-stone-muted">Źródło: {n.sourceName}</p>
+                    <p className="label-mono mt-5">Źródło: {n.sourceName}</p>
                   </article>
                 </li>
               ))}

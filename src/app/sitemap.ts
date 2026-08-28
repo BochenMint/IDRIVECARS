@@ -22,7 +22,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/blog`, changeFrequency: "weekly", priority: 0.5, lastModified: new Date() },
     { url: `${SITE_URL}/felieton`, changeFrequency: "weekly", priority: 0.5, lastModified: new Date() },
     { url: `${SITE_URL}/o-mnie`, changeFrequency: "yearly", priority: 0.3, lastModified: new Date() },
-    { url: `${SITE_URL}/kontakt`, changeFrequency: "yearly", priority: 0.3, lastModified: new Date() }
+    { url: `${SITE_URL}/kontakt`, changeFrequency: "yearly", priority: 0.3, lastModified: new Date() },
+    {
+      url: `${SITE_URL}/polityka-prywatnosci`,
+      changeFrequency: "yearly",
+      priority: 0.2,
+      lastModified: new Date()
+    },
+    { url: `${SITE_URL}/cookies`, changeFrequency: "yearly", priority: 0.2, lastModified: new Date() }
   ];
 
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({

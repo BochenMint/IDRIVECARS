@@ -235,6 +235,56 @@ npm run news:ai-apply -- --skip-fact-check data/news/ai-jobs/<job>.output.json  
 - [ ] Merge 16 konfliktów — czeka na `--apply`
 - [ ] `ADMIN_SECRET` na produkcji
 
+---
+
+## O. Launch produkcyjny (Mac Mini + idrivecars.pl)
+
+> Pełny przepis: [`docs/LAUNCH-PLAYBOOK.md`](LAUNCH-PLAYBOOK.md) · Google Ads: [`docs/GOOGLE-ADS-LAUNCH.md`](GOOGLE-ADS-LAUNCH.md)
+
+### Przed pierwszym deployem (P0)
+
+- [ ] `ADMIN_SECRET` wygenerowany (`openssl rand -base64 48`) i w `.env.production` na Macu
+- [ ] `NEXT_PUBLIC_SITE_URL=https://idrivecars.pl`
+- [ ] `public/galleries/` + `public/videos/` skopiowane na Mac (~1.4 GB)
+- [ ] DNS A/AAAA → publiczne IP, port forward 80/443
+- [ ] Decyzja: merge 16 slugów (`npm run merge:slug-conflicts -- --apply`)
+
+### Deploy Mac Mini
+
+```bash
+cp .env.production.example .env.production   # uzupełnij sekrety
+chmod +x scripts/deploy-mac-mini.sh scripts/smoke-production.sh
+./scripts/deploy-mac-mini.sh
+```
+
+- [ ] Caddy + HTTPS (`deploy/mac-mini/Caddyfile`)
+- [ ] LaunchAgent (`deploy/mac-mini/com.idrivecars.site.plist`)
+- [ ] `./scripts/smoke-production.sh` — 0 FAIL
+- [ ] `GET /api/health` → 200
+
+### Strony wymagane przed Google Ads
+
+- [x] `/polityka-prywatnosci`
+- [x] `/cookies` + baner zgody
+- [x] `/kontakt`
+
+### Po launchu (D+1)
+
+- [ ] Google Search Console + sitemap
+- [ ] Google Ads konto + tag (`NEXT_PUBLIC_GOOGLE_ADS_ID`)
+- [ ] GA4 (`NEXT_PUBLIC_GA_MEASUREMENT_ID`)
+- [ ] News cron (`deploy/mac-mini/com.idrivecars.news-cron.plist`)
+- [ ] Uptime monitoring na `/api/health`
+
+### Nowe komendy Launch
+
+```bash
+./scripts/deploy-mac-mini.sh              # pełny deploy na Mac
+./scripts/deploy-mac-mini.sh --skip-build # restart bez rebuildu
+./scripts/smoke-production.sh             # smoke HTTPS produkcji
+./scripts/news-cron-mac-mini.sh         # pipeline news (cron)
+```
+
 ### Nowe komendy Pass 6
 
 ```bash

@@ -1,0 +1,51 @@
+# Caddyfile — reverse proxy + auto HTTPS (Let's Encrypt)
+# Instalacja: brew install caddy
+# Uruchomienie: sudo caddy run --config /path/to/Caddyfile
+# Lub jako usługa: brew services start caddy (z odpowiednią konfiguracją)
+
+{
+	# E-mail do Let's Encrypt (wymagany dla certów)
+	email kontakt@idrivecars.pl
+}
+
+# === OPCJA A: Publiczny IP + port forwarding (ZALECANE dla idrivecars.pl) ===
+# DNS u rejestratora:
+#   A     @      → TWOJE_PUBLICZNE_IP
+#   A     www    → TWOJE_PUBLICZNE_IP
+#   AAAA  @      → TWOJE_IPV6 (opcjonalnie)
+# Router: przekieruj 80/tcp i 443/tcp → Mac Mini
+
+idrivecars.pl, www.idrivecars.pl {
+	encode gzip zstd
+
+	# Reverse proxy do Next.js (loopback only — bezpieczniej niż 0.0.0.0:3000)
+	reverse_proxy 127.0.0.1:3000
+
+	# Nagłówki bezpieczeństwa (Next też je ustawia — Caddy jako druga warstwa)
+	header {
+		-Server
+		Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+	}
+
+	# Logi
+	log {
+		output file /Users/PLACEHOLDER_USER/sites/idrivecars/logs/caddy-access.log
+	}
+}
+
+# === OPCJA B: Tylko tailnet (dev/staging — NIE dla publicznej domeny) ===
+# idrivecars.tailXXXX.ts.net {
+# 	reverse_proxy 127.0.0.1:3000
+# 	tls internal
+# }
+
+# === OPCJA C: Tailscale Funnel (publiczny dostęp bez publicznego IP) ===
+# UWAGA: Agentic OS zaleca funnel TYLKO dla treści publicznych.
+# Nie używaj funnel dla /admin — middleware Basic Auth chroni, ale lepiej
+# ograniczyć funnel do portu 443 z pełną ścieżką.
+#
+# Na Macu:
+#   tailscale funnel --bg 443
+#   tailscale funnel --set-path / https://127.0.0.1:3000
+#
+# Custom domain przez Tailscale: patrz https://tailscale.com/kb/1247/funnel

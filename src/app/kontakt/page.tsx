@@ -1,6 +1,10 @@
-export const metadata = {
+import type { Metadata } from "next";
+import { pageCanonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Kontakt z IDRIVECARS — współpraca redakcyjna, licencja na zdjęcia, pytania o testy."
+  description: "Kontakt z IDRIVECARS — współpraca redakcyjna, licencja na zdjęcia, pytania o testy.",
+  ...pageCanonical("/kontakt")
 };
 
 export default function ContactPage() {

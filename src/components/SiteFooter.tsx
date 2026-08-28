@@ -61,6 +61,18 @@ export function SiteFooter() {
             Kontakt
           </Link>
           <Link
+            href="/polityka-prywatnosci"
+            className="label-mono text-stone-muted transition-opacity duration-editorial hover:text-stone hover:opacity-100"
+          >
+            Prywatność
+          </Link>
+          <Link
+            href="/cookies"
+            className="label-mono text-stone-muted transition-opacity duration-editorial hover:text-stone hover:opacity-100"
+          >
+            Cookies
+          </Link>
+          <Link
             href="/feed.xml"
             className="label-mono text-stone-muted transition-opacity duration-editorial hover:text-stone hover:opacity-100"
           >
@@ -70,7 +82,7 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-white/[0.08] px-gutter py-6">
-        <p className="label-mono text-stone-muted/70">© {year} Marcin Bochenek</p>
+        <p className="label-mono text-stone/70">© {year} Marcin Bochenek</p>
       </div>
     </footer>
   );

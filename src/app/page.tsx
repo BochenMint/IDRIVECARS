@@ -3,12 +3,13 @@ import Link from "next/link";
 import { TestCard } from "@/components/TestCard";
 import { getGalleryImages } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
-import { jsonLdGraph, jsonLdScript, organizationNode, personNode, websiteNode } from "@/lib/seo";
+import { jsonLdGraph, jsonLdScript, organizationNode, pageCanonical, personNode, websiteNode } from "@/lib/seo";
 import { FEATURED_HERO_IMAGE_OVERRIDES, FEATURED_HERO_VIDEO_OVERRIDES, FEATURED_TEST_SLUGS, SITE_DESCRIPTION } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "IDRIVECARS — autorskie testy samochodów i pierwsze jazdy" },
-  description: SITE_DESCRIPTION
+  description: SITE_DESCRIPTION,
+  ...pageCanonical("/")
 };
 
 export default async function HomePage() {
@@ -65,12 +66,12 @@ export default async function HomePage() {
       <section className="reveal-section-delayed bg-canvas px-gutter pb-section pt-32 md:pt-40">
         <div className="mb-20 flex flex-col gap-6 border-b border-soft pb-12 sm:flex-row sm:items-end sm:justify-between md:mb-28 md:pb-14">
           <div className="space-y-4">
-            <p className="label-mono text-stone-muted">Indeks</p>
+            <p className="label-mono">Indeks</p>
             <h2 className="font-display display-track text-display-lg uppercase text-ink">Wybrane testy</h2>
           </div>
           <Link
             href="/testy"
-            className="label-mono nav-link shrink-0 self-start text-stone-muted sm:self-auto"
+            className="label-mono shrink-0 self-start sm:self-auto"
           >
             Wszystkie ({tests.length})
           </Link>

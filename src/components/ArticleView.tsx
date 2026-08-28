@@ -26,6 +26,7 @@ import {
   organizationNode,
   personNode,
   toMetaDescription,
+  toPlainText,
   websiteNode
 } from "@/lib/seo";
 import { SITE_AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -40,7 +41,7 @@ function SpecsList({ specs }: { specs: Array<{ label: string; value: string }> }
     <dl className="space-y-0">
       {specs.map((s) => (
         <div key={s.label} className="border-t border-soft py-5 first:border-t-0 first:pt-0">
-          <dt className="label-mono text-stone-muted">{s.label}</dt>
+          <dt className="label-mono">{s.label}</dt>
           <dd className="mt-2 text-[0.9375rem] font-light leading-snug tracking-tight text-ink">
             {s.value}
           </dd>
@@ -77,15 +78,15 @@ function ArticleMetaBlock({
       )}
 
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-        <p className="label-mono text-stone-muted">
+        <p className="label-mono">
           <span className="tabular-nums">{readingMinutes}</span> min czytania
         </p>
         {dateLabel && (
-          <time dateTime={meta.publishedAt} className="label-mono text-stone-muted">
+          <time dateTime={meta.publishedAt} className="label-mono">
             {dateLabel}
           </time>
         )}
-        <p className="label-mono text-stone-muted">{meta.author}</p>
+        <p className="label-mono">{meta.author}</p>
       </div>
     </div>
   );
@@ -121,6 +122,7 @@ export async function ArticleView({ article }: ArticleViewProps) {
     ? contentHtml
     : injectInlineGalleryImages(contentHtml, images);
   const displayTitle = meta.headline ?? meta.seoTitle ?? meta.title;
+  const leadPlain = meta.lead ? toPlainText(meta.lead) : "";
   const description = toMetaDescription(meta.seoDescription ?? meta.lead);
   const pageUrl = getArticleUrl(meta, SITE_URL);
   const categoryLabel = CATEGORY_LABELS[meta.category];
@@ -214,8 +216,8 @@ export async function ArticleView({ article }: ArticleViewProps) {
         <h1 className="font-display display-track mt-3 text-display-lg uppercase text-ink">
           {displayTitle}
         </h1>
-        {meta.lead && (
-          <p className="mt-6 max-w-2xl text-lead font-light text-subtle">{meta.lead}</p>
+        {leadPlain && (
+          <p className="mt-6 max-w-2xl text-lead font-light text-subtle">{leadPlain}</p>
         )}
         {specs.length > 0 && (
           <div className="mt-10 border-t border-soft pt-8">
@@ -243,8 +245,8 @@ export async function ArticleView({ article }: ArticleViewProps) {
               <h1 className="font-display display-track text-display-lg uppercase text-ink">
                 {displayTitle}
               </h1>
-              {meta.lead && (
-                <p className="mt-6 max-w-2xl text-lead font-light text-subtle">{meta.lead}</p>
+              {leadPlain && (
+                <p className="mt-6 max-w-2xl text-lead font-light text-subtle">{leadPlain}</p>
               )}
             </header>
 
@@ -256,7 +258,7 @@ export async function ArticleView({ article }: ArticleViewProps) {
 
             {meta.videoUrl && (
               <div className="mt-16 border-t border-soft pt-10">
-                <p className="label-mono mb-5 text-stone-muted">Film</p>
+                <p className="label-mono mb-5">Film</p>
                 <video
                   src={meta.videoUrl}
                   controls
@@ -271,10 +273,10 @@ export async function ArticleView({ article }: ArticleViewProps) {
             )}
 
             <div className="mt-16 border-t border-soft pt-10">
-              <p className="label-mono text-stone-muted">
+              <p className="label-mono">
                 Tekst
                 {images.length > 0 ? " i zdjęcia" : ""} ·{" "}
-                <Link href="/o-mnie" className="editorial-link">
+                <Link href="/o-mnie" className="text-ink underline underline-offset-2">
                   {SITE_AUTHOR.name}
                 </Link>
               </p>
@@ -283,7 +285,7 @@ export async function ArticleView({ article }: ArticleViewProps) {
                   {meta.tags.map((tag) => (
                     <li
                       key={tag}
-                      className="label-mono border border-soft px-2 py-1 text-stone-muted"
+                      className="label-mono border border-soft px-2 py-1"
                     >
                       {tag}
                     </li>
@@ -330,7 +332,7 @@ export async function ArticleView({ article }: ArticleViewProps) {
 
       {relatedTests.length > 0 && meta.brand && (
         <aside className="border-t border-soft bg-canvas px-gutter py-20 md:py-28">
-          <h2 className="label-mono mb-12 text-stone-muted">Więcej artykułów · {meta.brand}</h2>
+          <h2 className="label-mono mb-12">Więcej artykułów · {meta.brand}</h2>
           <ul className="mx-auto max-w-3xl divide-y divide-line/80">
             {relatedTests.map((t) => (
               <li key={t.slug}>
@@ -341,7 +343,7 @@ export async function ArticleView({ article }: ArticleViewProps) {
                   <span className="font-display display-track text-lg uppercase transition-opacity duration-editorial group-hover:opacity-55">
                     {t.title}
                   </span>
-                  {t.model && <span className="label-mono text-stone-muted">{t.model}</span>}
+                  {t.model && <span className="label-mono">{t.model}</span>}
                 </Link>
               </li>
             ))}

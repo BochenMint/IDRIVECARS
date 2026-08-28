@@ -20,7 +20,7 @@ export async function ArticleListing({ category }: ArticleListingProps) {
   return (
     <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
       <header className="reveal-section mb-20 border-b border-soft pb-16 md:mb-28 md:pb-20">
-        <p className="label-mono mb-8 text-stone-muted">{articles.length} artykułów</p>
+        <p className="label-mono mb-8">{articles.length} artykułów</p>
         <h1 className="font-display display-track text-display-lg uppercase text-ink">{label}</h1>
         <p className="mt-8 max-w-md text-lead font-light text-subtle">{description}</p>
       </header>

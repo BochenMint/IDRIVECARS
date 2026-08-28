@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getNewsReviewItems, getNewsReviewSummary } from "@/lib/news/review";
+import { toPlainText } from "@/lib/seo";
 import { NewsReviewActions } from "./NewsReviewActions";
 
 export const metadata = { title: "Review newsów | IDRIVECARS" };
@@ -83,7 +84,9 @@ export default async function AdminNewsReviewPage() {
                   </div>
                   <h2 className="mt-2 text-base font-semibold text-neutral-900">{item.title}</h2>
                   {item.lead && (
-                    <p className="mt-1 line-clamp-2 text-sm text-neutral-600">{item.lead}</p>
+                    <p className="mt-1 line-clamp-2 text-sm text-neutral-600">
+                      {toPlainText(item.lead)}
+                    </p>
                   )}
                 </div>
                 <NewsReviewActions id={item.id} kind={item.kind} status={item.status} />
