@@ -53,7 +53,12 @@ export default async function NewsSlugPage({ params }: Props) {
             <p className="mt-6 text-lead font-light text-subtle">{toPlainText(item.lead)}</p>
           )}
           <div className="py-10">
-            <AdSlot slotId="in-article" format="in-article" />
+            <AdSlot
+              slotId="in-article"
+              format="in-article"
+              slotIndex={0}
+              pageKey={`/news/${slug}`}
+            />
           </div>
           <p className="text-sm text-subtle">
             Pełna treść:{" "}

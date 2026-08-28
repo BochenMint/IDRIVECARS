@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AdSlot } from "@/components/AdSlot";
 import { LOGO_LIGHT } from "@/lib/logo";
 
 export function SiteFooter() {
@@ -79,6 +80,12 @@ export function SiteFooter() {
             RSS
           </Link>
         </nav>
+      </div>
+
+      <div className="border-t border-white/[0.08] px-gutter py-10">
+        <div className="mx-auto flex max-w-4xl justify-center">
+          <AdSlot slotId="footer" format="footer" slotIndex={0} pageKey="/footer" />
+        </div>
       </div>
 
       <div className="border-t border-white/[0.08] px-gutter py-6">

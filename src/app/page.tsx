@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { TestCard } from "@/components/TestCard";
+import { AdSlot } from "@/components/AdSlot";
 import { getGalleryImages } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
 import { jsonLdGraph, jsonLdScript, organizationNode, pageCanonical, personNode, websiteNode } from "@/lib/seo";
@@ -62,6 +63,12 @@ export default async function HomePage() {
           galleryImageCount={featured.galleryImageCount}
         />
       )}
+
+      <section className="bg-canvas px-gutter py-12 md:py-16">
+        <div className="mx-auto flex max-w-6xl justify-center">
+          <AdSlot slotId="homepage" format="leaderboard" slotIndex={0} pageKey="/" />
+        </div>
+      </section>
 
       <section className="reveal-section-delayed bg-canvas px-gutter pb-section pt-32 md:pt-40">
         <div className="mb-20 flex flex-col gap-6 border-b border-soft pb-12 sm:flex-row sm:items-end sm:justify-between md:mb-28 md:pb-14">

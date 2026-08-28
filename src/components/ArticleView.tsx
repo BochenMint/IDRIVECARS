@@ -31,6 +31,9 @@ import {
 } from "@/lib/seo";
 import { SITE_AUTHOR, SITE_NAME, SITE_URL } from "@/lib/site";
 import { injectInlineGalleryImages } from "@/lib/content/testy";
+import { splitArticleHtmlForAds } from "@/lib/ads/article-breaks";
+import { AdSlot } from "@/components/AdSlot";
+import { ArticleContentWithAds } from "@/components/ArticleContentWithAds";
 
 type ArticleViewProps = {
   article: Article;
@@ -121,6 +124,10 @@ export async function ArticleView({ article }: ArticleViewProps) {
   const contentWithInlineImages = isWallpapers
     ? contentHtml
     : injectInlineGalleryImages(contentHtml, images);
+  const articleSegments = isWallpapers
+    ? [{ type: "html" as const, html: contentWithInlineImages }]
+    : splitArticleHtmlForAds(contentWithInlineImages);
+  const adPageKey = articlePublicPath(meta.category, meta.slug);
   const displayTitle = meta.headline ?? meta.seoTitle ?? meta.title;
   const leadPlain = meta.lead ? toPlainText(meta.lead) : "";
   const description = toMetaDescription(meta.seoDescription ?? meta.lead);
@@ -219,6 +226,11 @@ export async function ArticleView({ article }: ArticleViewProps) {
         {leadPlain && (
           <p className="mt-6 max-w-2xl text-lead font-light text-subtle">{leadPlain}</p>
         )}
+        {!isWallpapers && (
+          <div className="mt-10">
+            <AdSlot slotId="in-article" format="in-article" slotIndex={0} pageKey={adPageKey} />
+          </div>
+        )}
         {specs.length > 0 && (
           <div className="mt-10 border-t border-soft pt-8">
             <SpecsList specs={specs} />
@@ -248,13 +260,34 @@ export async function ArticleView({ article }: ArticleViewProps) {
               {leadPlain && (
                 <p className="mt-6 max-w-2xl text-lead font-light text-subtle">{leadPlain}</p>
               )}
+              {!isWallpapers && (
+                <div className="mt-12 hidden lg:block">
+                  <AdSlot slotId="in-article" format="in-article" slotIndex={0} pageKey={adPageKey} />
+                </div>
+              )}
             </header>
 
             <section
               className="prose prose-article max-w-none font-light lg:max-w-[65ch] lg:pt-16"
               aria-label="Treść artykułu"
-              dangerouslySetInnerHTML={{ __html: contentWithInlineImages }}
-            />
+            >
+              {isWallpapers ? (
+                <div dangerouslySetInnerHTML={{ __html: contentWithInlineImages }} />
+              ) : (
+                <ArticleContentWithAds segments={articleSegments} pageKey={adPageKey} />
+              )}
+            </section>
+
+            {!isWallpapers && (
+              <div className="mt-16 flex justify-center lg:max-w-[65ch]">
+                <AdSlot
+                  slotId="in-article-end"
+                  format="in-article"
+                  slotIndex={2}
+                  pageKey={adPageKey}
+                />
+              </div>
+            )}
 
             {meta.videoUrl && (
               <div className="mt-16 border-t border-soft pt-10">

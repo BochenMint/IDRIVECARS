@@ -1,7 +1,8 @@
 import { TestCard } from "@/components/TestCard";
+import { AdSlot } from "@/components/AdSlot";
 import { getFirstGalleryImageSrc } from "@/lib/content/gallery";
 import type { ArticleCategory } from "@/lib/content/categories";
-import { CATEGORY_DESCRIPTIONS, CATEGORY_LABELS } from "@/lib/content/categories";
+import { CATEGORY_DESCRIPTIONS, CATEGORY_LABELS, categoryListingPath } from "@/lib/content/categories";
 import { getAllArticleMetas } from "@/lib/content/articles";
 
 type ArticleListingProps = {
@@ -16,6 +17,7 @@ export async function ArticleListing({ category }: ArticleListingProps) {
 
   const label = CATEGORY_LABELS[category];
   const description = CATEGORY_DESCRIPTIONS[category];
+  const listingPath = categoryListingPath(category);
 
   return (
     <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
@@ -30,13 +32,24 @@ export async function ArticleListing({ category }: ArticleListingProps) {
       ) : (
         <div>
           {articles.map((test, i) => (
-            <TestCard
-              key={test.slug}
-              test={test}
-              heroImageFallback={heroFallbacks[i] ?? null}
-              variant="row"
-              index={i}
-            />
+            <div key={test.slug}>
+              <TestCard
+                test={test}
+                heroImageFallback={heroFallbacks[i] ?? null}
+                variant="row"
+                index={i}
+              />
+              {i > 0 && (i + 1) % 8 === 0 && (
+                <div className="my-16 flex justify-center border-y border-soft py-12">
+                  <AdSlot
+                    slotId="between-cards"
+                    format="medium-rectangle"
+                    slotIndex={Math.floor(i / 8)}
+                    pageKey={`${listingPath}#${i}`}
+                  />
+                </div>
+              )}
+            </div>
           ))}
         </div>
       )}
