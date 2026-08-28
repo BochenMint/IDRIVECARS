@@ -19,6 +19,15 @@ const WEBSITE_ID = `${SITE_URL}/#website`;
 const LOGO_URL = `${SITE_URL}/idrivecars-logo-dark.png`;
 
 /** Dekoduje najczęstsze encje HTML (również podwójnie zakodowane w treści). */
+/** Usuwa markery emfazy/kodu; zostawia pojedyncze * (np. „3*5”). */
+function stripMarkdownEmphasis(text: string): string {
+  return text
+    .replace(/\*{2}/g, "")
+    .replace(/_{2}/g, "")
+    .replace(/`+/g, "")
+    .replace(/~+/g, "");
+}
+
 function decodeEntities(input: string): string {
   return input
     .replace(/&lt;/g, "<")
@@ -48,7 +57,7 @@ export function toPlainText(
   text = decodeEntities(text);
   text = text.replace(/<[^>]+>/g, " ");
   text = text.replace(/^[\s>#]+/gm, " ");
-  text = text.replace(/[*_`~]+/g, "");
+  text = stripMarkdownEmphasis(text);
   text = text.replace(/\s+/g, " ").trim();
 
   if (!maxLength || text.length <= maxLength) return text;

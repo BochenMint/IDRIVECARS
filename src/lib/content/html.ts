@@ -78,7 +78,31 @@ export function cleanArticleMarkdown(
   // 5. Usuń sieroty markdown z importu autoGALERII (puste ** **, linie z samymi **).
   markdown = stripOrphanMarkdownEmphasis(markdown);
 
+  // 6. Podnieś poziomy nagłówków w body, żeby pod stronowym H1 nie zaczynać od H3.
+  markdown = normalizeBodyHeadingLevels(markdown);
+
   return { markdown, headline };
+}
+
+/**
+ * Gdy najpłytszy nagłówek w body to ### lub głębiej, obniż wszystkie o brakujące
+ * poziomy — bez zmiany tekstu nagłówków (tylko liczba #).
+ */
+function normalizeBodyHeadingLevels(markdown: string): string {
+  const levels: number[] = [];
+  for (const match of markdown.matchAll(/^(#{1,6})[ \t]+/gm)) {
+    levels.push(match[1].length);
+  }
+  if (levels.length === 0) return markdown;
+
+  const minLevel = Math.min(...levels);
+  if (minLevel <= 2) return markdown;
+
+  const reduce = minLevel - 2;
+  return markdown.replace(/^(#{1,6})([ \t]+)/gm, (_line, hashes: string, space: string) => {
+    const newLen = Math.max(2, hashes.length - reduce);
+    return "#".repeat(newLen) + space;
+  });
 }
 
 /** Usuwa uszkodzone znaczniki emfazy z importu — bez zmiany brzmienia zdań. */
