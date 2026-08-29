@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Bebas_Neue, Inter, IBM_Plex_Mono } from "next/font/google";
 import {
   SITE_AUTHOR,
@@ -66,8 +66,23 @@ export const metadata: Metadata = {
     title: SITE_NAME,
     description: SITE_DESCRIPTION
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
+  },
   formatDetection: { telephone: false }
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0a0a",
+  colorScheme: "light"
 };
 
 type RootLayoutProps = {

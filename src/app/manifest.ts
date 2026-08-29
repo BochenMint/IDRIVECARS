@@ -11,6 +11,7 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#FAF8F5",
     theme_color: "#0A0A0A",
     lang: "pl",
+    categories: ["news", "lifestyle", "automotive"],
     icons: [
       {
         src: "/icon",
