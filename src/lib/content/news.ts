@@ -2,7 +2,9 @@ import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import type { NewsItem, UserDecision, NewsStatus } from "./types-news";
+import { remark } from "remark";
+import html from "remark-html";
+import type { NewsArticle, NewsItem, UserDecision, NewsStatus } from "./types-news";
 
 const NEWS_DIR = path.join(process.cwd(), "content", "news");
 const NEWS_DECISIONS_PATH = path.join(process.cwd(), "content", "news-decisions.json");
@@ -60,25 +62,34 @@ function isPublicStatus(status: NewsStatus | undefined): boolean {
 export async function getNewsItems(limit = 50): Promise<NewsItem[]> {
   const slugs = await getAllNewsSlugs();
   const items: NewsItem[] = [];
-  for (const slug of slugs.slice(0, limit)) {
+  for (const slug of slugs) {
     const item = await getNewsBySlug(slug);
     if (item && isPublicStatus(item.status)) items.push(item);
   }
-  return items.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  return items
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, limit);
 }
 
 /** Wszystkie wpisy dla panelu admin (w tym draft/review). */
 export async function getAllNewsItems(limit = 50): Promise<NewsItem[]> {
   const slugs = await getAllNewsSlugs();
   const items: NewsItem[] = [];
-  for (const slug of slugs.slice(0, limit)) {
+  for (const slug of slugs) {
     const item = await getNewsBySlug(slug);
     if (item && item.status !== "rejected") items.push(item);
   }
-  return items.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  return items
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, limit);
 }
 
-export async function getNewsBySlug(slug: string): Promise<NewsItem | null> {
+type ParsedNewsFile = {
+  data: Record<string, unknown>;
+  content: string;
+};
+
+async function readNewsFile(slug: string): Promise<ParsedNewsFile | null> {
   const mdxPath = path.join(NEWS_DIR, `${slug}.mdx`);
   const mdPath = path.join(NEWS_DIR, `${slug}.md`);
   let raw: string;
@@ -91,7 +102,11 @@ export async function getNewsBySlug(slug: string): Promise<NewsItem | null> {
       return null;
     }
   }
-  const { data } = matter(raw);
+  const { data, content } = matter(raw);
+  return { data, content };
+}
+
+async function mapNewsItem(slug: string, data: Record<string, unknown>): Promise<NewsItem> {
   const decisions = await getDecisionsMap();
   const dec = decisions[slug];
   return {
@@ -113,4 +128,27 @@ export async function getNewsBySlug(slug: string): Promise<NewsItem | null> {
     tags: data.tags as string[] | undefined,
     canonicalUrl: data.canonicalUrl as string | undefined
   };
+}
+
+async function renderNewsMarkdown(content: string): Promise<string> {
+  const markdown = content.trim();
+  if (!markdown) return "";
+  const processed = await remark().use(html, { sanitize: false }).process(markdown);
+  return processed.toString();
+}
+
+export async function getNewsBySlug(slug: string): Promise<NewsItem | null> {
+  const parsed = await readNewsFile(slug);
+  if (!parsed) return null;
+  return mapNewsItem(slug, parsed.data);
+}
+
+export async function getNewsArticleBySlug(slug: string): Promise<NewsArticle | null> {
+  const parsed = await readNewsFile(slug);
+  if (!parsed) return null;
+  const [item, contentHtml] = await Promise.all([
+    mapNewsItem(slug, parsed.data),
+    renderNewsMarkdown(parsed.content)
+  ]);
+  return { ...item, contentHtml };
 }

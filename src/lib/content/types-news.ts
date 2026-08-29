@@ -33,3 +33,8 @@ export type NewsItem = {
   tags?: string[];
   canonicalUrl?: string;
 };
+
+/** Opublikowany news z wyrenderowaną treścią MDX (strona /news/[slug]). */
+export type NewsArticle = NewsItem & {
+  contentHtml: string;
+};

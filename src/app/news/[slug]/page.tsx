@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getNewsBySlug, getNewsItems } from "@/lib/content/news";
+import { getNewsArticleBySlug, getNewsItems } from "@/lib/content/news";
 import { buildNewsArticleJsonLd, buildNewsMetadata } from "@/lib/news/seo";
 import { AdSlot } from "@/components/AdSlot";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -15,17 +15,17 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
-  const item = await getNewsBySlug(slug);
-  if (!item || item.status !== "published") return { title: "News | IDRIVECARS" };
-  return buildNewsMetadata(item);
+  const article = await getNewsArticleBySlug(slug);
+  if (!article || article.status !== "published") return { title: "News | IDRIVECARS" };
+  return buildNewsMetadata(article);
 }
 
 export default async function NewsSlugPage({ params }: Props) {
   const { slug } = await params;
-  const item = await getNewsBySlug(slug);
-  if (!item || item.status !== "published") notFound();
+  const article = await getNewsArticleBySlug(slug);
+  if (!article || article.status !== "published") notFound();
 
-  const jsonLd = buildNewsArticleJsonLd(item);
+  const jsonLd = buildNewsArticleJsonLd(article);
 
   return (
     <>
@@ -39,18 +39,31 @@ export default async function NewsSlugPage({ params }: Props) {
             items={[
               { name: "Strona główna", href: "/" },
               { name: "News", href: "/news" },
-              { name: item.title }
+              { name: article.title }
             ]}
           />
           <p className="label-mono mt-8 text-stone-muted">News</p>
-          <time dateTime={item.publishedAt} className="label-mono mt-4 block text-stone-muted">
-            {new Date(item.publishedAt).toLocaleDateString("pl-PL", { dateStyle: "long" })}
+          <time dateTime={article.publishedAt} className="label-mono mt-4 block text-stone-muted">
+            {new Date(article.publishedAt).toLocaleDateString("pl-PL", { dateStyle: "long" })}
           </time>
           <h1 className="font-display display-track mt-6 text-display-lg uppercase text-ink">
-            {item.title}
+            {article.title}
           </h1>
-          {item.lead && (
-            <p className="mt-6 text-lead font-light text-subtle">{toPlainText(item.lead)}</p>
+          {article.lead && (
+            <p className="mt-6 text-lead font-light text-subtle">{toPlainText(article.lead)}</p>
+          )}
+          {article.sourceUrl && (
+            <p className="mt-6 text-sm text-subtle">
+              <a
+                href={article.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="editorial-link underline underline-offset-2"
+              >
+                Komunikat producenta
+              </a>
+              {article.sourceName ? ` · ${article.sourceName}` : ""}
+            </p>
           )}
           <div className="py-10">
             <AdSlot
@@ -60,17 +73,22 @@ export default async function NewsSlugPage({ params }: Props) {
               pageKey={`/news/${slug}`}
             />
           </div>
-          <p className="text-sm text-subtle">
-            Pełna treść:{" "}
-            <a
-              href={item.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="editorial-link underline underline-offset-2"
-            >
-              {item.sourceName}
-            </a>
-          </p>
+          {article.contentHtml && (
+            <section
+              className="prose prose-article max-w-none font-light"
+              aria-label="Treść depeszy"
+              dangerouslySetInnerHTML={{ __html: article.contentHtml }}
+            />
+          )}
+          {article.tags && article.tags.length > 0 && (
+            <ul className="mt-12 flex flex-wrap gap-2 border-t border-soft pt-10" aria-label="Tagi">
+              {article.tags.map((tag) => (
+                <li key={tag} className="label-mono border border-soft px-2 py-1">
+                  {tag}
+                </li>
+              ))}
+            </ul>
+          )}
           <Link
             href="/news"
             className="label-mono mt-10 inline-block text-stone-muted transition-opacity hover:opacity-70"

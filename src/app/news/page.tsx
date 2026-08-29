@@ -21,8 +21,7 @@ export default async function NewsPage() {
           News
         </h1>
         <p className="mt-8 max-w-md text-lead font-light text-subtle">
-          Krótkie informacje z rynku motoryzacyjnego — agregowane automatycznie z wybranych źródeł.
-          Pełne treści znajdziesz u oryginalnych wydawców.
+          Krótkie depesze z rynku motoryzacyjnego — premiery, sprzedaż, strategia producentów.
         </p>
       </header>
 
@@ -44,9 +43,7 @@ export default async function NewsPage() {
                     </time>
                     <h2 className="mt-5 font-display display-track text-display-md uppercase leading-[0.95]">
                       <Link
-                        href={n.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href={`/news/${n.slug}`}
                         className="text-ink transition-opacity duration-editorial hover:opacity-55"
                       >
                         {n.title}
@@ -54,10 +51,24 @@ export default async function NewsPage() {
                     </h2>
                     {n.lead && (
                       <p className="mt-4 line-clamp-2 font-light text-subtle">
-                        {toPlainText(n.lead)}
+                        <Link href={`/news/${n.slug}`} className="hover:text-ink">
+                          {toPlainText(n.lead)}
+                        </Link>
                       </p>
                     )}
-                    <p className="label-mono mt-5">Źródło: {n.sourceName}</p>
+                    {n.sourceUrl && (
+                      <p className="label-mono mt-5">
+                        Źródło:{" "}
+                        <a
+                          href={n.sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline underline-offset-2 transition-opacity hover:opacity-70"
+                        >
+                          {n.sourceName || "komunikat producenta"}
+                        </a>
+                      </p>
+                    )}
                   </article>
                 </li>
               ))}
