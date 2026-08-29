@@ -1,0 +1,92 @@
+{
+  "slug": "pozar-konczy-udzial-malysza-w-dakarze-2015",
+  "urlKey": "pozar-konczy-udzial-malysza-w-dakarze-2015",
+  "sourceUrl": "https://autogaleria.pl/pozar-konczy-udzial-malysza-w-dakarze-2015",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:42:31.067Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Pożar kończy udział Małysza w Dakarze 2015",
+  "excerpt": "Dramatyczne doniesienia z Argentyny – Adam Małysz i Rafał Marton kończą swój udział w rajdzie Dakar. Ich auto doszczętnie spłonęło.",
+  "lead": "Dramatyczne doniesienia z Argentyny – Adam Małysz i Rafał Marton kończą swój udział w rajdzie Dakar. Ich auto doszczętnie spłonęło.",
+  "category": "Motorsport",
+  "categories": [
+    {
+      "id": 224,
+      "name": "Motorsport",
+      "slug": "motorsport",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "2015",
+    "dakar",
+    "małysz",
+    "marton",
+    "pożar",
+    "wypadek"
+  ],
+  "publishedAt": "2015-01-05",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Jak donosi na Twitterze dziennikarz Radia Zet, Mikołaj Kruk (MikolajKruk), spalony samochód SMG Buggy Polskiej załogi Małysz-Marton stoi 30 kilometrów przed metą drugiego etapu rajdu. Przyczyna pożaru jest nieznana, wiemy natomiast, że z samochodu niewiele zostało -  jak relacjonuje Mikołaj Kruk: „Samochód Małysza spłonął doszczętnie. Nie dało się z niego nic wyciągnąć. Spaliły się nawet paszporty.”</p>\n<p>Na szczęście załoga w porę opuściła płonącą maszynę. Startujący w barwach Orlen Team zawodnicy przesiedli się w tym roku z niezniszczalnej Toyoty Hilux. Jak się okazało, Hilux nie bez powodu zdobył taką renomę.</p>\n<p>Długie i ciężkie przygotowania, zaangażowanie wielu członków załogi i ogromne nakłady finansowe – wszystko na marne. Współczujemy polskim zawodnikom, ale jednocześnie musimy się cieszyć z faktu, że wyszli z tego bez szwanku. Na Dakarze działy się znacznie gorsze rzeczy…</p>\n",
+  "bodyMarkdown": "Jak donosi na Twitterze dziennikarz Radia Zet, Mikołaj Kruk (MikolajKruk), spalony samochód SMG Buggy Polskiej załogi Małysz-Marton stoi 30 kilometrów przed metą drugiego etapu rajdu. Przyczyna pożaru jest nieznana, wiemy natomiast, że z samochodu niewiele zostało -  jak relacjonuje Mikołaj Kruk: „Samochód Małysza spłonął doszczętnie. Nie dało się z niego nic wyciągnąć. Spaliły się nawet paszporty.”\n\nNa szczęście załoga w porę opuściła płonącą maszynę. Startujący w barwach Orlen Team zawodnicy przesiedli się w tym roku z niezniszczalnej Toyoty Hilux. Jak się okazało, Hilux nie bez powodu zdobył taką renomę.\n\nDługie i ciężkie przygotowania, zaangażowanie wielu członków załogi i ogromne nakłady finansowe – wszystko na marne. Współczujemy polskim zawodnikom, ale jednocześnie musimy się cieszyć z faktu, że wyszli z tego bez szwanku. Na Dakarze działy się znacznie gorsze rzeczy…",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-6.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-2.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-3.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-4.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-5.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-6.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-7.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-8.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-9.jpg",
+      "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-10.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-6.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-2.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-3.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-4.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-5.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-6.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-7.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-8.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-9.jpg",
+        "https://autogaleria.pl/content/uploads/2015/01/dakar2015_małysz_2015-10.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "NEWS | Pożar kończy udział Małysza w Dakarze 2015",
+    "description": "Dramatyczne doniesienia z Argentyny – Adam Małysz i Rafał Marton kończą swój udział w rajdzie Dakar. Ich auto doszczętnie spłonęło."
+  },
+  "cars": [],
+  "imageCacheLocal": [
+    "pozar-konczy-udzial-malysza-w-dakarze-2015/hero.jpg",
+    "pozar-konczy-udzial-malysza-w-dakarze-2015/gallery-1.jpg",
+    "pozar-konczy-udzial-malysza-w-dakarze-2015/gallery-2.jpg",
+    "pozar-konczy-udzial-malysza-w-dakarze-2015/gallery-3.jpg"
+  ]
+}

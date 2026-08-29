@@ -1,0 +1,19 @@
+---
+slug: "renault-kadjar-premiere-edition-propozycja-dla-najszybszych"
+title: "Renault Kadjar Premiere Edition - propozycja dla najszybszych"
+publishedAt: "2015-06-19"
+category: "Producenci i rynek"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/renault-kadjar-premiere-edition-propozycja-dla-najszybszych"
+discoveredVia: "elasticsearch-author"
+lead: "Kadjar to ciekawy crossover od francuskiego Renault, który prawdopodobnie jest łasy na sukces w Europie. Osoby, którym propozycja znad Sekwany przypadła mocno do gustu, mogą tytułowy samochód zamawiać już teraz i to z delikatnym „elementem” wyróżnienia…"
+tags: ["2015", "cennik", "edition", "renault", "kadjar", "renault kadjar", "premiere", "promocja"]
+---
+
+89 900 zł – tyle właśnie kosztuje przedpremierowa wersja Kadjara Premiere Edition, którego można nabyć drogą internetową od 1 czerwca, zaś potencjalni nabywcy takowego samochodu mogą mieć pewność, że ich wybór będzie całkiem nieźle wyposażony. Z czego to wynika?
+
+Otóż Renault zapowiedziało, że wersja Premiere Edition będzie oparta na bogatej odmianie Intens wspomnianego Kadjara, a ponadto otrzyma również pakiet dodatkowych elementów wartych jakieś 7000 zł. Można zatem liczyć na system wspomagania parkowania Easy Park Assist z kamerą cofania, system wspomagania parkowania z przodu, z tyłu i z boku, system kontroli martwego pola, lusterko elektrochromatyczne, zapasowe koło dojazdowe oraz szklany dach (niestety bez możliwości jego otwarcia). Co oprócz tego? Czerwony lakier nadwozia Czerwony Flamme i benzynowy silnik Energy TCe 130, a jeżeli komuś naprawdę zależy na wersji Premiere Edition to radzę się pospieszyć – Renault przewidziało jedynie 100 egzemplarzy takowego Kadjara…
+
+A jak przedstawiają się ceny nowego Kadjara? Wspomniana, limitowana wersja Premiere Edition kosztuje – jak wspomniałem – co najmniej 89 900 zł, jednak by wejść w posiadanie francuskiego crossovera wystarczy 10 000 zł mniej. Wówczas otrzymamy „większego Captura” w odmianie Zen ze 130-konnym silnikiem benzynowym TCe, jednak manualna klimatyzacja, regulator i ogranicznik prędkości w jednym czy karta Renault Hands Free raczej nie zadowolą tych bardziej wymagających klientów. Za 88 900 zł (tysiąc złotych mniej aniżeli limitowana wersja Premiere Edition) można jednak nabyć wersję Intens oferującą w standardzie m.in. system multimedialny R-Link 2 z nawigacją, przyciemnione tylne szyby, system kontroli pasa ruchu (LDW), system wspomagania nagłego hamowania (AFU) czy też AHL – funkcję automatycznej zmiany świateł drogowych na mijania. Najdroższa, bo kosztująca co najmniej 119 900 zł, jest natomiast wersja BOSE oferująca rzecz jasna system nagłośnienia od wspomnianej firmy.
+
+Do wyboru trzy silniki: 130-konne TCe zasilane benzyną, wysokoprężne dCi o mocy 110 KM, które można zestawić z 6-biegowym „manualem” lub skrzynią automatyczną EDC oraz 130-konne dCi, które można także zamówić z napędem na cztery koła.

@@ -1,0 +1,81 @@
+{
+  "slug": "mercedes-amg-gt-s-video",
+  "urlKey": "mercedes-amg-gt-s-video",
+  "sourceUrl": "https://autogaleria.pl/mercedes-amg-gt-s-video",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:41:09.372Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Mercedes-AMG GT S",
+  "excerpt": "Test tego pięknego i szybkiego samochodu opublikowaliśmy tydzień temu. Czas, by film trafił na swoje miejsce w odpowiednim dziale, a z tej okazji mamy dla Was bonus...",
+  "lead": "Test tego pięknego i szybkiego samochodu opublikowaliśmy tydzień temu. Czas, by film trafił na swoje miejsce w odpowiednim dziale, a z tej okazji mamy dla Was bonus...",
+  "category": "Producenci i rynek",
+  "categories": [
+    {
+      "id": 221,
+      "name": "Producenci i rynek",
+      "slug": "producenci-i-rynek",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "video",
+    "film",
+    "youtube",
+    "mercedes",
+    "amg",
+    "gt",
+    "mercedes-AMG"
+  ],
+  "publishedAt": "2015-05-20",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Zapraszamy na seans filmu, zrealizowanego na terenie EXPO Areny w Ostródzie oraz na ulicach Gdańska:</p>\n<p>https://www.youtube.com/watch?v=SAiDStUs_NM</p>\n<p>A na deser - wspomniana niespodzianka... Czysty dźwięk silnika 4.0 V8 Biturbo z Affalterbach:</p>\n<p>https://www.youtube.com/watch?v=ABzmKqVJPH4</p>\n",
+  "bodyMarkdown": "Zapraszamy na seans filmu, zrealizowanego na terenie EXPO Areny w Ostródzie oraz na ulicach Gdańska:\n\nhttps://www.youtube.com/watch?v=SAiDStUs\\_NM\n\nA na deser - wspomniana niespodzianka... Czysty dźwięk silnika 4.0 V8 Biturbo z Affalterbach:\n\nhttps://www.youtube.com/watch?v=ABzmKqVJPH4",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "SAiDStUs_NM",
+      "url": "https://www.youtube.com/watch?v=SAiDStUs_NM",
+      "embedUrl": "https://www.youtube.com/embed/SAiDStUs_NM"
+    },
+    {
+      "videoId": "ABzmKqVJPH4",
+      "url": "https://www.youtube.com/watch?v=ABzmKqVJPH4",
+      "embedUrl": "https://www.youtube.com/embed/ABzmKqVJPH4"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/05/mercedes_amg_gt_s_auto_test_2015_39.jpg",
+    "gallery": [],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/05/mercedes_amg_gt_s_auto_test_2015_39.jpg",
+      "gallery": [],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Mercedes-AMG GT S | FILM | VIDEO",
+    "description": "Test tego pięknego i szybkiego samochodu opublikowaliśmy tydzień temu. Czas, by film trafił na swoje miejsce w odpowiednim dziale, a z tej okazji mamy dla Was bonus..."
+  },
+  "cars": [
+    "Mercedes"
+  ],
+  "imageCacheLocal": [
+    "mercedes-amg-gt-s-video/hero.jpg"
+  ]
+}

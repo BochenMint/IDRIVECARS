@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  LaunchAgent — autostart idrivecars.pl po reboot Mac Mini.
+
+  Instalacja:
+    1. Edytuj ścieżki DEPLOY_PATH i użytkownika poniżej
+    2. cp deploy/mac-mini/com.idrivecars.site.plist ~/Library/LaunchAgents/
+    3. launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.idrivecars.site.plist
+    4. launchctl kickstart -k gui/$(id -u)/com.idrivecars.site
+
+  Logi: ~/sites/idrivecars/logs/
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.idrivecars.site</string>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/PLACEHOLDER_USER/sites/idrivecars</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/npm</string>
+    <string>run</string>
+    <string>start</string>
+  </array>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>NODE_ENV</key>
+    <string>production</string>
+    <key>PORT</key>
+    <string>3000</string>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/PLACEHOLDER_USER/sites/idrivecars/logs/app.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/PLACEHOLDER_USER/sites/idrivecars/logs/app.err.log</string>
+
+  <key>ThrottleInterval</key>
+  <integer>10</integer>
+</dict>
+</plist>

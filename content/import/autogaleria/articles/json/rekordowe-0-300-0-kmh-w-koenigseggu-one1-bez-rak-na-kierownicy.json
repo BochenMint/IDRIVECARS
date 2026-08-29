@@ -1,0 +1,95 @@
+{
+  "slug": "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+  "urlKey": "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+  "sourceUrl": "https://autogaleria.pl/rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:20.624Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Rekordowe 0-300-0 km/h w Koenigseggu One:1 bez rąk na kierownicy!",
+  "excerpt": "W 2011 roku Koenigsegg Agera R przyspieszył do 300 km/h i wyhamował do zera w 21,19 sekundy. Kosmos? Zdecydowanie. Ale dla Koenigsegga nie ma rzeczy niemożliwych. Drugie podejście wykonali w modelu One:1. I to w jakim stylu...",
+  "lead": "W 2011 roku Koenigsegg Agera R przyspieszył do 300 km/h i wyhamował do zera w 21,19 sekundy. Kosmos? Zdecydowanie. Ale dla Koenigsegga nie ma rzeczy niemożliwych. Drugie podejście wykonali w modelu One:1. I to w jakim stylu...",
+  "category": "Po godzinach...",
+  "categories": [
+    {
+      "id": 2485,
+      "name": "Po godzinach...",
+      "slug": "po-godzinach",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "2015",
+    "rekord",
+    "1",
+    "r",
+    "koenigsegg",
+    "agera",
+    "one:1",
+    "one",
+    "300 km/h",
+    "0-300-0"
+  ],
+  "publishedAt": "2015-07-09",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Za kierownicą usiadł kierowca testowy Koenigsegga o znajomo brzmiącym nazwisku: Robert Serwanski. Za zadanie miał poprawić czas Agery R. Ale to, czy go pobił, schodzi na drugi plan po obejrzeniu filmu, na którym widać, jak dokonuje tego... prawie bez użycia rąk...</p>\n<p>https://www.youtube.com/watch?v=02K1CaUpAJA</p>\n<p>W niezwykle popisowej próbie Robert osiągnął niesamowity czas 0-300-0 wynoszący odbierające mowę 17,95 sekundy. A One:1 przez cały czas pozostaje idealnie stabilny... Tak się robi superauta - brawa dla Koenigsegga!</p>\n<p>P.S.</p>\n<p>Jeśli drażniła Was dziwaczna muzyka - jest na to rada.</p>\n<p>https://www.youtube.com/watch?v=Vr9r81O5vN8</p>\n",
+  "bodyMarkdown": "Za kierownicą usiadł kierowca testowy Koenigsegga o znajomo brzmiącym nazwisku: Robert Serwanski. Za zadanie miał poprawić czas Agery R. Ale to, czy go pobił, schodzi na drugi plan po obejrzeniu filmu, na którym widać, jak dokonuje tego... prawie bez użycia rąk...\n\nhttps://www.youtube.com/watch?v=02K1CaUpAJA\n\nW niezwykle popisowej próbie Robert osiągnął niesamowity czas 0-300-0 wynoszący odbierające mowę 17,95 sekundy. A One:1 przez cały czas pozostaje idealnie stabilny... Tak się robi superauta - brawa dla Koenigsegga!\n\nP.S.\n\nJeśli drażniła Was dziwaczna muzyka - jest na to rada.\n\nhttps://www.youtube.com/watch?v=Vr9r81O5vN8",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "02K1CaUpAJA",
+      "url": "https://www.youtube.com/watch?v=02K1CaUpAJA",
+      "embedUrl": "https://www.youtube.com/embed/02K1CaUpAJA"
+    },
+    {
+      "videoId": "Vr9r81O5vN8",
+      "url": "https://www.youtube.com/watch?v=Vr9r81O5vN8",
+      "embedUrl": "https://www.youtube.com/embed/Vr9r81O5vN8"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/07/koenigsegg-one-1-0-300-0-rekord-2015-1.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/07/koenigsegg-one-1-0-300-0-rekord-2015-3.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/koenigsegg-one-1-0-300-0-rekord-2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/07/koenigsegg-one-1-0-300-0-rekord-2015-2.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/07/koenigsegg-one-1-0-300-0-rekord-2015-1.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/07/koenigsegg-one-1-0-300-0-rekord-2015-3.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/koenigsegg-one-1-0-300-0-rekord-2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/07/koenigsegg-one-1-0-300-0-rekord-2015-2.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Rekordowe 0-300-0 km/h w Koenigseggu One:1 bez rąk na kierownicy!",
+    "description": "W 2011 roku Koenigsegg Agera R przyspieszył do 300 km/h i wyhamował do zera w 21,19 sekundy. Kosmos? Zdecydowanie. Ale dla Koenigsegga nie ma rzeczy niemożliwych. Drugie podejście wykonali w modelu One:1. I to w jakim stylu..."
+  },
+  "cars": [
+    "Koenigsegg"
+  ],
+  "imageCacheLocal": [
+    "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy/hero.jpg",
+    "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy/gallery-1.jpg",
+    "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy/gallery-2.jpg",
+    "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy/gallery-3.jpg"
+  ]
+}

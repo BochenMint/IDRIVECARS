@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-07-01T00:00:00.000Z",
+  "pass": 6,
+  "verdict": "DUPLICATE_LEGACY — citroen-c3 ustawiony na draft",
+  "entries": [
+    {
+      "slug": "citroen-c3-16-vti-exclusive-2",
+      "path": "content/testy/citroen-c3-16-vti-exclusive-2.mdx",
+      "status": "published",
+      "publishedAt": "2014-04-27",
+      "sourceUrl": "https://autogaleria.pl/citroen-c3-16-vti-exclusive-2",
+      "role": "CANONICAL",
+      "notes": "Pełny import autoGALERIA, najnowszy test C3 gen.2 (2014), galeria galleries/citroen-c3"
+    },
+    {
+      "slug": "citroen-c3-16-vti-exclusive",
+      "path": "content/testy/citroen-c3-16-vti-exclusive.mdx",
+      "status": "published",
+      "publishedAt": "2010-07-17",
+      "sourceUrl": "https://autogaleria.pl/citroen-c3-16-vti-exclusive",
+      "role": "DISTINCT_EARLIER_TEST",
+      "notes": "Osobny artykuł (2010, motyw wiosenny) — NIE duplikat exclusive-2; współdzieli galerię citroen-c3"
+    },
+    {
+      "slug": "citroen-c3",
+      "path": "content/testy/citroen-c3.mdx",
+      "status": "draft",
+      "publishedAt": "2015-06-01",
+      "originalUrl": "https://autogaleria.pl/citroen-2020",
+      "role": "LEGACY_DUPLICATE",
+      "notes": "Ręczna migracja; treść ≈ exclusive-2 (lead, sekcje Z zewnątrz/Zenith). Błędny originalUrl. Bez import block."
+    }
+  ],
+  "recommendation": {
+    "canonical": "citroen-c3-16-vti-exclusive-2",
+    "merge": "NIE — exclusive (2010) ma unikatową treść; citroen-c3 to kopia exclusive-2",
+    "actionTaken": "citroen-c3 → status: draft (Pass 6)",
+    "actionPending": "Opcjonalnie: redirect 301 citroen-c3 → exclusive-2 po deploy lub usunięcie legacy po merge slugów"
+  },
+  "sharedGallery": "galleries/citroen-c3"
+}

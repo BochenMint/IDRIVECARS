@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-06-30T22:20:22.644Z",
+  "dryRun": false,
+  "publishedOnly": false,
+  "draftOnly": true,
+  "slugFilter": [],
+  "summary": {
+    "candidates": 37,
+    "deployed": 34,
+    "skipped": 3,
+    "errors": 0
+  },
+  "results": [
+    {
+      "slug": "bmw-328i-xdrive",
+      "status": "skipped",
+      "reason": "za mało obrazów w cache (0 < 2)"
+    },
+    {
+      "slug": "alfa-romeo-giulia-qv-na-zywo-galeria",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/alfa-romeo-giulia-qv-na-zywo-galeria",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "fame-shame-2014-czyli-zachwyty-i-rozczarowania-redaktorow-ag",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/fame-shame-2014-czyli-zachwyty-i-rozczarowania-redaktorow-ag",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/galeria-10-replik-bugatti-veyrona-marzyc-kazdy-moze",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "motoryzacyjny-luksus-ksiestwa-monako-czesc-1-galeria",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/motoryzacyjny-luksus-ksiestwa-monako-czesc-1-galeria",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "motoryzacyjny-luksus-ksiestwa-monako-czesc-2-noc-galeria",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/motoryzacyjny-luksus-ksiestwa-monako-czesc-2-noc-galeria",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "nadchodzi-cos-szybkiego-od-mercedes-amg",
+      "status": "deployed",
+      "images": 3,
+      "galleryDir": "galleries/nadchodzi-cos-szybkiego-od-mercedes-amg",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/rekordowe-0-300-0-kmh-w-koenigseggu-one1-bez-rak-na-kierownicy",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible",
+      "status": "skipped",
+      "reason": "za mało obrazów w cache (1 < 2)"
+    },
+    {
+      "slug": "aktualizacja-volkswagena-tiguana",
+      "status": "deployed",
+      "images": 3,
+      "galleryDir": "galleries/aktualizacja-volkswagena-tiguana",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/alonso-i-button-w-wehikule-czasu-na-bazie-mclarena-650s",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "bentley-exp-10-speed-6-concept-mniejszy-brat-continentala",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/bentley-exp-10-speed-6-concept-mniejszy-brat-continentala",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "ford-mustang-super-snake-waz-ktorego-warto-miec",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/ford-mustang-super-snake-waz-ktorego-warto-miec",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "gwiazdka-michelin-dla-motointegratora",
+      "status": "deployed",
+      "images": 3,
+      "galleryDir": "galleries/gwiazdka-michelin-dla-motointegratora",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "i-ty-mozesz-zostac-nowa-twarza-top-gear",
+      "status": "deployed",
+      "images": 3,
+      "galleryDir": "galleries/i-ty-mozesz-zostac-nowa-twarza-top-gear",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "jak-prawidlowo-przezimowac-opony",
+      "status": "deployed",
+      "images": 3,
+      "galleryDir": "galleries/jak-prawidlowo-przezimowac-opony",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "jak-wyglada-praca-wyscigowych-hamulcow",
+      "status": "deployed",
+      "images": 3,
+      "galleryDir": "galleries/jak-wyglada-praca-wyscigowych-hamulcow",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "jeremy-clarkson-oficjalnie-zwolniony-z-bbc",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/jeremy-clarkson-oficjalnie-zwolniony-z-bbc",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "koenigsegg-regera-fabryka-marzen",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/koenigsegg-regera-fabryka-marzen",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "konkurs-ocen-nowe-xc90-i-wygraj-cenne-nagrody-od-volvo-i-autogalerii",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/konkurs-ocen-nowe-xc90-i-wygraj-cenne-nagrody-od-volvo-i-autogalerii",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "mclaren-odpowiada-topgear-bylismy-gotowi-na-potrojny-test",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/mclaren-odpowiada-topgear-bylismy-gotowi-na-potrojny-test",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "mercedes-amg-gt-s-video",
+      "status": "skipped",
+      "reason": "za mało obrazów w cache (1 < 2)"
+    },
+    {
+      "slug": "mercedes-cls-350-bluetec-7g-tronic-plus",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/mercedes-cls-350-bluetec-7g-tronic-plus",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "najlepszy-zawod-swiata",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/najlepszy-zawod-swiata",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "nowy-fiat-500-doskonalenie-formy",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/nowy-fiat-500-doskonalenie-formy",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "pozar-konczy-udzial-malysza-w-dakarze-2015",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/pozar-konczy-udzial-malysza-w-dakarze-2015",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "rekordowe-0-100-kmh-niemieckich-studentow-galeria-film",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/rekordowe-0-100-kmh-niemieckich-studentow-galeria-film",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "renault-kadjar-premiere-edition-propozycja-dla-najszybszych",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/renault-kadjar-premiere-edition-propozycja-dla-najszybszych",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "skoda-octavia-rs-2-0-tsi-nie-zginac-w-monako",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/skoda-octavia-rs-2-0-tsi-nie-zginac-w-monako",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "skoda-octavia-rs-2-0-tsi-special-stage-1",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/skoda-octavia-rs-2-0-tsi-special-stage-1",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "tak-brzmi-aston-martin-vulcan",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/tak-brzmi-aston-martin-vulcan",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "testujemy-volkswagena-xl1",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/testujemy-volkswagena-xl1",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "wyniki-konkursu-ocen-nowe-volvo-xc90",
+      "status": "deployed",
+      "images": 4,
+      "galleryDir": "galleries/wyniki-konkursu-ocen-nowe-volvo-xc90",
+      "mdxUpdated": true
+    },
+    {
+      "slug": "znamy-zasady-castingu-do-top-gear",
+      "status": "deployed",
+      "images": 3,
+      "galleryDir": "galleries/znamy-zasady-castingu-do-top-gear",
+      "mdxUpdated": true
+    }
+  ]
+}

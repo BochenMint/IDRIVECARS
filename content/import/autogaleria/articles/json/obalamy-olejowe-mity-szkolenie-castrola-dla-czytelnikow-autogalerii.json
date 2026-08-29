@@ -1,0 +1,81 @@
+{
+  "slug": "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+  "urlKey": "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+  "sourceUrl": "https://autogaleria.pl/obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:41:17.827Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Obalamy olejowe mity - szkolenie Castrola dla czytelników autoGALERII",
+  "excerpt": "„Jaki olej mam wybrać do swojego samochodu?” - To pytanie pojawia się na forach internetowych wyjątkowo często, a odpowiedzi jest zwykle tyle, ilu odpowiadających. Jeśli chcecie poprawić swoją wiedzę o olejach silnikowych, mamy dla Was ciekawą propozycję.",
+  "lead": "„Jaki olej mam wybrać do swojego samochodu?” - To pytanie pojawia się na forach internetowych wyjątkowo często, a odpowiedzi jest zwykle tyle, ilu odpowiadających. Jeśli chcecie poprawić swoją wiedzę o olejach silnikowych, mamy dla Was ciekawą propozycję.",
+  "category": "Wydarzenia",
+  "categories": [
+    {
+      "id": 219,
+      "name": "Wydarzenia",
+      "slug": "wydarzenia",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "szkolenie",
+    "castrol",
+    "oleje",
+    "silnikowe",
+    "wydarzenia"
+  ],
+  "publishedAt": "2015-05-12",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Wraz z firmą Castrol zapraszamy Was na szkolenie prowadzone przez Pawła Mastalerka, który od podstaw zapozna uczestników ze składem oleju silnikowego, metodami produkcji i znaczeniem jego parametrów.</p>\n<p>Ale to nie wszystko - przede wszystkim stawimy czoła krążącym wśród \"znawców\" mitom, dowiemy się również wszystkiego o tym, jak dobrać właściwy olej do swojego samochodu oraz jakie będą konsekwencje zastosowania niewłaściwego. Czy droższy zawsze oznacza lepszy? <span style=\"line-height: 1.5;\">Czym, oprócz zaleceń producenta, kierować się przy wyborze? </span></p>\n<p><span style=\"line-height: 1.5;\">Szkolenie odbędzie się za równy miesiąc, 12 czerwca w Warszawie, będzie trwać od 15:00 do 20:00 i mamy 30 miejsc. Chętnych prosimy o zapisy w wątku na forum poniżej. Kto pierwszy, ten lepszy!</span></p>\n",
+  "bodyMarkdown": "Wraz z firmą Castrol zapraszamy Was na szkolenie prowadzone przez Pawła Mastalerka, który od podstaw zapozna uczestników ze składem oleju silnikowego, metodami produkcji i znaczeniem jego parametrów.\n\nAle to nie wszystko - przede wszystkim stawimy czoła krążącym wśród \"znawców\" mitom, dowiemy się również wszystkiego o tym, jak dobrać właściwy olej do swojego samochodu oraz jakie będą konsekwencje zastosowania niewłaściwego. Czy droższy zawsze oznacza lepszy? Czym, oprócz zaleceń producenta, kierować się przy wyborze?\n\nSzkolenie odbędzie się za równy miesiąc, 12 czerwca w Warszawie, będzie trwać od 15:00 do 20:00 i mamy 30 miejsc. Chętnych prosimy o zapisy w wątku na forum poniżej. Kto pierwszy, ten lepszy!",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-2.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-2.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-3.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-4.jpg",
+      "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-5.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-2.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-2.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-3.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-4.jpg",
+        "https://autogaleria.pl/content/uploads/2015/05/castrol-szkolenie-olejowe-2015-5.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Szkolenie Castrola dla czytelników aG",
+    "description": "Jeśli chcecie poprawić swoją wiedzę o olejach silnikowych, mamy dla Was ciekawą propozycję. Spotkajmy się w Warszawie!"
+  },
+  "cars": [],
+  "imageCacheLocal": [
+    "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii/hero.jpg",
+    "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii/gallery-1.jpg",
+    "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii/gallery-2.jpg",
+    "obalamy-olejowe-mity-szkolenie-castrola-dla-czytelnikow-autogalerii/gallery-3.jpg"
+  ]
+}

@@ -1,0 +1,17 @@
+---
+slug: "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie"
+title: "Przekonaj się, jak mało wiesz o olejach silnikowych. Zapraszamy na szkolenie!"
+publishedAt: "2015-06-09"
+category: "Wydarzenia"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie"
+discoveredVia: "elasticsearch-author"
+lead: "Warto wiedzieć, co i dlaczego wlewamy do naszego silnika, oraz co należy wlewać, aby go nie zniszczyć. Dlaczego 0W40 a nie 10W60? No i skąd tak właściwie bierze się olej silnikowy i co stanowi o różnicach pomiędzy nimi?"
+tags: ["autogaleria", "szkolenie", "castrol", "zlot", "spotkanie"]
+---
+
+Możemy znać się na turbosprężarkach, skrzyniach biegów i silnikach naszych samochodów, ale czy temat olejów silnikowych jest równie bliski większości z nas? Niestety, najczęściej nie. Wielu kierowców swoją wiedzę czerpie z for internetowych i opinii innych. Czy możemy być pewni tak pozyskanej wiedzy?
+
+Tematem przewodnim szkolenia będą mity olejowe. Obalimy większość z nich. Ale nie będziemy rozmawiać tylko o tym. Paweł Mastalerek, ekspert Castrola, opowie o tym, skąd właściwie biorą się oleje silnikowe, jakie pływają w nich dodatki i co odróżnia od siebie różne rodzaje oleju. Czym różni się gęstość od lepkości? Jakieś pomysły? Wszystkiego możecie dowiedzieć się już w najbliższy piątek.
+
+Gorąco zapraszamy na szkolenie, które jest darmowe i zorganizowane specjalnie dla nas. Odbędzie się 12 czerwca (piątek) o godzinie 15:00 i potrwa do ok. 20:00. Zapraszajcie znajomych i wpadajcie, najlepiej swoimi samochodami, na Chłodną 51 w Warszawie. My też przywieziemy coś bardzo ciekawego!

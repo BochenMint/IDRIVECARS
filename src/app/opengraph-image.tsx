@@ -1,69 +1,57 @@
 import { ImageResponse } from "next/og";
-import { siteConfig } from "@/lib/site";
 
-export const alt = siteConfig.title;
+export const runtime = "edge";
+export const alt = "IDRIVECARS — Autorskie testy samochodów i pierwsze jazdy";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export default function OpengraphImage() {
+export default function OgImage() {
   return new ImageResponse(
     (
       <div
         style={{
-          width: "100%",
-          height: "100%",
           display: "flex",
           flexDirection: "column",
-          justifyContent: "space-between",
-          background: "#0a0a0a",
-          padding: "72px",
-          color: "#ffffff"
+          alignItems: "center",
+          justifyContent: "center",
+          width: "100%",
+          height: "100%",
+          background: "#0A0A0A"
         }}
       >
         <div
           style={{
             display: "flex",
-            fontSize: 30,
-            letterSpacing: "0.35em",
-            textTransform: "uppercase",
-            color: "#a3a3a3"
-          }}
-        >
-          Testy samochodów · Galerie
-        </div>
-        <div
-          style={{
-            display: "flex",
             flexDirection: "column",
-            gap: 24
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "24px"
           }}
         >
-          <div
+          <span
             style={{
-              display: "flex",
-              fontSize: 116,
-              fontStyle: "italic",
-              fontFamily: "Georgia, serif",
+              fontFamily: "sans-serif",
+              fontWeight: 700,
+              fontSize: "104px",
+              letterSpacing: "0.06em",
+              color: "#FAF8F5",
               lineHeight: 1
             }}
           >
             IDRIVECARS
-          </div>
-          <div style={{ display: "flex", fontSize: 36, color: "#d4d4d4", maxWidth: 920 }}>
-            Autorskie testy, pierwsze jazdy i duże fotografie — Marcin Bochenek.
-          </div>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "flex-end",
-            fontSize: 28,
-            color: "#a3a3a3"
-          }}
-        >
-          <span>idrivecars.pl</span>
-          <span style={{ color: "#ffffff" }}>Bez krzyku. Z własnymi zdjęciami.</span>
+          </span>
+          <span
+            style={{
+              fontFamily: "sans-serif",
+              fontWeight: 400,
+              fontSize: "26px",
+              letterSpacing: "0.04em",
+              color: "#888884",
+              lineHeight: 1
+            }}
+          >
+            Testy samochodów · Pierwsze jazdy · Własne zdjęcia
+          </span>
         </div>
       </div>
     ),

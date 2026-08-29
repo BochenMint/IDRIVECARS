@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-06-30T21:43:03.470Z",
+  "authorKey": "marcin-bochenek",
+  "authorName": "Marcin Bochenek",
+  "pagination": {
+    "mechanism": "Przycisk \"Pokaż więcej\" wywołuje Vuex author/list → POST Elasticsearch /api/index/autogaleria/_search?type=post z filtrem author.key, parametrami from (start) i size (domyślnie 16).",
+    "endpoint": "https://autogaleria.pl/api/index/autogaleria/_search?type=post&_source_includes=id,title,isHot,author,date,gallery,thumbnail,type,urlKey,categories",
+    "pageSize": 16,
+    "totalFromIndex": 75
+  },
+  "counts": {
+    "discoveredUrls": 85,
+    "uniqueUrls": 75,
+    "fetchedOk": 75,
+    "fetchedFailed": 0,
+    "skippedCached": 0
+  },
+  "discoveredVia": {
+    "elasticsearch-author": 75,
+    "author-nuxt-ssr": 0,
+    "seed-url": 10,
+    "manual": 0
+  },
+  "failures": [],
+  "missingOrUncertain": [
+    "rolls-royce-dawn-najlepszy-kabriolet-na-swiecie-galeria: za krótki bodyMarkdown",
+    "tapety-z-naszego-testu-bentley-continental-gt-v8-s-convertible: za krótki bodyMarkdown"
+  ],
+  "seedUrlsChecked": [
+    {
+      "url": "https://autogaleria.pl/moj-pierwszy-raz",
+      "urlKey": "moj-pierwszy-raz",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/wszystko-albo-nic",
+      "urlKey": "wszystko-albo-nic",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/porsche-911-targa-4s-pdk",
+      "urlKey": "porsche-911-targa-4s-pdk",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/rolls-royce-wraith",
+      "urlKey": "rolls-royce-wraith",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/mercedes-c200-7g-tronic-plus",
+      "urlKey": "mercedes-c200-7g-tronic-plus",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/bmw-435i",
+      "urlKey": "bmw-435i",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/porsche-boxster-s",
+      "urlKey": "porsche-boxster-s",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/maserati-granturismo-sport",
+      "urlKey": "maserati-granturismo-sport",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/lexus-rx-350-f-sport",
+      "urlKey": "lexus-rx-350-f-sport",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    },
+    {
+      "url": "https://autogaleria.pl/bmw-328i-xdrive",
+      "urlKey": "bmw-328i-xdrive",
+      "status": "ok",
+      "author": "marcin-bochenek"
+    }
+  ],
+  "outputDirs": {
+    "articlesJson": "content\\import\\autogaleria\\articles\\json",
+    "articlesMarkdown": "content\\import\\autogaleria\\articles\\markdown",
+    "cache": "content\\import\\autogaleria\\cache\\api",
+    "images": "content\\import\\autogaleria\\images",
+    "urlManifest": "content\\import\\autogaleria\\url-manifest.json",
+    "report": "content\\import\\autogaleria\\import-report.json"
+  },
+  "scripts": [
+    "scripts/import-autogaleria-marcin.ts",
+    "scripts/sanity-check-autogaleria-parser.ts",
+    "scripts/convert-autogaleria-images.ts"
+  ]
+}

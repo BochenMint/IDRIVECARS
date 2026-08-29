@@ -1,0 +1,79 @@
+{
+  "slug": "aktualizacja-volkswagena-tiguana",
+  "urlKey": "aktualizacja-volkswagena-tiguana",
+  "sourceUrl": "https://autogaleria.pl/aktualizacja-volkswagena-tiguana",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:49.578Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Aktualizacja Volkswagena Tiguana",
+  "excerpt": "Nieustannie w cieniu luksusowego Touarega – co oczywiście nie znaczy, że jest zły. Volkswagen Tiguan lekko nie domagał jak do tej pory w dwóch aspektach, jednak włodarze niemieckiego koncernu postanowili to naprawić…",
+  "lead": "Nieustannie w cieniu luksusowego Touarega – co oczywiście nie znaczy, że jest zły. Volkswagen Tiguan lekko nie domagał jak do tej pory w dwóch aspektach, jednak włodarze niemieckiego koncernu postanowili to naprawić…",
+  "category": "Nowości i premiery",
+  "categories": [
+    {
+      "id": 217,
+      "name": "Nowości i premiery",
+      "slug": "nowosci-i-premiery",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "2015",
+    "volkswagen",
+    "facelifting",
+    "tiguan",
+    "zmiany",
+    "aktualizacja",
+    "volkswagen tiguan",
+    "tiguan fl"
+  ],
+  "publishedAt": "2015-06-18",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Pierwsza rzecz – silniki, wysokoprężne silniki. Do tej pory 2-litrowe jednostki TDI montowane pod maską tytułowego samochodu, generowały całkiem przyzwoite 140 i 177 koni mechanicznych, ale czas na małe zmiany. Volkswagen oczywiście wzmocnił swoje diesle odpowiednio do 150 i 184 KM, przy czym emisja szkodliwego dwutlenku węgla ma się zmniejszyć nawet o 17 g, zaś obie jednostki spełniają wyśrubowaną normę czystości spalin Euro 6. Jak to zwykle bywa – geniusz inżynieryjny, ale przejdźmy do systemów multimedialnych…</p>\n<p>„Na pokład” Volkswagena Tiguana trafiło Composition Colour i Composition Media – systemy radiowe o większych możliwościach adaptacyjnych, z kolorowym, dotykowym wyświetlaczem, ośmioma głośnikami czy możliwością zamiany na system radiowo-nawigacyjny Discover Media z seryjną funkcją Guide&amp;Inform (internetowy pakiet usług od Volkswagena). Ponadto Composition Media oraz wspomniane Discover Media będą mogły być również wyposażone w funkcję App Connect, która nie jest jeszcze u nas dostępna (zintegrowanie smartfona ze sprzętem samochodowym i korzystanie z aplikacji pochodzących ze sklepu Google tudzież Apple Store), a którą będzie można dodatkowo rozszerzyć o tzw. Media Control (sterowanie różnymi jej funkcjami za pomocą tabletu).</p>\n<p>Aktualizacja niezbyt rozbudowana, ale jakże istotna…</p>\n",
+  "bodyMarkdown": "Pierwsza rzecz – silniki, wysokoprężne silniki. Do tej pory 2-litrowe jednostki TDI montowane pod maską tytułowego samochodu, generowały całkiem przyzwoite 140 i 177 koni mechanicznych, ale czas na małe zmiany. Volkswagen oczywiście wzmocnił swoje diesle odpowiednio do 150 i 184 KM, przy czym emisja szkodliwego dwutlenku węgla ma się zmniejszyć nawet o 17 g, zaś obie jednostki spełniają wyśrubowaną normę czystości spalin Euro 6. Jak to zwykle bywa – geniusz inżynieryjny, ale przejdźmy do systemów multimedialnych…\n\n„Na pokład” Volkswagena Tiguana trafiło Composition Colour i Composition Media – systemy radiowe o większych możliwościach adaptacyjnych, z kolorowym, dotykowym wyświetlaczem, ośmioma głośnikami czy możliwością zamiany na system radiowo-nawigacyjny Discover Media z seryjną funkcją Guide&Inform (internetowy pakiet usług od Volkswagena). Ponadto Composition Media oraz wspomniane Discover Media będą mogły być również wyposażone w funkcję App Connect, która nie jest jeszcze u nas dostępna (zintegrowanie smartfona ze sprzętem samochodowym i korzystanie z aplikacji pochodzących ze sklepu Google tudzież Apple Store), a którą będzie można dodatkowo rozszerzyć o tzw. Media Control (sterowanie różnymi jej funkcjami za pomocą tabletu).\n\nAktualizacja niezbyt rozbudowana, ale jakże istotna…",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/volkswagen-tiguan-fl-2015-1-2.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/06/volkswagen-tiguan-fl-2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/volkswagen-tiguan-fl-2015-1-2.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/volkswagen-tiguan-fl-2015-1-2.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/06/volkswagen-tiguan-fl-2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/volkswagen-tiguan-fl-2015-1-2.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Aktualizacja Volkswagena Tiguana | NEWS",
+    "description": "Nieustannie w cieniu luksusowego Touarega – co oczywiście nie znaczy, że jest zły. Volkswagen Tiguan lekko nie domagał jak do tej pory w dwóch aspektach, jednak włodarze niemieckiego koncernu postanowili to naprawić…"
+  },
+  "cars": [
+    "Volkswagen"
+  ],
+  "imageCacheLocal": [
+    "aktualizacja-volkswagena-tiguana/hero.jpg",
+    "aktualizacja-volkswagena-tiguana/gallery-1.jpg",
+    "aktualizacja-volkswagena-tiguana/gallery-2.jpg"
+  ]
+}

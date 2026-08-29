@@ -1,150 +1,256 @@
+import type { Metadata } from "next";
+import {
+  SITE_AUTHOR,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_URL,
+  SOCIAL_LINKS
+} from "@/lib/site";
+
+/** Kanoniczny URL strony statycznej (względny — rozwiązywany przez metadataBase). */
+export function pageCanonical(path: string): Pick<Metadata, "alternates"> {
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  return { alternates: { canonical: normalized } };
+}
+
+const ORG_ID = `${SITE_URL}/#organization`;
+const AUTHOR_ID = `${SITE_URL}/#author`;
+const WEBSITE_ID = `${SITE_URL}/#website`;
+const LOGO_URL = `${SITE_URL}/idrivecars-logo-dark.png`;
+
+/** Dekoduje najczęstsze encje HTML (również podwójnie zakodowane w treści). */
+/** Usuwa markery emfazy/kodu; zostawia pojedyncze * (np. „3*5”). */
+function stripMarkdownEmphasis(text: string): string {
+  return text
+    .replace(/\*{2}/g, "")
+    .replace(/_{2}/g, "")
+    .replace(/`+/g, "")
+    .replace(/~+/g, "");
+}
+
+function decodeEntities(input: string): string {
+  return input
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#0*39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&");
+}
+
 /**
- * Buildery danych strukturalnych schema.org (JSON-LD).
- * Wszystkie korzystają z centralnej konfiguracji w `site.ts`.
+ * Markdown/HTML → czysty tekst do wyświetlania w podglądach (karty, leady).
+ * Nie zmienia treści merytorycznej — usuwa tylko znaczniki i składnię formatowania.
  */
-import { absoluteUrl, siteConfig } from "./site";
-import type { TestMeta } from "./content/types";
+export function toPlainText(
+  input: string | undefined | null,
+  maxLength?: number
+): string {
+  if (!input || !input.trim()) return "";
 
-const ORGANIZATION_ID = `${siteConfig.url}/#organization`;
-const WEBSITE_ID = `${siteConfig.url}/#website`;
-const PERSON_ID = `${siteConfig.url}/#marcin-bochenek`;
+  let text = input;
+  text = text.replace(/```[\s\S]*?```/g, " ");
+  text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, " ");
+  text = text.replace(/\[([^\]]*)\]\([^)]*\)/g, "$1");
+  text = text.replace(/<[^>]+>/g, " ");
+  text = decodeEntities(text);
+  text = text.replace(/<[^>]+>/g, " ");
+  text = text.replace(/^[\s>#]+/gm, " ");
+  text = stripMarkdownEmphasis(text);
+  text = text.replace(/\s+/g, " ").trim();
 
-/** Wydawca / marka serwisu. */
-export function organizationSchema(): Record<string, unknown> {
+  if (!maxLength || text.length <= maxLength) return text;
+  const truncated = text.slice(0, maxLength);
+  const lastSpace = truncated.lastIndexOf(" ");
+  const base = lastSpace > maxLength * 0.6 ? truncated.slice(0, lastSpace) : truncated;
+  return `${base.replace(/[\s.,;:–-]+$/, "")}…`;
+}
+
+/**
+ * Czyści dowolny tekst (markdown/HTML) do płaskiej meta-description.
+ * Usuwa znaczniki, linki, nagłówki i emfazę, skleja białe znaki i przycina
+ * do `maxLength` na granicy słowa. Pusty wejściowy tekst → domyślny opis witryny.
+ */
+export function toMetaDescription(
+  input: string | undefined | null,
+  maxLength = 160
+): string {
+  const plain = toPlainText(input);
+  if (!plain) return SITE_DESCRIPTION;
+  return toPlainText(plain, maxLength);
+}
+
+/** Zamienia ścieżkę lub względny adres na bezwzględny URL (dla OG / JSON-LD). */
+export function absoluteUrl(pathOrUrl?: string | null): string | undefined {
+  if (!pathOrUrl) return undefined;
+  if (/^https?:\/\//i.test(pathOrUrl)) return pathOrUrl;
+  const path = pathOrUrl.startsWith("/") ? pathOrUrl : `/${pathOrUrl}`;
+  return `${SITE_URL}${path}`;
+}
+
+/** Węzeł Organization (wydawca) — referowany przez @id w innych węzłach. */
+export function organizationNode() {
   return {
-    "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": ORGANIZATION_ID,
-    name: siteConfig.name,
-    url: siteConfig.url,
+    "@id": ORG_ID,
+    name: SITE_NAME,
+    url: SITE_URL,
     logo: {
       "@type": "ImageObject",
-      url: absoluteUrl(siteConfig.logo)
+      url: LOGO_URL,
+      width: 1880,
+      height: 1574
     },
-    founder: { "@id": PERSON_ID },
-    email: siteConfig.email,
-    description: siteConfig.description
+    ...(SOCIAL_LINKS.length ? { sameAs: SOCIAL_LINKS } : {})
   };
 }
 
-/** Reprezentacja całej witryny. */
-export function websiteSchema(): Record<string, unknown> {
+/** Węzeł Person (autor) — E-E-A-T, referowany przez @id. */
+export function personNode() {
   return {
-    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": AUTHOR_ID,
+    name: SITE_AUTHOR.name,
+    url: SITE_AUTHOR.url,
+    jobTitle: "Dziennikarz motoryzacyjny",
+    worksFor: { "@id": ORG_ID },
+    ...(SOCIAL_LINKS.length ? { sameAs: SOCIAL_LINKS } : {})
+  };
+}
+
+/** Węzeł WebSite — referowany przez @id. */
+export function websiteNode() {
+  return {
     "@type": "WebSite",
     "@id": WEBSITE_ID,
-    name: siteConfig.name,
-    url: siteConfig.url,
-    inLanguage: siteConfig.language,
-    description: siteConfig.description,
-    publisher: { "@id": ORGANIZATION_ID }
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: SITE_DESCRIPTION,
+    inLanguage: "pl-PL",
+    publisher: { "@id": ORG_ID }
   };
 }
 
-/** Autor serwisu (Person) — używany na stronie „O mnie” i jako autor artykułów. */
-export function personSchema(): Record<string, unknown> {
+/** Węzeł BreadcrumbList z listy { name, url }. */
+export function breadcrumbNode(items: Array<{ name: string; url: string }>) {
   return {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": PERSON_ID,
-    name: siteConfig.author.name,
-    jobTitle: siteConfig.author.jobTitle,
-    url: siteConfig.author.url,
-    worksFor: { "@id": ORGANIZATION_ID }
-  };
-}
-
-/** Ścieżka okruszków (breadcrumbs). `items` w kolejności od strony głównej do bieżącej. */
-export function breadcrumbSchema(items: Array<{ name: string; path: string }>): Record<string, unknown> {
-  return {
-    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: items.map((item, index) => ({
+    itemListElement: items.map((it, i) => ({
       "@type": "ListItem",
-      position: index + 1,
-      name: item.name,
-      item: absoluteUrl(item.path)
+      position: i + 1,
+      name: it.name,
+      item: it.url
     }))
   };
 }
 
-/** Artykuł / test samochodu — wraz z opisem pojazdu (`about`). */
-export function articleSchema(meta: TestMeta, imageUrl: string | null): Record<string, unknown> {
-  const url = absoluteUrl(`/testy/${meta.slug}`);
-  const vehicleName = [meta.brand, meta.model, meta.version].filter(Boolean).join(" ");
-
-  const car: Record<string, unknown> = {
-    "@type": "Car",
-    name: vehicleName,
-    brand: { "@type": "Brand", name: meta.brand },
-    model: meta.model
-  };
-  if (meta.year) car.modelDate = String(meta.year);
-  if (meta.bodyType) car.bodyType = meta.bodyType;
-  if (meta.drivetrain) car.driveWheelConfiguration = meta.drivetrain;
-  if (meta.engine) {
-    car.vehicleEngine = {
-      "@type": "EngineSpecification",
-      name: meta.engine,
-      ...(meta.power ? { enginePower: meta.power } : {}),
-      ...(meta.torque ? { torque: meta.torque } : {})
-    };
-  }
-  if (meta.gearbox) car.vehicleTransmission = meta.gearbox;
-
+/** Węzeł ItemList (np. indeks testów) z listy { name, url }. */
+export function itemListNode(
+  items: Array<{ name: string; url: string }>,
+  name?: string
+) {
   return {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    headline: meta.title,
-    description: meta.lead ?? meta.title,
-    ...(imageUrl ? { image: [absoluteUrl(imageUrl)] } : {}),
-    datePublished: meta.publishedAt,
-    dateModified: meta.publishedAt,
-    inLanguage: siteConfig.language,
-    author: { "@id": PERSON_ID },
-    publisher: { "@id": ORGANIZATION_ID },
-    isPartOf: { "@id": WEBSITE_ID },
-    about: car,
-    ...(meta.tags && meta.tags.length > 0 ? { keywords: meta.tags.join(", ") } : {})
-  };
-}
-
-/** Pojedynczy news jako NewsArticle. */
-export function newsArticleSchema(item: {
-  slug: string;
-  title: string;
-  lead?: string;
-  publishedAt: string;
-  sourceName?: string;
-}): Record<string, unknown> {
-  const url = absoluteUrl(`/news/${item.slug}`);
-  return {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    headline: item.title,
-    ...(item.lead ? { description: item.lead } : {}),
-    datePublished: item.publishedAt,
-    dateModified: item.publishedAt,
-    inLanguage: siteConfig.language,
-    publisher: { "@id": ORGANIZATION_ID },
-    isPartOf: { "@id": WEBSITE_ID }
-  };
-}
-
-/** Lista pozycji (CollectionPage / ItemList) — np. spis testów. */
-export function itemListSchema(
-  items: Array<{ name: string; path: string }>
-): Record<string, unknown> {
-  return {
-    "@context": "https://schema.org",
     "@type": "ItemList",
-    itemListElement: items.map((item, index) => ({
+    ...(name ? { name } : {}),
+    numberOfItems: items.length,
+    itemListElement: items.map((it, i) => ({
       "@type": "ListItem",
-      position: index + 1,
-      name: item.name,
-      url: absoluteUrl(item.path)
+      position: i + 1,
+      name: it.name,
+      url: it.url
     }))
   };
+}
+
+type ArticleNodeInput = {
+  title: string;
+  description: string;
+  url: string;
+  category?: string;
+  schemaType?: "BlogPosting" | "NewsArticle" | "Article";
+  brand?: string;
+  model?: string;
+  year?: number;
+  bodyType?: string;
+  engine?: string;
+  tags?: string[];
+  publishedAt: string;
+  modifiedAt?: string;
+  image?: string;
+  authorName?: string;
+};
+
+/**
+ * Węzeł Article/BlogPosting/NewsArticle — z encją Car w polu about dla testów.
+ */
+export function articleNode(input: ArticleNodeInput) {
+  const carName = [input.brand, input.model].filter(Boolean).join(" ").trim();
+  const schemaType = input.schemaType ?? "BlogPosting";
+  const section =
+    input.category === "pierwsza-jazda"
+      ? "Pierwsza jazda"
+      : input.category === "blog"
+        ? "Blog"
+        : input.category === "felieton"
+          ? "Felietony"
+          : input.category === "news"
+            ? "News"
+            : "Testy";
+
+  return {
+    "@type": schemaType,
+    "@id": `${input.url}#article`,
+    isPartOf: { "@id": WEBSITE_ID },
+    headline: input.title.slice(0, 110),
+    name: input.title,
+    description: input.description,
+    inLanguage: "pl-PL",
+    datePublished: input.publishedAt,
+    dateModified: input.modifiedAt ?? input.publishedAt,
+    author: input.authorName
+      ? { "@type": "Person", name: input.authorName }
+      : { "@id": AUTHOR_ID },
+    publisher: { "@id": ORG_ID },
+    mainEntityOfPage: { "@type": "WebPage", "@id": input.url },
+    url: input.url,
+    articleSection: section,
+    ...(input.image ? { image: [input.image] } : {}),
+    ...(input.tags && input.tags.length ? { keywords: input.tags.join(", ") } : {}),
+    ...(carName
+      ? {
+          about: {
+            "@type": "Car",
+            name: carName,
+            ...(input.brand ? { brand: { "@type": "Brand", name: input.brand } } : {}),
+            ...(input.model ? { model: input.model } : {}),
+            ...(input.year ? { productionDate: String(input.year) } : {}),
+            ...(input.bodyType ? { bodyType: input.bodyType } : {}),
+            ...(input.engine
+              ? { vehicleEngine: { "@type": "EngineSpecification", name: input.engine } }
+              : {})
+          }
+        }
+      : {})
+  };
+}
+
+/** Skrót dla newsów RSS — NewsArticle bez encji Car. */
+export function newsArticleNode(
+  input: Omit<ArticleNodeInput, "schemaType" | "brand" | "model" | "year" | "bodyType" | "engine">
+) {
+  return articleNode({ ...input, category: "news", schemaType: "NewsArticle" });
+}
+
+/** Owija węzły schema.org w pojedynczy graf JSON-LD (rozwiązuje referencje @id). */
+export function jsonLdGraph(...nodes: Array<object | null | undefined>) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": nodes.filter(Boolean)
+  };
+}
+
+/** Serializuje JSON-LD do bezpiecznego wstrzyknięcia w <script>. */
+export function jsonLdScript(data: object): string {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
 }

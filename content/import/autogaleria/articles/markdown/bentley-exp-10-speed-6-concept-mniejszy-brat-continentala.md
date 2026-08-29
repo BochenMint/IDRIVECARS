@@ -1,0 +1,19 @@
+---
+slug: "bentley-exp-10-speed-6-concept-mniejszy-brat-continentala"
+title: "Bentley EXP 10 Speed 6 Concept - Mniejszy brat Continentala"
+publishedAt: "2015-03-03"
+category: "Prototypy i wizje"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/bentley-exp-10-speed-6-concept-mniejszy-brat-continentala"
+discoveredVia: "elasticsearch-author"
+lead: "Bentleya Continentala znamy od lat. Duże, ciężkie, luksusowe Coupe to obiekt westchnień wielu fanów motoryzacji - nas również ujął podczas testu wersji z otwartym nadwoziem. Ale mniejszy, bardziej dynamiczny i jeszcze bardziej luksusowy Bentley wyglądający tak, jak EXP 10 Speed 6 Concept, otworzyłby markę na zupełnie n"
+tags: ["bentley", "continental", "2015", "concept", "koncept", "show", "6", "10", "genewa", "geneva", "motor", "EXP", "speed"]
+---
+
+W ofercie Mercedes-AMG pojawił się mniejszy od supersportowego SLS-a, konkurujący z Porsche 911 model GT. Jaguar stworzył małego, zwinnego i niewątpliwie pięknego F-Type. Aston Martin na potrzeby nowego filmu z serii 007, Spectre, zaprezentował DB10, który jest również znacznie mniejszy niż DB9. Czy era potężnych, masywnych Coupe dobiega końca?
+
+Przede wszystkim, EXP 10 Speed 6 Concept wygląda niezwykle świeżo, agresywnie i wybitnie luksusowo. Wystarczy szybkie spojrzenie na jego sylwetkę, aby wiedzieć, że będzie oferował doznania znacznie odbiegające od komfortowego i dostojnego Continentala. To zapowiedź nowej linii modelowej.
+
+Biorąc pod uwagę nazewnictwo samochodów Bentleya, "Speed 6" wskazuje na 6 cylindrów pod maską. Producent mówi również o zaawansowanym, nowym układzie napędowym i jego "hybrydowym potencjale". Czy czeka nas zatem hybryda z silnikiem V6 lub VR6? To byłoby prawdziwe trzęsienie ziemi dla brytyjskiej marki. Ale jeśli będzie jeździć tak, jak wygląda - chyba nikt nie będzie miał nic przeciwko...
+
+Wnętrze tego conceptu to absolutnie najwyższa półka jakości i stylu. Pięknie rzeźbione drewniane wstawki łączą się z metalem i skórą Poltrona Frau, której aż chce się dotknąć. Styl i technologia we wspaniały sposób łączą się w formie pionowo umiejscowionego, wygiętego ekranu centralnego o przekątnej 12 cali oraz zegarów LCD z obrotomierzem wyglądającym jak zegarek Breitlinga. Niestety jeszcze nie mieliśmy możliwości zajęcia miejsca za kierownicą, ale w ciągu dnia uzupełnimy galerię o zdjęcia z wnętrza tego niezwykłego conceptu.

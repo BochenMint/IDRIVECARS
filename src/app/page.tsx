@@ -1,122 +1,101 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { TestCard } from "@/components/TestCard";
-import { getFirstGalleryImageSrc } from "@/lib/content/gallery";
+import { AdSlot } from "@/components/AdSlot";
+import { getGalleryImages } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
+import { jsonLdGraph, jsonLdScript, organizationNode, pageCanonical, personNode, websiteNode } from "@/lib/seo";
+import { FEATURED_HERO_IMAGE_OVERRIDES, FEATURED_HERO_VIDEO_OVERRIDES, FEATURED_TEST_SLUGS, SITE_DESCRIPTION } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: { absolute: "IDRIVECARS — autorskie testy samochodów i pierwsze jazdy" },
+  description: SITE_DESCRIPTION,
+  ...pageCanonical("/")
+};
 
 export default async function HomePage() {
   const tests = await getAllTests();
-  const latestTests = tests.slice(0, 6);
-  const heroFallbacks = await Promise.all(
-    latestTests.map((t) => getFirstGalleryImageSrc(t.galleryDir))
+  const bySlug = new Map(tests.map((t) => [t.slug, t]));
+
+  const withImages = await Promise.all(
+    tests.map(async (test) => {
+      const images = await getGalleryImages(test.galleryDir);
+      return {
+        test,
+        image: images[0]?.src ?? null,
+        galleryImageCount: images.length
+      };
+    })
   );
-  const heroIndex = heroFallbacks.findIndex(Boolean);
-  const heroImage = heroIndex >= 0 ? heroFallbacks[heroIndex] : null;
-  const heroTest = heroIndex >= 0 ? latestTests[heroIndex] : null;
+  const featuredCandidates = FEATURED_TEST_SLUGS.map((slug) => {
+    const test = bySlug.get(slug);
+    if (!test) return null;
+    const row = withImages.find((t) => t.test.slug === slug);
+    const image = FEATURED_HERO_IMAGE_OVERRIDES[slug] ?? row?.image;
+    const video = FEATURED_HERO_VIDEO_OVERRIDES[slug] ?? null;
+    // Artykuły z wideo nie potrzebują zdjęcia w hero (poster wystarczy jako fallback)
+    if (!image && !video) return null;
+    return { test, image: image ?? null, video, galleryImageCount: row?.galleryImageCount ?? 0 };
+  }).filter(Boolean) as Array<{
+    test: (typeof tests)[0];
+    image: string | null;
+    video: string | null;
+    galleryImageCount: number;
+  }>;
+
+  const featured = featuredCandidates[0] ?? null;
+  const gridItems = featuredCandidates.slice(1);
 
   return (
     <>
-      <section className="relative overflow-hidden rounded-2xl border border-neutral-200/80 bg-white">
-        <div className="grid lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="flex flex-col justify-center gap-6 p-8 sm:p-10 lg:p-14">
-            <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted">
-              Portfolio dziennikarskie
-            </p>
-            <h1 className="font-display text-balance text-4xl leading-[1.1] tracking-tight sm:text-5xl lg:text-[3.25rem]">
-              Testy samochodów bez krzyku. Z własnymi zdjęciami.
-            </h1>
-            <p className="max-w-lg text-base leading-relaxed text-neutral-600">
-              IDRIVECARS to autorski blog motoryzacyjny Marcina Bochenka — spokojna typografia,
-              duże fotografie i rzetelne pierwsze jazdy zamiast clickbaitu.
-            </p>
-            <div className="flex flex-wrap gap-3 pt-1">
-              <Link
-                href="/testy"
-                className="rounded-full bg-ink px-6 py-2.5 text-sm font-medium text-white transition hover:bg-neutral-700"
-              >
-                Przeglądaj testy
-              </Link>
-              <Link
-                href="/galerie"
-                className="rounded-full border border-neutral-300 bg-white px-6 py-2.5 text-sm font-medium text-ink transition hover:border-neutral-400"
-              >
-                Galerie zdjęć
-              </Link>
-            </div>
-          </div>
-
-          <div className="relative min-h-[280px] bg-neutral-100 lg:min-h-[420px]">
-            {heroImage ? (
-              <>
-                <img
-                  src={heroImage}
-                  alt={
-                    heroTest
-                      ? `${heroTest.brand} ${heroTest.model} – zdjęcie z testu IDRIVECARS`
-                      : "Zdjęcie z testu samochodu IDRIVECARS"
-                  }
-                  className="absolute inset-0 h-full w-full object-cover"
-                  fetchPriority="high"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent lg:bg-gradient-to-l lg:from-black/20" />
-              </>
-            ) : (
-              <div className="flex h-full min-h-[280px] items-center justify-center text-sm text-muted">
-                Galerie w trakcie importu
-              </div>
-            )}
-          </div>
-        </div>
-      </section>
-
-      <section className="mt-12 grid gap-8 border-t border-neutral-200/80 pt-10 lg:grid-cols-3">
-        <div className="space-y-2">
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted">Testy</p>
-          <p className="text-sm leading-relaxed text-neutral-600">
-            Długie formy z danymi technicznymi, wrażeniami z jazdy i pełnymi galeriami — materiały
-            pierwotnie publikowane na autoGaleria.pl.
-          </p>
-        </div>
-        <div className="space-y-2">
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted">Pierwsze jazdy</p>
-          <p className="text-sm leading-relaxed text-neutral-600">
-            Krótsze formy z eventów prasowych i premier — Focus RS, Passat, Fabia, Fiat 500 i
-            dziesiątki innych modeli w archiwum.
-          </p>
-        </div>
-        <div className="space-y-2">
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted">Blog</p>
-          <p className="text-sm leading-relaxed text-neutral-600">
-            Wkrótce krótsze wpisy, obserwacje z rynku i materiały spoza testów długich. Na start —
-            archiwum testów i galerie.
-          </p>
-        </div>
-      </section>
-
-      {latestTests.length > 0 && (
-        <section className="mt-16 space-y-8">
-          <div className="flex items-end justify-between gap-4 border-b border-neutral-200 pb-4">
-            <div>
-              <p className="text-xs font-medium uppercase tracking-[0.2em] text-muted">Archiwum</p>
-              <h2 className="mt-1 font-display text-3xl tracking-tight">Najnowsze testy</h2>
-            </div>
-            <Link
-              href="/testy"
-              className="shrink-0 text-sm font-medium text-muted transition hover:text-ink"
-            >
-              Wszystkie →
-            </Link>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {latestTests.map((test, i) => (
-              <TestCard
-                key={test.slug}
-                test={test}
-                heroImageFallback={heroFallbacks[i] ?? null}
-              />
-            ))}
-          </div>
-        </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript(jsonLdGraph(organizationNode(), websiteNode(), personNode()))
+        }}
+      />
+      {featured && (
+        <TestCard
+          test={featured.test}
+          heroImageFallback={featured.image}
+          heroVideoUrl={featured.video}
+          variant="hero"
+          galleryImageCount={featured.galleryImageCount}
+        />
       )}
+
+      <section className="reveal-section-delayed bg-canvas px-gutter pb-section pt-32 md:pt-40">
+        <div className="mb-20 flex flex-col gap-6 border-b border-soft pb-12 sm:flex-row sm:items-end sm:justify-between md:mb-28 md:pb-14">
+          <div className="space-y-4">
+            <p className="label-mono">Indeks</p>
+            <h2 className="font-display display-track text-display-lg uppercase text-ink">Wybrane testy</h2>
+          </div>
+          <Link
+            href="/testy"
+            className="label-mono shrink-0 self-start sm:self-auto"
+          >
+            Wszystkie ({tests.length})
+          </Link>
+        </div>
+
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-16 lg:grid-cols-3 lg:gap-x-12 lg:gap-y-20">
+          {gridItems.map(({ test, image, video, galleryImageCount }) => (
+            <div key={test.slug} className="max-w-md sm:max-w-none">
+              <TestCard
+                test={test}
+                heroImageFallback={image}
+                heroVideoUrl={video}
+                variant="grid"
+                galleryImageCount={galleryImageCount}
+              />
+            </div>
+          ))}
+        </div>
+
+        <div className="mx-auto mt-24 flex max-w-6xl justify-center border-t border-soft pt-16 md:mt-32 md:pt-20">
+          <AdSlot slotId="homepage" format="leaderboard" slotIndex={0} pageKey="/" />
+        </div>
+      </section>
     </>
   );
 }

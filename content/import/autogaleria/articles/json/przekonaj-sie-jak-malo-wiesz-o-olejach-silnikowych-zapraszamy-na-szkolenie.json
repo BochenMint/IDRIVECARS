@@ -1,0 +1,81 @@
+{
+  "slug": "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+  "urlKey": "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+  "sourceUrl": "https://autogaleria.pl/przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:56.041Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Przekonaj się, jak mało wiesz o olejach silnikowych. Zapraszamy na szkolenie!",
+  "excerpt": "Warto wiedzieć, co i dlaczego wlewamy do naszego silnika, oraz co należy wlewać, aby go nie zniszczyć. Dlaczego 0W40 a nie 10W60? No i skąd tak właściwie bierze się olej silnikowy i co stanowi o różnicach pomiędzy nimi?",
+  "lead": "Warto wiedzieć, co i dlaczego wlewamy do naszego silnika, oraz co należy wlewać, aby go nie zniszczyć. Dlaczego 0W40 a nie 10W60? No i skąd tak właściwie bierze się olej silnikowy i co stanowi o różnicach pomiędzy nimi?",
+  "category": "Wydarzenia",
+  "categories": [
+    {
+      "id": 219,
+      "name": "Wydarzenia",
+      "slug": "wydarzenia",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "autogaleria",
+    "szkolenie",
+    "castrol",
+    "zlot",
+    "spotkanie"
+  ],
+  "publishedAt": "2015-06-09",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Możemy znać się na turbosprężarkach, skrzyniach biegów i silnikach naszych samochodów, ale czy temat olejów silnikowych jest równie bliski większości z nas? Niestety, najczęściej nie. Wielu kierowców swoją wiedzę czerpie z for internetowych i opinii innych. Czy możemy być pewni tak pozyskanej wiedzy?</p>\n<p>Tematem przewodnim szkolenia będą mity olejowe. Obalimy większość z nich. Ale nie będziemy rozmawiać tylko o tym. Paweł Mastalerek, ekspert Castrola, opowie o tym, skąd właściwie biorą się oleje silnikowe, jakie pływają w nich dodatki i co odróżnia od siebie różne rodzaje oleju. Czym różni się gęstość od lepkości? Jakieś pomysły? Wszystkiego możecie dowiedzieć się już w najbliższy piątek.</p>\n<p>Gorąco zapraszamy na szkolenie, które jest darmowe i zorganizowane specjalnie dla nas. Odbędzie się 12 czerwca (piątek) o godzinie 15:00 i potrwa do ok. 20:00. Zapraszajcie znajomych i wpadajcie, najlepiej swoimi samochodami, na Chłodną 51 w Warszawie. My też przywieziemy coś bardzo ciekawego!</p>\n",
+  "bodyMarkdown": "Możemy znać się na turbosprężarkach, skrzyniach biegów i silnikach naszych samochodów, ale czy temat olejów silnikowych jest równie bliski większości z nas? Niestety, najczęściej nie. Wielu kierowców swoją wiedzę czerpie z for internetowych i opinii innych. Czy możemy być pewni tak pozyskanej wiedzy?\n\nTematem przewodnim szkolenia będą mity olejowe. Obalimy większość z nich. Ale nie będziemy rozmawiać tylko o tym. Paweł Mastalerek, ekspert Castrola, opowie o tym, skąd właściwie biorą się oleje silnikowe, jakie pływają w nich dodatki i co odróżnia od siebie różne rodzaje oleju. Czym różni się gęstość od lepkości? Jakieś pomysły? Wszystkiego możecie dowiedzieć się już w najbliższy piątek.\n\nGorąco zapraszamy na szkolenie, które jest darmowe i zorganizowane specjalnie dla nas. Odbędzie się 12 czerwca (piątek) o godzinie 15:00 i potrwa do ok. 20:00. Zapraszajcie znajomych i wpadajcie, najlepiej swoimi samochodami, na Chłodną 51 w Warszawie. My też przywieziemy coś bardzo ciekawego!",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-3.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-2.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-3.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-4.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-5.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-3.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-2.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-3.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-4.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/castrol-szkolenie-olejowe-2015-5.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Przekonaj się, jak mało wiesz o olejach silnikowych. Zapraszamy na szkolenie!",
+    "description": "Warto wiedzieć, co i dlaczego wlewamy do naszego silnika, oraz co należy wlewać, aby go nie zniszczyć. Dlaczego 0W40 a nie 10W60? No i skąd tak właściwie bierze się olej silnikowy i co stanowi o różnicach pomiędzy nimi?"
+  },
+  "cars": [],
+  "imageCacheLocal": [
+    "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie/hero.jpg",
+    "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie/gallery-1.jpg",
+    "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie/gallery-2.jpg",
+    "przekonaj-sie-jak-malo-wiesz-o-olejach-silnikowych-zapraszamy-na-szkolenie/gallery-3.jpg"
+  ]
+}

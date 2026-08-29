@@ -1,52 +1,166 @@
+import Image from "next/image";
 import Link from "next/link";
-import type { TestMeta } from "../lib/content/types";
+import { articlePublicPath } from "@/lib/content/categories";
+import { toPlainText } from "@/lib/seo";
+import type { ArticleMeta } from "../lib/content/types-article";
+
+const IMAGE_QUALITY = 75;
 
 type TestCardProps = {
-  test: TestMeta;
+  test: ArticleMeta;
   heroImageFallback?: string | null;
+  /** Krótki klip wideo (drift/hero) — nadpisuje obraz gdy dostępny. */
+  heroVideoUrl?: string | null;
+  variant?: "grid" | "row" | "hero";
+  index?: number;
+  /** Few gallery assets → smaller image accent (home grid). */
+  galleryImageCount?: number;
 };
 
-export function TestCard({ test, heroImageFallback }: TestCardProps) {
-  const rawHero = test.heroImage
-    ? `/${test.heroImage.replace(/^\/?/, "").replace(/\\/g, "/")}`
-    : null;
-  const heroSrc = (heroImageFallback ?? rawHero)?.replace(/\\/g, "/") ?? null;
-  const isFirstDrive = test.title.toLowerCase().includes("pierwsza jazda");
+export function TestCard({
+  test,
+  heroImageFallback,
+  heroVideoUrl,
+  variant = "grid",
+  index,
+  galleryImageCount
+}: TestCardProps) {
+  const heroSrc = heroImageFallback?.replace(/\\/g, "/") ?? null;
+  const heroAlt = [test.brand, test.model].filter(Boolean).join(" ") || test.title;
+  const leadPlain = test.lead ? toPlainText(test.lead) : "";
+  const sparseGallery = galleryImageCount !== undefined && galleryImageCount < 3;
+
+  /** Poster (fallback dla wideo): heroVideoPoster z meta, potem heroSrc. */
+  const videoPoster = test.heroVideoPoster ?? heroSrc ?? undefined;
+
+  const href = articlePublicPath(test.category, test.slug);
+
+  if (variant === "hero") {
+    return (
+      <Link href={href} className="group relative block full-bleed w-full">
+        <div className="relative h-[min(72vh,52rem)] w-full max-h-[72vh] min-h-[42vh] overflow-hidden">
+          {/* Wideo hero — drift clip: autoplay, loop, muted */}
+          {heroVideoUrl ? (
+            <video
+              src={heroVideoUrl}
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster={videoPoster ?? undefined}
+              className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.97] transition-opacity duration-editorial group-hover:opacity-90"
+            />
+          ) : heroSrc ? (
+            <Image
+              src={heroSrc}
+              alt={heroAlt}
+              fill
+              priority
+              quality={IMAGE_QUALITY}
+              sizes="100vw"
+              className="object-cover object-center opacity-[0.97] transition-[opacity,transform] duration-editorial group-hover:opacity-90 group-hover:scale-[1.02] motion-reduce:transform-none"
+            />
+          ) : (
+            <div className="absolute inset-0 bg-ink" />
+          )}
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-black/55 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 flex flex-col justify-end px-gutter pb-16 pt-20 md:pb-20 md:pt-24">
+            <p className="label-mono mb-6 text-stone-muted">
+              {test.brand} {test.model} {test.year ?? ""}
+            </p>
+            <h1 className="font-display display-track text-display-xl uppercase text-stone">{test.title}</h1>
+            {leadPlain && (
+              <p className="mt-8 max-w-lg text-lead font-light text-stone/80">{leadPlain}</p>
+            )}
+            <span className="label-mono mt-12 inline-block text-stone/50 transition-opacity duration-editorial group-hover:opacity-100">
+              Czytaj test
+            </span>
+          </div>
+        </div>
+      </Link>
+    );
+  }
+
+  if (variant === "row") {
+    return (
+      <article className="group border-b border-soft">
+        <Link
+          href={href}
+          className="grid grid-cols-[3.75rem_1fr] gap-6 py-14 sm:grid-cols-[5.5rem_1fr_12rem] sm:items-center sm:gap-12 sm:py-16"
+        >
+          <span
+            aria-hidden="true"
+            className="font-display text-4xl leading-none tracking-wide text-subtle/80 transition-opacity duration-editorial group-hover:text-subtle sm:text-[2.75rem]"
+          >
+            {index !== undefined ? String(index + 1).padStart(2, "0") : "—"}
+          </span>
+          <div className="min-w-0 space-y-3.5">
+            <p className="label-mono">
+              {test.brand} {test.model} {test.year ?? ""}
+            </p>
+            <h2 className="font-display display-track text-display-md uppercase transition-opacity duration-editorial group-hover:opacity-55">
+              {test.title}
+            </h2>
+          </div>
+          <div className="relative col-span-2 aspect-[16/10] max-h-28 overflow-hidden sm:col-span-1 sm:max-h-none sm:aspect-[4/3] [contain-intrinsic-size:176px_132px]">
+            {heroSrc ? (
+              <Image
+                src={heroSrc}
+                alt={heroAlt}
+                fill
+                quality={IMAGE_QUALITY}
+                sizes="(max-width: 640px) 100vw, 176px"
+                className="object-cover object-center transition-[opacity,transform] duration-editorial group-hover:opacity-80 group-hover:scale-[1.03] motion-reduce:transform-none"
+              />
+            ) : (
+              <div className="flex h-full items-center justify-center label-mono text-subtle">—</div>
+            )}
+          </div>
+        </Link>
+      </article>
+    );
+  }
+
+  const gridAspect = sparseGallery ? "aspect-[3/2]" : "aspect-[16/10]";
+  const gridMaxH = sparseGallery ? "max-h-[200px] sm:max-h-[220px]" : "max-h-[240px] sm:max-h-[280px]";
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-xl border border-neutral-200/80 bg-white transition duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-neutral-200/60">
-      <Link href={`/testy/${test.slug}`} className="relative block aspect-[16/10] overflow-hidden bg-neutral-100">
-        {heroSrc ? (
-          <img
-            src={heroSrc}
-            alt={test.title}
-            className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
-            loading="lazy"
-          />
-        ) : (
-          <div className="flex h-full w-full items-center justify-center bg-neutral-100 text-xs text-muted">
-            Galeria w przygotowaniu
-          </div>
-        )}
-        {isFirstDrive && (
-          <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-ink backdrop-blur">
-            Pierwsza jazda
-          </span>
-        )}
-      </Link>
-      <div className="flex flex-1 flex-col gap-2 px-5 py-5">
-        <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-muted">
-          {test.brand} {test.model} {test.year ?? ""}
-        </p>
-        <h3 className="font-display text-xl leading-snug tracking-tight">
-          <Link href={`/testy/${test.slug}`} className="hover:opacity-80">
+    <article className="group">
+      <Link href={href} className="block">
+        <div className={`relative w-full overflow-hidden ${gridAspect} ${gridMaxH} [contain-intrinsic-size:400px_250px]`}>
+          {/* Grid: wideo (loop/muted) jeśli dostępne, inaczej obraz */}
+          {heroVideoUrl ? (
+            <video
+              src={heroVideoUrl}
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster={videoPoster ?? undefined}
+              className="absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-editorial group-hover:opacity-85"
+            />
+          ) : heroSrc ? (
+            <Image
+              src={heroSrc}
+              alt={heroAlt}
+              fill
+              quality={IMAGE_QUALITY}
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+              className="object-cover object-center transition-[opacity,transform] duration-editorial group-hover:opacity-85 group-hover:scale-[1.03] motion-reduce:transform-none"
+            />
+          ) : (
+            <div className="absolute inset-0 bg-ink" />
+          )}
+        </div>
+        <div className="space-y-2.5 pt-6 pb-1 sm:pt-7">
+          <p className="label-mono">
+            {test.brand} {test.model}
+          </p>
+          <h3 className="font-display display-track text-display-md uppercase text-ink transition-opacity duration-editorial group-hover:opacity-55">
             {test.title}
-          </Link>
-        </h3>
-        {test.lead && (
-          <p className="line-clamp-2 text-sm leading-relaxed text-neutral-600">{test.lead}</p>
-        )}
-      </div>
+          </h3>
+        </div>
+      </Link>
     </article>
   );
 }

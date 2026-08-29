@@ -3,56 +3,71 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { LOGO_DARK, LOGO_LIGHT } from "@/lib/logo";
 
 const navItems = [
   { href: "/testy", label: "Testy" },
   { href: "/galerie", label: "Galerie" },
   { href: "/news", label: "News" },
-  { href: "/blog", label: "Blog" },
   { href: "/o-mnie", label: "O mnie" },
   { href: "/kontakt", label: "Kontakt" }
 ];
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const [logoError, setLogoError] = useState(false);
+  const isHome = pathname === "/";
+  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 56);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const onHero = isHome && !scrolled;
+  const solidBlack = isHome && scrolled;
+
+  const headerBg = solidBlack
+    ? "border-b border-white/10 bg-ink"
+    : onHero
+      ? "border-b border-transparent bg-transparent"
+      : "border-b border-soft bg-canvas/92 backdrop-blur-sm";
+
+  const logoOnDark = solidBlack || onHero;
+  const logo = logoOnDark ? LOGO_LIGHT : LOGO_DARK;
+  const navClass = logoOnDark ? "text-stone" : "text-ink";
+
   return (
-    <header className="sticky top-0 z-40 border-b border-neutral-200/80 bg-surface/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center" aria-label="Strona główna IDRIVECARS">
-          {!logoError ? (
-            <Image
-              src="/idrivecars-logo.jpg"
-              alt="IDRIVECARS"
-              width={180}
-              height={72}
-              className="h-9 w-auto object-contain object-left sm:h-10"
-              priority
-              onError={() => setLogoError(true)}
-            />
-          ) : (
-            <span className="font-display text-2xl tracking-tight text-ink">
-              I<span className="mx-1 text-muted">·</span>DRIVE<span className="ml-2 text-muted">CARS</span>
-            </span>
-          )}
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition-[background-color,border-color] duration-500 ease-out ${headerBg}`}
+    >
+      <div className="flex items-center justify-between px-gutter py-5 md:py-[1.375rem]">
+        <Link
+          href="/"
+          className="block transition-opacity duration-editorial hover:opacity-70"
+          aria-label="IDRIVECARS — strona główna"
+        >
+          <Image
+            src={logo.src}
+            alt="IDRIVECARS"
+            width={logo.width}
+            height={logo.height}
+            className="h-8 w-auto md:h-10 object-contain object-left"
+            priority
+          />
         </Link>
 
-        <nav className="hidden items-center gap-7 text-sm font-medium md:flex">
+        <nav className="hidden items-center gap-7 lg:gap-9 md:flex" aria-label="Główne menu">
           {navItems.map((item) => {
-            const isActive =
-              pathname === item.href || pathname.startsWith(`${item.href}/`);
+            const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
             return (
               <Link
                 key={item.href}
                 href={item.href}
-                className={
-                  isActive
-                    ? "text-ink"
-                    : "text-muted transition hover:text-ink"
-                }
+                className={`label-mono nav-link ${navClass} ${active ? "!opacity-100 underline underline-offset-4 decoration-1" : ""}`}
               >
                 {item.label}
               </Link>
@@ -62,35 +77,40 @@ export function SiteHeader() {
 
         <button
           type="button"
-          className="rounded-md p-2 text-ink md:hidden"
-          aria-label={menuOpen ? "Zamknij menu" : "Otwórz menu"}
+          className={`label-mono md:hidden ${navClass}`}
           aria-expanded={menuOpen}
+          aria-controls="mobile-nav"
+          aria-label={menuOpen ? "Zamknij menu nawigacji" : "Otwórz menu nawigacji"}
           onClick={() => setMenuOpen((v) => !v)}
         >
-          <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden>
-            {menuOpen ? (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
-            ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
-            )}
-          </svg>
+          {menuOpen ? "Zamknij" : "Menu"}
         </button>
       </div>
 
       {menuOpen && (
-        <nav className="border-t border-neutral-200/80 px-4 py-4 md:hidden">
-          <ul className="flex flex-col gap-3 text-sm font-medium">
-            {navItems.map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className="block py-1 text-ink"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
+        <nav
+          id="mobile-nav"
+          className={`border-t px-gutter py-10 md:hidden ${
+            solidBlack || onHero ? "border-white/10 bg-ink" : "border-soft bg-canvas"
+          }`}
+        >
+          <ul className="flex flex-col gap-7">
+            {navItems.map((item) => {
+              const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className={`font-display display-track text-display-md uppercase transition-opacity duration-editorial hover:opacity-50 ${
+                      solidBlack || onHero ? "text-stone" : "text-ink"
+                    } ${active ? "opacity-100" : ""}`}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
       )}

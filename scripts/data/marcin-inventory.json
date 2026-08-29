@@ -1,0 +1,3725 @@
+{
+  "summary": {
+    "images_jpg": 10457,
+    "images_raw": 6715,
+    "videos": 260,
+    "audio": 1,
+    "documents": 730,
+    "total_files": 18293
+  },
+  "topFolders": [
+    {
+      "path": "D:\\MARCIN\\Galerie z testów",
+      "rel": "Galerie z testów",
+      "counts": {
+        "images": 3098,
+        "raw": 3494,
+        "videos": 23,
+        "audio": 0,
+        "docs": 1,
+        "other": 23
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia",
+      "rel": "Zdjęcia",
+      "counts": {
+        "images": 4196,
+        "raw": 273,
+        "videos": 22,
+        "audio": 1,
+        "docs": 0,
+        "other": 3
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU",
+      "rel": "Z PULPITU",
+      "counts": {
+        "images": 1287,
+        "raw": 161,
+        "videos": 8,
+        "audio": 0,
+        "docs": 541,
+        "other": 68
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\Foty do obróbki - Marcin",
+      "rel": "Foty do obróbki - Marcin",
+      "counts": {
+        "images": 37,
+        "raw": 1385,
+        "videos": 4,
+        "audio": 0,
+        "docs": 0,
+        "other": 1
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia - zlecenia",
+      "rel": "Zdjęcia - zlecenia",
+      "counts": {
+        "images": 1070,
+        "raw": 0,
+        "videos": 0,
+        "audio": 0,
+        "docs": 0,
+        "other": 0
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\KARTA 23.08.15 backup",
+      "rel": "KARTA 23.08.15 backup",
+      "counts": {
+        "images": 176,
+        "raw": 651,
+        "videos": 0,
+        "audio": 0,
+        "docs": 0,
+        "other": 1
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS",
+      "rel": "Dlugi dystans OCTA RS",
+      "counts": {
+        "images": 81,
+        "raw": 582,
+        "videos": 93,
+        "audio": 0,
+        "docs": 0,
+        "other": 22
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\TESTY",
+      "rel": "TESTY",
+      "counts": {
+        "images": 217,
+        "raw": 0,
+        "videos": 0,
+        "audio": 0,
+        "docs": 0,
+        "other": 0
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d",
+      "rel": "X6 M50d",
+      "counts": {
+        "images": 0,
+        "raw": 169,
+        "videos": 41,
+        "audio": 0,
+        "docs": 0,
+        "other": 0
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\I DRIVE CARS",
+      "rel": "I DRIVE CARS",
+      "counts": {
+        "images": 155,
+        "raw": 0,
+        "videos": 0,
+        "audio": 0,
+        "docs": 1,
+        "other": 4
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG",
+      "rel": "FILMY - aG",
+      "counts": {
+        "images": 0,
+        "raw": 0,
+        "videos": 69,
+        "audio": 0,
+        "docs": 0,
+        "other": 4
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\2017",
+      "rel": "2017",
+      "counts": {
+        "images": 59,
+        "raw": 0,
+        "videos": 0,
+        "audio": 0,
+        "docs": 0,
+        "other": 0
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\Fiat 500 Pierwsza Jazda",
+      "rel": "Fiat 500 Pierwsza Jazda",
+      "counts": {
+        "images": 50,
+        "raw": 0,
+        "videos": 0,
+        "audio": 0,
+        "docs": 0,
+        "other": 0
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\ALFA ROMEO GIULIA NA ŻYWO",
+      "rel": "ALFA ROMEO GIULIA NA ŻYWO",
+      "counts": {
+        "images": 23,
+        "raw": 0,
+        "videos": 0,
+        "audio": 0,
+        "docs": 0,
+        "other": 0
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły",
+      "rel": "Artykuły",
+      "counts": {
+        "images": 8,
+        "raw": 0,
+        "videos": 0,
+        "audio": 0,
+        "docs": 187,
+        "other": 1
+      },
+      "modified": "2026-05-28"
+    },
+    {
+      "path": "D:\\MARCIN",
+      "rel": "",
+      "counts": {
+        "images": 0,
+        "raw": 0,
+        "videos": 0,
+        "audio": 0,
+        "docs": 0,
+        "other": 3
+      },
+      "modified": "2026-05-28"
+    }
+  ],
+  "videoFiles": [
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1451.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1451.MP4",
+      "sizeMb": 3751.6
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\IMG_2495.AVI",
+      "rel": "Zdjęcia\\IMG_2495.AVI",
+      "sizeMb": 3146.5
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\EVENTY\\Focus RS\\Track\\GOPR9983.MP4",
+      "rel": "FILMY - aG\\EVENTY\\Focus RS\\Track\\GOPR9983.MP4",
+      "sizeMb": 2689.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0962.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0962.MP4",
+      "sizeMb": 2606.2
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\GoPro\\GOPR1026.MP4",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\GoPro\\GOPR1026.MP4",
+      "sizeMb": 2128.5
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1460.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1460.MP4",
+      "sizeMb": 1698.4
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\EVENTY\\Focus RS\\Drift_and Launch\\GOPR0027.MP4",
+      "rel": "FILMY - aG\\EVENTY\\Focus RS\\Drift_and Launch\\GOPR0027.MP4",
+      "sizeMb": 1276
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GP011451.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GP011451.MP4",
+      "sizeMb": 977.2
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\GoPro\\GOPR1025.MP4",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\GoPro\\GOPR1025.MP4",
+      "sizeMb": 869.3
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\IMG_4801.AVI",
+      "rel": "Zdjęcia\\IMG_4801.AVI",
+      "sizeMb": 799.2
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\IMG_4845.AVI",
+      "rel": "Zdjęcia\\IMG_4845.AVI",
+      "sizeMb": 700.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0967.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0967.MP4",
+      "sizeMb": 651.1
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\IMG_4879.AVI",
+      "rel": "Zdjęcia\\IMG_4879.AVI",
+      "sizeMb": 501.3
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Emergency\\NURBURGRING 3.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Emergency\\NURBURGRING 3.MOV",
+      "sizeMb": 496.1
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Autostrada, Polska (3).MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Autostrada, Polska (3).MOV",
+      "sizeMb": 496
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Obwodnica Trójmiasta, szadółki.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Obwodnica Trójmiasta, szadółki.MOV",
+      "sizeMb": 495.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Emergency\\Bydgoszcz, Miasto.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Emergency\\Bydgoszcz, Miasto.MOV",
+      "sizeMb": 495.8
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Autostrada, Polska.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Autostrada, Polska.MOV",
+      "sizeMb": 495.8
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Emergency\\NURBURGRING 1.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Emergency\\NURBURGRING 1.MOV",
+      "sizeMb": 495.8
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Chwila zamuły i jazda przez miasteczko Nurburg.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Chwila zamuły i jazda przez miasteczko Nurburg.MOV",
+      "sizeMb": 495.8
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Jazda przez Nurburg 3.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Jazda przez Nurburg 3.MOV",
+      "sizeMb": 495.8
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Autostrada, Polska, przejazd przez bramki.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Autostrada, Polska, przejazd przez bramki.MOV",
+      "sizeMb": 495.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Bramka A1, obwodnica Trójmiasta.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Bramka A1, obwodnica Trójmiasta.MOV",
+      "sizeMb": 495.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Gdańsk, Szadółki.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Gdańsk, Szadółki.MOV",
+      "sizeMb": 495.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Jasień, Gdańsk nocą.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Jasień, Gdańsk nocą.MOV",
+      "sizeMb": 495.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Emergency\\NURBURGRING 2.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Emergency\\NURBURGRING 2.MOV",
+      "sizeMb": 495.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Jazda przez Nurburg 2.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Jazda przez Nurburg 2.MOV",
+      "sizeMb": 495.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Emergency\\Gdańsk, wjazd na Obwodnicę.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Emergency\\Gdańsk, wjazd na Obwodnicę.MOV",
+      "sizeMb": 495.5
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Emergency\\Zwężenie jezdni, trasa Nurburg-Berlin.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Emergency\\Zwężenie jezdni, trasa Nurburg-Berlin.MOV",
+      "sizeMb": 495.4
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Szadółki, Jasień.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Szadółki, Jasień.MOV",
+      "sizeMb": 494.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0965.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0965.MP4",
+      "sizeMb": 422.4
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\AMG GTS3.mp4",
+      "rel": "FILMY - aG\\AMG GTS3.mp4",
+      "sizeMb": 353
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1453.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1453.MP4",
+      "sizeMb": 348.3
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0049.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0049.MOV",
+      "sizeMb": 316.4
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0014.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0014.MOV",
+      "sizeMb": 298
+    },
+    {
+      "path": "D:\\MARCIN\\Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy\\MVI_0216.MOV",
+      "rel": "Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy\\MVI_0216.MOV",
+      "sizeMb": 292.8
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0160.MOV",
+      "rel": "X6 M50d\\MVI_0160.MOV",
+      "sizeMb": 285.3
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0705.MOV",
+      "rel": "Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0705.MOV",
+      "sizeMb": 274.4
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1412.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1412.MP4",
+      "sizeMb": 267.3
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0031.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0031.MOV",
+      "sizeMb": 262.1
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\EVENTY\\Lexus RC-F\\VBOX0148.avi",
+      "rel": "FILMY - aG\\EVENTY\\Lexus RC-F\\VBOX0148.avi",
+      "sizeMb": 219.3
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0032.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0032.MOV",
+      "sizeMb": 218.3
+    },
+    {
+      "path": "D:\\MARCIN\\Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy\\MVI_0215.MOV",
+      "rel": "Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy\\MVI_0215.MOV",
+      "sizeMb": 218.2
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\DS 5 - #absolutelyds.mp4",
+      "rel": "FILMY - aG\\DS 5 - #absolutelyds.mp4",
+      "sizeMb": 211.3
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0156.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0156.MOV",
+      "sizeMb": 203.6
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0155.MOV",
+      "rel": "X6 M50d\\MVI_0155.MOV",
+      "sizeMb": 202.8
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\IMG_5400.AVI",
+      "rel": "Zdjęcia\\IMG_5400.AVI",
+      "sizeMb": 202.8
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\SUROWE\\Infiniti Q70, Mercedes Vito\\100CANON\\MVI_0029.MOV",
+      "rel": "Galerie z testów\\SUROWE\\Infiniti Q70, Mercedes Vito\\100CANON\\MVI_0029.MOV",
+      "sizeMb": 200.3
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0034.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0034.MOV",
+      "sizeMb": 193.9
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0140.MOV",
+      "rel": "X6 M50d\\MVI_0140.MOV",
+      "sizeMb": 192.6
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0133.MOV",
+      "rel": "X6 M50d\\MVI_0133.MOV",
+      "sizeMb": 191.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0975.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0975.MP4",
+      "sizeMb": 187.6
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\SUROWE\\Mercedes GLE i GLE Coupe\\MVI_0103.MOV",
+      "rel": "Galerie z testów\\SUROWE\\Mercedes GLE i GLE Coupe\\MVI_0103.MOV",
+      "sizeMb": 186.2
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0138.MOV",
+      "rel": "X6 M50d\\MVI_0138.MOV",
+      "sizeMb": 184.2
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0029.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0029.MOV",
+      "sizeMb": 181.6
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0139.MOV",
+      "rel": "X6 M50d\\MVI_0139.MOV",
+      "sizeMb": 179.6
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0128.MOV",
+      "rel": "X6 M50d\\MVI_0128.MOV",
+      "sizeMb": 179
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\IMG_5417.AVI",
+      "rel": "Zdjęcia\\IMG_5417.AVI",
+      "sizeMb": 178.3
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\SUROWE\\Infiniti Q70, Mercedes Vito\\100CANON\\MVI_0028.MOV",
+      "rel": "Galerie z testów\\SUROWE\\Infiniti Q70, Mercedes Vito\\100CANON\\MVI_0028.MOV",
+      "sizeMb": 175
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\SUROWE\\Volvo XC90 - Gdańsk\\MVI_0221.MOV",
+      "rel": "Galerie z testów\\SUROWE\\Volvo XC90 - Gdańsk\\MVI_0221.MOV",
+      "sizeMb": 170.2
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Emergency\\Przednią szybę myję, Polska.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Emergency\\Przednią szybę myję, Polska.MOV",
+      "sizeMb": 167.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0030.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0030.MOV",
+      "sizeMb": 167.5
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0677.MOV",
+      "rel": "Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0677.MOV",
+      "sizeMb": 167
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0142.MOV",
+      "rel": "X6 M50d\\MVI_0142.MOV",
+      "sizeMb": 166.6
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\Volkswagen XL1\\Volkswagen XL1 - dzwiek silnika.MOV",
+      "rel": "Galerie z testów\\Volkswagen XL1\\Volkswagen XL1 - dzwiek silnika.MOV",
+      "sizeMb": 163.3
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\panormaa lex_2.mp4",
+      "rel": "FILMY - aG\\panormaa lex_2.mp4",
+      "sizeMb": 157.6
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0676.MOV",
+      "rel": "Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0676.MOV",
+      "sizeMb": 156.3
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0147.MOV",
+      "rel": "X6 M50d\\MVI_0147.MOV",
+      "sizeMb": 156.2
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0141.MOV",
+      "rel": "X6 M50d\\MVI_0141.MOV",
+      "sizeMb": 155.5
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0069.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0069.MOV",
+      "sizeMb": 155.2
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0974.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0974.MP4",
+      "sizeMb": 153.8
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0143.MOV",
+      "rel": "X6 M50d\\MVI_0143.MOV",
+      "sizeMb": 153.8
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Autostrada, Polska (2).MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Autostrada, Polska (2).MOV",
+      "sizeMb": 150.8
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0047.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0047.MOV",
+      "sizeMb": 145
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0117.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0117.MOV",
+      "sizeMb": 144.2
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0157.MOV",
+      "rel": "X6 M50d\\MVI_0157.MOV",
+      "sizeMb": 142.4
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0145.MOV",
+      "rel": "X6 M50d\\MVI_0145.MOV",
+      "sizeMb": 141.4
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0976.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\SS1 włochy GoPro\\GOPR0976.MP4",
+      "sizeMb": 140.3
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0130.MOV",
+      "rel": "X6 M50d\\MVI_0130.MOV",
+      "sizeMb": 139.3
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0132.MOV",
+      "rel": "X6 M50d\\MVI_0132.MOV",
+      "sizeMb": 137.1
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0119.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0119.MOV",
+      "sizeMb": 133.8
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0110.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0110.MOV",
+      "sizeMb": 133.2
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0022.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0022.MOV",
+      "sizeMb": 132.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0070.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0070.MOV",
+      "sizeMb": 131.6
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0131.MOV",
+      "rel": "X6 M50d\\MVI_0131.MOV",
+      "sizeMb": 131.3
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0024.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0024.MOV",
+      "sizeMb": 131
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0023.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0023.MOV",
+      "sizeMb": 129.4
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0158.MOV",
+      "rel": "X6 M50d\\MVI_0158.MOV",
+      "sizeMb": 128.5
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0064.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0064.MOV",
+      "sizeMb": 128.2
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, południe, Varezze, Emergenza\\MVI_0124.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, południe, Varezze, Emergenza\\MVI_0124.MOV",
+      "sizeMb": 127.9
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0148.MOV",
+      "rel": "X6 M50d\\MVI_0148.MOV",
+      "sizeMb": 125.6
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\Mercedes CLS - Autogaleria_1.mp4",
+      "rel": "FILMY - aG\\Mercedes CLS - Autogaleria_1.mp4",
+      "sizeMb": 123.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0233.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0233.MOV",
+      "sizeMb": 123.1
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0236.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0236.MOV",
+      "sizeMb": 121.1
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0039.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0039.MOV",
+      "sizeMb": 121.1
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\BEN COLLINS vs KLAUDIA PODKALICKA\\LEXUS_RCF_BENvsKLAUDIA1.mp4",
+      "rel": "Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\BEN COLLINS vs KLAUDIA PODKALICKA\\LEXUS_RCF_BENvsKLAUDIA1.mp4",
+      "sizeMb": 120.9
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\IMG_5389.AVI",
+      "rel": "Zdjęcia\\IMG_5389.AVI",
+      "sizeMb": 120.4
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0107.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0107.MOV",
+      "sizeMb": 119.3
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\BEN COLLINS vs KLAUDIA PODKALICKA\\LEXUS_RCF_BENvsKLAUDIA3.mp4",
+      "rel": "Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\BEN COLLINS vs KLAUDIA PODKALICKA\\LEXUS_RCF_BENvsKLAUDIA3.mp4",
+      "sizeMb": 115.8
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0115.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0115.MOV",
+      "sizeMb": 115.2
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\BEN COLLINS vs KLAUDIA PODKALICKA\\LEXUS_RCF_BENvsKLAUDIA2.mp4",
+      "rel": "Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\BEN COLLINS vs KLAUDIA PODKALICKA\\LEXUS_RCF_BENvsKLAUDIA2.mp4",
+      "sizeMb": 115
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0144.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0144.MOV",
+      "sizeMb": 112.3
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\SUROWE\\Mercedes GLE i GLE Coupe\\MVI_0102.MOV",
+      "rel": "Galerie z testów\\SUROWE\\Mercedes GLE i GLE Coupe\\MVI_0102.MOV",
+      "sizeMb": 112.1
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0151.MOV",
+      "rel": "X6 M50d\\MVI_0151.MOV",
+      "sizeMb": 111.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0071.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0071.MOV",
+      "sizeMb": 111.6
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\aG Toyota Land Cruiser - FILM.mp4",
+      "rel": "FILMY - aG\\aG Toyota Land Cruiser - FILM.mp4",
+      "sizeMb": 111.3
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0137.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0137.MOV",
+      "sizeMb": 111.2
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0137.MOV",
+      "rel": "X6 M50d\\MVI_0137.MOV",
+      "sizeMb": 110.5
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0108.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0108.MOV",
+      "sizeMb": 109.4
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0119.MOV",
+      "rel": "X6 M50d\\MVI_0119.MOV",
+      "sizeMb": 108.9
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0122.MOV",
+      "rel": "X6 M50d\\MVI_0122.MOV",
+      "sizeMb": 107.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, południe, Varezze, Emergenza\\MVI_0123.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, południe, Varezze, Emergenza\\MVI_0123.MOV",
+      "sizeMb": 107.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0045.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0045.MOV",
+      "sizeMb": 106
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0036.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0036.MOV",
+      "sizeMb": 105.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Niebo, wieczór, chmury lecą.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Niebo, wieczór, chmury lecą.MOV",
+      "sizeMb": 104.5
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0021.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0021.MOV",
+      "sizeMb": 102.4
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0109.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0109.MOV",
+      "sizeMb": 101.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0046.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0046.MOV",
+      "sizeMb": 100.4
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0020.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0020.MOV",
+      "sizeMb": 98.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0033.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0033.MOV",
+      "sizeMb": 97.9
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0135.MOV",
+      "rel": "X6 M50d\\MVI_0135.MOV",
+      "sizeMb": 97.7
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0706.MOV",
+      "rel": "Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0706.MOV",
+      "sizeMb": 96.9
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0134.MOV",
+      "rel": "X6 M50d\\MVI_0134.MOV",
+      "sizeMb": 96.5
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0136.MOV",
+      "rel": "X6 M50d\\MVI_0136.MOV",
+      "sizeMb": 96.2
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0230.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0230.MOV",
+      "sizeMb": 94.1
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0164.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0164.MOV",
+      "sizeMb": 92.6
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\EVENTY\\Lexus RC-F\\VBOX0038.avi",
+      "rel": "FILMY - aG\\EVENTY\\Lexus RC-F\\VBOX0038.avi",
+      "sizeMb": 92.4
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\SUROWE\\Infiniti Q70, Mercedes Vito\\100CANON\\MVI_0030.MOV",
+      "rel": "Galerie z testów\\SUROWE\\Infiniti Q70, Mercedes Vito\\100CANON\\MVI_0030.MOV",
+      "sizeMb": 92.2
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0153.MOV",
+      "rel": "X6 M50d\\MVI_0153.MOV",
+      "sizeMb": 92.1
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0150.MOV",
+      "rel": "X6 M50d\\MVI_0150.MOV",
+      "sizeMb": 91.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Jazda przez Nurburg.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\Niemcy i Nurburgring\\Normal\\Jazda przez Nurburg.MOV",
+      "sizeMb": 91.3
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0127.MOV",
+      "rel": "X6 M50d\\MVI_0127.MOV",
+      "sizeMb": 89.7
+    },
+    {
+      "path": "D:\\MARCIN\\Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy\\MVI_0294.MOV",
+      "rel": "Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy\\MVI_0294.MOV",
+      "sizeMb": 89.4
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\Volkswagen XL1\\MVI_0137.MOV",
+      "rel": "Galerie z testów\\Volkswagen XL1\\MVI_0137.MOV",
+      "sizeMb": 86.3
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0125.MOV",
+      "rel": "X6 M50d\\MVI_0125.MOV",
+      "sizeMb": 85.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Obwodnica Trójmiasta nocą.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Wideorejestrator\\10-13.08\\Normal\\Obwodnica Trójmiasta nocą.MOV",
+      "sizeMb": 84.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1407.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1407.MP4",
+      "sizeMb": 84.4
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\v40.mp4",
+      "rel": "FILMY - aG\\v40.mp4",
+      "sizeMb": 84.2
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\Marcin Bochenek II przejazd Lexus GSF.mp4",
+      "rel": "Galerie z testów\\Marcin Bochenek II przejazd Lexus GSF.mp4",
+      "sizeMb": 83.9
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0113.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0113.MOV",
+      "sizeMb": 82.7
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\TOP3 JOURNALISTS GSF FINAL\\Łukasz Byśkiniewicz II przejazd Lexus GSF.mp4",
+      "rel": "Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\TOP3 JOURNALISTS GSF FINAL\\Łukasz Byśkiniewicz II przejazd Lexus GSF.mp4",
+      "sizeMb": 82.6
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\TOP3 JOURNALISTS GSF FINAL\\Bartosz Boruta II przejazd Lexus GSF.mp4",
+      "rel": "Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\TOP3 JOURNALISTS GSF FINAL\\Bartosz Boruta II przejazd Lexus GSF.mp4",
+      "sizeMb": 82.1
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\TOP3 JOURNALISTS GSF FINAL\\Jacek Jurecki II przejazd Lexus GSF.mp4",
+      "rel": "Z PULPITU\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\PRESSPACK_LEXUSDRIVINGEMOTIONS2016\\MOVIES\\TOP3 JOURNALISTS GSF FINAL\\Jacek Jurecki II przejazd Lexus GSF.mp4",
+      "sizeMb": 81.7
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0126.MOV",
+      "rel": "X6 M50d\\MVI_0126.MOV",
+      "sizeMb": 80.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0035.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0035.MOV",
+      "sizeMb": 80.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0227.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0227.MOV",
+      "sizeMb": 80.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1410.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1410.MP4",
+      "sizeMb": 80.1
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0161.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0161.MOV",
+      "sizeMb": 79.6
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\Marcin Bochenek Lexus GSF.mp4",
+      "rel": "Galerie z testów\\Marcin Bochenek Lexus GSF.mp4",
+      "sizeMb": 79.4
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0120.MOV",
+      "rel": "X6 M50d\\MVI_0120.MOV",
+      "sizeMb": 78.2
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0144.MOV",
+      "rel": "X6 M50d\\MVI_0144.MOV",
+      "sizeMb": 77.8
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0149.MOV",
+      "rel": "X6 M50d\\MVI_0149.MOV",
+      "sizeMb": 77.6
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0129.MOV",
+      "rel": "X6 M50d\\MVI_0129.MOV",
+      "sizeMb": 77.5
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0062.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0062.MOV",
+      "sizeMb": 76.5
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0078.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0078.MOV",
+      "sizeMb": 75.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0068.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0068.MOV",
+      "sizeMb": 75.6
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0019.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0019.MOV",
+      "sizeMb": 75.3
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0026.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0026.MOV",
+      "sizeMb": 74.2
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0675.MOV",
+      "rel": "Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0675.MOV",
+      "sizeMb": 73.8
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0707.MOV",
+      "rel": "Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0707.MOV",
+      "sizeMb": 72.9
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0120.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0120.MOV",
+      "sizeMb": 72.3
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\WAKACJE 2014\\Wakacje 2014 - Monako\\GOPR1268.MP4",
+      "rel": "Zdjęcia\\WAKACJE 2014\\Wakacje 2014 - Monako\\GOPR1268.MP4",
+      "sizeMb": 72.3
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1400.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1400.MP4",
+      "sizeMb": 71.7
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0146.MOV",
+      "rel": "X6 M50d\\MVI_0146.MOV",
+      "sizeMb": 71.4
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0155.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0155.MOV",
+      "sizeMb": 70.4
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0708.MOV",
+      "rel": "Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0708.MOV",
+      "sizeMb": 69.9
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0140.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0140.MOV",
+      "sizeMb": 69.8
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0028.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0028.MOV",
+      "sizeMb": 69.2
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0059.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0059.MOV",
+      "sizeMb": 69
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0063.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0063.MOV",
+      "sizeMb": 69
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0079.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0079.MOV",
+      "sizeMb": 68.7
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0121.MOV",
+      "rel": "X6 M50d\\MVI_0121.MOV",
+      "sizeMb": 68.3
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0229.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0229.MOV",
+      "sizeMb": 67.8
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0067.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0067.MOV",
+      "sizeMb": 67.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0054.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0054.MOV",
+      "sizeMb": 66.9
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1404.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1404.MP4",
+      "sizeMb": 66.6
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0027.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0027.MOV",
+      "sizeMb": 66.2
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, południe, Varezze, Emergenza\\MVI_0122.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, południe, Varezze, Emergenza\\MVI_0122.MOV",
+      "sizeMb": 62.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1403.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1403.MP4",
+      "sizeMb": 62.2
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1406.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1406.MP4",
+      "sizeMb": 62.2
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\Plik 06.02.2016, 17 43 37.mov",
+      "rel": "Z PULPITU\\Plik 06.02.2016, 17 43 37.mov",
+      "sizeMb": 61.8
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1399.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1399.MP4",
+      "sizeMb": 60.7
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0674.MOV",
+      "rel": "Galerie z testów\\BACKUP KARTY 20.10.2015\\MVI_0674.MOV",
+      "sizeMb": 60.4
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1411.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1411.MP4",
+      "sizeMb": 60.1
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1405.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1405.MP4",
+      "sizeMb": 59.3
+    },
+    {
+      "path": "D:\\MARCIN\\Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy\\MVI_0078.MOV",
+      "rel": "Foty do obróbki - Marcin\\Porsche on Track - Estonia 2014 +filmy\\MVI_0078.MOV",
+      "sizeMb": 58.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0232.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0232.MOV",
+      "sizeMb": 58.2
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0053.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Włochy, północ, żaba\\MVI_0053.MOV",
+      "sizeMb": 57.7
+    },
+    {
+      "path": "D:\\MARCIN\\X6 M50d\\MVI_0152.MOV",
+      "rel": "X6 M50d\\MVI_0152.MOV",
+      "sizeMb": 57.6
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\SUROWE\\Mercedes GLE i GLE Coupe\\MVI_0022.MOV",
+      "rel": "Galerie z testów\\SUROWE\\Mercedes GLE i GLE Coupe\\MVI_0022.MOV",
+      "sizeMb": 56.9
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0121.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0121.MOV",
+      "sizeMb": 56
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1402.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1402.MP4",
+      "sizeMb": 55
+    },
+    {
+      "path": "D:\\MARCIN\\Zdjęcia\\WAKACJE 2014\\Wakacje 2014 - Monako\\GOPR1265.MP4",
+      "rel": "Zdjęcia\\WAKACJE 2014\\Wakacje 2014 - Monako\\GOPR1265.MP4",
+      "sizeMb": 55
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0111.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0111.MOV",
+      "sizeMb": 54.9
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\Volkswagen XL1\\MVI_0138.MOV",
+      "rel": "Galerie z testów\\Volkswagen XL1\\MVI_0138.MOV",
+      "sizeMb": 54.6
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1452.MP4",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\GOPR1452.MP4",
+      "sizeMb": 53.7
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0025.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0025.MOV",
+      "sizeMb": 53.7
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0234.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja i Niemcy (Nurburgring)\\MVI_0234.MOV",
+      "sizeMb": 53.3
+    },
+    {
+      "path": "D:\\MARCIN\\Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0077.MOV",
+      "rel": "Dlugi dystans OCTA RS\\Film - Skoda Octavia RS - Długi dystans\\Francja, winnica\\MVI_0077.MOV",
+      "sizeMb": 53.3
+    },
+    {
+      "path": "D:\\MARCIN\\FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0066.MOV",
+      "rel": "FILMY - aG\\SUROWE\\FILM PASSAT DD\\Canon\\MVI_0066.MOV",
+      "sizeMb": 51.6
+    }
+  ],
+  "docFiles": [
+    {
+      "path": "D:\\MARCIN\\Artykuły\\artykuły.docx",
+      "rel": "Artykuły\\artykuły.docx",
+      "titleGuess": "artykuły"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Aston Martin Motorsport\\Aston Martin Racing mierzy wysoko.docx",
+      "rel": "Artykuły\\Aston Martin Motorsport\\Aston Martin Racing mierzy wysoko.docx",
+      "titleGuess": "Aston Martin Racing mierzy wysoko"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Audi RS Q3.docx",
+      "rel": "Artykuły\\Audi RS Q3.docx",
+      "titleGuess": "Audi RS Q3"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\dane.docx",
+      "rel": "Artykuły\\dane.docx",
+      "titleGuess": "dane"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Evoque Convertible Concept\\Range Rover Evoque Convertible Concept.docx",
+      "rel": "Artykuły\\Evoque Convertible Concept\\Range Rover Evoque Convertible Concept.docx",
+      "titleGuess": "Range Rover Evoque Convertible Concept"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Formuła 1 - Trójka nowicjuszy, czyli kto się uczy.docx",
+      "rel": "Artykuły\\Formuła 1 - Trójka nowicjuszy, czyli kto się uczy.docx",
+      "titleGuess": "Formuła 1 - Trójka nowicjuszy, czyli kto się uczy"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Formuła 1 Kwaśne miny w Maranello.docx",
+      "rel": "Artykuły\\Formuła 1 Kwaśne miny w Maranello.docx",
+      "titleGuess": "Formuła 1 Kwaśne miny w Maranello"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Formuła 1 wstep.docx",
+      "rel": "Artykuły\\Formuła 1 wstep.docx",
+      "titleGuess": "Formuła 1 wstep"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Formuła 1, Lotus F1 Team (2).docx",
+      "rel": "Artykuły\\Formuła 1, Lotus F1 Team (2).docx",
+      "titleGuess": "Formuła 1, Lotus F1 Team (2)"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Formuła 1, Lotus F1 Team.docx",
+      "rel": "Artykuły\\Formuła 1, Lotus F1 Team.docx",
+      "titleGuess": "Formuła 1, Lotus F1 Team"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Formuła 1.docx",
+      "rel": "Artykuły\\Formuła 1.docx",
+      "titleGuess": "Formuła 1"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Furai.docx",
+      "rel": "Artykuły\\Furai.docx",
+      "titleGuess": "Furai"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Garaż GTHome - Seat Cordoba.docx",
+      "rel": "Artykuły\\Garaż GTHome - Seat Cordoba.docx",
+      "titleGuess": "Garaż GTHome - Seat Cordoba"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Garaż GTHome.docx",
+      "rel": "Artykuły\\Garaż GTHome.docx",
+      "titleGuess": "Garaż GTHome"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Genewa 2013 oczami autoGALERII.docx",
+      "rel": "Artykuły\\Genewa 2013 oczami autoGALERII.docx",
+      "titleGuess": "Genewa 2013 oczami autoGALERII"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Abu Zabi - kwalifikacje.docx",
+      "rel": "Artykuły\\GP Abu Zabi - kwalifikacje.docx",
+      "titleGuess": "GP Abu Zabi - kwalifikacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Australii - Kwalifikacje.docx",
+      "rel": "Artykuły\\GP Australii - Kwalifikacje.docx",
+      "titleGuess": "GP Australii - Kwalifikacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Australii- Sensacyjne kwalifikacje.docx",
+      "rel": "Artykuły\\GP Australii- Sensacyjne kwalifikacje.docx",
+      "titleGuess": "GP Australii- Sensacyjne kwalifikacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Bahrajnu - race.docx",
+      "rel": "Artykuły\\GP Bahrajnu - race.docx",
+      "titleGuess": "GP Bahrajnu - race"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Bahrajnu - Vettel wygrywa po ciężkiej walce.docx",
+      "rel": "Artykuły\\GP Bahrajnu - Vettel wygrywa po ciężkiej walce.docx",
+      "titleGuess": "GP Bahrajnu - Vettel wygrywa po ciężkiej walce"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Bahrajnu Q.docx",
+      "rel": "Artykuły\\GP Bahrajnu Q.docx",
+      "titleGuess": "GP Bahrajnu Q"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Bahrajnu.docx",
+      "rel": "Artykuły\\GP Bahrajnu.docx",
+      "titleGuess": "GP Bahrajnu"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Belgii - wyścig.docx",
+      "rel": "Artykuły\\GP Belgii - wyścig.docx",
+      "titleGuess": "GP Belgii - wyścig"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Brazylii.docx",
+      "rel": "Artykuły\\GP Brazylii.docx",
+      "titleGuess": "GP Brazylii"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Chin - Koszmarne opony.docx",
+      "rel": "Artykuły\\GP Chin - Koszmarne opony.docx",
+      "titleGuess": "GP Chin - Koszmarne opony"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Chin - wyścig.docx",
+      "rel": "Artykuły\\GP Chin - wyścig.docx",
+      "titleGuess": "GP Chin - wyścig"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Chin wyscig.docx",
+      "rel": "Artykuły\\GP Chin wyscig.docx",
+      "titleGuess": "GP Chin wyscig"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Chin.docx",
+      "rel": "Artykuły\\GP Chin.docx",
+      "titleGuess": "GP Chin"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Indii - kwalifikacje.docx",
+      "rel": "Artykuły\\GP Indii - kwalifikacje.docx",
+      "titleGuess": "GP Indii - kwalifikacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Japonii.docx",
+      "rel": "Artykuły\\GP Japonii.docx",
+      "titleGuess": "GP Japonii"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Korei - kwalifikacje.docx",
+      "rel": "Artykuły\\GP Korei - kwalifikacje.docx",
+      "titleGuess": "GP Korei - kwalifikacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Korei - Wyścig.docx",
+      "rel": "Artykuły\\GP Korei - Wyścig.docx",
+      "titleGuess": "GP Korei - Wyścig"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Malezji - kwalifikacje.docx",
+      "rel": "Artykuły\\GP Malezji - kwalifikacje.docx",
+      "titleGuess": "GP Malezji - kwalifikacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Malezji - Q.docx",
+      "rel": "Artykuły\\GP Malezji - Q.docx",
+      "titleGuess": "GP Malezji - Q"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Malezji.docx",
+      "rel": "Artykuły\\GP Malezji.docx",
+      "titleGuess": "GP Malezji"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Monako.docx",
+      "rel": "Artykuły\\GP Monako.docx",
+      "titleGuess": "GP Monako"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Niemiec.docx",
+      "rel": "Artykuły\\GP Niemiec.docx",
+      "titleGuess": "GP Niemiec"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Singapuru.docx",
+      "rel": "Artykuły\\GP Singapuru.docx",
+      "titleGuess": "GP Singapuru"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP USA - Kwalifikacje.docx",
+      "rel": "Artykuły\\GP USA - Kwalifikacje.docx",
+      "titleGuess": "GP USA - Kwalifikacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP USA.docx",
+      "rel": "Artykuły\\GP USA.docx",
+      "titleGuess": "GP USA"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Węgier.docx",
+      "rel": "Artykuły\\GP Węgier.docx",
+      "titleGuess": "GP Węgier"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Włoch - kwalifikacje.docx",
+      "rel": "Artykuły\\GP Włoch - kwalifikacje.docx",
+      "titleGuess": "GP Włoch - kwalifikacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GP Włoch.docx",
+      "rel": "Artykuły\\GP Włoch.docx",
+      "titleGuess": "GP Włoch"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Gran Turismo 5 Roadshow - Wyjazd na 'Ring.docx",
+      "rel": "Artykuły\\Gran Turismo 5 Roadshow - Wyjazd na 'Ring.docx",
+      "titleGuess": "Gran Turismo 5 Roadshow - Wyjazd na 'Ring"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GT by Citroen.docx",
+      "rel": "Artykuły\\GT by Citroen.docx",
+      "titleGuess": "GT by Citroen"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GT5 vs Life - autogaleria.docx",
+      "rel": "Artykuły\\GT5 vs Life - autogaleria.docx",
+      "titleGuess": "GT5 vs Life - autogaleria"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GT5 vs Life - Toyota GT 86.docx",
+      "rel": "Artykuły\\GT5 vs Life - Toyota GT 86.docx",
+      "titleGuess": "GT5 vs Life - Toyota GT 86"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\GT5GTH4D-edit.doc",
+      "rel": "Artykuły\\GT5GTH4D-edit.doc",
+      "titleGuess": "GT5GTH4D-edit"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Gulliemot Thrustmaster T500RS - Test.docx",
+      "rel": "Artykuły\\Gulliemot Thrustmaster T500RS - Test.docx",
+      "titleGuess": "Gulliemot Thrustmaster T500RS - Test"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Honda powróci do F1 w 2015 roku.docx",
+      "rel": "Artykuły\\Honda powróci do F1 w 2015 roku.docx",
+      "titleGuess": "Honda powróci do F1 w 2015 roku"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\I Hybrydowe Grand Prix Toyoty.docx",
+      "rel": "Artykuły\\I Hybrydowe Grand Prix Toyoty.docx",
+      "titleGuess": "I Hybrydowe Grand Prix Toyoty"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Jeckyll i Hyde - Dread.docx",
+      "rel": "Artykuły\\Jeckyll i Hyde - Dread.docx",
+      "titleGuess": "Jeckyll i Hyde - Dread"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Konkurs GT HOME.doc",
+      "rel": "Artykuły\\Konkurs GT HOME.doc",
+      "titleGuess": "Konkurs GT HOME"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Kącik techniczny F1.docx",
+      "rel": "Artykuły\\Kącik techniczny F1.docx",
+      "titleGuess": "Kącik techniczny F1"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Lexus RX (2).docx",
+      "rel": "Artykuły\\Lexus RX (2).docx",
+      "titleGuess": "Lexus RX (2)"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\LIGA GTHOME Bochen.docx",
+      "rel": "Artykuły\\LIGA GTHOME Bochen.docx",
+      "titleGuess": "LIGA GTHOME Bochen"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\LIGA GTHOME.doc",
+      "rel": "Artykuły\\LIGA GTHOME.doc",
+      "titleGuess": "LIGA GTHOME"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\liga.doc",
+      "rel": "Artykuły\\liga.doc",
+      "titleGuess": "liga"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\MINI Drive.docx",
+      "rel": "Artykuły\\MINI Drive.docx",
+      "titleGuess": "MINI Drive"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\25-lecie pierwszego silnika V12 w BMW.docx",
+      "rel": "Artykuły\\NEWS\\25-lecie pierwszego silnika V12 w BMW.docx",
+      "titleGuess": "25-lecie pierwszego silnika V12 w BMW"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Alfa Romeo i Lancia w Genewie.docx",
+      "rel": "Artykuły\\NEWS\\Alfa Romeo i Lancia w Genewie.docx",
+      "titleGuess": "Alfa Romeo i Lancia w Genewie"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Alfa Romeo w Genewie.docx",
+      "rel": "Artykuły\\NEWS\\Alfa Romeo w Genewie.docx",
+      "titleGuess": "Alfa Romeo w Genewie"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Aston Martin Vanquish od Wheelsandmore.docx",
+      "rel": "Artykuły\\NEWS\\Aston Martin Vanquish od Wheelsandmore.docx",
+      "titleGuess": "Aston Martin Vanquish od Wheelsandmore"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Audi zwycięża w WEC 2012.docx",
+      "rel": "Artykuły\\NEWS\\Audi zwycięża w WEC 2012.docx",
+      "titleGuess": "Audi zwycięża w WEC 2012"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Australia - 1 i 2 trening.docx",
+      "rel": "Artykuły\\NEWS\\Australia - 1 i 2 trening.docx",
+      "titleGuess": "Australia - 1 i 2 trening"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Bardziej przystępne cenowo hybrydy.docx",
+      "rel": "Artykuły\\NEWS\\Bardziej przystępne cenowo hybrydy.docx",
+      "titleGuess": "Bardziej przystępne cenowo hybrydy"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Bentley EXP 9 F.docx",
+      "rel": "Artykuły\\NEWS\\Bentley EXP 9 F.docx",
+      "titleGuess": "Bentley EXP 9 F"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\BMW 3 LWB.docx",
+      "rel": "Artykuły\\NEWS\\BMW 3 LWB.docx",
+      "titleGuess": "BMW 3 LWB"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\BMW zwycięża w DTM w pierwszym sezonie po powrocie.docx",
+      "rel": "Artykuły\\NEWS\\BMW zwycięża w DTM w pierwszym sezonie po powrocie.docx",
+      "titleGuess": "BMW zwycięża w DTM w pierwszym sezonie po powrocie"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\BMW zwycięża w serii DTM.docx",
+      "rel": "Artykuły\\NEWS\\BMW zwycięża w serii DTM.docx",
+      "titleGuess": "BMW zwycięża w serii DTM"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Bugatti Gangloff Concept.docx",
+      "rel": "Artykuły\\NEWS\\Bugatti Gangloff Concept.docx",
+      "titleGuess": "Bugatti Gangloff Concept"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Citroen Numero 9 concept.docx",
+      "rel": "Artykuły\\NEWS\\Citroen Numero 9 concept.docx",
+      "titleGuess": "Citroen Numero 9 concept"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Composite Worx Lotus Extrema.docx",
+      "rel": "Artykuły\\NEWS\\Composite Worx Lotus Extrema.docx",
+      "titleGuess": "Composite Worx Lotus Extrema"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Człowiek w białym kombinezonie.docx",
+      "rel": "Artykuły\\NEWS\\Człowiek w białym kombinezonie.docx",
+      "titleGuess": "Człowiek w białym kombinezonie"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Dakar 2013.docx",
+      "rel": "Artykuły\\NEWS\\Dakar 2013.docx",
+      "titleGuess": "Dakar 2013"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Enrico Pavoni wielki architekt motoryzacji.doc",
+      "rel": "Artykuły\\NEWS\\Enrico Pavoni wielki architekt motoryzacji.doc",
+      "titleGuess": "Enrico Pavoni wielki architekt motoryzacji"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Enrico Pavoni.docx",
+      "rel": "Artykuły\\NEWS\\Enrico Pavoni.docx",
+      "titleGuess": "Enrico Pavoni"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Ferrari Sergio concept.docx",
+      "rel": "Artykuły\\NEWS\\Ferrari Sergio concept.docx",
+      "titleGuess": "Ferrari Sergio concept"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Fiat w Genewie.docx",
+      "rel": "Artykuły\\NEWS\\Fiat w Genewie.docx",
+      "titleGuess": "Fiat w Genewie"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Ford Atlas Concept.docx",
+      "rel": "Artykuły\\NEWS\\Ford Atlas Concept.docx",
+      "titleGuess": "Ford Atlas Concept"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Goodwood FoS - Piękni, młodzi i...najszybsi.docx",
+      "rel": "Artykuły\\NEWS\\Goodwood FoS - Piękni, młodzi i...najszybsi.docx",
+      "titleGuess": "Goodwood FoS - Piękni, młodzi i...najszybsi"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Hennessey Venom.docx",
+      "rel": "Artykuły\\NEWS\\Hennessey Venom.docx",
+      "titleGuess": "Hennessey Venom"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Honda Civic jeszcze bardziej dynamiczna.docx",
+      "rel": "Artykuły\\NEWS\\Honda Civic jeszcze bardziej dynamiczna.docx",
+      "titleGuess": "Honda Civic jeszcze bardziej dynamiczna"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Hyundai buduje nowy ośrodek testowy na Nurburgringu.docx",
+      "rel": "Artykuły\\NEWS\\Hyundai buduje nowy ośrodek testowy na Nurburgringu.docx",
+      "titleGuess": "Hyundai buduje nowy ośrodek testowy na Nurburgringu"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Infiniti Q50.docx",
+      "rel": "Artykuły\\NEWS\\Infiniti Q50.docx",
+      "titleGuess": "Infiniti Q50"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Jaguar Heritage Racing.docx",
+      "rel": "Artykuły\\NEWS\\Jaguar Heritage Racing.docx",
+      "titleGuess": "Jaguar Heritage Racing"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Kubica zwycięża w rajdzie Gomitolo di Lana.docx",
+      "rel": "Artykuły\\NEWS\\Kubica zwycięża w rajdzie Gomitolo di Lana.docx",
+      "titleGuess": "Kubica zwycięża w rajdzie Gomitolo di Lana"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\LaFerrari.gdoc",
+      "rel": "Artykuły\\NEWS\\LaFerrari.gdoc",
+      "titleGuess": "LaFerrari"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Lamborghini Veneno - LaExtrema.gdoc",
+      "rel": "Artykuły\\NEWS\\Lamborghini Veneno - LaExtrema.gdoc",
+      "titleGuess": "Lamborghini Veneno - LaExtrema"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Lexus ES.docx",
+      "rel": "Artykuły\\NEWS\\Lexus ES.docx",
+      "titleGuess": "Lexus ES"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Lucas Ordóñez to zwycięzca pierwszej edycji Nissan GT Academy.docx",
+      "rel": "Artykuły\\NEWS\\Lucas Ordóñez to zwycięzca pierwszej edycji Nissan GT Academy.docx",
+      "titleGuess": "Lucas Ordóñez to zwycięzca pierwszej edycji Nissan GT Academy"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Maserati GranCabrio MC.docx",
+      "rel": "Artykuły\\NEWS\\Maserati GranCabrio MC.docx",
+      "titleGuess": "Maserati GranCabrio MC"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Mazda 787B to jeden z tych samochodów.docx",
+      "rel": "Artykuły\\NEWS\\Mazda 787B to jeden z tych samochodów.docx",
+      "titleGuess": "Mazda 787B to jeden z tych samochodów"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Małysz i Marton podsumowują Dakar 2013.docx",
+      "rel": "Artykuły\\NEWS\\Małysz i Marton podsumowują Dakar 2013.docx",
+      "titleGuess": "Małysz i Marton podsumowują Dakar 2013"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\McLaren P1.docx",
+      "rel": "Artykuły\\NEWS\\McLaren P1.docx",
+      "titleGuess": "McLaren P1"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Największa parada Ferrari trafia do księgi rekordów Guinessa.docx",
+      "rel": "Artykuły\\NEWS\\Największa parada Ferrari trafia do księgi rekordów Guinessa.docx",
+      "titleGuess": "Największa parada Ferrari trafia do księgi rekordów Guinessa"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\NSX Concept otwiera się na świat w Detroit.docx",
+      "rel": "Artykuły\\NEWS\\NSX Concept otwiera się na świat w Detroit.docx",
+      "titleGuess": "NSX Concept otwiera się na świat w Detroit"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Pagani Zonda Revolucion.docx",
+      "rel": "Artykuły\\NEWS\\Pagani Zonda Revolucion.docx",
+      "titleGuess": "Pagani Zonda Revolucion"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Peter Schreyer prezesem KIA Motors Corporation.docx",
+      "rel": "Artykuły\\NEWS\\Peter Schreyer prezesem KIA Motors Corporation.docx",
+      "titleGuess": "Peter Schreyer prezesem KIA Motors Corporation"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Quadrifoglio Verde ma już 90 lat.docx",
+      "rel": "Artykuły\\NEWS\\Quadrifoglio Verde ma już 90 lat.docx",
+      "titleGuess": "Quadrifoglio Verde ma już 90 lat"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Red Bull X2010.docx",
+      "rel": "Artykuły\\NEWS\\Red Bull X2010.docx",
+      "titleGuess": "Red Bull X2010"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Robert Kubica oficjalnie wraca do wyścigów.docx",
+      "rel": "Artykuły\\NEWS\\Robert Kubica oficjalnie wraca do wyścigów.docx",
+      "titleGuess": "Robert Kubica oficjalnie wraca do wyścigów"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Robert Kubica zwyciężył w Rally di Como.docx",
+      "rel": "Artykuły\\NEWS\\Robert Kubica zwyciężył w Rally di Como.docx",
+      "titleGuess": "Robert Kubica zwyciężył w Rally di Como"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\silniki wankla.docx",
+      "rel": "Artykuły\\NEWS\\silniki wankla.docx",
+      "titleGuess": "silniki wankla"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Tegoroczny Goodwood Festival of Speed będzie dla fanów oldtimerów nie lada gratką.docx",
+      "rel": "Artykuły\\NEWS\\Tegoroczny Goodwood Festival of Speed będzie dla fanów oldtimerów nie lada gratką.docx",
+      "titleGuess": "Tegoroczny Goodwood Festival of Speed będzie dla fanów oldtimerów nie lada gratką"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\NEWS\\Wyjazd na Nurburgring.docx",
+      "rel": "Artykuły\\NEWS\\Wyjazd na Nurburgring.docx",
+      "titleGuess": "Wyjazd na Nurburgring"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Oglądając tegoroczne dzieło projektantów z Maranello warto ominąć wzrokiem pokraczny.docx",
+      "rel": "Artykuły\\Oglądając tegoroczne dzieło projektantów z Maranello warto ominąć wzrokiem pokraczny.docx",
+      "titleGuess": "Oglądając tegoroczne dzieło projektantów z Maranello warto ominąć wzrokiem pokraczny"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Opel Cascada i Opel Adam Rocks - Klasa.gdoc",
+      "rel": "Artykuły\\Opel Cascada i Opel Adam Rocks - Klasa.gdoc",
+      "titleGuess": "Opel Cascada i Opel Adam Rocks - Klasa"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Opel Zafira Tourer\\Opel Zafira Tourer dostępny w salonach od 82.docx",
+      "rel": "Artykuły\\Opel Zafira Tourer\\Opel Zafira Tourer dostępny w salonach od 82.docx",
+      "titleGuess": "Opel Zafira Tourer dostępny w salonach od 82"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Przed nami regionalny finał Nissan GT Academy.docx",
+      "rel": "Artykuły\\Przed nami regionalny finał Nissan GT Academy.docx",
+      "titleGuess": "Przed nami regionalny finał Nissan GT Academy"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Rajd Dakar.docx",
+      "rel": "Artykuły\\Rajd Dakar.docx",
+      "titleGuess": "Rajd Dakar"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\redbull\\Red Bull X2010_2.docx",
+      "rel": "Artykuły\\redbull\\Red Bull X2010_2.docx",
+      "titleGuess": "Red Bull X2010_2"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\redbull\\~$d Bull X2010_2.docx",
+      "rel": "Artykuły\\redbull\\~$d Bull X2010_2.docx",
+      "titleGuess": "~$d Bull X2010_2"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\RON WYWIAD.docx",
+      "rel": "Artykuły\\RON WYWIAD.docx",
+      "titleGuess": "RON WYWIAD"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Rusza program Nissan GT Academy 2013.docx",
+      "rel": "Artykuły\\Rusza program Nissan GT Academy 2013.docx",
+      "titleGuess": "Rusza program Nissan GT Academy 2013"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Seat Cordoba SportHybrid All Wheel Drive.docx",
+      "rel": "Artykuły\\Seat Cordoba SportHybrid All Wheel Drive.docx",
+      "titleGuess": "Seat Cordoba SportHybrid All Wheel Drive"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Shelby Focus ST.docx",
+      "rel": "Artykuły\\Shelby Focus ST.docx",
+      "titleGuess": "Shelby Focus ST"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\SPA GTHOME.docx",
+      "rel": "Artykuły\\SPA GTHOME.docx",
+      "titleGuess": "SPA GTHOME"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\SUZUKA REALITY.docx",
+      "rel": "Artykuły\\SUZUKA REALITY.docx",
+      "titleGuess": "SUZUKA REALITY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Alfa Romeo Giulietta - Nie tylko dla wtajemniczonych.docx",
+      "rel": "Artykuły\\TESTY\\Alfa Romeo Giulietta - Nie tylko dla wtajemniczonych.docx",
+      "titleGuess": "Alfa Romeo Giulietta - Nie tylko dla wtajemniczonych"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Alfa Romeo Giulietta TEST.docx",
+      "rel": "Artykuły\\TESTY\\Alfa Romeo Giulietta TEST.docx",
+      "titleGuess": "Alfa Romeo Giulietta TEST"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\BMW 328i xDrive - Niech żyje dynamika.docx",
+      "rel": "Artykuły\\TESTY\\BMW 328i xDrive - Niech żyje dynamika.docx",
+      "titleGuess": "BMW 328i xDrive - Niech żyje dynamika"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\BYD e6.docx",
+      "rel": "Artykuły\\TESTY\\BYD e6.docx",
+      "titleGuess": "BYD e6"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Citroen C-Elysee 1.6 HDi Seduction - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Citroen C-Elysee 1.6 HDi Seduction - GOTOWY.docx",
+      "titleGuess": "Citroen C-Elysee 1.6 HDi Seduction - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Dacia Sandero 0.9 TCe Laureate - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Dacia Sandero 0.9 TCe Laureate - GOTOWY.docx",
+      "titleGuess": "Dacia Sandero 0.9 TCe Laureate - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Fiat 500L 1.6 16V Pop Star.docx",
+      "rel": "Artykuły\\TESTY\\Fiat 500L 1.6 16V Pop Star.docx",
+      "titleGuess": "Fiat 500L 1.6 16V Pop Star"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Ford Fiesta.docx",
+      "rel": "Artykuły\\TESTY\\Ford Fiesta.docx",
+      "titleGuess": "Ford Fiesta"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Ford Focus 1.0 EcoBoost - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Ford Focus 1.0 EcoBoost - GOTOWY.docx",
+      "titleGuess": "Ford Focus 1.0 EcoBoost - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Ford Focus ST Kombi 2.0 EcoBoost - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Ford Focus ST Kombi 2.0 EcoBoost - GOTOWY.docx",
+      "titleGuess": "Ford Focus ST Kombi 2.0 EcoBoost - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Ford Kuga.docx",
+      "rel": "Artykuły\\TESTY\\Ford Kuga.docx",
+      "titleGuess": "Ford Kuga"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Ford Ranger 2.2 TDCi Limited - Spacer farmera.docx",
+      "rel": "Artykuły\\TESTY\\Ford Ranger 2.2 TDCi Limited - Spacer farmera.docx",
+      "titleGuess": "Ford Ranger 2.2 TDCi Limited - Spacer farmera"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Ford Transit Custom - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Ford Transit Custom - GOTOWY.docx",
+      "titleGuess": "Ford Transit Custom - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Honda Civic 1.6 i-DTEC - Marzenia Ziemii - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Honda Civic 1.6 i-DTEC - Marzenia Ziemii - GOTOWY.docx",
+      "titleGuess": "Honda Civic 1.6 i-DTEC - Marzenia Ziemii - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Honda CR-V.docx",
+      "rel": "Artykuły\\TESTY\\Honda CR-V.docx",
+      "titleGuess": "Honda CR-V"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Hyundai i20 - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Hyundai i20 - GOTOWY.docx",
+      "titleGuess": "Hyundai i20 - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Kia Rio - gotowy.docx",
+      "rel": "Artykuły\\TESTY\\Kia Rio - gotowy.docx",
+      "titleGuess": "Kia Rio - gotowy"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Lexus RX 350 F Sport.docx",
+      "rel": "Artykuły\\TESTY\\Lexus RX 350 F Sport.docx",
+      "titleGuess": "Lexus RX 350 F Sport"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Lexus RX.docx",
+      "rel": "Artykuły\\TESTY\\Lexus RX.docx",
+      "titleGuess": "Lexus RX"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Mercedes Citan 109 CDI - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Mercedes Citan 109 CDI - GOTOWY.docx",
+      "titleGuess": "Mercedes Citan 109 CDI - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Mercedes GLK 350CDI - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Mercedes GLK 350CDI - GOTOWY.docx",
+      "titleGuess": "Mercedes GLK 350CDI - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Mini Cooper Roadster S.docx",
+      "rel": "Artykuły\\TESTY\\Mini Cooper Roadster S.docx",
+      "titleGuess": "Mini Cooper Roadster S"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Mini Cooper S Rauno Aaltonen - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Mini Cooper S Rauno Aaltonen - GOTOWY.docx",
+      "titleGuess": "Mini Cooper S Rauno Aaltonen - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Mitsubishi i-MiEV Evolution.docx",
+      "rel": "Artykuły\\TESTY\\Mitsubishi i-MiEV Evolution.docx",
+      "titleGuess": "Mitsubishi i-MiEV Evolution"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Mitsubishi Outlander Sport.docx",
+      "rel": "Artykuły\\TESTY\\Mitsubishi Outlander Sport.docx",
+      "titleGuess": "Mitsubishi Outlander Sport"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Nissan LV200 Evalia 1.docx",
+      "rel": "Artykuły\\TESTY\\Nissan LV200 Evalia 1.docx",
+      "titleGuess": "Nissan LV200 Evalia 1"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Nissan Micra 1.2 DIG-S.docx",
+      "rel": "Artykuły\\TESTY\\Nissan Micra 1.2 DIG-S.docx",
+      "titleGuess": "Nissan Micra 1.2 DIG-S"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Nowa Skoda Octavia.docx",
+      "rel": "Artykuły\\TESTY\\Nowa Skoda Octavia.docx",
+      "titleGuess": "Nowa Skoda Octavia"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Nowe Audi A3.docx",
+      "rel": "Artykuły\\TESTY\\Nowe Audi A3.docx",
+      "titleGuess": "Nowe Audi A3"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Opel Astra GTC 2.0 CDTi Sport - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Opel Astra GTC 2.0 CDTi Sport - GOTOWY.docx",
+      "titleGuess": "Opel Astra GTC 2.0 CDTi Sport - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Peugeot 308 vs. VW Golf VII - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Peugeot 308 vs. VW Golf VII - GOTOWY.docx",
+      "titleGuess": "Peugeot 308 vs. VW Golf VII - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza Jazda - Corvette C7.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza Jazda - Corvette C7.docx",
+      "titleGuess": "Pierwsza Jazda - Corvette C7"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza jazda - Volvo w Gdyni.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza jazda - Volvo w Gdyni.docx",
+      "titleGuess": "Pierwsza jazda - Volvo w Gdyni"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza jazda - VW Golf GTI.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza jazda - VW Golf GTI.docx",
+      "titleGuess": "Pierwsza jazda - VW Golf GTI"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza Jazda A3 limo.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza Jazda A3 limo.docx",
+      "titleGuess": "Pierwsza Jazda A3 limo"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza jazda Abarth 595 Turismo.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza jazda Abarth 595 Turismo.docx",
+      "titleGuess": "Pierwsza jazda Abarth 595 Turismo"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza Jazda C4 Picasso.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza Jazda C4 Picasso.docx",
+      "titleGuess": "Pierwsza Jazda C4 Picasso"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza jazda Jeep Grand Cherokee - Bardziej grand.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza jazda Jeep Grand Cherokee - Bardziej grand.docx",
+      "titleGuess": "Pierwsza jazda Jeep Grand Cherokee - Bardziej grand"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza Jazda Micra.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza Jazda Micra.docx",
+      "titleGuess": "Pierwsza Jazda Micra"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza Jazda Note.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza Jazda Note.docx",
+      "titleGuess": "Pierwsza Jazda Note"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza jazda Octavia RS.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza jazda Octavia RS.docx",
+      "titleGuess": "Pierwsza jazda Octavia RS"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza Jazda Panamera Diesel i S e-hybrid.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza Jazda Panamera Diesel i S e-hybrid.docx",
+      "titleGuess": "Pierwsza Jazda Panamera Diesel i S e-hybrid"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza Jazda Porsche Panamera Turbo Executive LWB  - Chcę więcej.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza Jazda Porsche Panamera Turbo Executive LWB  - Chcę więcej.docx",
+      "titleGuess": "Pierwsza Jazda Porsche Panamera Turbo Executive LWB  - Chcę więcej"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Pierwsza Jazda Rapid Spaceback.docx",
+      "rel": "Artykuły\\TESTY\\Pierwsza Jazda Rapid Spaceback.docx",
+      "titleGuess": "Pierwsza Jazda Rapid Spaceback"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Renault Fluence Z.E. - gotowy.docx",
+      "rel": "Artykuły\\TESTY\\Renault Fluence Z.E. - gotowy.docx",
+      "titleGuess": "Renault Fluence Z.E. - gotowy"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Renault Twingo.docx",
+      "rel": "Artykuły\\TESTY\\Renault Twingo.docx",
+      "titleGuess": "Renault Twingo"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Seat Ibiza 1.2 TSI Ecomotive.docx",
+      "rel": "Artykuły\\TESTY\\Seat Ibiza 1.2 TSI Ecomotive.docx",
+      "titleGuess": "Seat Ibiza 1.2 TSI Ecomotive"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Skoda Citigo 1.0 MPI Elegance - ABC - GOTOWY.docx",
+      "rel": "Artykuły\\TESTY\\Skoda Citigo 1.0 MPI Elegance - ABC - GOTOWY.docx",
+      "titleGuess": "Skoda Citigo 1.0 MPI Elegance - ABC - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Skoda Fabia Kombi 1.2 TSI.docx",
+      "rel": "Artykuły\\TESTY\\Skoda Fabia Kombi 1.2 TSI.docx",
+      "titleGuess": "Skoda Fabia Kombi 1.2 TSI"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\Toyota GT 86.docx",
+      "rel": "Artykuły\\TESTY\\Toyota GT 86.docx",
+      "titleGuess": "Toyota GT 86"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TESTY\\VW CC 3.6 V6.docx",
+      "rel": "Artykuły\\TESTY\\VW CC 3.6 V6.docx",
+      "titleGuess": "VW CC 3.6 V6"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\TMG Yaris R1A.docx",
+      "rel": "Artykuły\\TMG Yaris R1A.docx",
+      "titleGuess": "TMG Yaris R1A"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Toyota Avalon.docx",
+      "rel": "Artykuły\\Toyota Avalon.docx",
+      "titleGuess": "Toyota Avalon"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Verva Street Racing.docx",
+      "rel": "Artykuły\\Verva Street Racing.docx",
+      "titleGuess": "Verva Street Racing"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\VIA motors elektryzuje salon w Detroit.docx",
+      "rel": "Artykuły\\VIA motors elektryzuje salon w Detroit.docx",
+      "titleGuess": "VIA motors elektryzuje salon w Detroit"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\VL automotive Destino.docx",
+      "rel": "Artykuły\\VL automotive Destino.docx",
+      "titleGuess": "VL automotive Destino"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Volkswagen Castrol Cup (2).docx",
+      "rel": "Artykuły\\Volkswagen Castrol Cup (2).docx",
+      "titleGuess": "Volkswagen Castrol Cup (2)"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Volkswagen Castrol Cup.docx",
+      "rel": "Artykuły\\Volkswagen Castrol Cup.docx",
+      "titleGuess": "Volkswagen Castrol Cup"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Volkswagen up.docx",
+      "rel": "Artykuły\\Volkswagen up.docx",
+      "titleGuess": "Volkswagen up"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Volvo testuje innowacyjny system hybrydowy.docx",
+      "rel": "Artykuły\\Volvo testuje innowacyjny system hybrydowy.docx",
+      "titleGuess": "Volvo testuje innowacyjny system hybrydowy"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\wywiad.doc.doc",
+      "rel": "Artykuły\\wywiad.doc.doc",
+      "titleGuess": "wywiad.doc"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Zalącznik 1.docx",
+      "rel": "Artykuły\\Zalącznik 1.docx",
+      "titleGuess": "Zalącznik 1"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Zapowiedź sezonu 2013 w F1.docx",
+      "rel": "Artykuły\\Zapowiedź sezonu 2013 w F1.docx",
+      "titleGuess": "Zapowiedź sezonu 2013 w F1"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Zapowiedź sezonu F1 2013 cz.docx",
+      "rel": "Artykuły\\Zapowiedź sezonu F1 2013 cz.docx",
+      "titleGuess": "Zapowiedź sezonu F1 2013 cz"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\ZenDriving.docx",
+      "rel": "Artykuły\\ZenDriving.docx",
+      "titleGuess": "ZenDriving"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Znamy zwycięzców regionalnego finału Nissan GT Academy.docx",
+      "rel": "Artykuły\\Znamy zwycięzców regionalnego finału Nissan GT Academy.docx",
+      "titleGuess": "Znamy zwycięzców regionalnego finału Nissan GT Academy"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Zonda R.docx",
+      "rel": "Artykuły\\Zonda R.docx",
+      "titleGuess": "Zonda R"
+    },
+    {
+      "path": "D:\\MARCIN\\Artykuły\\Zwycięzca GT Academy na ostatniej prostej przed Dubajem.docx",
+      "rel": "Artykuły\\Zwycięzca GT Academy na ostatniej prostej przed Dubajem.docx",
+      "titleGuess": "Zwycięzca GT Academy na ostatniej prostej przed Dubajem"
+    },
+    {
+      "path": "D:\\MARCIN\\Galerie z testów\\Zegary i dane\\Mercedes GLK 350 CDI konfig.pdf",
+      "rel": "Galerie z testów\\Zegary i dane\\Mercedes GLK 350 CDI konfig.pdf",
+      "titleGuess": "Mercedes GLK 350 CDI konfig"
+    },
+    {
+      "path": "D:\\MARCIN\\I DRIVE CARS\\TESTY\\Seat Leon FR 2.0 TDI DSG.docx",
+      "rel": "I DRIVE CARS\\TESTY\\Seat Leon FR 2.0 TDI DSG.docx",
+      "titleGuess": "Seat Leon FR 2.0 TDI DSG"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\allegro_transaction_info_2016-02-24_12-28-34.pdf",
+      "rel": "Z PULPITU\\allegro_transaction_info_2016-02-24_12-28-34.pdf",
+      "titleGuess": "allegro_transaction_info_2016-02-24_12-28-34"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\AG Adresy WWW serwisów dla prasy.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\AG Adresy WWW serwisów dla prasy.docx",
+      "titleGuess": "AG Adresy WWW serwisów dla prasy"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\AG Dostępy do social media.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\AG Dostępy do social media.docx",
+      "titleGuess": "AG Dostępy do social media"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\AMA_1505081345_0001_BOCHENEK_MARCINMR_rcp.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\AMA_1505081345_0001_BOCHENEK_MARCINMR_rcp.pdf",
+      "titleGuess": "AMA_1505081345_0001_BOCHENEK_MARCINMR_rcp"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\AMG GT Brylant.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\AMG GT Brylant.rtf",
+      "titleGuess": "AMG GT Brylant"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\autoGALERIA - zyski i koszty.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\autoGALERIA - zyski i koszty.docx",
+      "titleGuess": "autoGALERIA - zyski i koszty"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\cennik usług płatnych.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\cennik usług płatnych.pdf",
+      "titleGuess": "cennik usług płatnych"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\Citroeny właśnie stały się tańsze!.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\Citroeny właśnie stały się tańsze!.gdoc",
+      "titleGuess": "Citroeny właśnie stały się tańsze!"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\Dokument bez nazwy.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\Dokument bez nazwy.gdoc",
+      "titleGuess": "Dokument bez nazwy"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\hala.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\hala.doc",
+      "titleGuess": "hala"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\Harmonogram-F1-2016.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\Harmonogram-F1-2016.pdf",
+      "titleGuess": "Harmonogram-F1-2016"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\KAK_sprawko.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\KAK_sprawko.docx",
+      "titleGuess": "KAK_sprawko"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\Leeme.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\Leeme.gdoc",
+      "titleGuess": "Leeme"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\5 najczęstszych błędów na Nuerburgringu.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\5 najczęstszych błędów na Nuerburgringu.docx",
+      "titleGuess": "5 najczęstszych błędów na Nuerburgringu"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\AutoGaleria i cztery Maybachy.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\AutoGaleria i cztery Maybachy.docx",
+      "titleGuess": "AutoGaleria i cztery Maybachy"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\BLOG Automat czy manual.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\BLOG Automat czy manual.docx",
+      "titleGuess": "BLOG Automat czy manual"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\2014-Panamera-Spec-Sheet-All-Variants.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\2014-Panamera-Spec-Sheet-All-Variants.pdf",
+      "titleGuess": "2014-Panamera-Spec-Sheet-All-Variants"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\20140630_MBPC_cennik.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\20140630_MBPC_cennik.pdf",
+      "titleGuess": "20140630_MBPC_cennik"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\20150407-Cennik-MB-PC.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\20150407-Cennik-MB-PC.pdf",
+      "titleGuess": "20150407-Cennik-MB-PC"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\500_Gucci_cennik_2013.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\500_Gucci_cennik_2013.pdf",
+      "titleGuess": "500_Gucci_cennik_2013"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\AM14_TWZ.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\AM14_TWZ.pdf",
+      "titleGuess": "AM14_TWZ"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Audi S3 sportback.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Audi S3 sportback.pdf",
+      "titleGuess": "Audi S3 sportback"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\katalog-cc_04_2013.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\katalog-cc_04_2013.pdf",
+      "titleGuess": "katalog-cc_04_2013"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\konfigurator-fiat-500-by-gucci-12-8v-69km.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\konfigurator-fiat-500-by-gucci-12-8v-69km.pdf",
+      "titleGuess": "konfigurator-fiat-500-by-gucci-12-8v-69km"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\konfVW__20130611_36960509_38.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\konfVW__20130611_36960509_38.pdf",
+      "titleGuess": "konfVW__20130611_36960509_38"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\konfVW__20130611_36962219_38.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\konfVW__20130611_36962219_38.pdf",
+      "titleGuess": "konfVW__20130611_36962219_38"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\konfVW__20131027_45528332_32.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\konfVW__20131027_45528332_32.pdf",
+      "titleGuess": "konfVW__20131027_45528332_32"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Lexus_NX200t_cennik_wyposazenie_tcm906-1315395.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Lexus_NX200t_cennik_wyposazenie_tcm906-1315395.pdf",
+      "titleGuess": "Lexus_NX200t_cennik_wyposazenie_tcm906-1315395"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Lexus_NX300h_cennik_wyposazenie_tcm906-1305255.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Lexus_NX300h_cennik_wyposazenie_tcm906-1305255.pdf",
+      "titleGuess": "Lexus_NX300h_cennik_wyposazenie_tcm906-1305255"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\new-toyota-rav4-rev-up-for-a-runaway-success.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\new-toyota-rav4-rev-up-for-a-runaway-success.pdf",
+      "titleGuess": "new-toyota-rav4-rev-up-for-a-runaway-success"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Nowe_BMW_X6_PL.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Nowe_BMW_X6_PL.doc",
+      "titleGuess": "Nowe_BMW_X6_PL"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Nowy Golf Variant.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Nowy Golf Variant.doc",
+      "titleGuess": "Nowy Golf Variant"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Porsche Panamera_Diesel_S_SHybrid_4_4S_GTS_Turbo_TurboS - Wyposazenie stan.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Porsche Panamera_Diesel_S_SHybrid_4_4S_GTS_Turbo_TurboS - Wyposazenie stan.pdf",
+      "titleGuess": "Porsche Panamera_Diesel_S_SHybrid_4_4S_GTS_Turbo_TurboS - Wyposazenie stan"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\rav4-2010.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\rav4-2010.pdf",
+      "titleGuess": "rav4-2010"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Spec Wraith_UX77658.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Spec Wraith_UX77658.pdf",
+      "titleGuess": "Spec Wraith_UX77658"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\01_nowy_Superb_przeglad_pl.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\01_nowy_Superb_przeglad_pl.doc",
+      "titleGuess": "01_nowy_Superb_przeglad_pl"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\02_nowy_Superb_design_pl.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\02_nowy_Superb_design_pl.doc",
+      "titleGuess": "02_nowy_Superb_design_pl"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\03_nowy_Superb_przestrzen_i_komfort_pl.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\03_nowy_Superb_przestrzen_i_komfort_pl.doc",
+      "titleGuess": "03_nowy_Superb_przestrzen_i_komfort_pl"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\04_nowy_Superb_infotainment_komunikacja.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\04_nowy_Superb_infotainment_komunikacja.doc",
+      "titleGuess": "04_nowy_Superb_infotainment_komunikacja"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\05_nowy_Superb_Simply_Clever.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\05_nowy_Superb_Simply_Clever.doc",
+      "titleGuess": "05_nowy_Superb_Simply_Clever"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\06_nowy_Superb_moc_i_osiagi.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\06_nowy_Superb_moc_i_osiagi.doc",
+      "titleGuess": "06_nowy_Superb_moc_i_osiagi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\07_nowy_Superb_bezpieczenstwo.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\07_nowy_Superb_bezpieczenstwo.doc",
+      "titleGuess": "07_nowy_Superb_bezpieczenstwo"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\08_nowy_Superb_L&K.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\08_nowy_Superb_L&K.doc",
+      "titleGuess": "08_nowy_Superb_L&K"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\09_nowy_Superb_historia.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\09_nowy_Superb_historia.doc",
+      "titleGuess": "09_nowy_Superb_historia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\10_nowy_Superb_cytaty.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\10_nowy_Superb_cytaty.doc",
+      "titleGuess": "10_nowy_Superb_cytaty"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\524_nowy-superb.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Superb\\524_nowy-superb.doc",
+      "titleGuess": "524_nowy-superb"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\umowa_20150105_122023.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\umowa_20150105_122023.pdf",
+      "titleGuess": "umowa_20150105_122023"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\umowa_20150414_175701.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\umowa_20150414_175701.pdf",
+      "titleGuess": "umowa_20150414_175701"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Volkswagen Golf Variant - cennik i wybrane elementy wyposażenia.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Volkswagen Golf Variant - cennik i wybrane elementy wyposażenia.pdf",
+      "titleGuess": "Volkswagen Golf Variant - cennik i wybrane elementy wyposażenia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Volkswagen XL1 (1).doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Volkswagen XL1 (1).doc",
+      "titleGuess": "Volkswagen XL1 (1)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Volkswagen XL1.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Volkswagen XL1.doc",
+      "titleGuess": "Volkswagen XL1"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\volkswagen_cc.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\volkswagen_cc.pdf",
+      "titleGuess": "volkswagen_cc"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\volkswagen_cc_v6.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\volkswagen_cc_v6.pdf",
+      "titleGuess": "volkswagen_cc_v6"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\VW PASSAT - cennik i wybrane elementy wyposazenia.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\VW PASSAT - cennik i wybrane elementy wyposazenia.pdf",
+      "titleGuess": "VW PASSAT - cennik i wybrane elementy wyposazenia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\VW PASSAT Variant - cennik i wybrane elementy wyposazenia.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\VW PASSAT Variant - cennik i wybrane elementy wyposazenia.pdf",
+      "titleGuess": "VW PASSAT Variant - cennik i wybrane elementy wyposazenia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Wyniki_Megapanel_PBI_Gemius_za_styczen_2015.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\Wyniki_Megapanel_PBI_Gemius_za_styczen_2015.docx",
+      "titleGuess": "Wyniki_Megapanel_PBI_Gemius_za_styczen_2015"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\_PL Nowy Caddy.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\_PL Nowy Caddy.pdf",
+      "titleGuess": "_PL Nowy Caddy"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\_Sorento_XL.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Cenniki i katalogi\\_Sorento_XL.pdf",
+      "titleGuess": "_Sorento_XL"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Monako.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Monako.docx",
+      "titleGuess": "Monako"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Odc 1 - Czeskie Ferrari.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Odc 1 - Czeskie Ferrari.docx",
+      "titleGuess": "Odc 1 - Czeskie Ferrari"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\odc. 2 - Prestiż księstwa Monako.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\odc. 2 - Prestiż księstwa Monako.docx",
+      "titleGuess": "odc. 2 - Prestiż księstwa Monako"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Odc. 4 Spokojnie przez Francję.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Odc. 4 Spokojnie przez Francję.docx",
+      "titleGuess": "Odc. 4 Spokojnie przez Francję"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Odc. 5 - Hiszpański Stereotyp.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Odc. 5 - Hiszpański Stereotyp.docx",
+      "titleGuess": "Odc. 5 - Hiszpański Stereotyp"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Odc. 6 - Czerwona Skoda w Zielonym Piekle.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Odc. 6 - Czerwona Skoda w Zielonym Piekle.docx",
+      "titleGuess": "Odc. 6 - Czerwona Skoda w Zielonym Piekle"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Skoda Octavia RS - plan.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Octavia RS\\Skoda Octavia RS - plan.docx",
+      "titleGuess": "Skoda Octavia RS - plan"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Rapid\\Odc. 1 - Prawie skromne wakacje.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Rapid\\Odc. 1 - Prawie skromne wakacje.docx",
+      "titleGuess": "Odc. 1 - Prawie skromne wakacje"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Rapid\\Odc. 2 - Porównanie śladami Amundsena.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Rapid\\Odc. 2 - Porównanie śladami Amundsena.docx",
+      "titleGuess": "Odc. 2 - Porównanie śladami Amundsena"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Rapid\\Odc. 3 - Elegance.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Rapid\\Odc. 3 - Elegance.docx",
+      "titleGuess": "Odc. 3 - Elegance"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Rapid\\~$c. 3 - Elegance.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Rapid\\~$c. 3 - Elegance.docx",
+      "titleGuess": "~$c. 3 - Elegance"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\cennik2013_superb_combi.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\cennik2013_superb_combi.pdf",
+      "titleGuess": "cennik2013_superb_combi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 1 - Poczuj się Superb.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 1 - Poczuj się Superb.docx",
+      "titleGuess": "Odc. 1 - Poczuj się Superb"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 2 - Koniec z powagą.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 2 - Koniec z powagą.docx",
+      "titleGuess": "Odc. 2 - Koniec z powagą"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 3 - Gran Turismo.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 3 - Gran Turismo.docx",
+      "titleGuess": "Odc. 3 - Gran Turismo"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 4 - Ciasno, kręto, wysoko.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 4 - Ciasno, kręto, wysoko.docx",
+      "titleGuess": "Odc. 4 - Ciasno, kręto, wysoko"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 5 - Uwaga, skuter!.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 5 - Uwaga, skuter!.docx",
+      "titleGuess": "Odc. 5 - Uwaga, skuter!"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 6 - Simply clever.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Długi Dystans - Skoda Superb\\Odc. 6 - Simply clever.docx",
+      "titleGuess": "Odc. 6 - Simply clever"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Passat\\Volkswagen Passat Variant 2.0 BiTDI.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans\\Passat\\Volkswagen Passat Variant 2.0 BiTDI.docx",
+      "titleGuess": "Volkswagen Passat Variant 2.0 BiTDI"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans - Marcin Napieraj.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Długi Dystans - Marcin Napieraj.docx",
+      "titleGuess": "Długi Dystans - Marcin Napieraj"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Fabryka Maserati.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Fabryka Maserati.docx",
+      "titleGuess": "Fabryka Maserati"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Fame and Shame 2015.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Fame and Shame 2015.docx",
+      "titleGuess": "Fame and Shame 2015"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Fame&shame 2014.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Fame&shame 2014.docx",
+      "titleGuess": "Fame&shame 2014"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Ferrari Enzo Jana Pawła II na sprzedaż.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Ferrari Enzo Jana Pawła II na sprzedaż.docx",
+      "titleGuess": "Ferrari Enzo Jana Pawła II na sprzedaż"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\FordTransit-TechnicalSpecifications_PL.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\FordTransit-TechnicalSpecifications_PL.pdf",
+      "titleGuess": "FordTransit-TechnicalSpecifications_PL"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Formuła 1 - GP Australii.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Formuła 1 - GP Australii.docx",
+      "titleGuess": "Formuła 1 - GP Australii"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Formuła 1 GP Kanady.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Formuła 1 GP Kanady.docx",
+      "titleGuess": "Formuła 1 GP Kanady"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Formuła 1 Hiszpania.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Formuła 1 Hiszpania.docx",
+      "titleGuess": "Formuła 1 Hiszpania"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Formuła ADAC Schiller Motorsport.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Formuła ADAC Schiller Motorsport.docx",
+      "titleGuess": "Formuła ADAC Schiller Motorsport"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GENEWA\\f33-0017289265-g1Rd7hRB.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GENEWA\\f33-0017289265-g1Rd7hRB.pdf",
+      "titleGuess": "f33-0017289265-g1Rd7hRB"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Abu Zabi.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Abu Zabi.docx",
+      "titleGuess": "GP Abu Zabi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Austrii - F1.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Austrii - F1.docx",
+      "titleGuess": "GP Austrii - F1"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Austrii.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Austrii.docx",
+      "titleGuess": "GP Austrii"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Brazylii.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Brazylii.docx",
+      "titleGuess": "GP Brazylii"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Chin.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Chin.docx",
+      "titleGuess": "GP Chin"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Indii.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Indii.docx",
+      "titleGuess": "GP Indii"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Japonii.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Japonii.docx",
+      "titleGuess": "GP Japonii"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Korei.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Korei.docx",
+      "titleGuess": "GP Korei"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Mercedes Van Economy.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Mercedes Van Economy.docx",
+      "titleGuess": "GP Mercedes Van Economy"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Niemiec.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP Niemiec.docx",
+      "titleGuess": "GP Niemiec"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP USA.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\GP USA.docx",
+      "titleGuess": "GP USA"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Jak wygląda praca wyścigowych hamulców.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Jak wygląda praca wyścigowych hamulców.docx",
+      "titleGuess": "Jak wygląda praca wyścigowych hamulców"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Jeremy Clarkson odchodzi z BBC.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Jeremy Clarkson odchodzi z BBC.docx",
+      "titleGuess": "Jeremy Clarkson odchodzi z BBC"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Jeremy Clarkson oficjalnie zwolniony z BBC.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Jeremy Clarkson oficjalnie zwolniony z BBC.docx",
+      "titleGuess": "Jeremy Clarkson oficjalnie zwolniony z BBC"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Kuba Jakubowski zwycięża pod skrzydłami Menard.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Kuba Jakubowski zwycięża pod skrzydłami Menard.docx",
+      "titleGuess": "Kuba Jakubowski zwycięża pod skrzydłami Menard"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Kurs Google Analytics - Damian Sałkowski.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Kurs Google Analytics - Damian Sałkowski.pdf",
+      "titleGuess": "Kurs Google Analytics - Damian Sałkowski"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\LAJNAP!.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\LAJNAP!.gdoc",
+      "titleGuess": "LAJNAP!"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Media biznes kultura - notatka prasowa.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Media biznes kultura - notatka prasowa.docx",
+      "titleGuess": "Media biznes kultura - notatka prasowa"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Muzeum Panini.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Muzeum Panini.docx",
+      "titleGuess": "Muzeum Panini"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\NEWS\\Fiat 500 facelifting.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\NEWS\\Fiat 500 facelifting.docx",
+      "titleGuess": "Fiat 500 facelifting"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\NOWA aG\\logo-AG.PDF",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\NOWA aG\\logo-AG.PDF",
+      "titleGuess": "logo-AG.PDF"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\NOWA aG\\UMOWA\\autoGaleriaM Bochenek II.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\NOWA aG\\UMOWA\\autoGaleriaM Bochenek II.docx",
+      "titleGuess": "autoGaleriaM Bochenek II"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\NOWA aG\\Załącznik 1.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\NOWA aG\\Załącznik 1.docx",
+      "titleGuess": "Załącznik 1"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Nowi prezenterzy Top Gear zostaną wyłonieni w castingach.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Nowi prezenterzy Top Gear zostaną wyłonieni w castingach.docx",
+      "titleGuess": "Nowi prezenterzy Top Gear zostaną wyłonieni w castingach"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Obalamy olejowe mity.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Obalamy olejowe mity.docx",
+      "titleGuess": "Obalamy olejowe mity"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Podsumowanie testów autoGALERII w 2014 roku.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Podsumowanie testów autoGALERII w 2014 roku.docx",
+      "titleGuess": "Podsumowanie testów autoGALERII w 2014 roku"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Pożar kończy udział Małysza w Dakarze 2015.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Pożar kończy udział Małysza w Dakarze 2015.docx",
+      "titleGuess": "Pożar kończy udział Małysza w Dakarze 2015"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\PRAKTYKI\\3opinia.odt",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\PRAKTYKI\\3opinia.odt",
+      "titleGuess": "3opinia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Przekonaj się jak mało wiesz o olejach silnikowych!.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Przekonaj się jak mało wiesz o olejach silnikowych!.docx",
+      "titleGuess": "Przekonaj się jak mało wiesz o olejach silnikowych!"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Publikacje newsów przez Marcina.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Publikacje newsów przez Marcina.docx",
+      "titleGuess": "Publikacje newsów przez Marcina"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\RDR Project.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\RDR Project.docx",
+      "titleGuess": "RDR Project"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\REKLAMY.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\REKLAMY.docx",
+      "titleGuess": "REKLAMY"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Robert Kubica osobowością roku FIA.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Robert Kubica osobowością roku FIA.docx",
+      "titleGuess": "Robert Kubica osobowością roku FIA"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Rosberg wygrał start.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Rosberg wygrał start.docx",
+      "titleGuess": "Rosberg wygrał start"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Ruszamy z nową inicjatywą na forum.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Ruszamy z nową inicjatywą na forum.docx",
+      "titleGuess": "Ruszamy z nową inicjatywą na forum"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\scanned_20130913-1216 (1).pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\scanned_20130913-1216 (1).pdf",
+      "titleGuess": "scanned_20130913-1216 (1)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\scanned_20130913-1216.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\scanned_20130913-1216.pdf",
+      "titleGuess": "scanned_20130913-1216"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Seat Toledo - Marcin Bochenek.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Seat Toledo - Marcin Bochenek.pdf",
+      "titleGuess": "Seat Toledo - Marcin Bochenek"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Statystyki AG\\Analytics autoGALERIA.pl Strony 20141001-20141031.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Statystyki AG\\Analytics autoGALERIA.pl Strony 20141001-20141031.pdf",
+      "titleGuess": "Analytics autoGALERIA.pl Strony 20141001-20141031"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Statystyki AG\\Analytics autoGALERIA.pl Strony 20151221-20160120.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Statystyki AG\\Analytics autoGALERIA.pl Strony 20151221-20160120.pdf",
+      "titleGuess": "Analytics autoGALERIA.pl Strony 20151221-20160120"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Słowo kluczowe Rafał.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Słowo kluczowe Rafał.docx",
+      "titleGuess": "Słowo kluczowe Rafał"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Słowo kluczowe.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Słowo kluczowe.docx",
+      "titleGuess": "Słowo kluczowe"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Audi A6 Allroad 3.0 TDI.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Audi A6 Allroad 3.0 TDI.docx",
+      "titleGuess": "Audi A6 Allroad 3.0 TDI"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Ford Focus RS.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Ford Focus RS.docx",
+      "titleGuess": "Ford Focus RS"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Lexus RC F.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Lexus RC F.docx",
+      "titleGuess": "Lexus RC F"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes CLA 250 4MATIC 7G-DCT.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes CLA 250 4MATIC 7G-DCT.docx",
+      "titleGuess": "Mercedes CLA 250 4MATIC 7G-DCT"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes CLS 350 Bluetec 7G-TRONIC+.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes CLS 350 Bluetec 7G-TRONIC+.docx",
+      "titleGuess": "Mercedes CLS 350 Bluetec 7G-TRONIC+"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes S 500e.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes S 500e.docx",
+      "titleGuess": "Mercedes S 500e"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes-Maybach S600.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes-Maybach S600.docx",
+      "titleGuess": "Mercedes-Maybach S600"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Mercedes.docx",
+      "titleGuess": "Mercedes"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Notatki\\Skoda Octavia 1.2 TSI - Notatki.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Notatki\\Skoda Octavia 1.2 TSI - Notatki.gdoc",
+      "titleGuess": "Skoda Octavia 1.2 TSI - Notatki"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Alfa Romeo Giulietta Quadrifoglio Verde 1750 TBi.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Alfa Romeo Giulietta Quadrifoglio Verde 1750 TBi.docx",
+      "titleGuess": "Alfa Romeo Giulietta Quadrifoglio Verde 1750 TBi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Audi A6 Facelifting new.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Audi A6 Facelifting new.docx",
+      "titleGuess": "Audi A6 Facelifting new"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Audi A8 FL.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Audi A8 FL.docx",
+      "titleGuess": "Audi A8 FL"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Audi S3 Sportback quattro.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Audi S3 Sportback quattro.docx",
+      "titleGuess": "Audi S3 Sportback quattro"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Audi TT.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Audi TT.docx",
+      "titleGuess": "Audi TT"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Bentley Continental GTC V8 S.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Bentley Continental GTC V8 S.docx",
+      "titleGuess": "Bentley Continental GTC V8 S"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\BMW 435i Cabriolet.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\BMW 435i Cabriolet.docx",
+      "titleGuess": "BMW 435i Cabriolet"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\BMW X5.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\BMW X5.docx",
+      "titleGuess": "BMW X5"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\BMW X6 M50d.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\BMW X6 M50d.docx",
+      "titleGuess": "BMW X6 M50d"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Citroen C3.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Citroen C3.docx",
+      "titleGuess": "Citroen C3"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Fiat 500 by Gucci - GOTOWY.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Fiat 500 by Gucci - GOTOWY.docx",
+      "titleGuess": "Fiat 500 by Gucci - GOTOWY"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Fiat Panda.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Fiat Panda.docx",
+      "titleGuess": "Fiat Panda"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\KIA Sorento 2.2.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\KIA Sorento 2.2.gdoc",
+      "titleGuess": "KIA Sorento 2.2"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Land Rover Discovery Sport (1).docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Land Rover Discovery Sport (1).docx",
+      "titleGuess": "Land Rover Discovery Sport (1)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Land Rover Discovery Sport.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Land Rover Discovery Sport.docx",
+      "titleGuess": "Land Rover Discovery Sport"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Lexus IS 300h F-Sport.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Lexus IS 300h F-Sport.gdoc",
+      "titleGuess": "Lexus IS 300h F-Sport"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Lexus NX 300h F-Sport.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Lexus NX 300h F-Sport.docx",
+      "titleGuess": "Lexus NX 300h F-Sport"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Maserati GranTurismo Sport.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Maserati GranTurismo Sport.gdoc",
+      "titleGuess": "Maserati GranTurismo Sport"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Mazda MX-5.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Mazda MX-5.docx",
+      "titleGuess": "Mazda MX-5"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Mercedes C Coupe i Mercedes-AMG C63s Coupe.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Mercedes C Coupe i Mercedes-AMG C63s Coupe.docx",
+      "titleGuess": "Mercedes C Coupe i Mercedes-AMG C63s Coupe"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Mercedes C200.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Mercedes C200.docx",
+      "titleGuess": "Mercedes C200"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Mercedes X6.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Mercedes X6.rtf",
+      "titleGuess": "Mercedes X6"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Nissan Qashqai.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Nissan Qashqai.docx",
+      "titleGuess": "Nissan Qashqai"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Nowy Jeep Cherokee.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Nowy Jeep Cherokee.docx",
+      "titleGuess": "Nowy Jeep Cherokee"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Peugeot 308 SW.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Peugeot 308 SW.docx",
+      "titleGuess": "Peugeot 308 SW"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - C4 Cactus.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - C4 Cactus.docx",
+      "titleGuess": "Pierwsza Jazda - C4 Cactus"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Citroen C1 - Ciasna konkurencja.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Citroen C1 - Ciasna konkurencja.docx",
+      "titleGuess": "Pierwsza Jazda - Citroen C1 - Ciasna konkurencja"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Miusubishi Outlander PHEV.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Miusubishi Outlander PHEV.docx",
+      "titleGuess": "Pierwsza Jazda - Miusubishi Outlander PHEV"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Nissan Pulsar.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Nissan Pulsar.docx",
+      "titleGuess": "Pierwsza Jazda - Nissan Pulsar"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Porsche on Track.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Porsche on Track.docx",
+      "titleGuess": "Pierwsza Jazda - Porsche on Track"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - RCZ R.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - RCZ R.docx",
+      "titleGuess": "Pierwsza Jazda - RCZ R"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Skoda Fabia.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Skoda Fabia.docx",
+      "titleGuess": "Pierwsza Jazda - Skoda Fabia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Tourneo Jastarnia.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda - Tourneo Jastarnia.docx",
+      "titleGuess": "Pierwsza Jazda - Tourneo Jastarnia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda Passat.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda Passat.docx",
+      "titleGuess": "Pierwsza Jazda Passat"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda Polo.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda Polo.docx",
+      "titleGuess": "Pierwsza Jazda Polo"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza jazda RS6.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza jazda RS6.docx",
+      "titleGuess": "Pierwsza jazda RS6"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda RS7.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda RS7.docx",
+      "titleGuess": "Pierwsza Jazda RS7"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda RS7.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Pierwsza Jazda RS7.gdoc",
+      "titleGuess": "Pierwsza Jazda RS7"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Porsche 911 Targa 4S - Dane techniczne.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Porsche 911 Targa 4S - Dane techniczne.docx",
+      "titleGuess": "Porsche 911 Targa 4S - Dane techniczne"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Porsche 911 Targa 4S.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Porsche 911 Targa 4S.docx",
+      "titleGuess": "Porsche 911 Targa 4S"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Porsche Boxster S.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Porsche Boxster S.docx",
+      "titleGuess": "Porsche Boxster S"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Porsche Boxster S.docx.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Porsche Boxster S.docx.gdoc",
+      "titleGuess": "Porsche Boxster S.docx"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Prezentacja Scirocco.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Prezentacja Scirocco.docx",
+      "titleGuess": "Prezentacja Scirocco"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Renault Twizy.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Renault Twizy.docx",
+      "titleGuess": "Renault Twizy"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Rolls-Royce Wraith.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Rolls-Royce Wraith.docx",
+      "titleGuess": "Rolls-Royce Wraith"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Seat Leon 1.4 TSI Style DJ.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Seat Leon 1.4 TSI Style DJ.doc",
+      "titleGuess": "Seat Leon 1.4 TSI Style DJ"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Skoda G-TEC i Greenline.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Skoda G-TEC i Greenline.docx",
+      "titleGuess": "Skoda G-TEC i Greenline"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Skoda Octavia Combi 1.8 TSI 4x4.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Skoda Octavia Combi 1.8 TSI 4x4.docx",
+      "titleGuess": "Skoda Octavia Combi 1.8 TSI 4x4"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Toyota Auris Prestige Hybrid.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Toyota Auris Prestige Hybrid.docx",
+      "titleGuess": "Toyota Auris Prestige Hybrid"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen California.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen California.docx",
+      "titleGuess": "Volkswagen California"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen CC 2.0 TDI R-Line.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen CC 2.0 TDI R-Line.docx",
+      "titleGuess": "Volkswagen CC 2.0 TDI R-Line"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen CC 2.0 TDI R-Line.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen CC 2.0 TDI R-Line.gdoc",
+      "titleGuess": "Volkswagen CC 2.0 TDI R-Line"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Golf Sportsvan.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Golf Sportsvan.docx",
+      "titleGuess": "Volkswagen Golf Sportsvan"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Golf Variant 2.0 TDI Highline - GOTOWY!.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Golf Variant 2.0 TDI Highline - GOTOWY!.docx",
+      "titleGuess": "Volkswagen Golf Variant 2.0 TDI Highline - GOTOWY!"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Jetta Hybrid.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Jetta Hybrid.docx",
+      "titleGuess": "Volkswagen Jetta Hybrid"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Jetta Hybrid.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Jetta Hybrid.gdoc",
+      "titleGuess": "Volkswagen Jetta Hybrid"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Scirocco R.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volkswagen Scirocco R.docx",
+      "titleGuess": "Volkswagen Scirocco R"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volvo V40 R-design (830).gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volvo V40 R-design (830).gdoc",
+      "titleGuess": "Volvo V40 R-design (830)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volvo V40 R-design.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\Volvo V40 R-design.docx",
+      "titleGuess": "Volvo V40 R-design"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\VW CC 3.6 V6 doc.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\VW CC 3.6 V6 doc.doc",
+      "titleGuess": "VW CC 3.6 V6 doc"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\~$troen C3.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Opublikowane\\~$troen C3.docx",
+      "titleGuess": "~$troen C3"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Peugeot 308 1.6 THP.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Peugeot 308 1.6 THP.docx",
+      "titleGuess": "Peugeot 308 1.6 THP"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Porównanie RAV4.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Porównanie RAV4.docx",
+      "titleGuess": "Porównanie RAV4"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Leon Cupra 280 vs Volkswagen Golf R - DK etap 1.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Leon Cupra 280 vs Volkswagen Golf R - DK etap 1.docx",
+      "titleGuess": "Seat Leon Cupra 280 vs Volkswagen Golf R - DK etap 1"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Leon Cupra 280 vs Volkswagen Golf R.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Leon Cupra 280 vs Volkswagen Golf R.docx",
+      "titleGuess": "Seat Leon Cupra 280 vs Volkswagen Golf R"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Leon Cupra 280.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Leon Cupra 280.docx",
+      "titleGuess": "Seat Leon Cupra 280"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Leon FR 2.0 TDI.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Leon FR 2.0 TDI.docx",
+      "titleGuess": "Seat Leon FR 2.0 TDI"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Toledo.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Seat Toledo.docx",
+      "titleGuess": "Seat Toledo"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Smart DCT Turbo.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Smart DCT Turbo.rtf",
+      "titleGuess": "Smart DCT Turbo"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volkswagen Golf GTD Variant.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volkswagen Golf GTD Variant.rtf",
+      "titleGuess": "Volkswagen Golf GTD Variant"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volkswagen Passat Alltrack.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volkswagen Passat Alltrack.rtf",
+      "titleGuess": "Volkswagen Passat Alltrack"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volkswagen XL1.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volkswagen XL1.docx",
+      "titleGuess": "Volkswagen XL1"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volvo XC90.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volvo XC90.docx",
+      "titleGuess": "Volvo XC90"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volvo XC90.docx.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\Volvo XC90.docx.gdoc",
+      "titleGuess": "Volvo XC90.docx"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$BMW X5.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$BMW X5.docx",
+      "titleGuess": "~$BMW X5"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$lkswagen Passat Alltrack.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$lkswagen Passat Alltrack.rtf",
+      "titleGuess": "~$lkswagen Passat Alltrack"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$rcedes S 500e.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$rcedes S 500e.docx",
+      "titleGuess": "~$rcedes S 500e"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$rcedes-Maybach S600.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$rcedes-Maybach S600.docx",
+      "titleGuess": "~$rcedes-Maybach S600"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$xus NX 300h F-Sport.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy\\~$xus NX 300h F-Sport.docx",
+      "titleGuess": "~$xus NX 300h F-Sport"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy Sebka.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Testy Sebka.docx",
+      "titleGuess": "Testy Sebka"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\UPO Dominik A3 Cabriolet.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\UPO Dominik A3 Cabriolet.docx",
+      "titleGuess": "UPO Dominik A3 Cabriolet"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upo Dominik.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upo Dominik.docx",
+      "titleGuess": "upo Dominik"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upo ford.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upo ford.docx",
+      "titleGuess": "upo ford"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\UPO Sebastian Audi.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\UPO Sebastian Audi.doc",
+      "titleGuess": "UPO Sebastian Audi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\UPO Sebastian Audi.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\UPO Sebastian Audi.pdf",
+      "titleGuess": "UPO Sebastian Audi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Alfa Romeo Giulietta - Dominik Kopyciński.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Alfa Romeo Giulietta - Dominik Kopyciński.docx",
+      "titleGuess": "Alfa Romeo Giulietta - Dominik Kopyciński"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Alfa Romeo Giulietta - Dominik Kopyciński.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Alfa Romeo Giulietta - Dominik Kopyciński.pdf",
+      "titleGuess": "Alfa Romeo Giulietta - Dominik Kopyciński"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Audi A6 - Przemek Szymański.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Audi A6 - Przemek Szymański.pdf",
+      "titleGuess": "Audi A6 - Przemek Szymański"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Confirmation - Maciej Kuchno.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Confirmation - Maciej Kuchno.docx",
+      "titleGuess": "Confirmation - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Confirmation - Maciej Kuchno.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Confirmation - Maciej Kuchno.pdf",
+      "titleGuess": "Confirmation - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Confirmation - Łukasz Heger.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Confirmation - Łukasz Heger.pdf",
+      "titleGuess": "Confirmation - Łukasz Heger"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\DS 5 - Maciej Kuchno.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\DS 5 - Maciej Kuchno.pdf",
+      "titleGuess": "DS 5 - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Elek - Lexus.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Elek - Lexus.docx",
+      "titleGuess": "Elek - Lexus"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Fiat 500 L Living - Adam Kołodziejczyk.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Fiat 500 L Living - Adam Kołodziejczyk.docx",
+      "titleGuess": "Fiat 500 L Living - Adam Kołodziejczyk"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Jeep Cherokee - Maciej Kuchno.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Jeep Cherokee - Maciej Kuchno.rtf",
+      "titleGuess": "Jeep Cherokee - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Lexus - Adrian Szlasa.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Lexus - Adrian Szlasa.docx",
+      "titleGuess": "Lexus - Adrian Szlasa"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Lexus - Dominik.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Lexus - Dominik.docx",
+      "titleGuess": "Lexus - Dominik"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Mazda6 - Maciej Kuchno.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Mazda6 - Maciej Kuchno.rtf",
+      "titleGuess": "Mazda6 - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Mercedes - Maciej Kuchno.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Mercedes - Maciej Kuchno.docx",
+      "titleGuess": "Mercedes - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Mercedes - Przemek Szymański.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Mercedes - Przemek Szymański.docx",
+      "titleGuess": "Mercedes - Przemek Szymański"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Opel Meriva - Maciej Kuchno.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Opel Meriva - Maciej Kuchno.pdf",
+      "titleGuess": "Opel Meriva - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Peugeot - Maciej Kuchno.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Peugeot - Maciej Kuchno.docx",
+      "titleGuess": "Peugeot - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Peugeot 308 - Maciej Kuchno.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Peugeot 308 - Maciej Kuchno.pdf",
+      "titleGuess": "Peugeot 308 - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Skoda Superb - Marcin Napieraj.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Skoda Superb - Marcin Napieraj.docx",
+      "titleGuess": "Skoda Superb - Marcin Napieraj"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Skoda Superb Atelier - Marcin Napieraj.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Skoda Superb Atelier - Marcin Napieraj.pdf",
+      "titleGuess": "Skoda Superb Atelier - Marcin Napieraj"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\UPO Adam Grodzki, Citroen C5 CrossTourer.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\UPO Adam Grodzki, Citroen C5 CrossTourer.docx",
+      "titleGuess": "UPO Adam Grodzki, Citroen C5 CrossTourer"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Dominik Ford.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Dominik Ford.docx",
+      "titleGuess": "Upo Dominik Ford"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\upo Dominik Ford.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\upo Dominik Ford.pdf",
+      "titleGuess": "upo Dominik Ford"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\upo Dominik Infiniti.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\upo Dominik Infiniti.docx",
+      "titleGuess": "upo Dominik Infiniti"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\upo Dominik Mitsubishi.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\upo Dominik Mitsubishi.doc",
+      "titleGuess": "upo Dominik Mitsubishi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Citroen.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Citroen.docx",
+      "titleGuess": "Upo Heger Citroen"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Citroen.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Citroen.pdf",
+      "titleGuess": "Upo Heger Citroen"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Ford Kurier.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Ford Kurier.docx",
+      "titleGuess": "Upo Heger Ford Kurier"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Hyundai.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Hyundai.docx",
+      "titleGuess": "Upo Heger Hyundai"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Peugeot.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Peugeot.pdf",
+      "titleGuess": "Upo Heger Peugeot"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Skoda Yeti.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Skoda Yeti.pdf",
+      "titleGuess": "Upo Heger Skoda Yeti"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Volkswagen.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Heger Volkswagen.docx",
+      "titleGuess": "Upo Heger Volkswagen"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Mateusz Audi.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Mateusz Audi.docx",
+      "titleGuess": "Upo Mateusz Audi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Mateusz Audi.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Mateusz Audi.pdf",
+      "titleGuess": "Upo Mateusz Audi"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Mateusz Honda.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Mateusz Honda.docx",
+      "titleGuess": "Upo Mateusz Honda"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Mateusz Honda.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Mateusz Honda.pdf",
+      "titleGuess": "Upo Mateusz Honda"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Wiktor Ford.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Wiktor Ford.docx",
+      "titleGuess": "Upo Wiktor Ford"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Wiktor Ford.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Wiktor Ford.pdf",
+      "titleGuess": "Upo Wiktor Ford"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Wiktor Hyundai.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Wiktor Hyundai.docx",
+      "titleGuess": "Upo Wiktor Hyundai"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Wiktor Hyundai.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upo Wiktor Hyundai.pdf",
+      "titleGuess": "Upo Wiktor Hyundai"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\upo Zuzanna Skoda.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\upo Zuzanna Skoda.docx",
+      "titleGuess": "upo Zuzanna Skoda"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upoważnienie - AMG GT.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upoważnienie - AMG GT.pdf",
+      "titleGuess": "Upoważnienie - AMG GT"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upoważnienie - Ford Focus ST.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Upoważnienie - Ford Focus ST.pdf",
+      "titleGuess": "Upoważnienie - Ford Focus ST"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Zaświadczenie - Maciej Kuchno.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienia\\Zaświadczenie - Maciej Kuchno.docx",
+      "titleGuess": "Zaświadczenie - Maciej Kuchno"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienie - Adam - Megane Grandtour.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Upoważnienie - Adam - Megane Grandtour.pdf",
+      "titleGuess": "Upoważnienie - Adam - Megane Grandtour"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upoważnienie BMW.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upoważnienie BMW.doc",
+      "titleGuess": "upoważnienie BMW"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upoważnienie DACIA SEBASTIAN.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upoważnienie DACIA SEBASTIAN.doc",
+      "titleGuess": "upoważnienie DACIA SEBASTIAN"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upoważnienie KIA.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upoważnienie KIA.doc",
+      "titleGuess": "upoważnienie KIA"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upoważnienie SEAT LEON Sebastian.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\upoważnienie SEAT LEON Sebastian.pdf",
+      "titleGuess": "upoważnienie SEAT LEON Sebastian"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Uwagi do wersji beta autogaleria.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Uwagi do wersji beta autogaleria.docx",
+      "titleGuess": "Uwagi do wersji beta autogaleria"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\V40_cennik.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\V40_cennik.pdf",
+      "titleGuess": "V40_cennik"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Volkswagen Jetta Hybrid.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Volkswagen Jetta Hybrid.docx",
+      "titleGuess": "Volkswagen Jetta Hybrid"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Volkswagen Passat.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Volkswagen Passat.docx",
+      "titleGuess": "Volkswagen Passat"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Volvo V40 R-design.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Volvo V40 R-design.docx",
+      "titleGuess": "Volvo V40 R-design"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Wywiad Volvo.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Wywiad Volvo.docx",
+      "titleGuess": "Wywiad Volvo"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Wywiad z prezesem Volvo Car Poland.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Wywiad z prezesem Volvo Car Poland.docx",
+      "titleGuess": "Wywiad z prezesem Volvo Car Poland"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\XOOST Matteo Panini.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\XOOST Matteo Panini.docx",
+      "titleGuess": "XOOST Matteo Panini"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Zapraszamy Was do lektury podsumowania testów oraz zachwytów i rozczarowań redaktorów aG w 2014 roku.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\Zapraszamy Was do lektury podsumowania testów oraz zachwytów i rozczarowań redaktorów aG w 2014 roku.docx",
+      "titleGuess": "Zapraszamy Was do lektury podsumowania testów oraz zachwytów i rozczarowań redaktorów aG w 2014 roku"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\~$P Chin.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\aG\\~$P Chin.docx",
+      "titleGuess": "~$P Chin"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\bilet_25605685.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\bilet_25605685.pdf",
+      "titleGuess": "bilet_25605685"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\BIZNES PLAN.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\BIZNES PLAN.docx",
+      "titleGuess": "BIZNES PLAN"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\Dokument bez tytułu (1).gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\Dokument bez tytułu (1).gdoc",
+      "titleGuess": "Dokument bez tytułu (1)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\Dokument bez tytułu (2).gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\Dokument bez tytułu (2).gdoc",
+      "titleGuess": "Dokument bez tytułu (2)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\Dokument bez tytułu (3).gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\Dokument bez tytułu (3).gdoc",
+      "titleGuess": "Dokument bez tytułu (3)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\Dokument bez tytułu.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\Dokument bez tytułu.gdoc",
+      "titleGuess": "Dokument bez tytułu"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Informacja prasowa.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Informacja prasowa.gdoc",
+      "titleGuess": "Informacja prasowa"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\niemiecki\\Jestem dziennikarzem.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\niemiecki\\Jestem dziennikarzem.docx",
+      "titleGuess": "Jestem dziennikarzem"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\Filozofia - 20.01.14r..docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\Filozofia - 20.01.14r..docx",
+      "titleGuess": "Filozofia - 20.01.14r."
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\filozofia egzamin (1).docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\filozofia egzamin (1).docx",
+      "titleGuess": "filozofia egzamin (1)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\filozofia egzamin.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\filozofia egzamin.docx",
+      "titleGuess": "filozofia egzamin"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\filozofia-zagadnienia egzamin.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\filozofia-zagadnienia egzamin.docx",
+      "titleGuess": "filozofia-zagadnienia egzamin"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\Filozofia.doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\Filozofia.doc",
+      "titleGuess": "Filozofia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\filozofia.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Filozofia\\filozofia.docx",
+      "titleGuess": "filozofia"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Gatunki\\Człowiek w białym kombinezonie.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Gatunki\\Człowiek w białym kombinezonie.docx",
+      "titleGuess": "Człowiek w białym kombinezonie"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Gatunki\\Informacja prasowa.rtf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Gatunki\\Informacja prasowa.rtf",
+      "titleGuess": "Informacja prasowa"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Gatunki\\Informacjaprasowa.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Gatunki\\Informacjaprasowa.pdf",
+      "titleGuess": "Informacjaprasowa"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Gatunki\\Marcin Bochenek - Wywiad.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Gatunki\\Marcin Bochenek - Wywiad.docx",
+      "titleGuess": "Marcin Bochenek - Wywiad"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Definicje Dziennikarza i Dziennikarstwa.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Definicje Dziennikarza i Dziennikarstwa.gdoc",
+      "titleGuess": "Definicje Dziennikarza i Dziennikarstwa"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Habielski Rafał - Polityczna historia mediów w Polsce w XX wieku.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Habielski Rafał - Polityczna historia mediów w Polsce w XX wieku.pdf",
+      "titleGuess": "Habielski Rafał - Polityczna historia mediów w Polsce w XX wieku"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Histroria mediów.odt",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Histroria mediów.odt",
+      "titleGuess": "Histroria mediów"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Klasyfikacja mediów, 16.10.13.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Klasyfikacja mediów, 16.10.13.gdoc",
+      "titleGuess": "Klasyfikacja mediów, 16.10.13"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Levinson.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Levinson.pdf",
+      "titleGuess": "Levinson"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\McLuhan.pdf",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\McLuhan.pdf",
+      "titleGuess": "McLuhan"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Pierwociny prasy.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Pierwociny prasy.gdoc",
+      "titleGuess": "Pierwociny prasy"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Pre-prasa, początki prasy, 16.10.13.gdoc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia mediów i dziennikarstwa\\Pre-prasa, początki prasy, 16.10.13.gdoc",
+      "titleGuess": "Pre-prasa, początki prasy, 16.10.13"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia Polski XX w_\\buźki historia polski-1 (1).doc",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia Polski XX w_\\buźki historia polski-1 (1).doc",
+      "titleGuess": "buźki historia polski-1 (1)"
+    },
+    {
+      "path": "D:\\MARCIN\\Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia Polski XX w_\\Fragmenty tekstów.docx",
+      "rel": "Z PULPITU\\DYSK GOOGLE\\MARCIN\\DZIENNIKARSTWO\\Semestr 1\\Historia Polski XX w_\\Fragmenty tekstów.docx",
+      "titleGuess": "Fragmenty tekstów"
+    }
+  ],
+  "scannedAt": "2026-06-30T21:37:56.439Z"
+}

@@ -1,46 +1,48 @@
 import type { Metadata } from "next";
+import { pageCanonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description:
-    "Skontaktuj się w sprawie testów, współpracy redakcyjnej lub wykorzystania zdjęć z projektu IDRIVECARS.",
-  alternates: { canonical: "/kontakt" },
-  openGraph: {
-    title: "Kontakt | IDRIVECARS",
-    description:
-      "Skontaktuj się w sprawie testów, współpracy redakcyjnej lub wykorzystania zdjęć z projektu IDRIVECARS.",
-    type: "website",
-    url: "/kontakt"
-  }
+  description: "Kontakt z IDRIVECARS — współpraca redakcyjna, licencja na zdjęcia, pytania o testy.",
+  ...pageCanonical("/kontakt")
 };
 
 export default function ContactPage() {
   return (
-    <section className="space-y-6">
-      <header className="space-y-3">
-        <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">Kontakt</p>
-        <h1 className="font-display text-3xl tracking-tight sm:text-4xl">Kontakt z IDRIVECARS</h1>
-      </header>
+    <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
+      <div className="mx-auto max-w-2xl">
+        <header className="reveal-section mb-20 border-b border-soft pb-16 md:mb-28 md:pb-20">
+          <p className="label-mono mb-8 text-stone-muted">Napisz</p>
+          <h1 className="font-display display-track text-display-lg uppercase text-ink">
+            Kontakt
+          </h1>
+          <p className="mt-8 max-w-md text-lead font-light text-subtle">
+            Współpraca redakcyjna, pytania o konkretny test, licencja na zdjęcia.
+          </p>
+        </header>
 
-      <div className="space-y-4 text-sm leading-relaxed text-neutral-700">
-        <p>
-          Jeśli chcesz porozmawiać o testach, współpracy redakcyjnej lub wykorzystaniu zdjęć z
-          projektu IDRIVECARS, napisz wiadomość e-mail. Odpowiadam zwykle w ciągu kilku dni; przy
-          zapytaniach o współpracę lub licencję na zdjęcia opisz krótko, o co chodzi – ułatwi to
-          ustalenie szczegółów.
-        </p>
-        <p>
-          <strong>Adres e-mail</strong>:{" "}
-          <span className="rounded bg-neutral-100 px-2 py-1 font-mono text-xs">
-            kontakt@idrivecars.pl
-          </span>
-        </p>
-        <p>
-          Zapraszam też do lektury testów i galerii – jeśli masz pytanie o konkretny model, który
-          opisywałem, napisz z podaniem tytułu artykułu; chętnie doprecyzuję lub uzupełnię informacje.
-        </p>
+        <div className="reveal-section-delayed space-y-12">
+          <div>
+            <a
+              href="mailto:kontakt@idrivecars.pl"
+              className="group inline-block font-display display-track text-display-md uppercase text-ink transition-opacity duration-editorial hover:opacity-55"
+            >
+              kontakt@idrivecars.pl
+            </a>
+          </div>
+
+          <div className="space-y-6 border-t border-soft pt-12 font-light leading-[1.85] text-ink/75">
+            <p>
+              Jeśli interesuje Cię współpraca przy materiale motoryzacyjnym,
+              skontaktuj się mailowo z krótkim opisem projektu.
+            </p>
+            <p>
+              Zdjęcia z testów są objęte prawem autorskim. Licencja na użycie
+              konkretnych fotografii — wyłącznie na podstawie pisemnej zgody.
+            </p>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }
-

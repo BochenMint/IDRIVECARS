@@ -1,0 +1,83 @@
+{
+  "slug": "i-ty-mozesz-zostac-nowa-twarza-top-gear",
+  "urlKey": "i-ty-mozesz-zostac-nowa-twarza-top-gear",
+  "sourceUrl": "https://autogaleria.pl/i-ty-mozesz-zostac-nowa-twarza-top-gear",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:46.755Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "I Ty możesz zostać nową twarzą Top Gear!",
+  "excerpt": "Chris Evans ogłosił wczoraj, że współprowadzący nową odsłonę Top Gear zostaną wyłonieni w ten sam sposób, co James May i Richard Hammond - w otwartych dla wszystkich castingach. Spróbujecie?",
+  "lead": "Chris Evans ogłosił wczoraj, że współprowadzący nową odsłonę Top Gear zostaną wyłonieni w ten sam sposób, co James May i Richard Hammond - w otwartych dla wszystkich castingach. Spróbujecie?",
+  "category": "Producenci i rynek",
+  "categories": [
+    {
+      "id": 221,
+      "name": "Producenci i rynek",
+      "slug": "producenci-i-rynek",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "top",
+    "gear",
+    "bbc",
+    "top gear",
+    "chris evans",
+    "casting",
+    "evans",
+    "auditions"
+  ],
+  "publishedAt": "2015-06-18",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Wymagania, jakie stawia Evans swoim przyszłym kolegom z pracy nie są wygórowane. Muszą mieć „prawdziwy apetyt na samochody” oraz „coś o nich wiedzieć” - nie wszystko, ale mieć jakiś krąg moto-zainteresowań i sprawnie się w nim poruszać.</p>\n<p>Dodał również, że nie będą to castingi dla ludzi sławnych, sławnych kiedyś czy sławnych w przyszłości - oferta jest skierowana do widzów Top Gear i samochodowych pasjonatów, którzy potrafią zarazić swoją pasją innych.</p>\n<p>Nie ogranicza się również tylko do Wielkiej Brytanii - zgłaszać się mogą ludzie z całego świata. Młodzi, starzy, kobiety czy mężczyźni - nie ważne! Tak więc również Ty, drogi czytelniku, możesz wkrótce mówić do nas „z telewizora”. O szczegółach będziemy informować Was na bieżąco. Powodzenia!</p>\n<p>A tak wyglądała przejażdżka Jamesa May'a jednym z samochodów Evansa. Nie byle jakim...</p>\n<p>https://www.youtube.com/watch?v=rxWMYcPX27s</p>\n<p>&nbsp;</p>\n",
+  "bodyMarkdown": "Wymagania, jakie stawia Evans swoim przyszłym kolegom z pracy nie są wygórowane. Muszą mieć „prawdziwy apetyt na samochody” oraz „coś o nich wiedzieć” - nie wszystko, ale mieć jakiś krąg moto-zainteresowań i sprawnie się w nim poruszać.\n\nDodał również, że nie będą to castingi dla ludzi sławnych, sławnych kiedyś czy sławnych w przyszłości - oferta jest skierowana do widzów Top Gear i samochodowych pasjonatów, którzy potrafią zarazić swoją pasją innych.\n\nNie ogranicza się również tylko do Wielkiej Brytanii - zgłaszać się mogą ludzie z całego świata. Młodzi, starzy, kobiety czy mężczyźni - nie ważne! Tak więc również Ty, drogi czytelniku, możesz wkrótce mówić do nas „z telewizora”. O szczegółach będziemy informować Was na bieżąco. Powodzenia!\n\nA tak wyglądała przejażdżka Jamesa May'a jednym z samochodów Evansa. Nie byle jakim...\n\nhttps://www.youtube.com/watch?v=rxWMYcPX27s",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [
+    {
+      "videoId": "rxWMYcPX27s",
+      "url": "https://www.youtube.com/watch?v=rxWMYcPX27s",
+      "embedUrl": "https://www.youtube.com/embed/rxWMYcPX27s"
+    }
+  ],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/top-gear-casting-2015-1.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/06/top-gear-casting-2015-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/top-gear-casting-2015-2.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/top-gear-casting-2015-1.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/06/top-gear-casting-2015-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/top-gear-casting-2015-2.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "I Ty możesz zostać nową twarzą Top Gear! | NEWS",
+    "description": "Chris Evans ogłosił wczoraj, że współprowadzący nową odsłonę Top Gear zostaną wyłonieni w ten sam sposób, co James May i Richard Hammond - w otwartych dla wszystkich castingach. Spróbujecie?"
+  },
+  "cars": [],
+  "imageCacheLocal": [
+    "i-ty-mozesz-zostac-nowa-twarza-top-gear/hero.jpg",
+    "i-ty-mozesz-zostac-nowa-twarza-top-gear/gallery-1.jpg",
+    "i-ty-mozesz-zostac-nowa-twarza-top-gear/gallery-2.jpg"
+  ]
+}

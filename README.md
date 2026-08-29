@@ -82,9 +82,27 @@ docs/                   # plany redakcyjne i techniczne
 
 ## Design
 
-- **Typografia:** Instrument Serif (nagłówki) + DM Sans (UI/treść) — trend editorial 2026
-- **Layout:** czysta siatka, duże fotografie, asymetryczny hero
-- **Performance:** WEBP, lazy loading, variable fonts, manifest galerii generowany przy buildzie
+- **Typografia:** Bebas Neue (nagłówki/display) + Inter (treść/UI) + IBM Plex Mono (etykiety) — kierunek editorial
+- **Layout:** czysta siatka, duże fotografie, asymetryczny hero, hairline'owe linie
+- **Performance:** WEBP/AVIF, lazy loading, długie cache'owanie galerii, manifest generowany przy buildzie
+- **SEO:** JSON-LD (`BlogPosting` + encja `Car`, `Organization`, `Person`, `WebSite`, `BreadcrumbList`), dynamiczny Open Graph, sitemap z priorytetami, RSS (`/feed.xml`), kanoniczne URL-e
+
+## Wdrożenie (Vercel / hosting)
+
+Skopiuj `.env.example` → `.env.local` (dev) lub zmienne w panelu hostingu (prod):
+
+| Zmienna | Opis |
+|---------|------|
+| `NEXT_PUBLIC_SITE_URL` | Kanoniczny URL (`https://idrivecars.pl`) — SEO, sitemap, Open Graph |
+| `ADMIN_SECRET` | Hasło do `/admin` i `/api/admin/*` (Basic lub Bearer). **Na produkcji obowiązkowe** — bez niego panel jest otwarty |
+
+```bash
+npm run build && npm start
+```
+
+Audyt galerii: `npx tsx scripts/audit-galleries.ts` (oczekiwane: 111 OK + 9 bez folderu po usunięciu błędnych proxy Honda/Citroën/Opel).
+
+Log zmian nocnych: [`docs/IMPROVEMENT-LOG.md`](docs/IMPROVEMENT-LOG.md).
 
 ## SEO
 

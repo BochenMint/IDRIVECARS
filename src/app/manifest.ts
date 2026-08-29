@@ -1,27 +1,26 @@
 import type { MetadataRoute } from "next";
-import { siteConfig } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: siteConfig.title,
-    short_name: siteConfig.name,
-    description: siteConfig.description,
+    name: SITE_NAME,
+    short_name: "IDRIVECARS",
+    description: SITE_DESCRIPTION,
     start_url: "/",
     display: "standalone",
-    background_color: "#ffffff",
-    theme_color: "#0a0a0a",
+    background_color: "#FAF8F5",
+    theme_color: "#0A0A0A",
     lang: "pl",
     categories: ["news", "lifestyle", "automotive"],
     icons: [
       {
-        src: "/icon.svg",
-        sizes: "any",
-        type: "image/svg+xml",
-        purpose: "any"
+        src: "/icon",
+        sizes: "64x64",
+        type: "image/png"
       },
       {
-        src: "/idrivecars-logo.png",
-        sizes: "512x512",
+        src: "/apple-icon",
+        sizes: "180x180",
         type: "image/png"
       }
     ]

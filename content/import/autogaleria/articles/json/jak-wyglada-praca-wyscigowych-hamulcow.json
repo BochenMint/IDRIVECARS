@@ -1,0 +1,75 @@
+{
+  "slug": "jak-wyglada-praca-wyscigowych-hamulcow",
+  "urlKey": "jak-wyglada-praca-wyscigowych-hamulcow",
+  "sourceUrl": "https://autogaleria.pl/jak-wyglada-praca-wyscigowych-hamulcow",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:43.921Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Jak wygląda praca wyścigowych hamulców?",
+  "excerpt": "Jeśli myślicie, że ciepło oddawane przez Wasze hamulce po szybszej przejażdżce to niepokojąca oznaka ich wytężonej pracy, powinniście zobaczyć ten film.",
+  "lead": "Jeśli myślicie, że ciepło oddawane przez Wasze hamulce po szybszej przejażdżce to niepokojąca oznaka ich wytężonej pracy, powinniście zobaczyć ten film.",
+  "category": "Ciekawostki",
+  "categories": [
+    {
+      "id": 220,
+      "name": "Ciekawostki",
+      "slug": "ciekawostki",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "film",
+    "motorsport",
+    "f1",
+    "hamulce",
+    "technika",
+    "temperatura"
+  ],
+  "publishedAt": "2015-06-19",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Samochód poruszający się z dużą prędkością niesie duży ładunek energii kinetycznej. Aby zatrzymać lub spowolnić pędzący samochód, trzeba coś z tą energią zrobić. Nie da się jej „zniknąć”, więc najlepszym jak dotąd pomysłem jest jej konwersja w energię cieplną.</p>\n<p>W normalnych, drogowych samochodach, temperatura hamulców nie powinna przekraczać 200 stopni. Na filmie poniżej kolor tarcz sugeruje, że mamy do czynienia z temperaturą 500 stopni i większą. Należy zauważyć, że tarcze nie mają nawet czasu na porządne schłodzenie się przed następnym zakrętem, cały czas świecąc na czerwono...</p>\n<p>Dla porównania, stosowane w Formule 1 karbonowe tarcze hamulcowe potrafią rozgrzewać się nawet do 1000 stopni, wytrzymując przy tym dystans wyścigu. To całkiem imponujące.</p>\n<p>Życzymy dobrego chłodzenia Waszych hamulców...</p>\n<p>https://www.youtube.com/watch?t=316&amp;v=h8HJmfYxgH0</p>\n",
+  "bodyMarkdown": "Samochód poruszający się z dużą prędkością niesie duży ładunek energii kinetycznej. Aby zatrzymać lub spowolnić pędzący samochód, trzeba coś z tą energią zrobić. Nie da się jej „zniknąć”, więc najlepszym jak dotąd pomysłem jest jej konwersja w energię cieplną.\n\nW normalnych, drogowych samochodach, temperatura hamulców nie powinna przekraczać 200 stopni. Na filmie poniżej kolor tarcz sugeruje, że mamy do czynienia z temperaturą 500 stopni i większą. Należy zauważyć, że tarcze nie mają nawet czasu na porządne schłodzenie się przed następnym zakrętem, cały czas świecąc na czerwono...\n\nDla porównania, stosowane w Formule 1 karbonowe tarcze hamulcowe potrafią rozgrzewać się nawet do 1000 stopni, wytrzymując przy tym dystans wyścigu. To całkiem imponujące.\n\nŻyczymy dobrego chłodzenia Waszych hamulców...\n\nhttps://www.youtube.com/watch?t=316&v=h8HJmfYxgH0",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/praca-wyscigowych-hamulcow-video-1.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/06/praca-wyscigowych-hamulcow-video-1.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/praca-wyscigowych-hamulcow-video-2.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/praca-wyscigowych-hamulcow-video-1.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/06/praca-wyscigowych-hamulcow-video-1.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/praca-wyscigowych-hamulcow-video-2.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Jak wygląda praca wyścigowych hamulców? | VIDEO",
+    "description": "Jeśli myślicie, że ciepło oddawane przez Wasze hamulce po szybszej przejażdżce to niepokojąca oznaka ich wytężonej pracy, powinniście zobaczyć ten film."
+  },
+  "cars": [],
+  "imageCacheLocal": [
+    "jak-wyglada-praca-wyscigowych-hamulcow/hero.jpg",
+    "jak-wyglada-praca-wyscigowych-hamulcow/gallery-1.jpg",
+    "jak-wyglada-praca-wyscigowych-hamulcow/gallery-2.jpg"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-07-01T01:30:00.000Z",
+  "pipeline": "news E2E Pass 4 — porównanie jakości modeli",
+  "published": false,
+  "ollama": {
+    "status": "AVAILABLE",
+    "baseUrl": "http://localhost:11434",
+    "modelsDetected": [
+      "qwen2.5:3b",
+      "SpeakLeash/bielik-11b-v3.0-instruct:Q4_K_M",
+      "llama3.3:70b",
+      "qwen3.6:27b",
+      "qwen2.5-coder:32b",
+      "devstral-small-2:24b",
+      "gemma4:26b-a4b-it-q4_K_M",
+      "moondream:latest"
+    ],
+    "modelUsed": "SpeakLeash/bielik-11b-v3.0-instruct:Q4_K_M",
+    "modelChoiceReason": "Bielik-11b zainstalowany lokalnie (6.7 GB) — najlepszy dostępny model PL bez pobierania nowych wag",
+    "inferenceMs": 60190
+  },
+  "lmStudio": {
+    "status": "TIMEOUT",
+    "note": "http://localhost:1234/v1/models — brak odpowiedzi w 3s (jak Pass 3)"
+  },
+  "comparison": {
+    "sourceArticle": {
+      "qwenJob": "job-toyota-pressroom-rss-e92de97f312162ed",
+      "bielikJob": "job-toyota-pressroom-rss-75868bb1f0b3fe07",
+      "qwenTopic": "Too Afraid To Ask: Internal Combustion Engine Types (R4/V6/V8)",
+      "bielikTopic": "Joby Aviation + Toyota eVTOL alliance"
+    },
+    "qwen2.5:3b": {
+      "slug": "too-afraid-to-ask-dylemat-zrozumienia-typow-wybosczych-dieselowych",
+      "mdxStatus": "rejected",
+      "disposition": "Oznaczony review-bad-ai + rejected — nie trafia na /news",
+      "styleScore": 0.88,
+      "styleGuardrails": "PASS (fałszywie pozytywny — treść merytorycznie zła)",
+      "factualAccuracy": "FAIL",
+      "factualNotes": [
+        "Źródło: silniki spalinowe R4/V6/V8 — model napisał o 'dieselach' i 'wybórczych'",
+        "Tytuł angielski przetłumaczony nonsensownie ('Wybórniczych Dieselowych')",
+        "Treść gramatycznie zepsuta ('wybórczymi silnikami', 'służy' zamiast 'służą')"
+      ],
+      "polishLanguage": "FAIL — pseudo-PL, halucynacje słownictwa",
+      "marcinStyle": "FAIL — brak kontekstu, brak konkretu, clickbait w tytule",
+      "hallucinations": ["diesel zamiast ICE", "wybórcze zamiast czterocylindrowe", "V6/V8 → trój/sześciowładowy diesel"],
+      "verdict": "NIEPUBLIKOWALNY — tylko test infrastruktury"
+    },
+    "bielik-11b": {
+      "slug": "joby-aviation-toyota-sojusz-dla-mobilnosci-powietrznej",
+      "mdxStatus": "review",
+      "disposition": "MDX zapisany ręcznie po apply — guardrail polish-language zablokował ai-apply",
+      "styleGuardrails": "FAIL on apply (marker ratio 1.2% — za dużo tokenów EN: eVTOL, FAA, Joby, NYSE)",
+      "factualAccuracy": "PARTIAL",
+      "factualNotes": [
+        "Rdzeń faktów zgodny ze źródłem: Joby + Toyota, joint venture, eVTOL, 30.06.2026",
+        "Halucynacje w raw output: loty komercyjne 2030, rynek 1,5 bln USD do 2035, 'powietrzna Corolla'",
+        "Te liczby NIE występują w RSS — wymagają wycięcia przed publikacją"
+      ],
+      "polishLanguage": "PASS — poprawna polszczyzna redakcyjna",
+      "marcinStyle": "PARTIAL — struktura OK (nagłówki, lead, źródło), ton lekko korpo-PR mimo instrukcji",
+      "hallucinations": ["2030 commercial flights", "1.5 trillion market 2035", "powietrzna Corolla"],
+      "verdict": "REVIEW-ONLY — lepszy od qwen, ale nadal wymaga redakcji człowieka; autopublish ZABLOKOWANY"
+    }
+  },
+  "autopublishRecommendation": {
+    "enabled": false,
+    "reason": "Oba modele generują halucynacje faktów. Bielik przechodzi jako szkic do review; qwen odrzucony. Guardrail polish-language fałszywie blokuje teksty z angielskimi nazwami własnymi.",
+    "productionModel": "SpeakLeash/bielik-11b-v3.0-instruct:Q4_K_M",
+    "fallbackModel": "llama3.3:70b (42 GB — tylko jeśli VRAM/RAM pozwala)",
+    "neverUse": ["qwen2.5:3b"]
+  },
+  "steps": {
+    "inference": { "status": "PASS", "model": "bielik-11b", "job": "job-toyota-pressroom-rss-75868bb1f0b3fe07" },
+    "aiApply": {
+      "status": "FAIL",
+      "reason": "Style guardrail polish-language (marker ratio 1.2%)",
+      "workaround": "MDX zapisany ręcznie ze statusem review + adnotacja halucynacji"
+    },
+    "qwenCleanup": {
+      "status": "DONE",
+      "action": "status → rejected, tag review-bad-ai, komentarz w treści",
+      "file": "content/news/too-afraid-to-ask-dylemat-zrozumienia-typow-wybosczych-dieselowych.mdx"
+    }
+  },
+  "pass5Fixes": [
+    "Polish guardrail: wykluczyć proper nouns / skróty (eVTOL, FAA) z marker ratio",
+    "Post-process AI: fact-checker porównujący liczby/datę ze raw RSS",
+    "Walidacja licenseWarnings: wymusić array w ai-run-local przed zapisem output",
+    "news:ai-apply --skip-style dla dev-only E2E (opcjonalnie)"
+  ],
+  "verdict": "Bielik-11b = REVIEW-ONLY produkcyjny model. Qwen2.5:3b = WYCOFAĆ z pipeline. Autopublish nadal ZABRONIONY."
+}

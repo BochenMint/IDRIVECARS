@@ -1,59 +1,51 @@
 import type { Metadata } from "next";
 import { TestCard } from "@/components/TestCard";
-import { JsonLd } from "@/components/JsonLd";
+import { getFirstGalleryImageSrc } from "@/lib/content/gallery";
 import { getAllTests } from "@/lib/content/testy";
-import { breadcrumbSchema } from "@/lib/seo";
+import { pageCanonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Galerie zdjęć",
-  description:
-    "Galerie zdjęć z autorskich testów IDRIVECARS – duże kadry, detale i klimat każdego samochodu.",
-  alternates: { canonical: "/galerie" },
-  openGraph: {
-    title: "Galerie zdjęć | IDRIVECARS",
-    description:
-      "Galerie zdjęć z autorskich testów IDRIVECARS – duże kadry, detale i klimat każdego samochodu.",
-    type: "website",
-    url: "/galerie"
-  }
+  title: "Galerie",
+  description: "Galerie zdjęć z testów IDRIVECARS — własna fotografia Marcina Bochenka.",
+  ...pageCanonical("/galerie")
 };
 
 export default async function GalleriesPage() {
   const tests = await getAllTests();
-  const withGalleries = tests.filter((test) => Boolean(test.galleryDir));
+  const withGalleries = tests.filter((t) => Boolean(t.galleryDir));
+  const images = await Promise.all(
+    withGalleries.map((t) => getFirstGalleryImageSrc(t.galleryDir))
+  );
 
   return (
-    <section className="space-y-8">
-      <JsonLd
-        data={breadcrumbSchema([
-          { name: "Strona główna", path: "/" },
-          { name: "Galerie", path: "/galerie" }
-        ])}
-      />
-      <header className="space-y-3">
-        <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">Galerie</p>
-        <h1 className="font-display text-3xl tracking-tight sm:text-4xl">
-          Galerie zdjęć z testów
+    <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
+      <header className="reveal-section mb-24 border-b border-soft pb-16 md:mb-28 md:pb-20">
+        <p className="label-mono mb-8 text-stone-muted">{withGalleries.length} galerii</p>
+        <h1 className="font-display display-track text-display-lg uppercase text-ink">
+          Galerie
         </h1>
-        <p className="max-w-2xl text-sm leading-relaxed text-neutral-600">
-          Zdjęcia są sercem IDRIVECARS. Każdy test ma własną galerię – po konwersji do WEBP ładuje się
-          szybko, zachowując jakość.
+        <p className="mt-8 max-w-md text-lead font-light text-subtle">
+          Własna fotografia z każdego testu — bez obróbki agencji, bez stocków.
         </p>
       </header>
 
       {withGalleries.length === 0 ? (
-        <p className="text-sm text-neutral-500">
-          Gdy tylko przekonwertujesz pierwsze galerie (skrypt <code>npm run convert:galleries</code>),
-          pojawią się tutaj w formie kart prowadzących do poszczególnych testów.
+        <p className="font-light text-subtle">
+          Uruchom <code className="font-mono text-sm">npm run convert:linked</code> aby wygenerować
+          galerie.
         </p>
       ) : (
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {withGalleries.map((test) => (
-            <TestCard key={test.slug} test={test} />
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-14 lg:grid-cols-3 lg:gap-10">
+          {withGalleries.map((test, i) => (
+            <TestCard
+              key={test.slug}
+              test={test}
+              heroImageFallback={images[i] ?? null}
+              variant="grid"
+            />
           ))}
         </div>
       )}
-    </section>
+    </div>
   );
 }
-

@@ -1,11 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
+import { isAdminAuthorized } from "@/lib/admin-auth";
 import { savePressCredentials, type PressCredentials } from "@/lib/content/press";
 
 /**
  * POST: zapisuje loginy/hasła do serwisów prasowych.
- * Docelowo zabezpieczyć (sesja admina / klucz API). Plik content/press-credentials.json jest w .gitignore.
+ * Chronione ADMIN_SECRET (middleware + ta kontrola). Plik content/press-credentials.json jest w .gitignore.
  */
 export async function POST(request: NextRequest) {
+  if (!isAdminAuthorized(request)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
   try {
     const body = await request.json();
     if (typeof body !== "object" || body === null) {

@@ -69,6 +69,9 @@ async function resolveFolderName(sourcesRoot: string, folderName: string): Promi
   const direct = path.join(sourcesRoot, folderName);
   if (existsSync(direct)) return direct;
 
+  const surowe = path.join(sourcesRoot, "SUROWE", folderName);
+  if (existsSync(surowe)) return surowe;
+
   const entries = await fs.readdir(sourcesRoot, { withFileTypes: true });
   const normalized = folderName.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   for (const e of entries) {

@@ -8,65 +8,88 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        surface: "#FAFAF8",
-        ink: "#171717",
-        muted: "#737373",
-        accent: "#B91C1C",
-        "accent-soft": "#FEF2F2"
+        canvas: "#FAF8F5",
+        ink: "#000000",
+        stone: "#C4BAB0",
+        "stone-muted": "#9A9288",
+        subtle: "#6E6A64",
+        line: "#E5E0DA",
+        accent: "#000000"
       },
       fontFamily: {
-        display: ["var(--font-display)", "ui-serif", "Georgia", "serif"],
-        sans: ["var(--font-sans)", "system-ui", "ui-sans-serif", "sans-serif"]
+        display: ["var(--font-display)", "Helvetica Neue", "Arial", "sans-serif"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "ui-monospace", "monospace"]
+      },
+      fontSize: {
+        "display-xl": ["clamp(3rem,8vw,7rem)", { lineHeight: "0.88", letterSpacing: "0.07em" }],
+        "display-lg": ["clamp(2rem,5vw,4rem)", { lineHeight: "0.92", letterSpacing: "0.06em" }],
+        "display-md": ["clamp(1.5rem,3vw,2.25rem)", { lineHeight: "0.95", letterSpacing: "0.05em" }],
+        intro: ["1.3125rem", { lineHeight: "1.75", letterSpacing: "-0.01em" }],
+        body: ["1.0625rem", { lineHeight: "1.8", letterSpacing: "0" }]
+      },
+      letterSpacing: {
+        "nav-mono": "0.24em",
+        "display-wide": "0.08em"
+      },
+      lineHeight: {
+        body: "1.8",
+        "body-relaxed": "1.9",
+        lead: "1.75"
+      },
+      spacing: {
+        gutter: "clamp(1.25rem,4vw,3.5rem)",
+        section: "clamp(6rem,14vw,10rem)"
+      },
+      transitionDuration: {
+        editorial: "450ms"
       },
       typography: {
-        DEFAULT: {
-          css: {
-            maxWidth: "72ch",
-            lineHeight: 1.75,
-            "--tw-prose-body": "rgb(38 38 38)",
-            "--tw-prose-headings": "rgb(23 23 23)",
-            "p + p": { marginTop: "1.25em" },
-            h2: { marginTop: "1.75em", marginBottom: "0.75em", fontWeight: "600" },
-            h3: { marginTop: "1.5em", marginBottom: "0.5em", fontWeight: "600" }
-          }
-        },
         article: {
           css: {
             maxWidth: "65ch",
             fontSize: "1.0625rem",
             lineHeight: 1.85,
-            "--tw-prose-body": "rgb(38 38 38)",
-            "--tw-prose-headings": "rgb(23 23 23)",
-            p: { marginTop: "0", marginBottom: "1.25em" },
+            fontWeight: "300",
+            color: "#1a1a1a",
+            "--tw-prose-headings": "#000000",
+            "--tw-prose-body": "#1a1a1a",
+            "--tw-prose-links": "#000000",
+            "--tw-prose-hr": "#E5E0DA",
+            p: { marginTop: "0", marginBottom: "1.65em" },
             "p:first-of-type": {
-              fontSize: "1.2em",
-              lineHeight: 1.65,
-              color: "rgb(64 64 64)",
-              fontWeight: "400"
+              fontSize: "1.3125rem",
+              lineHeight: 1.75,
+              fontWeight: "300",
+              letterSpacing: "-0.01em",
+              color: "#3d3a36"
             },
-            "p + p": { marginTop: "1.25em" },
             h2: {
-              marginTop: "2.25em",
+              marginTop: "3em",
               marginBottom: "0.6em",
-              fontSize: "1.4em",
+              fontSize: "1.625rem",
+              lineHeight: 1.05,
               fontWeight: "400",
-              letterSpacing: "-0.02em",
-              lineHeight: 1.25,
-              fontFamily: "var(--font-display), ui-serif, Georgia, serif"
+              letterSpacing: "0.06em",
+              fontFamily: "var(--font-display), sans-serif",
+              textTransform: "uppercase"
             },
             h3: {
-              marginTop: "1.75em",
+              marginTop: "2.5em",
               marginBottom: "0.4em",
-              fontSize: "1.15em",
-              fontWeight: "600",
-              lineHeight: 1.4
+              fontSize: "1.125rem",
+              lineHeight: 1.35,
+              fontWeight: "400",
+              letterSpacing: "0.02em"
             },
-            "ul, ol": { marginTop: "0.75em", marginBottom: "1.25em", paddingLeft: "1.5em" },
-            li: { marginTop: "0.35em", marginBottom: "0.35em" },
-            a: { fontWeight: "500", color: "rgb(23 23 23)" },
-            strong: { fontWeight: "600" },
-            figure: { marginTop: "2.5em", marginBottom: "2.5em" },
-            img: { borderRadius: "0.5rem", marginTop: "1.5em", marginBottom: "1.5em" }
+            img: { borderRadius: "0", marginTop: "2.5em", marginBottom: "2.5em" },
+            a: {
+              fontWeight: "400",
+              textDecoration: "underline",
+              textDecorationThickness: "1px",
+              textUnderlineOffset: "5px"
+            },
+            "a:hover": { color: "#3d3a36" }
           }
         }
       }

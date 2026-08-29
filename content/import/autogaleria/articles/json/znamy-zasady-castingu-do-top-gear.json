@@ -1,0 +1,81 @@
+{
+  "slug": "znamy-zasady-castingu-do-top-gear",
+  "urlKey": "znamy-zasady-castingu-do-top-gear",
+  "sourceUrl": "https://autogaleria.pl/znamy-zasady-castingu-do-top-gear",
+  "provenance": {
+    "discoveredVia": "elasticsearch-author",
+    "importedAt": "2026-06-30T21:40:37.573Z",
+    "importer": "scripts/import-autogaleria-marcin.ts",
+    "rightsNote": "Treść zaimportowana z autoGALERIA.pl na podstawie deklaracji właściciela; canonical URL zachowany w sourceUrl."
+  },
+  "title": "Znamy zasady castingu do Top Gear!",
+  "excerpt": "Wczoraj informowaliśmy Was o tym, że nowy prowadzący Top Gear - Chris Evans - będzie szukał pozostałych prowadzących w castingu. Dzisiaj dowiedzieliśmy się, co należy zrobić, aby zostać na niego zaproszonym.",
+  "lead": "Wczoraj informowaliśmy Was o tym, że nowy prowadzący Top Gear - Chris Evans - będzie szukał pozostałych prowadzących w castingu. Dzisiaj dowiedzieliśmy się, co należy zrobić, aby zostać na niego zaproszonym.",
+  "category": "Producenci i rynek",
+  "categories": [
+    {
+      "id": 221,
+      "name": "Producenci i rynek",
+      "slug": "producenci-i-rynek",
+      "path": [
+        {
+          "name": "NOWOŚCI",
+          "path": "/category/nowosci"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "film",
+    "2015",
+    "top",
+    "gear",
+    "bbc",
+    "top gear",
+    "casting",
+    "evans",
+    "zasady",
+    "zgłoszenie",
+    "rekrutacja",
+    "chris"
+  ],
+  "publishedAt": "2015-06-19",
+  "author": {
+    "name": "Marcin Bochenek",
+    "key": "marcin-bochenek"
+  },
+  "headings": [],
+  "bodyHtml": "<p>Zasady są bardzo proste, przejrzyste i nie dyskryminujące nikogo. Jedynym warunkiem co do osoby zgłaszającej się jest jej wiek, a dokładniej ukończone 17 lat. Fakt perfekcyjnego posługiwania się językiem angielskim i miłość do samochodów to sprawy oczywiste...</p>\n<p>Reszta to wytyczne czysto techniczne. Aby zwrócić na siebie uwagę BBC oraz Evansa, musisz nakręcić 30-sekundowy film z krajobrazem w tle, na którym powiesz coś w sposób taki, w jaki chciałbyś to robić w programie. Bez samochodów, sztuczek, wygłupów. Wszystko jasne?</p>\n<p>Filmy muszą być w rozmiarze umożliwiającym przesłanie pocztą e-mail. Produkcje dłuższe niż 30 sekund lub nie spełniające wymagań co do treści nie będą brane pod uwagę. BBC może też wykorzystać nadesłane filmy na swoich kanałach społecznościowych i najpewniej to zrobi. Ale jeśli jest to dla Was problem, to mamy złą wiadomość...</p>\n<p>Drogie czytelniczki i drodzy czytelnicy, oto Wasza szansa na reprezentowanie Polski w Top Gear. Swoje filmy wysyłajcie na adres: <strong>topgear@bbc.co.uk</strong>. Powodzenia!</p>\n",
+  "bodyMarkdown": "Zasady są bardzo proste, przejrzyste i nie dyskryminujące nikogo. Jedynym warunkiem co do osoby zgłaszającej się jest jej wiek, a dokładniej ukończone 17 lat. Fakt perfekcyjnego posługiwania się językiem angielskim i miłość do samochodów to sprawy oczywiste...\n\nReszta to wytyczne czysto techniczne. Aby zwrócić na siebie uwagę BBC oraz Evansa, musisz nakręcić 30-sekundowy film z krajobrazem w tle, na którym powiesz coś w sposób taki, w jaki chciałbyś to robić w programie. Bez samochodów, sztuczek, wygłupów. Wszystko jasne?\n\nFilmy muszą być w rozmiarze umożliwiającym przesłanie pocztą e-mail. Produkcje dłuższe niż 30 sekund lub nie spełniające wymagań co do treści nie będą brane pod uwagę. BBC może też wykorzystać nadesłane filmy na swoich kanałach społecznościowych i najpewniej to zrobi. Ale jeśli jest to dla Was problem, to mamy złą wiadomość...\n\nDrogie czytelniczki i drodzy czytelnicy, oto Wasza szansa na reprezentowanie Polski w Top Gear. Swoje filmy wysyłajcie na adres: **topgear@bbc.co.uk**. Powodzenia!",
+  "pros": [],
+  "cons": [],
+  "summary": "",
+  "youtube": [],
+  "images": {
+    "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/chris-evans.jpg",
+    "gallery": [
+      "https://autogaleria.pl/content/uploads/2015/06/chris-evans.jpg",
+      "https://autogaleria.pl/content/uploads/2015/06/top-gear-casting-2015-11.jpg"
+    ],
+    "inline": [],
+    "absolute": {
+      "thumbnail": "https://autogaleria.pl/content/uploads/2015/06/chris-evans.jpg",
+      "gallery": [
+        "https://autogaleria.pl/content/uploads/2015/06/chris-evans.jpg",
+        "https://autogaleria.pl/content/uploads/2015/06/top-gear-casting-2015-11.jpg"
+      ],
+      "inline": []
+    }
+  },
+  "tables": [],
+  "meta": {
+    "title": "Znamy zasady castingu do Top Gear!",
+    "description": "Wczoraj informowaliśmy Was o tym, że nowy prowadzący Top Gear - Chris Evans - będzie szukał pozostałych prowadzących w castingu. Dzisiaj dowiedzieliśmy się, co należy zrobić, aby zostać na niego zaproszonym."
+  },
+  "cars": [],
+  "imageCacheLocal": [
+    "znamy-zasady-castingu-do-top-gear/hero.jpg",
+    "znamy-zasady-castingu-do-top-gear/gallery-1.jpg",
+    "znamy-zasady-castingu-do-top-gear/gallery-2.jpg"
+  ]
+}

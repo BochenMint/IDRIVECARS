@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head><title>Kanały RSS • AutoCentrum.pl</title></head>
+<body>
+<script>
+(function(){const output='';while(output.length<20){output+=Math.random().toString(16).substr(2);}})();
+</script>
+<a href="/rss/newsy/">Newsy</a>
+</body>
+</html>

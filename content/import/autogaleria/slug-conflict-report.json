@@ -1,0 +1,380 @@
+{
+  "summary": {
+    "generatedAt": "2026-07-04T16:23:43.542Z",
+    "total": 21,
+    "mergeMetadataOnly": 9,
+    "keepExisting": 0,
+    "manualReview": 12
+  },
+  "conflicts": [
+    {
+      "slug": "bmw-435i-cabriolet",
+      "importTitle": "BMW 435i Cabriolet",
+      "existingTitle": "BMW 435i Cabriolet",
+      "existingPath": "content/testy/bmw-435i-cabriolet.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\bmw-435i-cabriolet.json",
+      "bodyLengthExisting": 10002,
+      "bodyLengthImport": 8569,
+      "publishedAtExisting": "2015-06-01",
+      "publishedAtImport": "2014-12-21",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst",
+        "Uzupełnić originalUrl z importu"
+      ]
+    },
+    {
+      "slug": "bmw-435i",
+      "importTitle": "BMW 435i",
+      "existingTitle": "BMW 435i Coupé",
+      "existingPath": "content/testy/bmw-435i.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\bmw-435i.json",
+      "bodyLengthExisting": 6495,
+      "bodyLengthImport": 13771,
+      "publishedAtExisting": "2014-04-18",
+      "publishedAtImport": "2014-04-18",
+      "hasGalleryExisting": false,
+      "hasGalleryImport": false,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "bmw-x6-m50d-fl",
+      "importTitle": "BMW X6 M50d",
+      "existingTitle": "BMW X6 M50d",
+      "existingPath": "content/testy/bmw-x6-m50d-fl.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\bmw-x6-m50d-fl.json",
+      "bodyLengthExisting": 7641,
+      "bodyLengthImport": 7123,
+      "publishedAtExisting": "2015-11-09",
+      "publishedAtImport": "2015-11-09",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "importTitle": "Brabus 850 6.0 BITURBO GLE Coupe - jakby komuś było mało",
+      "existingTitle": "Brabus 850 6.0 BITURBO GLE Coupe - jakby komuś było mało",
+      "existingPath": "content/testy/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo.json",
+      "bodyLengthExisting": 1975,
+      "bodyLengthImport": 2757,
+      "publishedAtExisting": "2015-09-28",
+      "publishedAtImport": "2015-09-28",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst"
+      ]
+    },
+    {
+      "slug": "citroen-c-elysee-16-hdi-seduction",
+      "importTitle": "Citroen C-Elysee 1.6 HDi Seduction",
+      "existingTitle": "Citroen C-Elysee 1.6 HDi Seduction",
+      "existingPath": "content/testy/citroen-c-elysee-16-hdi-seduction.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\citroen-c-elysee-16-hdi-seduction.json",
+      "bodyLengthExisting": 7070,
+      "bodyLengthImport": 7064,
+      "publishedAtExisting": "2015-06-01",
+      "publishedAtImport": "2013-04-07",
+      "hasGalleryExisting": false,
+      "hasGalleryImport": false,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst",
+        "Uzupełnić originalUrl z importu"
+      ]
+    },
+    {
+      "slug": "ford-focus-rs-najlepszy-z-chuliganow",
+      "importTitle": "Ford Focus RS: Najlepszy z chuliganów",
+      "existingTitle": "Ford Focus RS: Najlepszy z chuliganów",
+      "existingPath": "content/testy/ford-focus-rs-najlepszy-z-chuliganow.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\ford-focus-rs-najlepszy-z-chuliganow.json",
+      "bodyLengthExisting": 9083,
+      "bodyLengthImport": 10261,
+      "publishedAtExisting": "2016-02-09",
+      "publishedAtImport": "2016-02-09",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst"
+      ]
+    },
+    {
+      "slug": "lexus-nx-300h-f-sport",
+      "importTitle": "Lexus NX 300h F-Sport",
+      "existingTitle": "Lexus NX 300h F-Sport",
+      "existingPath": "content/testy/lexus-nx-300h-f-sport.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\lexus-nx-300h-f-sport.json",
+      "bodyLengthExisting": 10465,
+      "bodyLengthImport": 989,
+      "publishedAtExisting": "2015-06-01",
+      "publishedAtImport": "2015-01-08",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "lexus-rx-350-f-sport",
+      "importTitle": "Lexus RX 350 F Sport",
+      "existingTitle": "Lexus RX 350 F Sport",
+      "existingPath": "content/testy/lexus-rx-350-f-sport.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\lexus-rx-350-f-sport.json",
+      "bodyLengthExisting": 8149,
+      "bodyLengthImport": 7794,
+      "publishedAtExisting": "2015-06-01",
+      "publishedAtImport": "2013-05-08",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": false,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst",
+        "Uzupełnić originalUrl z importu"
+      ]
+    },
+    {
+      "slug": "maserati-granturismo-sport",
+      "importTitle": "Maserati GranTurismo Sport",
+      "existingTitle": "Maserati GranTurismo Sport",
+      "existingPath": "content/testy/maserati-granturismo-sport.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\maserati-granturismo-sport.json",
+      "bodyLengthExisting": 8989,
+      "bodyLengthImport": 9659,
+      "publishedAtExisting": "2013-09-16",
+      "publishedAtImport": "2013-09-16",
+      "hasGalleryExisting": false,
+      "hasGalleryImport": false,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst"
+      ]
+    },
+    {
+      "slug": "mazda-mx-5-nd-do-korzeni",
+      "importTitle": "Mazda MX-5 ND - Do korzeni!",
+      "existingTitle": "Mazda MX-5 ND - Do korzeni!",
+      "existingPath": "content/testy/mazda-mx-5-nd-do-korzeni.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\mazda-mx-5-nd-do-korzeni.json",
+      "bodyLengthExisting": 6143,
+      "bodyLengthImport": 7089,
+      "publishedAtExisting": "2015-10-26",
+      "publishedAtImport": "2015-10-26",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-glc-w-dobrym-kierunku",
+      "importTitle": "Mercedes-Benz GLC - W dobrym kierunku",
+      "existingTitle": "Mercedes-Benz GLC - W dobrym kierunku",
+      "existingPath": "content/testy/mercedes-benz-glc-w-dobrym-kierunku.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\mercedes-benz-glc-w-dobrym-kierunku.json",
+      "bodyLengthExisting": 10321,
+      "bodyLengthImport": 12001,
+      "publishedAtExisting": "2015-07-20",
+      "publishedAtImport": "2015-07-20",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst"
+      ]
+    },
+    {
+      "slug": "mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa",
+      "importTitle": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa",
+      "existingTitle": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa",
+      "existingPath": "content/testy/mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa.json",
+      "bodyLengthExisting": 6885,
+      "bodyLengthImport": 8225,
+      "publishedAtExisting": "2015-08-20",
+      "publishedAtImport": "2015-08-20",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "mercedes-maybach-s-600",
+      "importTitle": "Mercedes-Maybach S 600",
+      "existingTitle": "Mercedes-Maybach S 600",
+      "existingPath": "content/testy/mercedes-maybach-s-600.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\mercedes-maybach-s-600.json",
+      "bodyLengthExisting": 10889,
+      "bodyLengthImport": 11246,
+      "publishedAtExisting": "2016-03-10",
+      "publishedAtImport": "2016-03-10",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "nowa-skoda-superb-pierwszy-test-nowej-ery",
+      "importTitle": "Nowa Skoda Superb - pierwszy test \"nowej ery\"",
+      "existingTitle": "Nowa Skoda Superb — pierwszy test nowej ery",
+      "existingPath": "content/testy/nowa-skoda-superb-pierwszy-test-nowej-ery.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\nowa-skoda-superb-pierwszy-test-nowej-ery.json",
+      "bodyLengthExisting": 5453,
+      "bodyLengthImport": 9375,
+      "publishedAtExisting": "2015-05-17",
+      "publishedAtImport": "2015-05-17",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "nowy-fiat-500-nie-zepsuc-ikony",
+      "importTitle": "Nowy Fiat 500 - Nie zepsuć ikony",
+      "existingTitle": "Nowy Fiat 500 - Nie zepsuć ikony",
+      "existingPath": "content/testy/nowy-fiat-500-nie-zepsuc-ikony.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\nowy-fiat-500-nie-zepsuc-ikony.json",
+      "bodyLengthExisting": 6655,
+      "bodyLengthImport": 8533,
+      "publishedAtExisting": "2015-07-16",
+      "publishedAtImport": "2015-07-16",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "porsche-boxster-s",
+      "importTitle": "Porsche Boxster S",
+      "existingTitle": "Porsche Boxster S",
+      "existingPath": "content/testy/porsche-boxster-s.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\porsche-boxster-s.json",
+      "bodyLengthExisting": 10658,
+      "bodyLengthImport": 9153,
+      "publishedAtExisting": "2015-06-01",
+      "publishedAtImport": "2013-11-23",
+      "hasGalleryExisting": false,
+      "hasGalleryImport": false,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "rolls-royce-wraith",
+      "importTitle": "Rolls-Royce Wraith",
+      "existingTitle": "Rolls-Royce Wraith",
+      "existingPath": "content/testy/rolls-royce-wraith.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\rolls-royce-wraith.json",
+      "bodyLengthExisting": 12422,
+      "bodyLengthImport": 11037,
+      "publishedAtExisting": "2015-06-01",
+      "publishedAtImport": "2014-08-29",
+      "hasGalleryExisting": false,
+      "hasGalleryImport": false,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "importTitle": "Mercedes-AMG GT S - testujemy rywala 911!",
+      "existingTitle": "Mercedes-AMG GT S — testujemy rywala 911",
+      "existingPath": "content/testy/test-mercedes-amg-gt-s-testujemy-rywala-911.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\test-mercedes-amg-gt-s-testujemy-rywala-911.json",
+      "bodyLengthExisting": 5727,
+      "bodyLengthImport": 9615,
+      "publishedAtExisting": "2015-04-12",
+      "publishedAtImport": "2015-04-12",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst"
+      ]
+    },
+    {
+      "slug": "volkswagen-passat-alltrack-all-inclusive",
+      "importTitle": "Volkswagen Passat Alltrack: All inclusive",
+      "existingTitle": "Volkswagen Passat Alltrack: All inclusive",
+      "existingPath": "content/testy/volkswagen-passat-alltrack-all-inclusive.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\volkswagen-passat-alltrack-all-inclusive.json",
+      "bodyLengthExisting": 7156,
+      "bodyLengthImport": 8529,
+      "publishedAtExisting": "2016-01-26",
+      "publishedAtImport": "2016-01-26",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    },
+    {
+      "slug": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+      "importTitle": "Volkswagen Scirocco 2.0 TSI BMT 220 KM DSG",
+      "existingTitle": "Volkswagen Scirocco 2.0 TSI BMT 220 KM DSG",
+      "existingPath": "content/testy/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg.json",
+      "bodyLengthExisting": 5521,
+      "bodyLengthImport": 9935,
+      "publishedAtExisting": "2015-01-29",
+      "publishedAtImport": "2015-01-29",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "merge-metadata-only",
+      "mergeActions": [
+        "Dodać originalUrl/sourceUrl/import z JSON do istniejącego frontmatter",
+        "Body zgodne ze źródłem — zachować istniejący tekst"
+      ]
+    },
+    {
+      "slug": "volkswagen-t6-500-shades-of-transporter",
+      "importTitle": "Volkswagen T6 – 500 shades of Transporter",
+      "existingTitle": "Volkswagen T6 — 500 shades of Transporter",
+      "existingPath": "content/testy/volkswagen-t6-500-shades-of-transporter.mdx",
+      "importPath": "content\\import\\autogaleria\\articles\\json\\volkswagen-t6-500-shades-of-transporter.json",
+      "bodyLengthExisting": 5255,
+      "bodyLengthImport": 6063,
+      "publishedAtExisting": "2015-07-01",
+      "publishedAtImport": "2015-07-01",
+      "hasGalleryExisting": true,
+      "hasGalleryImport": true,
+      "recommendation": "manual-review",
+      "mergeActions": [
+        "Różne tytuły/treść — diff ręczny lub audit:source-fidelity --fix"
+      ]
+    }
+  ]
+}

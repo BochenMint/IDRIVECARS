@@ -1,70 +1,70 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Sans, Instrument_Serif } from "next/font/google";
-import { AdSlot } from "../components/AdSlot";
-import { JsonLd } from "../components/JsonLd";
+import { Bebas_Neue, Inter, IBM_Plex_Mono } from "next/font/google";
+import {
+  SITE_AUTHOR,
+  SITE_DESCRIPTION,
+  SITE_KEYWORDS,
+  SITE_NAME,
+  SITE_URL
+} from "@/lib/site";
+import { AdSenseScript } from "../components/AdSenseScript";
+import { CookieConsent } from "../components/CookieConsent";
+import { GoogleAnalytics } from "../components/GoogleAnalytics";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
-import { organizationSchema, websiteSchema } from "../lib/seo";
-import { siteConfig } from "../lib/site";
 import "./globals.css";
 
-const dmSans = DM_Sans({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-sans",
-  display: "swap"
-});
-
-const instrumentSerif = Instrument_Serif({
+const bebas = Bebas_Neue({
   subsets: ["latin", "latin-ext"],
   weight: "400",
   variable: "--font-display",
   display: "swap"
 });
 
-function AdBanner() {
-  return (
-    <div className="border-b border-neutral-100 bg-neutral-50/50 px-4 py-2 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-6xl">
-        <AdSlot slotId="header-billboard" format="leaderboard" />
-      </div>
-    </div>
-  );
-}
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500"],
+  variable: "--font-sans",
+  display: "swap"
+});
+
+const plexMono = IBM_Plex_Mono({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500"],
+  variable: "--font-mono",
+  display: "swap"
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteConfig.url),
   title: {
-    default: siteConfig.title,
-    template: `%s | ${siteConfig.name}`
+    default: SITE_NAME,
+    template: `%s · ${SITE_NAME}`
   },
-  description: siteConfig.description,
-  applicationName: siteConfig.name,
-  keywords: [...siteConfig.keywords],
-  authors: [{ name: siteConfig.author.name, url: siteConfig.author.url }],
-  creator: siteConfig.author.name,
-  publisher: siteConfig.name,
+  description: SITE_DESCRIPTION,
+  metadataBase: new URL(SITE_URL),
+  keywords: SITE_KEYWORDS,
+  authors: [{ name: SITE_AUTHOR.name, url: SITE_AUTHOR.url }],
+  creator: SITE_AUTHOR.name,
+  publisher: SITE_AUTHOR.name,
+  applicationName: SITE_NAME,
+  category: "automotive",
   alternates: {
-    canonical: "/"
-  },
-  category: "Motoryzacja",
-  formatDetection: {
-    email: false,
-    telephone: false,
-    address: false
+    types: {
+      "application/rss+xml": `${SITE_URL}/feed.xml`
+    }
   },
   openGraph: {
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
     type: "website",
-    locale: siteConfig.locale,
-    url: siteConfig.url,
-    siteName: siteConfig.name,
-    title: siteConfig.title,
-    description: siteConfig.description
+    url: SITE_URL,
+    locale: "pl_PL",
+    siteName: SITE_NAME
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.title,
-    description: siteConfig.description,
-    creator: `@${siteConfig.name.toLowerCase()}`
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION
   },
   robots: {
     index: true,
@@ -76,7 +76,8 @@ export const metadata: Metadata = {
       "max-snippet": -1,
       "max-video-preview": -1
     }
-  }
+  },
+  formatDetection: { telephone: false }
 };
 
 export const viewport: Viewport = {
@@ -90,20 +91,24 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="pl" className={`h-full scroll-smooth ${dmSans.variable} ${instrumentSerif.variable}`}>
-      <body className="min-h-full bg-surface text-ink antialiased font-sans">
-        <JsonLd data={[organizationSchema(), websiteSchema()]} />
-        <a href="#main-content" className="skip-link">
+    <html lang="pl" className={`${bebas.variable} ${inter.variable} ${plexMono.variable}`}>
+      <body className="text-body leading-body">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded focus:bg-ink focus:px-4 focus:py-2 focus:text-canvas focus:outline-none"
+        >
           Przejdź do treści
         </a>
+        <GoogleAnalytics />
+        <AdSenseScript />
         <div className="page-shell">
           <SiteHeader />
-          <AdBanner />
-          <main id="main-content" className="page-main" role="main">
+          <main id="main-content" role="main">
             {children}
           </main>
           <SiteFooter />
         </div>
+        <CookieConsent />
       </body>
     </html>
   );

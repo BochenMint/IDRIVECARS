@@ -1,76 +1,118 @@
 import type { Metadata } from "next";
-import { JsonLd } from "@/components/JsonLd";
-import { breadcrumbSchema, personSchema } from "@/lib/seo";
+import Link from "next/link";
+import { personNode, breadcrumbNode, jsonLdGraph, jsonLdScript, pageCanonical } from "@/lib/seo";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "O mnie",
   description:
-    "Kilka słów o projekcie IDRIVECARS i autorze – Marcinie Bochenku, dziennikarzu motoryzacyjnym.",
-  alternates: { canonical: "/o-mnie" },
-  openGraph: {
-    title: "O mnie | IDRIVECARS",
-    description:
-      "Kilka słów o projekcie IDRIVECARS i autorze – Marcinie Bochenku, dziennikarzu motoryzacyjnym.",
-    type: "profile",
-    url: "/o-mnie"
-  }
+    "Marcin Bochenek — dziennikarz motoryzacyjny, autor IDRIVECARS. Autorskie testy, pierwsze jazdy i własne zdjęcia bez clickbaitu.",
+  ...pageCanonical("/o-mnie")
 };
 
 export default function AboutPage() {
-  return (
-    <section className="space-y-6">
-      <JsonLd
-        data={[
-          personSchema(),
-          breadcrumbSchema([
-            { name: "Strona główna", path: "/" },
-            { name: "O mnie", path: "/o-mnie" }
-          ])
-        ]}
-      />
-      <header className="space-y-3">
-        <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">O mnie</p>
-        <h1 className="font-display text-3xl tracking-tight sm:text-4xl">IDRIVECARS i ja</h1>
-      </header>
+  const ld = jsonLdScript(
+    jsonLdGraph(
+      personNode(),
+      breadcrumbNode([
+        { name: "Strona główna", url: `${SITE_URL}` },
+        { name: "O mnie", url: `${SITE_URL}/o-mnie` }
+      ])
+    )
+  );
 
-      <div className="space-y-4 text-sm leading-relaxed text-neutral-700">
-        <p>
-          Nazywam się <strong>Marcin Bochenek</strong>. Przez lata pisałem testy samochodów i
-          materiały motoryzacyjne, między innymi dla serwisu{" "}
-          <a href="https://autogaleria.pl/" target="_blank" rel="noreferrer">
-            autoGALERIA.pl
-          </a>
-          . IDRIVECARS to moje własne miejsce w sieci – spokojniejsze, bardziej skupione na treści i
-          zdjęciach.
-        </p>
-        <p>
-          Zamiast gonić za sensacją i tytułami na siłę, wolę uczciwie opisywać samochody takimi, jakie
-          są. Interesują mnie detale, codzienne użytkowanie i to, czy dany model ma sens dla
-          konkretnej osoby, a nie tylko katalogowe 0–100 km/h.
-        </p>
-        <p>
-          Treści, które tutaj znajdziesz, w dużej części powstały wcześniej i były publikowane
-          gdzie indziej. Przenoszę je, bo nadal się pod nimi podpisuję – i chcę, żeby miały lepszy
-          dom, dopasowany do mojego stylu pracy.
-        </p>
-        <p>
-          Na stronie znajdziesz testy m.in. Mercedes-Maybacha S 600, Forda Focusa RS, Mazdy MX-5 ND,
-          BMW X6 M50d czy Volkswagena Passata Alltrack – oraz kolejne, w miarę przenoszenia archiwum
-          z autoGALERIA.pl i z lokalnych folderów (Artykuły, Galerie z testów).
-        </p>
-        <p>
-          W testach staram się pisać tak, żeby po lekturze było wiadomo: dla kogo ten samochód jest,
-          co robi dobrze, a z czego rezygnuje. Nie unikam krytyki – producenci nie płacą mi za
-          laurki – ale nie szukam też sensacji tam, gdzie jej nie ma. Jeśli coś jest dobre, mówię
-          że dobre; jeśli coś przeszkadza, opisuję to wprost.
-        </p>
-        <p>
-          Zdjęcia w galeriach są moje – z testów, premier i eventów. Strona jest budowana tak, żeby
-          treść i obrazy miały dużo przestrzeni; bez rozpraszaczy i nadmiaru reklam. Dziękuję, że
-          tu jesteś.
-        </p>
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: ld }}
+      />
+
+      <div className="bg-canvas px-gutter pb-section pt-28 md:pt-32">
+        <div className="mx-auto max-w-2xl">
+          <header className="reveal-section mb-20 border-b border-soft pb-16 md:mb-28 md:pb-20">
+            <p className="label-mono mb-8 text-stone-muted">Autor</p>
+            <h1 className="font-display display-track text-display-lg uppercase text-ink">
+              Marcin Bochenek
+            </h1>
+            <p className="mt-8 max-w-lg text-lead font-light text-subtle">
+              Dziennikarz motoryzacyjny. Testy, pierwsze jazdy i własne zdjęcia —
+              bez pośredników, bez clickbaitu.
+            </p>
+          </header>
+
+          <div className="reveal-section-delayed space-y-8 font-light leading-[1.85] text-ink/85">
+            <p>
+              Przez lata pisałem testy samochodów dla{" "}
+              <a
+                href="https://autogaleria.pl/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline underline-offset-4 decoration-stone transition-opacity duration-editorial hover:opacity-55"
+              >
+                autoGaleria.pl
+              </a>
+              . W tym czasie przejechałem setki tysięcy kilometrów różnymi autami —
+              od małych miejskich hatchbacków po egzotyczne supersportowe. Każdy test
+              to realna jazda, nie przejażdżka po torze PR-owym.
+            </p>
+
+            <p>
+              IDRIVECARS to moje własne archiwum. Zebrałem tu teksty, które
+              naprawdę warto zachować — sprawdzone i rozbudowane o własny kontekst.
+              Żadnych newsów z biur prasowych, żadnych artykułów sponsorowanych
+              udających recenzje.
+            </p>
+
+            <p>
+              Opisuję samochody tak, jak je widzę: z danymi technicznymi,
+              szczerymi wrażeniami z jazdy i oceną, której nie dyktuje dział
+              marketingu producenta. Zdjęcia są moje — robię je sam, na
+              miejscu, przy każdym teście.
+            </p>
+
+            <p>
+              Interesuję się przede wszystkim autami, w których inżynierowie
+              podjęli jakąś decyzję — ciekawą, odważną albo kontrowersyjną.
+              Nudzą mnie auta bez charakteru. Fascynują silniki, zawieszenia
+              i to, jak konstruktorzy radzą sobie z kompromisami między dynamiką
+              a codziennym użytkowaniem.
+            </p>
+          </div>
+
+          <div className="mt-20 border-t border-soft pt-14">
+            <p className="label-mono mb-8 text-stone-muted">Co tu znajdziesz</p>
+            <ul className="space-y-5">
+              <li>
+                <Link
+                  href="/testy"
+                  className="group flex items-baseline gap-4 transition-opacity duration-editorial hover:opacity-55"
+                >
+                  <span className="font-display display-track text-display-md uppercase text-ink">
+                    Testy
+                  </span>
+                  <span className="label-mono text-stone-muted group-hover:text-stone-muted">
+                    — indeks autorskich testów i pierwszych jazd
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/galerie"
+                  className="group flex items-baseline gap-4 transition-opacity duration-editorial hover:opacity-55"
+                >
+                  <span className="font-display display-track text-display-md uppercase text-ink">
+                    Galerie
+                  </span>
+                  <span className="label-mono text-stone-muted">
+                    — własne zdjęcia z każdego testu
+                  </span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </section>
+    </>
   );
 }
-

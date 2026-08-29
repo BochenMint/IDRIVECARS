@@ -1,40 +1,75 @@
+/** Kanoniczny URL witryny (SEO, sitemap, Open Graph). */
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://idrivecars.pl";
+
+/** Nazwa marki — tytuły, JSON-LD, Open Graph. */
+export const SITE_NAME = "IDRIVECARS";
+
+/** Domyślny opis witryny (meta description, Open Graph, JSON-LD). */
+export const SITE_DESCRIPTION =
+  "Autorskie testy samochodów, pierwsze jazdy i galerie zdjęć Marcina Bochenka — bez clickbaitu, z własnymi zdjęciami i uczciwą oceną.";
+
+/** Locale witryny (Open Graph / hreflang). */
+export const SITE_LOCALE = "pl_PL";
+
+/** Słowa kluczowe witryny (meta keywords — pomocniczo). */
+export const SITE_KEYWORDS = [
+  "testy samochodów",
+  "recenzje samochodów",
+  "pierwsza jazda",
+  "blog motoryzacyjny",
+  "motoryzacja",
+  "dane techniczne",
+  "Marcin Bochenek",
+  "IDRIVECARS"
+];
+
 /**
- * Centralna konfiguracja serwisu — jedno źródło prawdy dla SEO,
- * metadanych, danych strukturalnych (JSON-LD) i map witryny.
+ * Profile społecznościowe autora/marki — używane w JSON-LD jako `sameAs`.
+ * Uzupełnij realnymi adresami (Instagram, YouTube, X itd.); puste = pominięte w schema.
  */
+export const SOCIAL_LINKS: string[] = [];
 
-export const siteConfig = {
-  name: "IDRIVECARS",
-  /** Pełna, kanoniczna domena produkcyjna (bez ukośnika na końcu). */
-  url: "https://idrivecars.pl",
-  title: "IDRIVECARS – testy samochodów, pierwsze jazdy i galerie zdjęć",
-  description:
-    "IDRIVECARS to autorskie testy samochodów, pierwsze jazdy i galerie zdjęć Marcina Bochenka. Rzetelne wrażenia z jazdy, konkretne dane techniczne i duże fotografie — bez clickbaitu.",
-  locale: "pl_PL",
-  language: "pl-PL",
-  /** Domyślny obraz Open Graph (1200×630) generowany przez app/opengraph-image. */
-  ogImage: "/opengraph-image",
-  logo: "/idrivecars-logo.jpg",
-  email: "kontakt@idrivecars.pl",
-  keywords: [
-    "testy samochodów",
-    "pierwsze jazdy",
-    "recenzje samochodów",
-    "blog motoryzacyjny",
-    "galerie samochodów",
-    "dane techniczne",
-    "Marcin Bochenek",
-    "IDRIVECARS"
-  ],
-  author: {
-    name: "Marcin Bochenek",
-    jobTitle: "Dziennikarz motoryzacyjny",
-    url: "https://idrivecars.pl/o-mnie"
-  }
+/** Testy z galerią na stronie głównej (kolejność = priorytet; tylko slugi z manifestem). */
+export const FEATURED_TEST_SLUGS = [
+  "test-mercedes-amg-gt-s-testujemy-rywala-911",
+  "mercedes-maybach-s-600",
+  "volkswagen-passat-alltrack-all-inclusive",
+  "ford-focus-rs-najlepszy-z-chuliganow",
+  "mazda-mx-5-nd-do-korzeni",
+  "bentley-continental-gt-v8-s-convertible",
+  "bmw-435i-cabriolet",
+  "volkswagen-xl1",
+  "lexus-nx-300h-f-sport",
+  "lexus-rc-f",
+  "volvo-xc90",
+  "pierwsza-jazda-octavia-rs",
+  "pierwsza-jazda-rs6",
+  "pierwsza-jazda-corvette-c7",
+  "pierwsza-jazda-porsche-on-track",
+  "pierwsza-jazda-abarth-595-turismo",
+  "nowy-jeep-cherokee"
+] as const;
+
+/** Pierwsze zdjęcie hero na stronie głównej (landscape / lepszy kadr). */
+export const FEATURED_HERO_IMAGE_OVERRIDES: Partial<
+  Record<(typeof FEATURED_TEST_SLUGS)[number], string>
+> = {
+  "mercedes-maybach-s-600": "/galleries/mercedes-maybach-s-600/13.webp",
+  "test-mercedes-amg-gt-s-testujemy-rywala-911": "/videos/amg-gt-s-poster.jpg"
+};
+
+/**
+ * Krótki klip wideo (hero) dla wybranych testów na stronie głównej.
+ * Klip powinien być ≤15s, 720p, H.264, bez audio — autoplay/loop/muted.
+ */
+export const FEATURED_HERO_VIDEO_OVERRIDES: Partial<
+  Record<(typeof FEATURED_TEST_SLUGS)[number], string>
+> = {
+  "test-mercedes-amg-gt-s-testujemy-rywala-911": "/videos/amg-gt-s-drift.mp4"
+};
+
+export const SITE_AUTHOR = {
+  name: "Marcin Bochenek",
+  url: `${SITE_URL}/o-mnie`
 } as const;
-
-/** Buduje absolutny URL na podstawie ścieżki względnej (z wiodącym ukośnikiem lub bez). */
-export function absoluteUrl(path = "/"): string {
-  const normalized = path.startsWith("/") ? path : `/${path}`;
-  return `${siteConfig.url}${normalized === "/" ? "" : normalized}`;
-}

@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-07-01T00:20:00.000Z",
+  "pipeline": "news E2E Pass 3 (bez publikacji)",
+  "published": false,
+  "ollama": {
+    "status": "AVAILABLE",
+    "baseUrl": "http://localhost:11434",
+    "modelsDetected": [
+      "qwen2.5:3b",
+      "moondream:latest",
+      "SpeakLeash/bielik-11b-v3.0-instruct:Q4_K_M",
+      "llama3.3:70b",
+      "qwen3.6:27b"
+    ],
+    "llama32": "NOT_INSTALLED (404 w Pass 2)",
+    "modelUsed": "qwen2.5:3b",
+    "modelChoiceReason": "Najmniejszy model completion (3.1B) — bez pobierania nowych wag"
+  },
+  "lmStudio": {
+    "status": "TIMEOUT",
+    "note": "http://localhost:1234/v1/models — brak odpowiedzi w 3s"
+  },
+  "steps": {
+    "scan": {
+      "status": "PASS",
+      "mode": "dry-run",
+      "source": "toyota-pressroom-rss",
+      "itemsFound": 8,
+      "itemsSaved": 0,
+      "note": "Duplikaty z Pass 2 — scan OK, brak nowych raw"
+    },
+    "prepare": {
+      "status": "PASS",
+      "jobsExisting": 8,
+      "note": "Joby z Pass 2, prompt.txt obecny"
+    },
+    "aiRunLocal": {
+      "status": "PASS",
+      "job": "job-toyota-pressroom-rss-e92de97f312162ed.json",
+      "inferenceMs": "~27000",
+      "output": "data/news/ai-jobs/job-toyota-pressroom-rss-e92de97f312162ed.output.json"
+    },
+    "aiApply": {
+      "status": "PASS",
+      "slug": "too-afraid-to-ask-dylemat-zrozumienia-typow-wybosczych-dieselowych",
+      "mdxStatus": "review",
+      "styleScore": 0.88,
+      "styleWarnings": ["Brak wzmianki o źródle w treści"]
+    }
+  },
+  "qualityVerdict": "INFRASTRUCTURE_OK_CONTENT_WEAK",
+  "qualityNotes": [
+    "qwen2.5:3b produkuje halucynacje PL (np. 'wybórcze diesele') — nie nadaje się do redakcji bez review",
+    "Rekomendacja produkcyjna: bielik-11b lub llama3.3:70b dla polskiego newsa",
+    "llama3.2 nie jest zainstalowany — nie pobierano w Pass 3"
+  ],
+  "runbook": {
+    "recommendedPolish": "ollama pull SpeakLeash/bielik-11b-v3.0-instruct:Q4_K_M",
+    "recommendedSmall": "ollama pull qwen2.5:3b",
+    "recommendedBalanced": "ollama pull llama3.2",
+    "env": {
+      "LOCAL_AI_BASE_URL": "http://localhost:11434",
+      "LOCAL_AI_MODEL": "SpeakLeash/bielik-11b-v3.0-instruct:Q4_K_M",
+      "LOCAL_AI_PROVIDER": "ollama"
+    },
+    "e2eCommand": "NEWS_SOURCE_IDS=toyota-pressroom-rss npm run news:scan && npm run news:ai-prepare && LOCAL_AI_MODEL=qwen2.5:3b npm run news:ai-run-local -- data/news/ai-jobs/<job>.json && npm run news:ai-apply -- data/news/ai-jobs/<job>.output.json"
+  },
+  "verdict": "Pipeline scan→prepare→inference→apply działa end-to-end. Jakość draftu z qwen2.5:3b = SZKIELET, nie redakcja. Review w /admin/news wymagany."
+}

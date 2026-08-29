@@ -1,0 +1,1048 @@
+{
+  "generatedAt": "2026-07-04T20:19:50.133Z",
+  "mode": "apply",
+  "summary": {
+    "totalConflicts": 21,
+    "mergeMetadataOnly": 9,
+    "manualReview": 12,
+    "processed": 21,
+    "applied": 9,
+    "pendingApply": 0,
+    "skippedComplete": 0
+  },
+  "morningDecision": {
+    "safeToApplyNow": false,
+    "command": "npm run merge:slug-conflicts -- --apply",
+    "commandPerSlug": [
+      "npm run merge:slug-conflicts -- --apply bmw-435i-cabriolet",
+      "npm run merge:slug-conflicts -- --apply brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "npm run merge:slug-conflicts -- --apply citroen-c-elysee-16-hdi-seduction",
+      "npm run merge:slug-conflicts -- --apply ford-focus-rs-najlepszy-z-chuliganow",
+      "npm run merge:slug-conflicts -- --apply lexus-rx-350-f-sport",
+      "npm run merge:slug-conflicts -- --apply maserati-granturismo-sport",
+      "npm run merge:slug-conflicts -- --apply mercedes-benz-glc-w-dobrym-kierunku",
+      "npm run merge:slug-conflicts -- --apply test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "npm run merge:slug-conflicts -- --apply volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg"
+    ],
+    "readySlugs": [
+      "bmw-435i-cabriolet",
+      "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "citroen-c-elysee-16-hdi-seduction",
+      "ford-focus-rs-najlepszy-z-chuliganow",
+      "lexus-rx-350-f-sport",
+      "maserati-granturismo-sport",
+      "mercedes-benz-glc-w-dobrym-kierunku",
+      "test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg"
+    ],
+    "manualReviewSlugs": [
+      "bmw-435i",
+      "bmw-x6-m50d-fl",
+      "lexus-nx-300h-f-sport",
+      "mazda-mx-5-nd-do-korzeni",
+      "mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa",
+      "mercedes-maybach-s-600",
+      "nowa-skoda-superb-pierwszy-test-nowej-ery",
+      "nowy-fiat-500-nie-zepsuc-ikony",
+      "porsche-boxster-s",
+      "rolls-royce-wraith",
+      "volkswagen-passat-alltrack-all-inclusive",
+      "volkswagen-t6-500-shades-of-transporter"
+    ],
+    "doNotAutoMerge": [
+      {
+        "slug": "bmw-435i",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Tytuł: \"BMW 435i Coupé\" vs \"BMW 435i\"",
+          "Różna długość body: existing 6495 vs import 13771 (Δ 7276)"
+        ],
+        "existingTitle": "BMW 435i Coupé",
+        "importTitle": "BMW 435i",
+        "bodyLengthDelta": 7276,
+        "galleryConflict": false
+      },
+      {
+        "slug": "bmw-x6-m50d-fl",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Różna długość body: existing 7641 vs import 7123 (Δ -518)",
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "BMW X6 M50d",
+        "importTitle": "BMW X6 M50d",
+        "bodyLengthDelta": -518,
+        "galleryConflict": true
+      },
+      {
+        "slug": "lexus-nx-300h-f-sport",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Różna długość body: existing 10465 vs import 989 (Δ -9476)",
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "Lexus NX 300h F-Sport",
+        "importTitle": "Lexus NX 300h F-Sport",
+        "bodyLengthDelta": -9476,
+        "galleryConflict": true
+      },
+      {
+        "slug": "mazda-mx-5-nd-do-korzeni",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Różna długość body: existing 6143 vs import 7089 (Δ 946)",
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "Mazda MX-5 ND - Do korzeni!",
+        "importTitle": "Mazda MX-5 ND - Do korzeni!",
+        "bodyLengthDelta": 946,
+        "galleryConflict": true
+      },
+      {
+        "slug": "mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Różna długość body: existing 6885 vs import 8225 (Δ 1340)",
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa",
+        "importTitle": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa",
+        "bodyLengthDelta": 1340,
+        "galleryConflict": true
+      },
+      {
+        "slug": "mercedes-maybach-s-600",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "Mercedes-Maybach S 600",
+        "importTitle": "Mercedes-Maybach S 600",
+        "bodyLengthDelta": 357,
+        "galleryConflict": true
+      },
+      {
+        "slug": "nowa-skoda-superb-pierwszy-test-nowej-ery",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Tytuł: \"Nowa Skoda Superb — pierwszy test nowej ery\" vs \"Nowa Skoda Superb - pierwszy test \"nowej ery\"\"",
+          "Różna długość body: existing 5453 vs import 9375 (Δ 3922)",
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "Nowa Skoda Superb — pierwszy test nowej ery",
+        "importTitle": "Nowa Skoda Superb - pierwszy test \"nowej ery\"",
+        "bodyLengthDelta": 3922,
+        "galleryConflict": true
+      },
+      {
+        "slug": "nowy-fiat-500-nie-zepsuc-ikony",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Różna długość body: existing 6655 vs import 8533 (Δ 1878)",
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "Nowy Fiat 500 - Nie zepsuć ikony",
+        "importTitle": "Nowy Fiat 500 - Nie zepsuć ikony",
+        "bodyLengthDelta": 1878,
+        "galleryConflict": true
+      },
+      {
+        "slug": "porsche-boxster-s",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Różna długość body: existing 10658 vs import 9153 (Δ -1505)"
+        ],
+        "existingTitle": "Porsche Boxster S",
+        "importTitle": "Porsche Boxster S",
+        "bodyLengthDelta": -1505,
+        "galleryConflict": false
+      },
+      {
+        "slug": "rolls-royce-wraith",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Różna długość body: existing 12422 vs import 11037 (Δ -1385)"
+        ],
+        "existingTitle": "Rolls-Royce Wraith",
+        "importTitle": "Rolls-Royce Wraith",
+        "bodyLengthDelta": -1385,
+        "galleryConflict": false
+      },
+      {
+        "slug": "volkswagen-passat-alltrack-all-inclusive",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Różna długość body: existing 7156 vs import 8529 (Δ 1373)",
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "Volkswagen Passat Alltrack: All inclusive",
+        "importTitle": "Volkswagen Passat Alltrack: All inclusive",
+        "bodyLengthDelta": 1373,
+        "galleryConflict": true
+      },
+      {
+        "slug": "volkswagen-t6-500-shades-of-transporter",
+        "reason": "Różna treść/tytuł — diff ręczny przed merge body",
+        "conflicts": [
+          "Tytuł: \"Volkswagen T6 — 500 shades of Transporter\" vs \"Volkswagen T6 – 500 shades of Transporter\"",
+          "Różna długość body: existing 5255 vs import 6063 (Δ 808)",
+          "Oba warianty mają galerie — ryzyko nadpisania mediów"
+        ],
+        "existingTitle": "Volkswagen T6 — 500 shades of Transporter",
+        "importTitle": "Volkswagen T6 – 500 shades of Transporter",
+        "bodyLengthDelta": 808,
+        "galleryConflict": true
+      }
+    ]
+  },
+  "metadataOnlyReady": [
+    {
+      "slug": "bmw-435i-cabriolet",
+      "existingPath": "content/testy/bmw-435i-cabriolet.mdx",
+      "fieldDiffs": [
+        {
+          "field": "originalUrl",
+          "before": "",
+          "after": "https://autogaleria.pl/bmw-435i-cabriolet"
+        },
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/bmw-435i-cabriolet"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "bmw-435i-cabriolet",
+            "importedAt": "2026-06-30T21:42:50.122Z"
+          }
+        }
+      ],
+      "patches": {
+        "originalUrl": "https://autogaleria.pl/bmw-435i-cabriolet",
+        "sourceUrl": "https://autogaleria.pl/bmw-435i-cabriolet",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "bmw-435i-cabriolet",
+          "importedAt": "2026-06-30T21:42:50.122Z"
+        }
+      }
+    },
+    {
+      "slug": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "existingPath": "content/testy/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo.mdx",
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+            "importedAt": "2026-06-30T21:39:48.910Z"
+          }
+        }
+      ],
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+          "importedAt": "2026-06-30T21:39:48.910Z"
+        }
+      }
+    },
+    {
+      "slug": "citroen-c-elysee-16-hdi-seduction",
+      "existingPath": "content/testy/citroen-c-elysee-16-hdi-seduction.mdx",
+      "fieldDiffs": [
+        {
+          "field": "originalUrl",
+          "before": "",
+          "after": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction"
+        },
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "citroen-c-elysee-16-hdi-seduction",
+            "importedAt": "2026-06-30T21:43:02.769Z"
+          }
+        }
+      ],
+      "patches": {
+        "originalUrl": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction",
+        "sourceUrl": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "citroen-c-elysee-16-hdi-seduction",
+          "importedAt": "2026-06-30T21:43:02.769Z"
+        }
+      }
+    },
+    {
+      "slug": "ford-focus-rs-najlepszy-z-chuliganow",
+      "existingPath": "content/testy/ford-focus-rs-najlepszy-z-chuliganow.mdx",
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/ford-focus-rs-najlepszy-z-chuliganow"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "ford-focus-rs-najlepszy-z-chuliganow",
+            "importedAt": "2026-06-30T21:39:31.318Z"
+          }
+        }
+      ],
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/ford-focus-rs-najlepszy-z-chuliganow",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "ford-focus-rs-najlepszy-z-chuliganow",
+          "importedAt": "2026-06-30T21:39:31.318Z"
+        }
+      }
+    },
+    {
+      "slug": "lexus-rx-350-f-sport",
+      "existingPath": "content/testy/lexus-rx-350-f-sport.mdx",
+      "fieldDiffs": [
+        {
+          "field": "originalUrl",
+          "before": "",
+          "after": "https://autogaleria.pl/lexus-rx-350-f-sport"
+        },
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/lexus-rx-350-f-sport"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "lexus-rx-350-f-sport",
+            "importedAt": "2026-06-30T21:43:02.065Z"
+          }
+        }
+      ],
+      "patches": {
+        "originalUrl": "https://autogaleria.pl/lexus-rx-350-f-sport",
+        "sourceUrl": "https://autogaleria.pl/lexus-rx-350-f-sport",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "lexus-rx-350-f-sport",
+          "importedAt": "2026-06-30T21:43:02.065Z"
+        }
+      }
+    },
+    {
+      "slug": "maserati-granturismo-sport",
+      "existingPath": "content/testy/maserati-granturismo-sport.mdx",
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/maserati-granturismo-sport"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "maserati-granturismo-sport",
+            "importedAt": "2026-06-30T21:43:02.061Z"
+          }
+        }
+      ],
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/maserati-granturismo-sport",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "maserati-granturismo-sport",
+          "importedAt": "2026-06-30T21:43:02.061Z"
+        }
+      }
+    },
+    {
+      "slug": "mercedes-benz-glc-w-dobrym-kierunku",
+      "existingPath": "content/testy/mercedes-benz-glc-w-dobrym-kierunku.mdx",
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/mercedes-benz-glc-w-dobrym-kierunku"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "mercedes-benz-glc-w-dobrym-kierunku",
+            "importedAt": "2026-06-30T21:40:03.123Z"
+          }
+        }
+      ],
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/mercedes-benz-glc-w-dobrym-kierunku",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "mercedes-benz-glc-w-dobrym-kierunku",
+          "importedAt": "2026-06-30T21:40:03.123Z"
+        }
+      }
+    },
+    {
+      "slug": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "existingPath": "content/testy/test-mercedes-amg-gt-s-testujemy-rywala-911.mdx",
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/test-mercedes-amg-gt-s-testujemy-rywala-911"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+            "importedAt": "2026-06-30T21:41:24.910Z"
+          }
+        }
+      ],
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/test-mercedes-amg-gt-s-testujemy-rywala-911",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+          "importedAt": "2026-06-30T21:41:24.910Z"
+        }
+      }
+    },
+    {
+      "slug": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+      "existingPath": "content/testy/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg.mdx",
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+            "importedAt": "2026-06-30T21:42:20.479Z"
+          }
+        }
+      ],
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+          "importedAt": "2026-06-30T21:42:20.479Z"
+        }
+      }
+    }
+  ],
+  "outcomes": [
+    {
+      "slug": "bmw-435i-cabriolet",
+      "existingPath": "content/testy/bmw-435i-cabriolet.mdx",
+      "action": "applied",
+      "patches": {
+        "originalUrl": "https://autogaleria.pl/bmw-435i-cabriolet",
+        "sourceUrl": "https://autogaleria.pl/bmw-435i-cabriolet",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "bmw-435i-cabriolet",
+          "importedAt": "2026-06-30T21:42:50.122Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "originalUrl",
+          "before": "",
+          "after": "https://autogaleria.pl/bmw-435i-cabriolet"
+        },
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/bmw-435i-cabriolet"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "bmw-435i-cabriolet",
+            "importedAt": "2026-06-30T21:42:50.122Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "bmw-435i",
+      "existingPath": "content/testy/bmw-435i.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "BMW 435i Coupé",
+          "after": "BMW 435i"
+        },
+        {
+          "field": "bodyLength",
+          "before": 6495,
+          "after": 13771
+        },
+        {
+          "field": "hasGallery",
+          "before": false,
+          "after": false
+        }
+      ]
+    },
+    {
+      "slug": "bmw-x6-m50d-fl",
+      "existingPath": "content/testy/bmw-x6-m50d-fl.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "BMW X6 M50d",
+          "after": "BMW X6 M50d"
+        },
+        {
+          "field": "bodyLength",
+          "before": 7641,
+          "after": 7123
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    },
+    {
+      "slug": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+      "existingPath": "content/testy/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo.mdx",
+      "action": "applied",
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+          "importedAt": "2026-06-30T21:39:48.910Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "brabus-850-6-0-biturbo-gle-coupe-jakby-komus-bylo-malo",
+            "importedAt": "2026-06-30T21:39:48.910Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "citroen-c-elysee-16-hdi-seduction",
+      "existingPath": "content/testy/citroen-c-elysee-16-hdi-seduction.mdx",
+      "action": "applied",
+      "patches": {
+        "originalUrl": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction",
+        "sourceUrl": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "citroen-c-elysee-16-hdi-seduction",
+          "importedAt": "2026-06-30T21:43:02.769Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "originalUrl",
+          "before": "",
+          "after": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction"
+        },
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/citroen-c-elysee-16-hdi-seduction"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "citroen-c-elysee-16-hdi-seduction",
+            "importedAt": "2026-06-30T21:43:02.769Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "ford-focus-rs-najlepszy-z-chuliganow",
+      "existingPath": "content/testy/ford-focus-rs-najlepszy-z-chuliganow.mdx",
+      "action": "applied",
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/ford-focus-rs-najlepszy-z-chuliganow",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "ford-focus-rs-najlepszy-z-chuliganow",
+          "importedAt": "2026-06-30T21:39:31.318Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/ford-focus-rs-najlepszy-z-chuliganow"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "ford-focus-rs-najlepszy-z-chuliganow",
+            "importedAt": "2026-06-30T21:39:31.318Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "lexus-nx-300h-f-sport",
+      "existingPath": "content/testy/lexus-nx-300h-f-sport.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Lexus NX 300h F-Sport",
+          "after": "Lexus NX 300h F-Sport"
+        },
+        {
+          "field": "bodyLength",
+          "before": 10465,
+          "after": 989
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    },
+    {
+      "slug": "lexus-rx-350-f-sport",
+      "existingPath": "content/testy/lexus-rx-350-f-sport.mdx",
+      "action": "applied",
+      "patches": {
+        "originalUrl": "https://autogaleria.pl/lexus-rx-350-f-sport",
+        "sourceUrl": "https://autogaleria.pl/lexus-rx-350-f-sport",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "lexus-rx-350-f-sport",
+          "importedAt": "2026-06-30T21:43:02.065Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "originalUrl",
+          "before": "",
+          "after": "https://autogaleria.pl/lexus-rx-350-f-sport"
+        },
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/lexus-rx-350-f-sport"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "lexus-rx-350-f-sport",
+            "importedAt": "2026-06-30T21:43:02.065Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "maserati-granturismo-sport",
+      "existingPath": "content/testy/maserati-granturismo-sport.mdx",
+      "action": "applied",
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/maserati-granturismo-sport",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "maserati-granturismo-sport",
+          "importedAt": "2026-06-30T21:43:02.061Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/maserati-granturismo-sport"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "maserati-granturismo-sport",
+            "importedAt": "2026-06-30T21:43:02.061Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "mazda-mx-5-nd-do-korzeni",
+      "existingPath": "content/testy/mazda-mx-5-nd-do-korzeni.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Mazda MX-5 ND - Do korzeni!",
+          "after": "Mazda MX-5 ND - Do korzeni!"
+        },
+        {
+          "field": "bodyLength",
+          "before": 6143,
+          "after": 7089
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    },
+    {
+      "slug": "mercedes-benz-glc-w-dobrym-kierunku",
+      "existingPath": "content/testy/mercedes-benz-glc-w-dobrym-kierunku.mdx",
+      "action": "applied",
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/mercedes-benz-glc-w-dobrym-kierunku",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "mercedes-benz-glc-w-dobrym-kierunku",
+          "importedAt": "2026-06-30T21:40:03.123Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/mercedes-benz-glc-w-dobrym-kierunku"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "mercedes-benz-glc-w-dobrym-kierunku",
+            "importedAt": "2026-06-30T21:40:03.123Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa",
+      "existingPath": "content/testy/mercedes-gle-coupe-i-amg-gle-63-s-coupe-alternatywa.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa",
+          "after": "Mercedes GLE Coupé i AMG GLE 63 S Coupé - Alternatywa"
+        },
+        {
+          "field": "bodyLength",
+          "before": 6885,
+          "after": 8225
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    },
+    {
+      "slug": "mercedes-maybach-s-600",
+      "existingPath": "content/testy/mercedes-maybach-s-600.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Mercedes-Maybach S 600",
+          "after": "Mercedes-Maybach S 600"
+        },
+        {
+          "field": "bodyLength",
+          "before": 10889,
+          "after": 11246
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    },
+    {
+      "slug": "nowa-skoda-superb-pierwszy-test-nowej-ery",
+      "existingPath": "content/testy/nowa-skoda-superb-pierwszy-test-nowej-ery.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Nowa Skoda Superb — pierwszy test nowej ery",
+          "after": "Nowa Skoda Superb - pierwszy test \"nowej ery\""
+        },
+        {
+          "field": "bodyLength",
+          "before": 5453,
+          "after": 9375
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    },
+    {
+      "slug": "nowy-fiat-500-nie-zepsuc-ikony",
+      "existingPath": "content/testy/nowy-fiat-500-nie-zepsuc-ikony.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Nowy Fiat 500 - Nie zepsuć ikony",
+          "after": "Nowy Fiat 500 - Nie zepsuć ikony"
+        },
+        {
+          "field": "bodyLength",
+          "before": 6655,
+          "after": 8533
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    },
+    {
+      "slug": "porsche-boxster-s",
+      "existingPath": "content/testy/porsche-boxster-s.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Porsche Boxster S",
+          "after": "Porsche Boxster S"
+        },
+        {
+          "field": "bodyLength",
+          "before": 10658,
+          "after": 9153
+        },
+        {
+          "field": "hasGallery",
+          "before": false,
+          "after": false
+        }
+      ]
+    },
+    {
+      "slug": "rolls-royce-wraith",
+      "existingPath": "content/testy/rolls-royce-wraith.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Rolls-Royce Wraith",
+          "after": "Rolls-Royce Wraith"
+        },
+        {
+          "field": "bodyLength",
+          "before": 12422,
+          "after": 11037
+        },
+        {
+          "field": "hasGallery",
+          "before": false,
+          "after": false
+        }
+      ]
+    },
+    {
+      "slug": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+      "existingPath": "content/testy/test-mercedes-amg-gt-s-testujemy-rywala-911.mdx",
+      "action": "applied",
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/test-mercedes-amg-gt-s-testujemy-rywala-911",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+          "importedAt": "2026-06-30T21:41:24.910Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/test-mercedes-amg-gt-s-testujemy-rywala-911"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "test-mercedes-amg-gt-s-testujemy-rywala-911",
+            "importedAt": "2026-06-30T21:41:24.910Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "volkswagen-passat-alltrack-all-inclusive",
+      "existingPath": "content/testy/volkswagen-passat-alltrack-all-inclusive.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Volkswagen Passat Alltrack: All inclusive",
+          "after": "Volkswagen Passat Alltrack: All inclusive"
+        },
+        {
+          "field": "bodyLength",
+          "before": 7156,
+          "after": 8529
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    },
+    {
+      "slug": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+      "existingPath": "content/testy/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg.mdx",
+      "action": "applied",
+      "patches": {
+        "sourceUrl": "https://autogaleria.pl/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+        "import": {
+          "source": "autogaleria",
+          "sourceId": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+          "importedAt": "2026-06-30T21:42:20.479Z"
+        }
+      },
+      "fieldDiffs": [
+        {
+          "field": "sourceUrl",
+          "before": null,
+          "after": "https://autogaleria.pl/volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg"
+        },
+        {
+          "field": "import",
+          "before": null,
+          "after": {
+            "source": "autogaleria",
+            "sourceId": "volkswagen-scirocco-2-0-tsi-bmt-220-km-dsg",
+            "importedAt": "2026-06-30T21:42:20.479Z"
+          }
+        }
+      ],
+      "note": "zapisano"
+    },
+    {
+      "slug": "volkswagen-t6-500-shades-of-transporter",
+      "existingPath": "content/testy/volkswagen-t6-500-shades-of-transporter.mdx",
+      "action": "manual-review",
+      "patches": {},
+      "note": "Różna treść/tytuł — diff ręczny przed merge body",
+      "fieldDiffs": [
+        {
+          "field": "title",
+          "before": "Volkswagen T6 — 500 shades of Transporter",
+          "after": "Volkswagen T6 – 500 shades of Transporter"
+        },
+        {
+          "field": "bodyLength",
+          "before": 5255,
+          "after": 6063
+        },
+        {
+          "field": "hasGallery",
+          "before": true,
+          "after": true
+        }
+      ]
+    }
+  ]
+}

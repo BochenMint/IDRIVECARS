@@ -1,0 +1,93 @@
+---
+slug: "bmw-435i"
+title: "BMW 435i"
+publishedAt: "2014-04-18"
+category: "TESTY"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/bmw-435i"
+discoveredVia: "elasticsearch-author"
+lead: "Dbałość o szczegóły, najwyższa jakość wykonania, uśmiech na twarzy wywołany świetnymi wrażeniami z jazdy - to elementy nieodłącznie kojarzone z bawarskim producentem. Dla nas, pasjonatów, w BMW liczą się jeszcze dwie cechy - rzędowa szóstka i napęd wyłącznie na tylną oś. Zabawę czas zacząć!"
+tags: []
+---
+
+Właściwie mógłbym jedynie potwierdzić, że dzisiejszy bohater spełnia wszystkie postawione przeze mnie warunki i na tym zakończyć opowiadanie, zachęcając Was do odejścia od monitora i skorzystania z ciepłej, wczesnowiosennej aury. Jeśli jednak na widok napisu xDrive na tylnej klapie macie lekko skwaszoną minę, wszelkie kompromisy w usportowionych autach odrzucacie z wyjątkowym przekonaniem, a linię coupe bez przejęcia wiążecie z brakiem widoczności do tyłu i niepraktycznym nadwoziem, wiedzcie, że nasze testowe 435i zgodzi się z Wami tylko w tej pierwszej kwestii. Przepraszam, jeśli zatrzymałem kogoś jeszcze na moment przed monitorem.
+
+Wersje 35i w klasie średniej stawiane są mniej więcej w połowie dystansu pomiędzy podstawowymi odmianami o mocy poniżej 200 KM a tą topową - [M3](/auto_test/bmw-m3-coupe,693.html) (od niedawna także M4). Bliskość osiągów naszej "czwórki" do wspomnianej ikony motoryzacji powoduje, że podświadomie zacząłem oczekiwać jakiejś jej namiastki - czegoś, co pozwalałoby poczuć choć część wrażeń, jakie jest w stanie zaoferować ponad 400-konny motor. W ten właśnie sposób postawiłem poprzeczkę bardzo wysoko, mając w pamięci dzień, w którym dosłownie przez krótką chwilę dane mi było poprowadzić poprzednią trójkę z widlastą ósemką pod maską.
+
+Rzecz stała się jednak dobre dwa lata temu, a, jak wiadomo, co dawno, to i nieprawda. Obsługa skrzyni DKG (jakiegokolwiek automatu) była dla mnie wtedy czarną magią, a wrażenia z przyspieszania potęgowały podmuchy wiatru nad głową i chyba pierwsza styczność z tak mocnym autem za kierownicą. Oszczędzę Wam już tych nudnych sentymentów i przejdę od razu do rzeczy - zaczynając rytuał, jak zawsze, od krótkich wywodów na temat stylistyki.
+
+**Spójrz na mnie**  
+Już podstawowa "czwórka" wniosła sporo świeżości do gamy, mimo że tak naprawdę nie odstaje w żaden sposób od stylistyki większości rodziny BMW. Jest jednak coś, co przyciąga naszą uwagę bardziej niż zwykle. Na efekt składają się świetne proporcje nadwozia, piękna linia i jeszcze bardziej dynamicznie zarysowany przód niż w bliźniaczej "trójce". W naszym egzemplarzu zadbano także o dodatkowe detale, takie jak wloty i wyloty powietrza opływającego nadwozie, mocno połyskujące listwy z linii _Shadow_ w kolorze czarnym, czy kilka innych, wchodzących w skład pakietu M.
+
+435i już na załączonych zdjęciach krzyczy "spójrz na mnie", a na żywo efekt jest jeszcze bardziej wyraźny. Lekko pastelowy błękit _Estoril_, przypominający na pierwszy rzut oka lakier _Monte Carlo_, niemal idealnie pasuje do niebieskich zacisków hamulcowych sygnowanych logo M. Całość w zimowej konfiguracji postawiono na 18-calowych obręczach kół (latem egzemplarz "nosi" 19-stki), a i tak w żaden sposób nie można autu odmówić wdzięku. W mojej opinii, tak skonfigurowane 435i wygląda po prostu rewelacyjnie.
+
+Czy jest coś, co mi przeszkadza? Owszem, choć w małym stopniu. Nie pasuje mi do tego auta stosunkowo spory prześwit, rzucający się w oczy głównie z profilu, gdy zerkniemy... z żabiej perspektywy. A co tam - przynajmniej będzie wygodniej jeździć na co dzień.
+
+**Nie tylko dla kierowcy**  
+W designie wnętrza znajdziemy właściwie to samo, co w "trójce". Spokojną, spójną stylistykę dopełniają przyjemnie chłodne w dotyku aluminiowe listwy, a nad całością dominuje beż wenecki. Świetne wrażenie daje nietypowa jak na dzisiejsze czasy przednia część kabiny. Przesunięto ją znacznie ku tyłowi, skracając i układając w łuk przednią szybę. Efekt jest taki, że mamy przed sobą krótką deskę rozdzielczą i długą maskę, co daje ciekawe odczucia podczas jazdy. Zawsze jest jednak jakiś efekt uboczny. W tym przypadku, przy większych prędkościach wyraźnie dają się we znaki głośne podmuchy wiatru - podejrzewam, że jest to właśnie kwestia dość pionowo ustawionej szyby. Mimo wszystko, ja jestem za!
+
+Na tym jednak nie koniec wrażeń. Siedzę przecież w całkiem wygodnym sportowym fotelu z regulacją boczków, mam pod ręką wszystko, co w tej chwili niezbędne, a za chwilę złapię za przesadnie grube koło kierownicy pokryte miłą w dotyku skórą. Przesadnie, ale tylko na początku. Po dłuższej chwili przyzwyczajam się i jest już tak, jak być powinno. Samo wyprofilowanie kierownicy jest przyjemne zarówno w codziennej eksploatacji, jak i podczas szybszej jazdy. Prawa noga na hamulec, palec wskazujący... wróć - jeszcze tylko kilka istotnych słów na temat praktyczności i codziennego współżycia z autem.
+
+Sporym zaskoczeniem po rozejrzeniu się dookoła jest widoczność, szczególnie do tyłu. Wąskie tylne słupki pozwalają na dobrą orientację w otoczeniu, co w coupe jest wręcz rzadkością, jeśli tylko projektanci popłyną z pewną dozą fantazji. Jak już wspomniałem wcześniej, nadwoziu w zasadzie niczego nie brakuje - tym bardziej należą się gratulację. Wcale nie mniej pozytywnie można się poczuć siedząc z tyłu. Miejsca jest tam naprawdę pod dostatkiem, szczególnie na nogi. Zakres przesuwania przedniego fotela jest wystarczająco duży, by bezproblemowo zająć miejsce z tyłu, jednak szybko można stracić cierpliwość, czekając, aż leniwa elektryka nam to umożliwi. W tym wypadku wolę manualne rozwiązanie.
+
+Wnętrze jest także jednym z lepiej rozplanowanych w tej klasie, jakie miałem okazję sprawdzić (również w odniesieniu do sedanów). Schowków jest sporo (ten największy, z osobnym otworem załadunkowym, mieści porządne 445 litrów), a najważniejsze dla mnie miejsce na telefon mogę wykorzystać na dwa sposoby - jako lekko zagłębioną półkę z antypoślizgową powłoką, świetnie spełniającą swoją rolę w ostrych zakrętach lub jako tradycyjne miejsca na kubki, które także w tej roli sprawdzają się nieźle. Z obsługą menu pokładowego nie ma większych problemów, choć nie ukrywam, że liczba dostępnych tam opcji początkowo może trochę "oślepić". Z czasem jednak sterowanie systemem iDrive staje się proste i przyjemne. Ciekawym dodatkiem jest pokrętło z funkcją dotykową, dzięki której rysując palcem litery możemy na przykład wpisać swój cel podróży.
+
+**Emocje**  
+Gdy przestaniemy się wreszcie podniecać wszystkimi dostępnymi funkcjami, możemy w końcu przejść do sedna. Jest nim dobrze znana z poprzednika, trzylitrowa jednostka napędowa o sześciu cylindrach ułożonych w jednym rzędzie, legitymująca się mocą 306 koni mechanicznych. Jej potencjał słychać już chwilę po naciśnięciu przycisku startu. Odpalaniu silnika w domyślnie ustawionym trybie "COMFORT" towarzyszy bowiem przyjemne "chrupanie" z dwóch końcówek wydechu. Ściskamy boczki fotela, by jak najlepiej trzymały i możemy ruszać.
+
+Pierwsze wrażenie jest bardzo przyjemne. Skrzynia w trybie komfortowym zmienia biegi w sposób subtelny i bez ociągania się. Gorzej, jeśli chcemy bić rekordy spalania i wbrew wszystkiemu zdecydujemy się użyć niewłaściwego przycisku. Tryb "ECO PRO" daje wrażenie jazdy autem z typowym, powolnym automatem, a pedał gazu trzeba naprawdę znacząco wciskać, by samochód zaczął jechać. Sprytnie pomyślane - poza spowolnieniem działania sportowej przekładni ZF, takie ustawienie usypia również kierowcę. Nie chcę tego, tym bardziej, że układ wydechowy zachowuje się wtedy wyjątkowo kulturalnie.
+
+Włączam tryb "SPORT", który jakby jeszcze mocniej akcentował wyraźne, bardzo przyjemne brzmienie, docierające do naszych uszu już w trybie komfortowym. Jest głośno, ale nie tak, jak choćby w mniejszym modelu, będącym jednocześnie większym rozrabiaką - kompaktowym coupe M235i. W sumie cichsze brzmienie jest uzasadnione wyższym segmentem i brakiem literki M w nazwie, ale to też świadczy o pewnej kompromisowości odmiany 35i w czwórce. Bezkompromisowe są na szczęście hamulce, które spisują się bardzo dobrze (a w "zapasie" są jeszcze lepsze, zarezerwowane jednak tylko dla wersji M).
+
+**Jest szybko**  
+Wkręcając motor na obroty, właściwie nie czuć żadnego zawahania. Wskazówka na prawym cyferblacie szybko brnie niemal od samego dołu aż do czerwonego pola, a samochód momentalnie nabiera prędkości, wciskając nas w fotel. Stosunkowo dobra, jak na doładowaną jednostkę, jest również reakcja na wciśnięcie pedału gazu. Na pochwałę zdecydowanie zasługuje skrzynia biegów. Klasyczny, choć bardzo szybki automat, w trybie sportowym naprawdę daje radę, choć nie ukrywam, że nieco bardziej agresywna praca znana z dwusprzęgłówek dodałaby szybkiej jeździe więcej kolorytu.
+
+Na efektywność zespołu napędowego narzekać w żadnym wypadku nie mogę. 5,1 sekundy do "setki" obrazuje to, jak świetną robotę wykonuje tutaj duet silnika i skrzyni. Wersja z napędem na obie osie przełamuje nawet barierę pięciu sekund, ale nie o niej dziś rozmawiamy. Przy tak porządnych osiągach spalanie powinno być równie "porządne", ale uwierzcie mi, 14,6/100 km wpisane w tabeli jest wartością uzyskaną z naprawdę dynamicznej jazdy, w głównej mierze po stołecznych ulicach. Biorąc pod uwagę wykorzystany potencjał samochodu, to naprawdę nie jest wiele.
+
+**Pod znakiem zapytania**  
+Zastanawia mnie kwestia układu kierowniczego. Samochód prowadzi się "jak po szynach", sprawiając wrażenie zwartego i lekkiego. W ruchach kierownicy pojawia się jednak mały problem, który odbiera trochę pewności jazdy przy prędkościach przekraczających nasze autostradowe 140 km/h. Auto zaczyna nieco pływać i, choć tryb "SPORT+" ogranicza tę tendencję do minimum, problem nadal występuje. Właściwie, jadąc stałą prędkością, czuć lekkie opóźnienie przy przekazywaniu ruchów kierownicy na drogę. Dodam, że podobna rzecz występuje we wspominanym już przeze mnie modelu M235i, ale i w bardziej komfortowych modelach, na przykład "trójce", czy "piątce". Tam jednak zupełnie mi to nie przeszkadzało, ze względu na charakter aut.
+
+Samochód jest za to łatwy do opanowania przy uślizgu tylnej osi i dobrze się słucha wydawanych mu poleceń. Na mokrej nawierzchni przy całkowicie odłączonych systemach trzeba jednak bardzo uważać, bo tył lubi uciec z toru jazdy nawet przy umiarkowanym dodawaniu gazu. Opanowanie w pełni takiej techniki jazdy w przypadku ponad 300-konnego tylnonapędowca, przy niewielkim doświadczeniu, może zająć trochę czasu, a co za tym idzie, pozwoli całkiem poważnie rozwinąć nasze umiejętności. Takie samochody lubię.
+
+Do zawieszenia też nie mogę się przyczepić, bo pracuje naprawdę dobrze w zakrętach, a przy tym wykonuje solidną robotę na nierównościach, nawet w najtwardszym z możliwych ustawień. Ma też dość sprężysty charakter, co odczułem jeszcze przy testowaniu modelu 325d. W trasach o zmiennym ukształtowaniu dróg ciężko wyobrazić sobie bardziej uniwersalny środek.
+
+**Co za dużo... to za mało?**  
+W samochodach żadnej innej marki nie widziałem tylu trybów jazdy, co w BMW. Brakuje tu mimo wszystko możliwości dokładnej konfiguracji własnego trybu, pozwalającego dobrać każdy parametr niezależnie, jak choćby w przypadku _Drive Select_ w Audi. Owszem, można częściowo zarządzać ustawieniami w trybie "SPORT" i "ECO PRO", ale w bardzo ograniczonym zakresie. Odbija się to między innymi na ustawieniu DSC OFF, które załączając nawet bezpośrednio z trybu "SPORT+" przestawia z powrotem konfigurację, według moich obserwacji, na domyślny "COMFORT". Szkoda.
+
+Narzekanie na tryby, które i tak są przede wszystkim dużym plusem, jest jednak trochę na wyrost. Wspomnę więc o czymś, co zdecydowanie warto zanotować jako duży plus naszej testówki - adaptacyjne reflektory diodowe z asystentem świateł drogowych są fenomenalne. Najwięcej ich pracy uświadczymy oczywiście po zmroku. Nie chcę tworzyć osobnego artykułu na ten temat, dlatego wspomnę tylko, w jak genialny sposób światła drogowe oświetlają maksymalny możliwy obszar drogi, jednocześnie nie oślepiając pojazdów poruszających się w pobliżu. Reflektory rozdzielają i na bieżąco przesuwają strugę światła w taki sposób, żeby nie oślepiać samochodów poruszających się w naszym otoczeniu, a jednocześnie oświetlają maksimum obszaru poza nimi. Opcja świetna, a w dodatku działa bez zarzutów. Co do samych LED-ów - świecą jasno, neutralną temperaturą barwową i, co najważniejsze, mają dobry (i zmienny) zasięg, czego zabrakło mi na przykład w nowym Leonie.
+
+**Luksus kosztuje**  
+Testowany egzemplarz wyceniono na pokaźną sumę 345 596 złotych w konfiguracji letniej, co po odliczeniu kwoty wydanej dodatkowo na 19-calowe obręcze (18-stki ze zdjęć nie wymagają dopłaty), daje nam kwotę nieco ponad 340 tysięcy złotych. Podstawowe 435i z manualem kosztuje 230 900 złotych i w standardzie dostajemy między innymi automatyczną klimatyzację, aktywny tempomat, reflektory biksenonowe czy elektryczną regulację foteli przednich z pamięcią ustawień fotela kierowcy. Dodając do tego świetne osiągi i wysoką jakość wykonania, oferta staje się naprawdę sensowna. Oczywiście, z każdym drobnym dodatkiem cena idzie wysoko w górę, ale taki jest urok marek premium. A warto skorzystać chociażby z opcji dokupienia systemu audio _harman/kardon_, który gra bardzo przyjemnie, czy nieocenionego, kolorowego wyświetlacza Head Up, mogącego wyświetlać informacje np. o ograniczeniach prędkości.
+
+**Zalety:**  
+\+ nowoczesna i dopracowana stylistyka zewnętrzna  
+\+ mimo świetnej linii, praktyczność nadwozia wciąż jest dobra  
+\+ osiągi  
+\+ napęd na tył  
+\+ szybka i dopracowana skrzynia biegów  
+\+ brzmienie wydobywające się z końcówek układu wydechowego
+
+**Wady:**  
+\- brakuje pewności prowadzenia przy wyższych prędkościach  
+\- brak możliwości niezależnego ustawienia każdego z czynników wpływających na jazdę
+
+**Podsumowanie:**  
+BMW 435i świetnie sprawdzi się w wielu rolach - zarówno jako daily-car, jak i podczas wypadów za miasto. Samochód, w mojej opinii, jest wart każdej wydanej złotówki, czego potwierdzeniem jest dzisiejszy test. Osobiście wolałbym, żeby był nieco bardziej bezkompromisowy, ale wtedy pierwsze zdanie nie miałoby zupełnie sensu. Cieszmy się więc z kolejnego świetnego auta spod skrzydeł monachijskiej marki, czekając aż na ulicach pojawi się najnowsza generacja M3/M4.
+
+## Zalety
+
+- nowoczesna i dopracowana stylistyka zewnętrzna
+- mimo świetnej linii, praktyczność nadwozia wciąż jest dobra
+- osiągi
+- napęd na tył
+- szybka i dopracowana skrzynia biegów
+- brzmienie wydobywające się z końcówek układu wydechowego
+
+## Wady
+
+- brakuje pewności prowadzenia przy wyższych prędkościach
+- brak możliwości niezależnego ustawienia każdego z czynników wpływających na jazdę
+
+## Podsumowanie
+
+BMW 435i świetnie sprawdzi się w wielu rolach - zarówno jako daily-car, jak i podczas wypadów za miasto. Samochód, w mojej opinii, jest wart każdej wydanej złotówki, czego potwierdzeniem jest dzisiejszy test. Osobiście wolałbym, żeby był nieco bardziej bezkompromisowy, ale wtedy pierwsze zdanie nie miałoby zupełnie sensu. Cieszmy się więc z kolejnego świetnego auta spod skrzydeł monachijskiej marki, czekając aż na ulicach pojawi się najnowsza generacja M3/M4.

@@ -1,0 +1,33 @@
+---
+slug: "skoda-octavia-rs-2-0-tsi-special-stage-1"
+title: "Skoda Octavia RS 2.0 TSI"
+publishedAt: "2014-12-27"
+category: "Producenci i rynek"
+author: "Marcin Bochenek"
+sourceUrl: "https://autogaleria.pl/skoda-octavia-rs-2-0-tsi-special-stage-1"
+discoveredVia: "elasticsearch-author"
+lead: "Gdy wreszcie postanowiliśmy wyjechać z urokliwego Varezze, wiedziałem, że dalsza droga będzie dalece odbiegać od dotychczasowej. Ustaliliśmy bowiem, że nie pojedziemy autostradą A10, lecz krętą drogą SS1, poprowadzoną nad brzegiem morza. W końcu jedziemy Octavią RS!"
+tags: ["skoda", "octavia", "rs", "tsi", "dlugi", "dystans", "2.0"]
+---
+
+Swoją motoryzacyjną przygodę zacząłem do serii gier Gran Turismo. Tak się składa, że była tam grupa torów miejskich o nazwie „Special Stage”, na których znałem każdy piksel wirtualnego asfaltu. To było moje pierwsze skojarzenie, gdy włoska droga SS1 zaczęła wariować.
+
+Wtedy też nadszedł moment pierwszego porządnego testu Octavii RS jako auta sportowego. Włączam tryb sport i robię to, co chciałem zrobić od początku testu. Używam mięśnia trójgłowego łydki do wciśnięcia pedału gazu do oporu podczas pokonywania ostrych zakrętów. Jest jednak jeden problem... Za cienką barierką z blachy czeka 100-metrowa przepaść i Morze Śródziemne.
+
+**Szybkie zakręty**  
+Rozpędzam się do 100 km/h. Ostre hamowanie – z wyczuciem, bez poślizgu i włączania ABS-u. Octavia RS ma dobrze ustawiony pedał hamulca, układ jest czuły, ale oprócz tego ma wystarczająco duży skok, aby przyłożyć dokładnie tyle siły, ile potrzeba w danym momencie. Schodzę na zewnętrzną i w prawy nawrót – odrobinę za szybko. Przednie koła zaczynają tracić przyczepność, a gdy nie odpuszczam, zaczynają popiskiwać. Poczułem, jak XDS delikatnie wstrzymuje wewnętrzne prawe koło, aby skierować przód do wewnątrz zakrętu i odciążyć przednie koła - wszystko odbywa się spokojnie, płynnie, bezpiecznie. Schemat działania tego systemu jest dobrze pomyślany, dzięki czemu jego interwencje nie denerwują. Nie zmienia to jednak faktu, że powinniśmy dostać możliwość jego wyłączenia wraz z kontrolą trakcji. Tak się jednak nie stało.
+
+Octavii RS w żadnym wypadku nie można nazwać „bezkompromisową”. To bardzo dobrze – w końcu to nie Ferrari, choć kolor może zwodzić. To przede wszystkim rodzinny samochód z mocnym silnikiem, ale podczas szybkiej jazdy po krętej drodze potrafi bardzo pozytywnie zaskoczyć. Wielowahaczowe zawieszenie na tylnej osi daje nie tylko większą wygodę, ale i pewniejsze prowadzenie niż wersja z belką skrętną. Co prawda Seat Leon i z nią potrafi genialnie skręcać przy każdej prędkości, ale za to jest znacznie mniej komfortowy. Skoda trzyma się drogi znacznie lepiej, niż mógłby sugerować oferowany przez nią komfort. Fotele jawnie wyglądają na rewelacyjne i nie zawodzą oczekiwań - trzymają w zakrętach prawie jak rasowe kubły, do tego są bardzo wygodne. Jedyny problem stanowi niska trwałość tapicerki - na boczku od strony drzwi jest już odrobinę wytarta, a samochód jest nowy.
+
+Pochodzące z 2-litrowego, 220-konnego silnika niutonometry – w liczbie 350 – wbrew obecnym trendom są przekazywane na przednią oś za pośrednictwem sześciobiegowej skrzyni manualnej. Czy przy możliwości zakupu DSG, manual ma jakikolwiek sens? Otóż ma, bo według mnie do wersji RS pasuje bardziej. Wersja 1.8 TSI 4x4 – DSG się sprawdza, to zrozumiałe. Ale tutaj… Zawsze wybiorę ręczną przekładnię. To zwykła „szóstka” z koncernu Volkswagena - jeśli są zmiany, to kosmetyczne. Mimo to świetnie zdaje egzamin - to po prostu udana skrzynia biegów. Owszem, skok lewarka mógłby być nieco krótszy, a cały mechanizm powinien pracować z większym oporem. Do tego sprzęgło pracuje za lekko, ale ponownie odbijamy się od kwestii kompromisu, jaki musi oferować ten samochód. To nie Leon Cupra... To Skoda Octavia.
+
+Jednak pełna władza nad napędem, jaką zyskujemy dzięki takiej skrzyni, jest w aucie o sportowych aspiracjach niezastąpiona. Chcesz pojechać chwilę na „odcince”? Jedziesz. Chcesz popiszczeć oponami przy zmianie z 1. na 2. bieg? Nie ma problemu! Dajesz tyle międzygazu przy redukcji biegu, ile uważasz za stosowne według swojej wiedzy. Za dużo, za mało? Uczysz się robić to lepiej. Gdy dojdziesz już do perfekcji, żadne DSG Ci nie podskoczy. A tak przynajmniej będzie Ci się wydawało. Bo jazda samochodem to nie tylko cyferki i pomiary!
+
+**Białe z czerwonym gryzie się z zielonym**  
+Wnętrze RS-ki zachęca do energicznych manewrów. Trójramienna, zapewniająca pewny i wygodny chwyt kierownica jest obszyta perforowaną skórą, którą zdobi dodatkowo wykończenie czerwoną nicią. Pojawił się jednak pewien zgrzyt – podczas szybkiego kręcenia kierownicą… Odpadł znaczek RS. Wsadziłem go z powrotem na swoje miejsce i tam już pozostał. To sprawiło, że na chwilę zakwestionowałem jakość wykończenia, którą uznawałem za czołówkę w klasie kompakt. Zobaczymy, czy w dalszej trasie wyjdą jakieś kolejne niedociągnięcia.
+
+Przez kierownicę spoglądamy na białe, czyste i klasyczne zegary, które wyglądają świetnie i są bardzo czytelne. Fotele, podobnie jak obszycie kierownicy, mają czerwone elementy. A przyciski na konsoli centralnej są podświetlone na zielono! Czy zmiana koloru na biały lub czerwony rzeczywiście zrujnowałaby budżet na produkcję tego modelu? A może to po prostu niedopatrzenie? Tak czy inaczej, szkoda…
+
+Na drzwiach i wokół drążka zmiany biegów znajdziemy elementy ozdobne o wzorze składającym się z sześcianów. Wbrew pozorom wcale nie ma imitować karbonu. Wygląda po prostu ciekawie i estetycznie. Do tego trochę chromu i „skodziane” wnętrze wcale nie jest takie nudne, choć oczywiście próżno szukać w nim przesadnego polotu. Jest za to duży ekran nawigacji, intuicyjne rozmieszczenie przycisków i dużo praktycznych schowków. Jak to w Skodzie.
+
+A tymczasem jedziemy dalej!
