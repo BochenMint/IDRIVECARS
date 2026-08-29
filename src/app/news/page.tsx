@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { getNewsItems } from "@/lib/content/news";
 import { AdSlot } from "@/components/AdSlot";
@@ -35,7 +36,24 @@ export default async function NewsPage() {
             <ul className="divide-y divide-line">
               {items.map((n) => (
                 <li key={n.slug}>
-                  <article className="py-10 md:py-12">
+                  <article className="flex gap-6 py-10 md:gap-8 md:py-12">
+                    {n.image && (
+                      <Link
+                        href={`/news/${n.slug}`}
+                        className="relative hidden h-24 w-36 shrink-0 overflow-hidden border border-soft sm:block md:h-28 md:w-44"
+                        aria-hidden
+                        tabIndex={-1}
+                      >
+                        <Image
+                          src={n.image}
+                          alt=""
+                          fill
+                          sizes="176px"
+                          className="object-cover"
+                        />
+                      </Link>
+                    )}
+                    <div className="min-w-0 flex-1">
                     <time className="label-mono" dateTime={n.publishedAt}>
                       {new Date(n.publishedAt).toLocaleDateString("pl-PL", {
                         dateStyle: "medium"
@@ -69,6 +87,7 @@ export default async function NewsPage() {
                         </a>
                       </p>
                     )}
+                    </div>
                   </article>
                 </li>
               ))}

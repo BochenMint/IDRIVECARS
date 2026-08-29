@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getNewsArticleBySlug, getNewsItems } from "@/lib/content/news";
@@ -51,6 +52,19 @@ export default async function NewsSlugPage({ params }: Props) {
           </h1>
           {article.lead && (
             <p className="mt-6 text-lead font-light text-subtle">{toPlainText(article.lead)}</p>
+          )}
+          {article.image && (
+            <figure className="mt-10 overflow-hidden border border-soft">
+              <Image
+                src={article.image}
+                alt={article.title}
+                width={1200}
+                height={675}
+                sizes="(max-width: 768px) 100vw, 768px"
+                className="h-auto w-full object-cover"
+                priority
+              />
+            </figure>
           )}
           {article.sourceUrl && (
             <p className="mt-6 text-sm text-subtle">
